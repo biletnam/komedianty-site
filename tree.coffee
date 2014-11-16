@@ -7,26 +7,20 @@ _        = require 'lodash'
 
 image_size = require 'image-size'
 
-url      = require 'url'
-
 # PHP
 php         = require 'phpjs'
 
 
 # Vars
 base = './build'
-# uploads_dir = 'http://abnmt.com/komedianty/wp-content/uploads/'
-# old_url     = 'http://abnmt.com/komedianty/'
 
-uploads_dir = 'http://komedianty.com/content/uploads/'
-url         = 'http://komedianty.com/'
-old_url     = 'http://komedianty.com'
 
-uprel       = uploads_dir
-rel         = old_url
+uploads_dir = 'http://abnmt.com/komedianty/wp-content/uploads/'
+url     = 'http://abnmt.com/komedianty/'
 
-# uprel       = "http://komedianty.com/content/uploads/"
-# rel         = "http://komedianty.com"
+# uploads_dir = 'http://komedianty.com/content/uploads/'
+# url         = 'http://komedianty.com/'
+
 
 upload = 'http://'
 # base = 'build\\event'
@@ -162,6 +156,9 @@ _(list).forEach (entry) ->
 			# Postmeta
 			posts[ID].postmeta = postmeta
 
+			# Publish
+			posts[ID].post_status = 'publish'
+
 
 # FIX LINKS
 outlinks = {}
@@ -218,52 +215,62 @@ fs.writeJSON 'PostsSort.json', postsSort, (err, data) ->
 
 
 # TO SQL
-kt_posts = []
-kt_postmeta = []
 
 post_keys = []
-postmeta_keys = []
-
-_(postsSort).forEach (post) -> _.merge post_keys, _.keys(post)
-post_keys = _.uniq(_.difference(post_keys, ['gID', 'sort', 'postmeta']))
-
-# kt_posts_insert = "\nINSERT INTO `kt_posts` (`#{post_keys.join('`, `')}`) VALUES\n"
-
-# console.log kt_posts_insert
-
-# i = 0
-# step = 50
-# scope = []
-# k = 0
-# kount = postsSort.length
-
+# o = 0
 # _(postsSort).forEach (post) ->
-# 	k++
-# 	values = []
-# 	_(post_keys).forEach (post_key) ->
-# 		if post[post_key]
-# 			value = post[post_key]
-# 			switch post_key
-# 				when 'post_content', 'post_excerpt'
-# 					value = value.replace /\n|\r\n/g, "\\n"
-# 					value = value.replace /\'/g, "\\'"
-# 			values.push "\'#{value}\'"
-# 		else
-# 			values.push "\'\'"
-# 	values = "(#{values.join(', ')})"
-# 	if i < step
-# 		scope.push values
-# 		i++
-# 	if i == step or k == kount
-# 		i = 0
-# 		kt_posts.push "#{kt_posts_insert}#{scope.join(",\n")};"
-# 		scope = []
+# _(postsSort).first(20).forEach (post) ->
+# 	o++
+# 	console.log '\n\n===', o, '==='
+# 	console.log post_keys
+# 	console.log _.keys post
+# 	_.merge post_keys, _.keys(post)
+# 	console.log post_keys
+# 	console.log '===\n\n'
+# console.log post_keys
+# console.log post_keys
 
-#fin HACK!!!
-# kt_posts.push "#{kt_posts_insert}#{scope.join(",\n")};"
+_(postsSort).first(20).forEach (post) ->
+	post_keys = post_keys.concat _.keys(post)
 
+post_keys = _.uniq post_keys
+post_keys = _.difference post_keys, ['gID', 'sort', 'postmeta']
 
-# kt_posts = kt_posts.join("n")
+console.log post_keys
+#  ?????
+
+# post_keys = [
+# 	'ID',
+# 	'post_title',
+# 	'post_name',
+# 	'post_type',
+# 	'guid',
+# 	'post_mime_type',
+# 	'post_status',
+# 	'post_parent',
+# 	'post_date',
+# 	'post_date_gmt',
+# 	'post_modified',
+# 	'post_modified_gmt',
+# 	'post_content'
+# ]
+
+# POSTMETA
+
+postmetaSort = []
+
+_(postsSort).where('postmeta').forEach (post) ->
+	_(post.postmeta).forEach (value, key) ->
+		meta = {}
+		meta.post_id = post.ID
+		meta.meta_key = key
+		meta.meta_value = value
+		if _.isString meta.meta_value
+			meta.meta_value = meta.meta_value.replace /\n|\r\n/g, "\\n"
+			meta.meta_value = meta.meta_value.replace /\'/g, "\\'"
+		if _.isPlainObject meta.meta_value
+			meta.meta_value = php.serialize meta.meta_value
+		postmetaSort.push meta
 
 
 toSQL = (table, keys, data, step = 50) ->
@@ -302,7 +309,9 @@ toSQL = (table, keys, data, step = 50) ->
 
 
 
-write toSQL('kt_posts', post_keys, postsSort, 75), 'posts.sql', true
+
+sql = "TRUNCATE `kt_postmeta`;\nTRUNCATE `kt_posts`;\n" + toSQL('kt_posts', post_keys, postsSort, 75) + toSQL('kt_postmeta', ['post_id', 'meta_key', 'meta_value'], postmetaSort, 75)
+write sql, 'sql.sql', true
 
 
 

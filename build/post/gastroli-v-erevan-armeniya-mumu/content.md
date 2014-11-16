@@ -1,26 +1,13 @@
 ## 3 октября театр «Комедианты» показал
 
 
-[\*\*][0]
+[
+![](../../performance/krepostnaya-lyubov-mumu/poster.jpg)
+][0]
 
+спектакль [«Крепостная любовь» («Муму»)][0] на Международном театральном фестивале в городе Ереване (Армения) «HIGH FEST International Performing Arts Festival».
 
-![](..\..\performance\krepostnaya-lyubov-mumu\poster.jpg)
-
-
-\*\*
-
-
-спектакль [«Крепостная любовь»][0] ([«Муму»)][0] на Международном театральном фестивале в городе Ереване (Армения) "HIGH FEST International Performing Arts Festival".
-
-
-[\*\*][1]
-
-
-{{{ ФОТО С ГАСТРОЛЕЙ }
-
-
-}}\*\*
-
+[Фото с гастролей][1]
 
 10.10.2013
 

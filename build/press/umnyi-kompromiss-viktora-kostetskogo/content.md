@@ -2,7 +2,7 @@
 
 
 [
-![](..\..\person\viktor-kostetskii\portrait.jpg)
+![](../../person\viktor-kostetskii\portrait.jpg)
 ][0]
 
 

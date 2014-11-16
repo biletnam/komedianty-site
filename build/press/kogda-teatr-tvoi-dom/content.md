@@ -14,7 +14,7 @@
 
 
 [
-![](..\..\performance\volki-i-ovtsy\poster.jpg)
+![](../../performance\volki-i-ovtsy\poster.jpg)
 ][3]
 
 
@@ -31,7 +31,7 @@
 
 
 [
-![](..\k-otkrytiyu-novogo-sezona\image-02.jpg)
+![](../k-otkrytiyu-novogo-sezona\image-02.jpg)
 ][6]
 
 

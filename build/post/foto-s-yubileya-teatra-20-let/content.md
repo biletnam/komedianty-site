@@ -7,13 +7,13 @@
 **15 февраля 2010 года**
 
 
-![](..\..\person\mikhail-levshin\portrait.jpg)
+![](../../person/mikhail-levshin/portrait.jpg)
 
 
 ![](image-02.jpg)
 
 
-![](..\..\press\schaste-byt-neobkhodimym\image-01.jpg)
+![](../../press/schaste-byt-neobkhodimym/image-01.jpg)
 
 
 ![](image-04.jpg)

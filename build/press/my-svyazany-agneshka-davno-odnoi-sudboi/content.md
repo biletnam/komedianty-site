@@ -22,7 +22,7 @@
 
 
 [
-![](..\vodevil-xxi-veka\image-02.jpg)
+![](../vodevil-xxi-veka\image-02.jpg)
 ][2]
 
 

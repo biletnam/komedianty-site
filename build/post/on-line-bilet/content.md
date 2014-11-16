@@ -8,7 +8,7 @@
 
 
 [
-\[КАРТИНКА http://bigbilet.ru/button/buy-btn\_016.gif НЕ НАЙДЕНА\]
+![](http://bigbilet.ru/button/buy-btn_016.gif)
 ][0]
 
 
