@@ -44,6 +44,19 @@ md = new Remarkable(
 )
 
 
+
+# Utils
+write = (data, out_file, rw = false) ->
+	fs.ensureDir path.dirname out_file, (err) ->
+		console.error 'ERROR create dir ' + path.dirname out_file
+	fs.exists out_file, (exist) ->
+		if exist and rw == true or !exist
+			fs.outputFile out_file , data, 'utf8', (err) ->
+				console.error 'ERROR during Write the file ' + out_file + ' ' + err if err
+
+
+
+
 # READ DIR
 
 types = fs.readdirSync(base)
@@ -132,6 +145,7 @@ _(list).forEachRight (entry) ->
 			posts[ID].postmeta = postmeta
 
 
+outlinks = {}
 
 _(posts).forEachRight (post, ID) ->
 	# console.log '\n\n ===', ID
@@ -143,24 +157,19 @@ _(posts).forEachRight (post, ID) ->
 			else if p1 is 'src'
 				return "src=\"#{uploads_dir}" + (path.relative '.', (path.resolve ID, p2)).replace(/\\/g, '/') + "\""
 			else if p1 is 'href' and p2.search(/^http\:/) is 0
-				if p2.search(/^http\:\/\/komedianty\.com/) is 0
-					console.log str = path.basename (path.relative 'http://komedianty.com/ru/truppa/', p2), '.html'
-					if str.search(/^\d+/) is 0
-						console.log str = str.match(/(\d+).+/)
-						if str[1]
-							console.log str = str[1]
-							_(posts).forEach (post, postID) ->
-								if post.postmeta.jos_id == str
-									# console.log postID
-									return "href=\"#{url}" + (path.relative '.', (path.resolve ID, postID)).replace(/\\/g, '/') + "\""
-				else
-					return string
+				outlinks[ID] = [] if not outlinks[ID]
+				outlinks[ID].push p2
+				return string
 
 
 
 
 fs.writeJSON 'Posts.json', posts, (err, data) ->
 	console.log err if err
+fs.writeJSON 'Outlinks.json', outlinks, (err, data) ->
+	console.log err if err
+
+
 
 
 ###
