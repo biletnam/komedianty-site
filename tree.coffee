@@ -62,9 +62,16 @@ write = (data, out_file, rw = false) ->
 types = fs.readdirSync(base)
 list = glob.sync "#{base}/**/*"
 
+scheme =
+	ID: 0
+	post_title: ''
+	post_name: ''
+	post_type: ''
+	post_content: ''
+
 posts = {}
 
-_(list).forEachRight (entry) ->
+_(list).forEach (entry) ->
 	# console.log entry
 	# // entry -> 'base\\type\\directory\\file.ext'
 	ID            = (path.relative base, path.dirname entry).replace(/\\/g, '/') # 'type/directory'
@@ -73,11 +80,14 @@ _(list).forEachRight (entry) ->
 	entryBasename = path.basename(entry)                                         # 'file.ext'
 	entryName     = path.basename(entry, entryExt)                               # 'file'
 
-	posts[ID] = {} if not posts[ID] and ID not in types and ID != ""
+	posts[ID] = _.clone(scheme) if not posts[ID] and ID not in types and ID != ""
 
 	switch entryExt
 		when '.jpeg', '.jpg', '.gif', '.png'
 			image = {}
+
+			image.ID = 0
+			image.gID = ID
 
 			image.guid           = uploads_dir + entryPathName
 			image.post_name      = entryBasename
@@ -114,6 +124,11 @@ _(list).forEachRight (entry) ->
 		when '.json'
 			postmeta = fs.readJSONSync(entry, 'utf-8')
 
+			# gID
+			posts[ID].ID = 0
+			posts[ID].gID = ID
+			posts[ID].guid = url + ID
+
 			# Title
 			posts[ID].post_title = postmeta.title
 			delete postmeta.title
@@ -141,13 +156,17 @@ _(list).forEachRight (entry) ->
 			posts[ID].post_modified_gmt = posts[ID].post_date_gmt
 			delete postmeta.date
 
+			# SORT
+			posts[ID].sort = parseInt(moment(posts[ID].post_date).format("X"))
+
 			# Postmeta
 			posts[ID].postmeta = postmeta
 
 
+# FIX LINKS
 outlinks = {}
 
-_(posts).forEachRight (post, ID) ->
+_(posts).forEach (post, ID) ->
 	# console.log '\n\n ===', ID
 	if post.post_content
 		post.post_content = post.post_content.replace /(href|src)=\"(.+?)\"/g, (string, p1, p2) ->
@@ -168,6 +187,123 @@ fs.writeJSON 'Posts.json', posts, (err, data) ->
 	console.log err if err
 fs.writeJSON 'Outlinks.json', outlinks, (err, data) ->
 	console.log err if err
+
+
+
+# ADD ID
+ID = 1
+postsSort = []
+_(posts).where("sort").sortBy('sort').forEach (post) ->
+	post.ID = ID
+	ID++
+	postsSort.push post
+	_(posts).where({"post_parent":post.gID, "post_date":undefined}).sortBy('post_name').forEach (image, igID) ->
+		image.ID = ID
+		image.post_parent = post.ID
+		ID++
+		postsSort.push image
+	_(posts).where({"post_parent":post.gID}).sortBy('sort').forEach (child, chID) ->
+		child.post_parent = post.ID
+
+# REPLACE PARENTS
+### TODO: fix not page parents ###
+# _(postsSort).forEach (post) ->
+# 	if _.isString(post.post_parent)
+# 		post.post_parent = _(postsSort).where({"gID":post.post_parent}).pluck('ID').value().pop()
+
+fs.writeJSON 'PostsSort.json', postsSort, (err, data) ->
+	console.log err if err
+
+
+
+
+# TO SQL
+kt_posts = []
+kt_postmeta = []
+
+post_keys = []
+postmeta_keys = []
+
+_(postsSort).forEach (post) -> _.merge post_keys, _.keys(post)
+post_keys = _.uniq(_.difference(post_keys, ['gID', 'sort', 'postmeta']))
+
+# kt_posts_insert = "\nINSERT INTO `kt_posts` (`#{post_keys.join('`, `')}`) VALUES\n"
+
+# console.log kt_posts_insert
+
+# i = 0
+# step = 50
+# scope = []
+# k = 0
+# kount = postsSort.length
+
+# _(postsSort).forEach (post) ->
+# 	k++
+# 	values = []
+# 	_(post_keys).forEach (post_key) ->
+# 		if post[post_key]
+# 			value = post[post_key]
+# 			switch post_key
+# 				when 'post_content', 'post_excerpt'
+# 					value = value.replace /\n|\r\n/g, "\\n"
+# 					value = value.replace /\'/g, "\\'"
+# 			values.push "\'#{value}\'"
+# 		else
+# 			values.push "\'\'"
+# 	values = "(#{values.join(', ')})"
+# 	if i < step
+# 		scope.push values
+# 		i++
+# 	if i == step or k == kount
+# 		i = 0
+# 		kt_posts.push "#{kt_posts_insert}#{scope.join(",\n")};"
+# 		scope = []
+
+#fin HACK!!!
+# kt_posts.push "#{kt_posts_insert}#{scope.join(",\n")};"
+
+
+# kt_posts = kt_posts.join("n")
+
+
+toSQL = (table, keys, data, step = 50) ->
+	i = 0
+	k = 0
+	scope = []
+	count = data.length
+	result = []
+
+	insert = "\nINSERT INTO `#{table}` (`#{keys.join('`, `')}`) VALUES\n"
+
+	_(data).forEach (post) ->
+		k++
+		values = []
+		_(keys).forEach (post_key) ->
+			if post[post_key]
+				value = post[post_key]
+				if _.isString value
+					value = value.replace /\n|\r\n/g, "\\n"
+					value = value.replace /\'/g, "\\'"
+				if _.isPlainObject value
+					value = php.serialize value
+				values.push "\'#{value}\'"
+			else
+				values.push "\'\'"
+		values = "(#{values.join(', ')})"
+		if i < step
+			scope.push values
+			i++
+		if i == step or k == count
+			i = 0
+			result.push "#{insert}#{scope.join(",\n")};"
+			scope = []
+	return result.join("\n")
+
+
+
+
+write toSQL('kt_posts', post_keys, postsSort, 75), 'posts.sql', true
+
 
 
 
