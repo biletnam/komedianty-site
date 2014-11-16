@@ -159,6 +159,9 @@ _(list).forEach (entry) ->
 			# Publish
 			posts[ID].post_status = 'publish'
 
+			# Menu order
+			posts[ID].menu_order = postmeta.menu_order if postmeta.menu_order
+
 
 # FIX LINKS
 outlinks = {}

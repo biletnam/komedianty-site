@@ -267,7 +267,8 @@
     "postmeta": {
       "menu_order": 40
     },
-    "post_status": "publish"
+    "post_status": "publish",
+    "menu_order": 40
   },
   "page/about/directors-word": {
     "ID": 0,
@@ -286,7 +287,8 @@
     "postmeta": {
       "menu_order": 50
     },
-    "post_status": "publish"
+    "post_status": "publish",
+    "menu_order": 50
   },
   "page/about/press-archive": {
     "ID": 0,
@@ -305,7 +307,8 @@
     "postmeta": {
       "menu_order": 80
     },
-    "post_status": "publish"
+    "post_status": "publish",
+    "menu_order": 80
   },
   "page/about/scene-plan": {
     "ID": 0,
@@ -324,7 +327,8 @@
     "postmeta": {
       "menu_order": 70
     },
-    "post_status": "publish"
+    "post_status": "publish",
+    "menu_order": 70
   },
   "page/about/theater-story": {
     "ID": 0,
@@ -343,7 +347,8 @@
     "postmeta": {
       "menu_order": 60
     },
-    "post_status": "publish"
+    "post_status": "publish",
+    "menu_order": 60
   },
   "page/contacts": {
     "ID": 0,
@@ -361,7 +366,8 @@
     "postmeta": {
       "menu_order": 40
     },
-    "post_status": "publish"
+    "post_status": "publish",
+    "menu_order": 40
   },
   "page/playbill": {
     "ID": 0,
@@ -379,7 +385,8 @@
     "postmeta": {
       "menu_order": 10
     },
-    "post_status": "publish"
+    "post_status": "publish",
+    "menu_order": 10
   },
   "page/repertoire": {
     "ID": 0,
@@ -397,7 +404,8 @@
     "postmeta": {
       "menu_order": 20
     },
-    "post_status": "publish"
+    "post_status": "publish",
+    "menu_order": 20
   },
   "page/troupe": {
     "ID": 0,
@@ -415,7 +423,8 @@
     "postmeta": {
       "menu_order": 40
     },
-    "post_status": "publish"
+    "post_status": "publish",
+    "menu_order": 40
   },
   "page/troupe/Afendulov-Semen.jpg": {
     "ID": 0,

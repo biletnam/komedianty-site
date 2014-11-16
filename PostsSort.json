@@ -38840,7 +38840,8 @@
     "postmeta": {
       "menu_order": 40
     },
-    "post_status": "publish"
+    "post_status": "publish",
+    "menu_order": 40
   },
   {
     "ID": 1895,
@@ -38859,7 +38860,8 @@
     "postmeta": {
       "menu_order": 50
     },
-    "post_status": "publish"
+    "post_status": "publish",
+    "menu_order": 50
   },
   {
     "ID": 1896,
@@ -38878,7 +38880,8 @@
     "postmeta": {
       "menu_order": 80
     },
-    "post_status": "publish"
+    "post_status": "publish",
+    "menu_order": 80
   },
   {
     "ID": 1897,
@@ -38897,7 +38900,8 @@
     "postmeta": {
       "menu_order": 70
     },
-    "post_status": "publish"
+    "post_status": "publish",
+    "menu_order": 70
   },
   {
     "ID": 1898,
@@ -38916,7 +38920,8 @@
     "postmeta": {
       "menu_order": 60
     },
-    "post_status": "publish"
+    "post_status": "publish",
+    "menu_order": 60
   },
   {
     "ID": 1899,
@@ -38934,7 +38939,8 @@
     "postmeta": {
       "menu_order": 40
     },
-    "post_status": "publish"
+    "post_status": "publish",
+    "menu_order": 40
   },
   {
     "ID": 1900,
@@ -38952,7 +38958,8 @@
     "postmeta": {
       "menu_order": 10
     },
-    "post_status": "publish"
+    "post_status": "publish",
+    "menu_order": 10
   },
   {
     "ID": 1901,
@@ -38970,7 +38977,8 @@
     "postmeta": {
       "menu_order": 20
     },
-    "post_status": "publish"
+    "post_status": "publish",
+    "menu_order": 20
   },
   {
     "ID": 1902,
@@ -38988,7 +38996,8 @@
     "postmeta": {
       "menu_order": 40
     },
-    "post_status": "publish"
+    "post_status": "publish",
+    "menu_order": 40
   },
   {
     "ID": 1903,
