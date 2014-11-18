@@ -1,0 +1,33 @@
+title: 'Мария Осипова'
+date: '2013-12-15 15:00:00'
+old_names:
+  - 301-mariaosipova
+  - mariya-osipova
+jos_id: '301'
+jos_alias: mariaosipova
+employment:
+  -
+    performance_id: '70'
+    performance_title: 'Поминальная молитва'
+    roles:
+      r5: Хава
+  -
+    performance_id: '58'
+    performance_title: 'Брысь! или История кота Филофея'
+    roles:
+      r2: Киса
+  -
+    performance_id: '73'
+    performance_title: 'Сирано де Бержерак'
+    roles:
+      r6: Монашка
+  -
+    performance_id: '63'
+    performance_title: Карлсон
+    roles:
+      r4: Мама
+gender: female
+taxonomy:
+  carier:
+    slug: Актер
+    name: actor

@@ -1,0 +1,59 @@
+title: 'Татьяна Кожевникова'
+date: '2013-02-02 15:00:00'
+old_names:
+  - 80-tatiana-kogevnikova
+  - tatyana-kozhevnikova
+jos_id: '80'
+jos_alias: tatiana-kogevnikova
+employment:
+  -
+    performance_id: '68'
+    performance_title: Лес
+    roles:
+      r8: Улита
+  -
+    performance_id: '79'
+    performance_title: 'Волшебные сосульки'
+    roles:
+      r2: 'мачеха Параша Тарасовна'
+  -
+    performance_id: '57'
+    performance_title: 'Беда от нежного сердца'
+    roles:
+      r4: 'Бояркина Дарья Семёновна'
+  -
+    performance_id: '59'
+    performance_title: Дачницы
+    roles:
+      r5: 'Домработница Дуся'
+  -
+    performance_id: '72'
+    performance_title: 'Провинциальные анекдоты'
+    roles:
+      r9: ['Васюта (2 анекдот)', Васюта]
+  -
+    performance_id: '77'
+    performance_title: 'В Париж!'
+    roles:
+      r3: 'Первая сваха'
+  -
+    performance_id: '62'
+    performance_title: Фарсы
+    roles:
+      r1: '?'
+  -
+    performance_id: '81'
+    performance_title: Земляки
+    roles:
+      r15: 'Елизавета Киселёва, Лариса Худякова'
+cinema:
+  - '«Встретимся в метро» (1983 г.)'
+  - '«Гений» (1991 г.)'
+  - '«Смерть от любви» (1991 г.)'
+  - '«Улицы разбитых фонарей»'
+  - '«Чёрный ворон»'
+gender: female
+taxonomy:
+  carier:
+    slug: Актер
+    name: actor

@@ -1,0 +1,39 @@
+title: 'Алексей Исполатов'
+date: '2013-10-20 15:00:00'
+old_names:
+  - 53-aleksei-ispolatov
+  - aleksey-ispolatov
+jos_id: '53'
+jos_alias: aleksei-ispolatov
+employment:
+  -
+    performance_id: '65'
+    performance_title: 'Кот в сапогах'
+    roles:
+      r3: Король
+  -
+    performance_id: '77'
+    performance_title: 'В Париж!'
+    roles:
+      r10: 'Стручков, чиновник'
+  -
+    performance_id: '78'
+    performance_title: 'Волки и овцы'
+    roles:
+      r8: Чугунов
+  -
+    performance_id: '64'
+    performance_title: Компромисс
+    roles:
+      r5: 'Сотрудник КГБ Сорокин, Михкель Теппе, Иван Трулль, Лийвак'
+cinema:
+  - «Ленинградец»
+  - «Фаворит»
+  - '«Как пройти в библиотеку?»'
+  - '«Улицы разбитых фонарей»'
+gender: male
+kinoteatr: 'http://www.kino-teatr.ru/kino/acter/m/ros/5825/bio/'
+taxonomy:
+  carier:
+    slug: Драматург
+    name: playwright

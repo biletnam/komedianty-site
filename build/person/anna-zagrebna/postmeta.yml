@@ -1,0 +1,57 @@
+title: 'Анна Загребна'
+date: '2013-09-11 15:00:00'
+old_names:
+  - 79-anna-zagrebna
+  - anna-zagrebna
+jos_id: '79'
+jos_alias: anna-zagrebna
+employment:
+  -
+    performance_id: '73'
+    performance_title: 'Сирано де Бержерак'
+    roles:
+      r1: Роксана
+  -
+    performance_id: '60'
+    performance_title: Дурочка
+    roles:
+      r0: Финея
+  -
+    performance_id: '79'
+    performance_title: 'Волшебные сосульки'
+    roles:
+      r: Настенька
+  -
+    performance_id: '57'
+    performance_title: 'Беда от нежного сердца'
+    roles:
+      r3: Настенька
+  -
+    performance_id: '59'
+    performance_title: Дачницы
+    roles:
+      r4: Внучка
+  -
+    performance_id: '58'
+    performance_title: 'Брысь! или История кота Филофея'
+    roles:
+      r6: Анфиса
+  -
+    performance_id: '67'
+    performance_title: 'Кыцик, Мыцик и тётушка Мари'
+    roles:
+      r0: Мыцик
+  -
+    performance_id: '76'
+    performance_title: 'Училка из будущего'
+    roles:
+      r6: 'Уэнди Кларк'
+cinema:
+  - «Свои»
+  - '«Улицы разбитых фонарей»'
+gender: female
+kinoteatr: 'http://www.kino-teatr.ru/kino/acter/w/ros/8276/bio/'
+taxonomy:
+  carier:
+    slug: Актер
+    name: actor

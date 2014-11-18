@@ -1,0 +1,72 @@
+title: 'Виталий Кравченко'
+date: '2013-07-13 15:00:00'
+old_names:
+  - 66-vitalii-kravchenko
+  - vitaliy-kravchenko
+jos_id: '66'
+jos_alias: vitalii-kravchenko
+employment:
+  -
+    performance_id: '70'
+    performance_title: 'Поминальная молитва'
+    roles:
+      r13: Урядник
+  -
+    performance_id: '68'
+    performance_title: Лес
+    roles:
+      r6: Пётр
+  -
+    performance_id: '73'
+    performance_title: 'Сирано де Бержерак'
+    roles:
+      r8: Гвардеец
+  -
+    performance_id: '78'
+    performance_title: 'Волки и овцы'
+    roles:
+      r9: Павлин
+  -
+    performance_id: '72'
+    performance_title: 'Провинциальные анекдоты'
+    roles:
+      r6: Хомутов
+  -
+    performance_id: '66'
+    performance_title: 'Крепостная любовь (Муму)'
+    roles:
+      r12: 'сторож Степан'
+  -
+    performance_id: '61'
+    performance_title: 'Ехала деревня мимо мужика'
+    roles:
+      r1: Скоморох
+  -
+    performance_id: '82'
+    performance_title: Женитьба
+    roles:
+      r7: Купец
+  -
+    performance_id: '65'
+    performance_title: 'Кот в сапогах'
+    roles:
+      r4: Жак–простак
+  -
+    performance_id: '79'
+    performance_title: 'Волшебные сосульки'
+    roles:
+      r0: 'Дед Мороз'
+  -
+    performance_id: '81'
+    performance_title: Земляки
+    roles:
+      r10: 'Иван Петин, Тоскливый'
+cinema:
+  - 'т/с «Улицы разбитых фонарей»'
+  - '«Свой — чужой»'
+gender: male
+kinoteatr: 'http://www.kino-teatr.ru/teatr/acter/m/ros/235283/bio/'
+taxonomy:
+  carier:
+    slug: Актер
+    name: actor

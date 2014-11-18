@@ -75,6 +75,7 @@ _(list).forEach (entry) ->
 	entryExt      = path.extname entry                                           # '.ext'
 	entryBasename = path.basename(entry)                                         # 'file.ext'
 	entryName     = path.basename(entry, entryExt)                               # 'file'
+	entryDirname  = path.dirname entry
 
 	posts[ID] = _.clone(scheme) if not posts[ID] and ID not in types and ID != ""
 
@@ -119,8 +120,13 @@ _(list).forEach (entry) ->
 
 
 		when '.json', '.yml'
-			postmeta = fs.readJSONSync(entry, 'utf-8') if entryExt is '.json'
-			postmeta = YAML.parse fs.readFileSync(entry, 'utf-8') if entryExt is '.yml'
+			if entryExt is '.json'
+				postmeta = fs.readJSONSync(entry, 'utf-8')
+				# console.log ID + '/postmeta.yml'
+				write YAML.stringify(postmeta, 4, 2), (entryDirname + '/postmeta.yml'), true
+
+			if entryExt is '.yml'
+				postmeta = YAML.parse fs.readFileSync(entry, 'utf-8')
 
 			# gID
 			posts[ID].ID = 0

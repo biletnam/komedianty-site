@@ -1,0 +1,30 @@
+title: 'Сергей Суржин'
+date: '2014-11-01 15:00:00'
+old_names:
+  - sergey-surzhin
+employment:
+  -
+    performance_id: '58'
+    performance_title: 'Брысь! или История кота Филофея'
+    roles:
+      r5: Мурзик
+  -
+    performance_id: '64'
+    performance_title: Компромисс
+    roles:
+      r15: 'Пауль Руди, Кузин'
+  -
+    performance_id: '70'
+    performance_title: 'Поминальная молитва'
+    roles:
+      r10: Фёдор
+  -
+    performance_id: '73'
+    performance_title: 'Сирано де Бержерак'
+    roles:
+      r10: {'0': Вальвер, '2': Гвардеец}
+gender: male
+taxonomy:
+  carier:
+    slug: Актер
+    name: actor

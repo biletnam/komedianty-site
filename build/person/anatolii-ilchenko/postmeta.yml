@@ -1,0 +1,57 @@
+title: 'Анатолий Ильченко'
+date: '2013-02-07 15:00:00'
+old_names:
+  - 55-anatolii-ilchenko
+  - anatoliy-ilchenko
+jos_id: '55'
+jos_alias: anatolii-ilchenko
+employment:
+  -
+    performance_id: '66'
+    performance_title: 'Крепостная любовь (Муму)'
+    roles:
+      r3: [Капитон, Капион]
+  -
+    performance_id: '73'
+    performance_title: 'Сирано де Бержерак'
+    roles:
+      r3: 'Ле Бре'
+  -
+    performance_id: '72'
+    performance_title: 'Провинциальные анекдоты'
+    roles:
+      r7: Угаров
+  -
+    performance_id: '80'
+    performance_title: 'Записные книжки Тригорина'
+    roles:
+      r8: Медведенко
+  -
+    performance_id: '82'
+    performance_title: Женитьба
+    roles:
+      r5: Жевакин
+  -
+    performance_id: '77'
+    performance_title: 'В Париж!'
+    roles:
+      r9: 'Соусов, чиновник'
+  -
+    performance_id: '81'
+    performance_title: Земляки
+    roles:
+      r4: 'Сергей Духанин, Зам.дир.совхоза'
+cinema:
+  - '«Аэропорт — 2»'
+  - '«План Б»'
+  - '«Гончие — 3»'
+  - «Клеймо»
+  - '«Отставник — 2»'
+  - '«Ментовские войны — 5»'
+gender: male
+kinoteatr: 'http://www.kino-teatr.ru/teatr/acter/m/ros/8040/bio/'
+ruskino: 'http://ruskino.ru/art/8341'
+taxonomy:
+  carier:
+    slug: Актер
+    name: actor

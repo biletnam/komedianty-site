@@ -1,0 +1,75 @@
+title: 'Роман Притула'
+date: '2014-01-28 15:00:00'
+old_names:
+  - 50-roman-pritula
+  - roman-pritula
+jos_id: '50'
+jos_alias: roman-pritula
+employment:
+  -
+    performance_id: '57'
+    performance_title: 'Беда от нежного сердца'
+    roles:
+      r0: 'Сашенька Золотников'
+  -
+    performance_id: '76'
+    performance_title: 'Училка из будущего'
+    roles:
+      r2: 'Марк Трайвер'
+  -
+    performance_id: '64'
+    performance_title: Компромисс
+    roles:
+      r1: 'Эрнст Леопольдович Буш'
+  -
+    performance_id: '63'
+    performance_title: Карлсон
+    roles:
+      r0: Карлсон
+  -
+    performance_id: '60'
+    performance_title: Дурочка
+    roles:
+      r4: Турин
+  -
+    performance_id: '66'
+    performance_title: 'Крепостная любовь (Муму)'
+    roles:
+      r5: Антипка
+  -
+    performance_id: '73'
+    performance_title: 'Сирано де Бержерак'
+    roles:
+      r7: Гвардеец
+  -
+    performance_id: '78'
+    performance_title: 'Волки и овцы'
+    roles:
+      r3: Мурзавецкий
+  -
+    performance_id: '58'
+    performance_title: 'Брысь! или История кота Филофея'
+    roles:
+      r1: Плутон
+  -
+    performance_id: '81'
+    performance_title: Земляки
+    roles:
+      r2: 'Костя Худяков'
+cinema:
+  - 'т/ф «Настоятель»,'
+  - 'т/ф «Зимний круиз»,'
+  - 'т/с «Время Синдбада»,'
+  - 'т/ф «Одержимый»,'
+  - 'т/с «Груз»,'
+  - 'т/ф «Смерч Судьбы Последняя охота»,'
+  - 'х/ф «Бесславные придурки»,'
+  - 'т/с «Чужой район 3»'
+gender: male
+kinoteatr: 'http://www.kino-teatr.ru/teatr/acter/ros/136631/bio/'
+ruskino: 'http://ruskino.ru/art/7930'
+site: 'a:2:{s:4:"href";s:22:"http://romanpritula.ru";s:3:"src";s:41:"/images/stories/random/sait logl roma.png";}'
+taxonomy:
+  carier:
+    slug: Актер
+    name: actor

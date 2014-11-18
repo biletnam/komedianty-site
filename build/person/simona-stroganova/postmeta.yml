@@ -1,0 +1,15 @@
+title: 'Симона Строганова'
+date: '2014-11-01 15:00:00'
+old_names:
+  - simona-stroganova
+employment:
+  -
+    performance_id: '67'
+    performance_title: 'Кыцик, Мыцик и тётушка Мари'
+    roles:
+      r2: 'тётушка Мари'
+gender: female
+taxonomy:
+  carier:
+    slug: Актер
+    name: actor

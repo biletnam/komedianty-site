@@ -1,0 +1,20 @@
+title: 'Станислав Осколков'
+date: '2014-11-01 15:00:00'
+old_names:
+  - stanislav-oskolkov
+employment:
+  -
+    performance_id: '58'
+    performance_title: 'Брысь! или История кота Филофея'
+    roles:
+      r4: Филофей
+  -
+    performance_id: '66'
+    performance_title: 'Крепостная любовь (Муму)'
+    roles:
+      r3: [Капитон, Капион]
+gender: male
+taxonomy:
+  carier:
+    slug: Актер
+    name: actor

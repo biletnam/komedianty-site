@@ -1,0 +1,59 @@
+title: 'Станислав Воронецкий'
+date: '2013-10-20 15:00:00'
+old_names:
+  - 51-stas-voronetski
+  - stanislav-voronetskiy
+jos_id: '51'
+jos_alias: stas-voronetski
+employment:
+  -
+    performance_id: '70'
+    performance_title: 'Поминальная молитва'
+    roles:
+      r10: Фёдор
+  -
+    performance_id: '66'
+    performance_title: 'Крепостная любовь (Муму)'
+    roles:
+      r11: Ерошка
+  -
+    performance_id: '60'
+    performance_title: Дурочка
+    roles:
+      r8: Педро
+  -
+    performance_id: '77'
+    performance_title: 'В Париж!'
+    roles:
+      r8: 'Дездемонов, чиновник'
+  -
+    performance_id: '65'
+    performance_title: 'Кот в сапогах'
+    roles:
+      r0: 'Кот в сапогах'
+  -
+    performance_id: '72'
+    performance_title: 'Провинциальные анекдоты'
+    roles:
+      r4: Потапов
+  -
+    performance_id: '76'
+    performance_title: 'Училка из будущего'
+    roles:
+      r2: 'Марк Трайвер'
+  -
+    performance_id: '64'
+    performance_title: Компромисс
+    roles:
+      r6: 'Ося Чернов, жокей Анатолий Иванов, официант, Логинов'
+cinema:
+  - '«Пером и шпагой»'
+  - 'т/с «Дорожный патруль»'
+  - 'т/с «Улицы разбитых фонарей»'
+  - '«Формат А4»'
+gender: male
+kinoteatr: 'http://www.kino-teatr.ru/teatr/acter/m/ros/31838/bio/'
+taxonomy:
+  carier:
+    slug: Актер
+    name: actor
