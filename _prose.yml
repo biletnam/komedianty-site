@@ -9,7 +9,7 @@ prose:
         element: 'text'
         label: 'Дата'
         help: 'Дата в формате `YYYY-MM-DD hh:mm:ss`'
-        value: CURRENT_DATETIME
+        value: 'CURRENT_DATETIME'
         placeholder: 'Введите дату'
         type: 'text'
     -
@@ -36,7 +36,7 @@ prose:
         element: 'text'
         label: 'Дата публикации'
         help: 'Дата в формате `YYYY-MM-DD hh:mm:ss`'
-        value: CURRENT_DATETIME
+        value: 'CURRENT_DATETIME'
         placeholder: 'Введите дату публикации'
         type: 'text'
     -
