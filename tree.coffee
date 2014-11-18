@@ -266,8 +266,11 @@ _(postsSort).where('postmeta').forEach (post) ->
 		if _.isString meta.meta_value
 			meta.meta_value = meta.meta_value.replace /\n|\r\n/g, "\\n"
 			meta.meta_value = meta.meta_value.replace /\'/g, "\\'"
-		if _.isPlainObject meta.meta_value
+		# else if _.isPlainObject meta.meta_value
+		# 	meta.meta_value = php.serialize meta.meta_value
+		else if typeof meta.meta_value is 'object'
 			meta.meta_value = php.serialize meta.meta_value
+
 		postmetaSort.push meta
 
 

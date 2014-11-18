@@ -1,283 +1,339 @@
 ## Художественный руководитель и главный режиссер
 
-[![Михаил Левшин](../../person/mikhail-levshin/portrait.jpg)][../../person/mikhail-levshin]
+[
+![Михаил Левшин](../../person/mikhail-levshin/troupe.jpg "Михаил Левшин")
+](../../person/mikhail-levshin)
 Заслуженный деятель искусств России
-[Михаил Левшин][../../person/mikhail-levshin]
+[Михаил Левшин](../../person/mikhail-levshin)
 
 
 ## Актёры
 
-[![Нина Мещанинова](../../person/nina-meschaninova/portrait.jpg)][../../person/nina-meschaninova]
+[
+![Нина Мещанинова](../../person/nina-meschaninova/troupe.jpg "Нина Мещанинова")
+](../../person/nina-meschaninova)
 Заслуженная артистка России
-[Нина Мещанинова][../../person/nina-meschaninova]
+[Нина Мещанинова](../../person/nina-meschaninova)
 
 
-[![Таисия Попенко](../../person/taisiya-popenko/portrait.jpg)][../../person/taisiya-popenko]
+[
+![Таисия Попенко](../../person/taisiya-popenko/troupe.jpg "Таисия Попенко")
+](../../person/taisiya-popenko)
 Заслуженная артистка России
-[Таисия Попенко][../../person/taisiya-popenko]
+[Таисия Попенко](../../person/taisiya-popenko)
 
 
-[![Виктор Костецкий](../../person/viktor-kostetskii/portrait.jpg)][../../person/viktor-kostetskii]
+[
+![Виктор Костецкий](../../person/viktor-kostetskii/troupe.jpg "Виктор Костецкий")
+](../../person/viktor-kostetskii)
 Заслуженный артист России
-[Виктор Костецкий][../../person/viktor-kostetskii]
+[Виктор Костецкий](../../person/viktor-kostetskii)
 
 
-[![Геннадий Спириденков](../../person/gennadii-spiridenkov/portrait.jpg)][../../person/gennadii-spiridenkov]
+[
+![Геннадий Спириденков](../../person/gennadii-spiridenkov/troupe.jpg "Геннадий Спириденков")
+](../../person/gennadii-spiridenkov)
 Заслуженный артист России
-[Геннадий Спириденков][../../person/gennadii-spiridenkov]
+[Геннадий Спириденков](../../person/gennadii-spiridenkov)
 
+[
+![Филипп Азаров](../../person/filipp-azarov/troupe.jpg "Филипп Азаров")
+](../../person/filipp-azarov)
+[Филипп Азаров](../../person/filipp-azarov)
 
+[
+![Алёна Азарова](../../person/alyona-azarova/troupe.jpg "Алёна Азарова")
+](../../person/alyona-azarova)
+[Алёна Азарова](../../person/alyona-azarova)
 
+[
+![Семён Афендулов](../../person/semyon-afendulov/troupe.jpg "Семён Афендулов")
+](../../person/semyon-afendulov)
+[Семён Афендулов](../../person/semyon-afendulov)
 
-[![Филипп Азаров](../../person/filipp-azarov/portrait.jpg)][../../person/filipp-azarov]
-[Филипп Азаров][../../person/filipp-azarov]
+[
+![Илья Безрук](../../person/ilya-bezruk/troupe.jpg "Илья Безрук")
+](../../person/ilya-bezruk)
+[Илья Безрук](../../person/ilya-bezruk)
 
-[![Алёна Азарова](../../person/alyona-azarova/portrait.jpg)][../../person/alyona-azarova]
-[Алёна Азарова][../../person/alyona-azarova]
+[
+![Екатерина Белова](../../person/ekaterina-belova/troupe.jpg "Екатерина Белова")
+](../../person/ekaterina-belova)
+[Екатерина Белова](../../person/ekaterina-belova)
 
-[![Семён Афендулов](../../person/semyon-afendulov/portrait.jpg)][../../person/semyon-afendulov]
-[Семён Афендулов][../../person/semyon-afendulov]
+[
+![Сергей Бледных](../../person/sergei-blednykh/troupe.jpg "Сергей Бледных")
+](../../person/sergei-blednykh)
+[Сергей Бледных](../../person/sergei-blednykh)
 
-[![Илья Безрук](../../person/ilya-bezruk/portrait.jpg)][../../person/ilya-bezruk]
-[Илья Безрук][../../person/ilya-bezruk]
+[
+![Ильгиз Булгаков](../../person/ilgiz-bulgakov/troupe.jpg "Ильгиз Булгаков")
+](../../person/ilgiz-bulgakov)
+[Ильгиз Булгаков](../../person/ilgiz-bulgakov)
 
-[![Екатерина Белова](../../person/ekaterina-belova/portrait.jpg)][../../person/ekaterina-belova]
-[Екатерина Белова][../../person/ekaterina-belova]
+[
+![Юлия Бурцева](../../person/yuliya-burtseva/troupe.jpg "Юлия Бурцева")
+](../../person/yuliya-burtseva)
+[Юлия Бурцева](../../person/yuliya-burtseva)
 
-[![Сергей Бледных](../../person/sergei-blednykh/portrait.jpg)][../../person/sergei-blednykh]
-[Сергей Бледных][../../person/sergei-blednykh]
+[
+![Станислав Воронецкий](../../person/stanislav-voronetskii/troupe.jpg "Станислав Воронецкий")
+](../../person/stanislav-voronetskii)
+[Станислав Воронецкий](../../person/stanislav-voronetskii)
 
-[![Ильгиз Булгаков](../../person/ilgiz-bulgakov/portrait.jpg)][../../person/ilgiz-bulgakov]
-[Ильгиз Булгаков][../../person/ilgiz-bulgakov]
+[
+![Марк Гаврилов](../../person/mark-gavrilov/troupe.jpg "Марк Гаврилов")
+](../../person/mark-gavrilov)
+[Марк Гаврилов](../../person/mark-gavrilov)
 
-[![Юлия Бурцева](../../person/yuliya-burtseva/portrait.jpg)][../../person/yuliya-burtseva]
-[Юлия Бурцева][../../person/yuliya-burtseva]
+[
+![Юлия Горшенина](../../person/yuliya-gorshenina/troupe.jpg "Юлия Горшенина")
+](../../person/yuliya-gorshenina)
+[Юлия Горшенина](../../person/yuliya-gorshenina)
 
-[![Станислав Воронецкий](../../person/stanislav-voronetskii/portrait.jpg)][../../person/stanislav-voronetskii]
-[Станислав Воронецкий][../../person/stanislav-voronetskii]
+[
+![Анна Загребна](../../person/anna-zagrebna/troupe.jpg "Анна Загребна")
+](../../person/anna-zagrebna)
+[Анна Загребна](../../person/anna-zagrebna)
 
-[![Марк Гаврилов](../../person/mark-gavrilov/portrait.jpg)][../../person/mark-gavrilov]
-[Марк Гаврилов][../../person/mark-gavrilov]
+[
+![Леонид Зябкин](../../person/leonid-zyabkin/troupe.jpg "Леонид Зябкин")
+](../../person/leonid-zyabkin)
+[Леонид Зябкин](../../person/leonid-zyabkin)
 
-[![Юлия Горшенина](../../person/yuliya-gorshenina/portrait.jpg)][../../person/yuliya-gorshenina]
-[Юлия Горшенина][../../person/yuliya-gorshenina]
+[
+![Анатолий Ильченко](../../person/anatolii-ilchenko/troupe.jpg "Анатолий Ильченко")
+](../../person/anatolii-ilchenko)
+[Анатолий Ильченко](../../person/anatolii-ilchenko)
 
-[![Анна Загребна](../../person/anna-zagrebna/portrait.jpg)][../../person/anna-zagrebna]
-[Анна Загребна][../../person/anna-zagrebna]
+[
+![Алексей Исполатов](../../person/aleksei-ispolatov/troupe.jpg "Алексей Исполатов")
+](../../person/aleksei-ispolatov)
+[Алексей Исполатов](../../person/aleksei-ispolatov)
 
-[![Леонид Зябкин](../../person/leonid-zyabkin/portrait.jpg)][../../person/leonid-zyabkin]
-[Леонид Зябкин][../../person/leonid-zyabkin]
+[
+![Николай Исполатов](../../person/nikolai-ispolatov/troupe.jpg "Николай Исполатов")
+](../../person/nikolai-ispolatov)
+[Николай Исполатов](../../person/nikolai-ispolatov)
 
-[![Анатолий Ильченко](../../person/anatolii-ilchenko/portrait.jpg)][../../person/anatolii-ilchenko]
-[Анатолий Ильченко][../../person/anatolii-ilchenko]
+[
+![Лариса Климова](../../person/larisa-klimova/troupe.jpg "Лариса Климова")
+](../../person/larisa-klimova)
+[Лариса Климова](../../person/larisa-klimova)
 
-[![Алексей Исполатов](../../person/aleksei-ispolatov/portrait.jpg)][../../person/aleksei-ispolatov]
-[Алексей Исполатов][../../person/aleksei-ispolatov]
+[
+![Татьяна Кожевникова](../../person/tatyana-kozhevnikova/troupe.jpg "Татьяна Кожевникова")
+](../../person/tatyana-kozhevnikova)
+[Татьяна Кожевникова](../../person/tatyana-kozhevnikova)
 
-[![Николай Исполатов](../../person/nikolai-ispolatov/portrait.jpg)][../../person/nikolai-ispolatov]
-[Николай Исполатов][../../person/nikolai-ispolatov]
+[
+![Юлия Копылова](../../person/yuliya-kopylova/troupe.jpg "Юлия Копылова")
+](../../person/yuliya-kopylova)
+[Юлия Копылова](../../person/yuliya-kopylova)
 
-[![Лариса Климова](../../person/larisa-klimova/portrait.jpg)][../../person/larisa-klimova]
-[Лариса Климова][../../person/larisa-klimova]
+[
+![Виталий Кравченко](../../person/vitalii-kravchenko/troupe.jpg "Виталий Кравченко")
+](../../person/vitalii-kravchenko)
+[Виталий Кравченко](../../person/vitalii-kravchenko)
 
-[![Татьяна Кожевникова](../../person/tatyana-kozhevnikova/portrait.jpg)][../../person/tatyana-kozhevnikova]
-[Татьяна Кожевникова][../../person/tatyana-kozhevnikova]
+[
+![Екатерина Культина](../../person/ekaterina-kultina/troupe.jpg "Екатерина Культина")
+](../../person/ekaterina-kultina)
+[Екатерина Культина](../../person/ekaterina-kultina)
 
-[![Юлия Копылова](../../person/yuliya-kopylova/portrait.jpg)][../../person/yuliya-kopylova]
-[Юлия Копылова][../../person/yuliya-kopylova]
+[
+![Ирина Митюшкина](../../person/irina-mityushkina/troupe.jpg "Ирина Митюшкина")
+](../../person/irina-mityushkina)
+[Ирина Митюшкина](../../person/irina-mityushkina)
 
-[![Виталий Кравченко](../../person/vitalii-kravchenko/portrait.jpg)][../../person/vitalii-kravchenko]
-[Виталий Кравченко][../../person/vitalii-kravchenko]
+[
+![Людмила Никитина](../../person/lyudmila-nikitina/troupe.jpg "Людмила Никитина")
+](../../person/lyudmila-nikitina)
+[Людмила Никитина](../../person/lyudmila-nikitina)
 
-[![Екатерина Культина](../../person/ekaterina-kultina/portrait.jpg)][../../person/ekaterina-kultina]
-[Екатерина Культина][../../person/ekaterina-kultina]
+[
+![Сергей Николаев](../../person/sergei-nikolaev/troupe.jpg "Сергей Николаев")
+](../../person/sergei-nikolaev)
+[Сергей Николаев](../../person/sergei-nikolaev)
 
-[![Ирина Митюшкина](../../person/irina-mityushkina/portrait.jpg)][../../person/irina-mityushkina]
-[Ирина Митюшкина][../../person/irina-mityushkina]
+[
+![Анастасия Пижель](../../person/anastasiya-pizhel/troupe.jpg "Анастасия Пижель")
+](../../person/anastasiya-pizhel)
+[Анастасия Пижель](../../person/anastasiya-pizhel)
 
-[![Людмила Никитина](../../person/lyudmila-nikitina/portrait.jpg)][../../person/lyudmila-nikitina]
-[Людмила Никитина][../../person/lyudmila-nikitina]
+[
+![Валерий Полетаев](../../person/valerii-poletaev/troupe.jpg "Валерий Полетаев")
+](../../person/valerii-poletaev)
+[Валерий Полетаев](../../person/valerii-poletaev)
 
-[![Сергей Николаев](../../person/sergei-nikolaev/portrait.jpg)][../../person/sergei-nikolaev]
-[Сергей Николаев][../../person/sergei-nikolaev]
+[
+![Роман Притула](../../person/roman-pritula/troupe.jpg "Роман Притула")
+](../../person/roman-pritula)
+[Роман Притула](../../person/roman-pritula)
 
-[![Анастасия Пижель](../../person/anastasiya-pizhel/portrait.jpg)][../../person/anastasiya-pizhel]
-[Анастасия Пижель][../../person/anastasiya-pizhel]
+[
+![Галина Сабурова](../../person/galina-saburova/troupe.jpg "Галина Сабурова")
+](../../person/galina-saburova)
+[Галина Сабурова](../../person/galina-saburova)
 
-[![Валерий Полетаев](../../person/valerii-poletaev/portrait.jpg)][../../person/valerii-poletaev]
-[Валерий Полетаев][../../person/valerii-poletaev]
+[
+![Максим Сергеев](../../person/maksim-sergeev/troupe.jpg "Максим Сергеев")
+](../../person/maksim-sergeev)
+[Максим Сергеев](../../person/maksim-sergeev)
 
-[![Роман Притула](../../person/roman-pritula/portrait.jpg)][../../person/roman-pritula]
-[Роман Притула][../../person/roman-pritula]
+[
+![Симона Строганова](../../person/simona-stroganova/troupe.jpg "Симона Строганова")
+](../../person/simona-stroganova)
+[Симона Строганова](../../person/simona-stroganova)
 
-[![Галина Сабурова](../../person/galina-saburova/portrait.jpg)][../../person/galina-saburova]
-[Галина Сабурова][../../person/galina-saburova]
+[
+![Оксана Сурнина](../../person/oksana-surnina/troupe.jpg "Оксана Сурнина")
+](../../person/oksana-surnina)
+[Оксана Сурнина](../../person/oksana-surnina)
 
-[![Максим Сергеев](../../person/maksim-sergeev/portrait.jpg)][../../person/maksim-sergeev]
-[Максим Сергеев][../../person/maksim-sergeev]
+[
+![Светлана Суханова](../../person/svetlana-sukhanova/troupe.jpg "Светлана Суханова")
+](../../person/svetlana-sukhanova)
+[Светлана Суханова](../../person/svetlana-sukhanova)
 
-[![Симона Строганова](../../person/simona-stroganova/portrait.jpg)][../../person/simona-stroganova]
-[Симона Строганова][../../person/simona-stroganova]
+[
+![Евгений Талашманов](../../person/evgenii-talashmanov/troupe.jpg "Евгений Талашманов")
+](../../person/evgenii-talashmanov)
+[Евгений Талашманов](../../person/evgenii-talashmanov)
 
-[![Оксана Сурнина](../../person/oksana-surnina/portrait.jpg)][../../person/oksana-surnina]
-[Оксана Сурнина][../../person/oksana-surnina]
+[
+![Наталья Терехова](../../person/natalya-terekhova/troupe.jpg "Наталья Терехова")
+](../../person/natalya-terekhova)
+[Наталья Терехова](../../person/natalya-terekhova)
 
-[![Светлана Суханова](../../person/svetlana-sukhanova/portrait.jpg)][../../person/svetlana-sukhanova]
-[Светлана Суханова][../../person/svetlana-sukhanova]
+[
+![Елизавета Чернова](../../person/elizaveta-chernova/troupe.jpg "Елизавета Чернова")
+](../../person/elizaveta-chernova)
+[Елизавета Чернова](../../person/elizaveta-chernova)
 
-[![Евгений Талашманов](../../person/evgenii-talashmanov/portrait.jpg)][../../person/evgenii-talashmanov]
-[Евгений Талашманов][../../person/evgenii-talashmanov]
+[
+![Александр Шевелёв](../../person/aleksandr-shevelyov/troupe.jpg "Александр Шевелёв")
+](../../person/aleksandr-shevelyov)
+[Александр Шевелёв](../../person/aleksandr-shevelyov)
 
-[![Наталья Терехова](../../person/natalya-terekhova/portrait.jpg)][../../person/natalya-terekhova]
-[Наталья Терехова][../../person/natalya-terekhova]
+[
+![Ольга Яковлева](../../person/olga-yakovleva/troupe.jpg "Ольга Яковлева")
+](../../person/olga-yakovleva)
+[Ольга Яковлева](../../person/olga-yakovleva)
 
-[![Елизавета Чернова](../../person/elizaveta-chernova/portrait.jpg)][../../person/elizaveta-chernova]
-[Елизавета Чернова][../../person/elizaveta-chernova]
-
-[![Александр Шевелёв](../../person/aleksandr-shevelyov/portrait.jpg)][../../person/aleksandr-shevelyov]
-[Александр Шевелёв][../../person/aleksandr-shevelyov]
-
-[![Ольга Яковлева](../../person/olga-yakovleva/portrait.jpg)][../../person/olga-yakovleva]
-[Ольга Яковлева][../../person/olga-yakovleva]
-
-[![Роман Якушов](../../person/roman-yakushov/portrait.jpg)][../../person/roman-yakushov]
-[Роман Якушов][../../person/roman-yakushov]
+[
+![Роман Якушов](../../person/roman-yakushov/troupe.jpg "Роман Якушов")
+](../../person/roman-yakushov)
+[Роман Якушов](../../person/roman-yakushov)
 
 
 
 
 ## C нами сотрудничают
 
-[![Евгений Баранов](../../person/evgenii-baranov/portrait.jpg)][../../person/evgenii-baranov]
+[
+![Евгений Баранов](../../person/evgenii-baranov/troupe.jpg "Евгений Баранов")
+](../../person/evgenii-baranov)
 Заслуженный артист России
-[Евгений Баранов][../../person/evgenii-baranov]
+[Евгений Баранов](../../person/evgenii-baranov)
 
-[![Кирилл Датешидзе](../../person/kirill-dateshidze/portrait.jpg)][../../person/kirill-dateshidze]
-[Кирилл Датешидзе][../../person/kirill-dateshidze]
+[
+![Кирилл Датешидзе](../../person/kirill-dateshidze/troupe.jpg "Кирилл Датешидзе")
+](../../person/kirill-dateshidze)
+[Кирилл Датешидзе](../../person/kirill-dateshidze)
 
-[![Павел Ивановский](../../person/pavel-ivanovskii/portrait.jpg)][../../person/pavel-ivanovskii]
-[Павел Ивановский][../../person/pavel-ivanovskii]
+[
+![Павел Ивановский](../../person/pavel-ivanovskii/troupe.jpg "Павел Ивановский")
+](../../person/pavel-ivanovskii)
+[Павел Ивановский](../../person/pavel-ivanovskii)
 
-[![Юрий Агейкин](../../person/yurii-ageikin/portrait.jpg)][../../person/yurii-ageikin]
-[Юрий Агейкин][../../person/yurii-ageikin]
+[
+![Юрий Агейкин](../../person/yurii-ageikin/troupe.jpg "Юрий Агейкин")
+](../../person/yurii-ageikin)
+[Юрий Агейкин](../../person/yurii-ageikin)
 
-[![Мария Осипова](../../person/mariya-osipova/portrait.jpg)][../../person/mariya-osipova]
-[Мария Осипова][../../person/mariya-osipova]
+[
+![Мария Осипова](../../person/mariya-osipova/troupe.jpg "Мария Осипова")
+](../../person/mariya-osipova)
+[Мария Осипова](../../person/mariya-osipova)
 
-[![Андрей Шимко](../../person/andrei-shimko/portrait.jpg)][../../person/andrei-shimko]
-[Андрей Шимко][../../person/andrei-shimko]
+[
+![Андрей Шимко](../../person/andrei-shimko/troupe.jpg "Андрей Шимко")
+](../../person/andrei-shimko)
+[Андрей Шимко](../../person/andrei-shimko)
 
-[![Андрей Вергелис](../../person/andrei-vergelis/portrait.jpg)][../../person/andrei-vergelis]
-[Андрей Вергелис][../../person/andrei-vergelis]
+[
+![Андрей Вергелис](../../person/andrei-vergelis/troupe.jpg "Андрей Вергелис")
+](../../person/andrei-vergelis)
+[Андрей Вергелис](../../person/andrei-vergelis)
 
-[![Виталий Такс](../../person/vitalii-taks/portrait.jpg)][../../person/vitalii-taks]
-[Виталий Такс][../../person/vitalii-taks]
+[
+![Виталий Такс](../../person/vitalii-taks/troupe.jpg "Виталий Такс")
+](../../person/vitalii-taks)
+[Виталий Такс](../../person/vitalii-taks)
 
-[![Наталья Боярёнок](../../person/natalya-boyaryonok/portrait.jpg)][../../person/natalya-boyaryonok]
-[Наталья Боярёнок][../../person/natalya-boyaryonok]
+[
+![Наталья Боярёнок](../../person/natalya-boyaryonok/troupe.jpg "Наталья Боярёнок")
+](../../person/natalya-boyaryonok)
+[Наталья Боярёнок](../../person/natalya-boyaryonok)
 
-[![Александр Гончарук](../../person/aleksandr-goncharuk/portrait.jpg)][../../person/aleksandr-goncharuk]
-[Александр Гончарук][../../person/aleksandr-goncharuk]
+[
+![Александр Гончарук](../../person/aleksandr-goncharuk/troupe.jpg "Александр Гончарук")
+](../../person/aleksandr-goncharuk)
+[Александр Гончарук](../../person/aleksandr-goncharuk)
 
-[![Сергей Суржин](../../person/sergei-surzhin/portrait.jpg)][../../person/sergei-surzhin]
-[Сергей Суржин][../../person/sergei-surzhin]
+[
+![Сергей Суржин](../../person/sergei-surzhin/troupe.jpg "Сергей Суржин")
+](../../person/sergei-surzhin)
+[Сергей Суржин](../../person/sergei-surzhin)
 
-[![Станислав Осколков](../../person/stanislav-oskolkov/portrait.jpg)][../../person/stanislav-oskolkov]
-[Станислав Осколков][../../person/stanislav-oskolkov]
+[
+![Станислав Осколков](../../person/stanislav-oskolkov/troupe.jpg "Станислав Осколков")
+](../../person/stanislav-oskolkov)
+[Станислав Осколков](../../person/stanislav-oskolkov)
 
-[![Лина Сорокина](../../person/lina-sorokina/portrait.jpg)][../../person/lina-sorokina]
-[Лина Сорокина][../../person/lina-sorokina]
+[
+![Лина Сорокина](../../person/lina-sorokina/troupe.jpg "Лина Сорокина")
+](../../person/lina-sorokina)
+[Лина Сорокина](../../person/lina-sorokina)
 
 
 
 
 ## Руководство
 
-**Художественный руководитель-директор:**
-> Михаил Александрович Левшин
-
-
-**Заместитель директора по работе со зрителем:**
-> Ольга Анатольевна Михайловцева
-
-
-**Заместитель директора по АХЧ:**
-> Аста Моисеевна Ли
-
-
-**Помощник художественного руководителя по труппе:**
-> Милена Альбертовна Чернова
-
-
-**Главный бухгалтер:**
-> Юлия Валерьевна Захарова
-
+- **Художественный руководитель-директор:** Михаил Александрович Левшин
+- **Заместитель директора по работе со зрителем:** Ольга Анатольевна Михайловцева
+- **Заместитель директора по АХЧ:** Аста Моисеевна Ли
+- **Помощник художественного руководителя по труппе:** Милена Альбертовна Чернова
+- **Главный бухгалтер:** Юлия Валерьевна Захарова
 
 
 
 ## Постановочная часть
 
-**Главный художник:**
-> Полина Левшина
-
-**Помощник режиссера:**
-> Людмила Бойкова
-
-**Помощник режиссера:**
-> Наталия Курбатова
-
-**Ассистент режиссера:**
-> Елена Фёдорова
-
-**Ассистент режиссера:**
-> Симона Строганова
-
-**Начальник машинно-декорационного цеха:**
-> Сергей
-
-**Звукооператор:**
-> Татьяна Корнева
-
-**Начальник радиоцеха:**
-> Алексей Корнев
-
-**Художник по свету:**
-> Валерий Нефёдов
-
-**Художник по свету:**
-> Лариса Маркова
-
-**Начальник костюмерного цеха:**
-> Вера Баннова
-
-**Начальник цеха реквизита и бутафории:**
-> Татьяна Минина
-
-**Художник-гример:**
-> Мария Островская
-
-**Художник-гример:**
-> Евгения Лилит
-
-**Художник-гример:**
-> Марина Сергеева
-
+- **Главный художник:** Полина Левшина
+- **Помощник режиссера:** Людмила Бойкова
+- **Помощник режиссера:** Наталия Курбатова
+- **Ассистент режиссера:** Елена Фёдорова
+- **Ассистент режиссера:** Симона Строганова
+- **Начальник машинно-декорационного цеха:** Сергей
+- **Звукооператор:** Татьяна Корнева
+- **Начальник радиоцеха:** Алексей Корнев
+- **Художник по свету:** Валерий Нефёдов
+- **Художник по свету:** Лариса Маркова
+- **Начальник костюмерного цеха:** Вера Баннова
+- **Начальник цеха реквизита и бутафории:** Татьяна Минина
+- **Художник-гример:** Мария Островская
+- **Художник-гример:** Евгения Лилит
+- **Художник-гример:** Марина Сергеева
 
 
 
 ## Административная часть
 
-**Главный администратор:**
-> Людмила Алексеевна Половинкина
-
-**Заведующий билетным столом:**
-> Алла Иосифовна Семенова
-
-**Главный специалист по кадрам:**
-> Наталья Викторовна Кузнецова
-
-**Главный инженер:**
-> Валентин Иванович Носуля
-
-**Заведующий литературной частью:**
-> Борислава Шарова
+- **Главный администратор:** Людмила Алексеевна Половинкина
+- **Заведующий билетным столом:** Алла Иосифовна Семенова
+- **Главный специалист по кадрам:** Наталья Викторовна Кузнецова
+- **Главный инженер:** Валентин Иванович Носуля
+- **Заведующий литературной частью:** Борислава Шарова
