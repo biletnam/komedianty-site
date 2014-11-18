@@ -2,3 +2,46 @@ prose:
   rooturl: 'build'
   siteurl: 'http://abnmt.com/komedianty/'
   media:   'build'
+  metadata:
+    # build/event:
+    # build/page:
+    # build/performance:
+    # build/person:
+    # build/post:
+    build/press:
+    - name: 'date'
+      field:
+        element: 'text'
+        label: 'Дата'
+        help: 'Дата в формате `YYYY-MM-DD hh:mm:ss`'
+        value: CURRENT_DATETIME
+        placeholder: 'Введите дату'
+        type: 'text'
+    - name: 'source'
+        element: 'text'
+        label: 'Источник публикации'
+        help: 'Источник публикации'
+        value: ''
+        placeholder: 'Введите источник'
+        type: 'text'
+    - name: 'source_author'
+        element: 'text'
+        label: 'Автор публикации'
+        help: 'Автор публикации'
+        value: ''
+        placeholder: 'Введите имя автора'
+        type: 'text'
+    - name: 'source_date'
+        element: 'text'
+        label: 'Дата публикации'
+        help: 'Дата в формате `YYYY-MM-DD hh:mm:ss`'
+        value: CURRENT_DATETIME
+        placeholder: 'Введите дату публикации'
+        type: 'text'
+    - name: 'source_link'
+        element: 'text'
+        label: 'Ссылка'
+        help: 'Ссылка'
+        value: ''
+        placeholder: 'Введите ссылку на публикацию'
+        type: 'text'
