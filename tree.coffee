@@ -1,15 +1,17 @@
-glob     = require 'glob'
-path     = require 'path'
-fs       = require 'fs-extra'
-mime     = require 'mime'
-moment   = require 'moment'
-_        = require 'lodash'
+glob       = require 'glob'
+path       = require 'path'
+fs         = require 'fs-extra'
+mime       = require 'mime'
+moment     = require 'moment'
+_          = require 'lodash'
 
 image_size = require 'image-size'
 
 # PHP
-php         = require 'phpjs'
+php        = require 'phpjs'
 
+# YAML
+YAML       = require 'yamljs'
 
 # Vars
 base = './build'
@@ -116,8 +118,9 @@ _(list).forEach (entry) ->
 
 
 
-		when '.json'
-			postmeta = fs.readJSONSync(entry, 'utf-8')
+		when '.json', '.yml'
+			postmeta = fs.readJSONSync(entry, 'utf-8') if entryExt is '.json'
+			postmeta = YAML.parse fs.readFileSync(entry, 'utf-8') if entryExt is '.yml'
 
 			# gID
 			posts[ID].ID = 0
@@ -231,25 +234,17 @@ post_keys = _.uniq post_keys
 post_keys = _.difference post_keys, ['gID', 'sort', 'postmeta']
 
 
-
 # THUMBNAILS
 
-postsImages = {}
-
-_(postsSort).where({'post_type': 'attachment'}).forEach (image) ->
-	if image.post_parent
-		pid = parseInt(image.post_parent)
-		postsImages[pid] = [] if not postsImages[pid]
-		postsImages[pid].push image.ID
-	else
-		console.log image.post_name
-
-
-_(postsImages).forEach (post, ID) ->
-	thumbnail = _.sample post
-	_(postsSort).where({'ID':parseInt(ID)}).forEach (post) ->
-		post.postmeta['_thumbnail_id'] = thumbnail
-
+_(postsSort).reject({'post_type':'attachment'}).forEach (post) ->
+	images = _(postsSort).filter({'post_type':'attachment', 'post_parent':post.ID}).value()
+	# console.log images
+	if images.length > 0
+		random = _.sample images
+		post.postmeta['_thumbnail_id'] = random.ID
+		_(images).forEach (image) ->
+			if path.basename(image.post_name, path.extname image.post_name) in ['portrait', 'poster', 'featured']
+				post.postmeta['_thumbnail_id'] = image.ID
 
 
 # POSTMETA
