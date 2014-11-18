@@ -63,5 +63,5 @@ cinema:
 gender: female
 taxonomy:
   carier:
-    slug: Актер
-    name: actor
+    title: Актер
+    slug: actor

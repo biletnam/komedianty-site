@@ -7,5 +7,5 @@ jos_id: '239'
 jos_alias: dvorci-spb
 taxonomy:
   category:
-    slug: Новости
-    name: news
+    title: Новости
+    slug: news

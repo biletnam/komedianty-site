@@ -71,5 +71,5 @@ ruskino: 'http://ruskino.ru/art/7930'
 site: 'a:2:{s:4:"href";s:22:"http://romanpritula.ru";s:3:"src";s:41:"/images/stories/random/sait logl roma.png";}'
 taxonomy:
   carier:
-    slug: Актер
-    name: actor
+    title: Актер
+    slug: actor

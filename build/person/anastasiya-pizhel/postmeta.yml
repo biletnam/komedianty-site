@@ -40,5 +40,5 @@ gender: female
 kinoteatr: 'http://www.kino-teatr.ru/teatr/acter/w/ros/14143/bio/'
 taxonomy:
   carier:
-    slug: Актер
-    name: actor
+    title: Актер
+    slug: actor

@@ -15,5 +15,5 @@ gender: male
 grade: 'Заслуженный деятель искусств России'
 taxonomy:
   carier:
-    slug: Режиссер
-    name: director
+    title: Режиссер
+    slug: director

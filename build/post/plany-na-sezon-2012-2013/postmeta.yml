@@ -6,5 +6,5 @@ old_names:
 jos_id: '207'
 taxonomy:
   category:
-    slug: 'Без рубрики'
-    name: no-category
+    title: 'Без рубрики'
+    slug: no-category

@@ -6,5 +6,5 @@ jos_id: '155'
 jos_alias: pozdnie-vstrechi-o-mymy
 taxonomy:
   category:
-    slug: Пресса
-    name: press
+    title: Пресса
+    slug: press

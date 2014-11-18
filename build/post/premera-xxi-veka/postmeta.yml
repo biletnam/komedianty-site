@@ -7,5 +7,5 @@ jos_id: '99'
 jos_alias: '-xxi-'
 taxonomy:
   category:
-    slug: Премьеры
-    name: premiere
+    title: Премьеры
+    slug: premiere

@@ -7,5 +7,5 @@ jos_id: '285'
 jos_alias: 24th-season
 taxonomy:
   category:
-    slug: Новости
-    name: news
+    title: Новости
+    slug: news

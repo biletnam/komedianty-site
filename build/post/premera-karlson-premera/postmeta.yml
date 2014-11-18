@@ -6,5 +6,5 @@ jos_id: '149'
 jos_alias: karlson
 taxonomy:
   category:
-    slug: Премьеры
-    name: premiere
+    title: Премьеры
+    slug: premiere

@@ -7,5 +7,5 @@ jos_id: '288'
 jos_alias: gastroli-erevan
 taxonomy:
   category:
-    slug: Фотоотчёты
-    name: photoalbum
+    title: Фотоотчёты
+    slug: photoalbum

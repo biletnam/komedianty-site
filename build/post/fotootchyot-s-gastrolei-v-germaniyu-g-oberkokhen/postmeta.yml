@@ -7,5 +7,5 @@ jos_id: '240'
 jos_alias: foto-iz-germanii-mymy
 taxonomy:
   category:
-    slug: Фотоотчёты
-    name: photoalbum
+    title: Фотоотчёты
+    slug: photoalbum

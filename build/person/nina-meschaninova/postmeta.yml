@@ -76,5 +76,5 @@ grade: 'Заслуженная артистка России'
 kinoteatr: 'http://www.kino-teatr.ru/teatr/acter/w/ros/34775/bio/'
 taxonomy:
   carier:
-    slug: Актер
-    name: actor
+    title: Актер
+    slug: actor

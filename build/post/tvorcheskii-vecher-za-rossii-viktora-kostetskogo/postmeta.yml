@@ -6,5 +6,5 @@ jos_id: '150'
 jos_alias: kostetski
 taxonomy:
   category:
-    slug: Анонсы
-    name: announcements
+    title: Анонсы
+    slug: announcements

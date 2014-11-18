@@ -7,5 +7,5 @@ jos_id: '280'
 jos_alias: plani
 taxonomy:
   category:
-    slug: Новости
-    name: news
+    title: Новости
+    slug: news

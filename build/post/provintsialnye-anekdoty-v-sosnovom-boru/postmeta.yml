@@ -6,5 +6,5 @@ jos_id: '235'
 jos_alias: video
 taxonomy:
   category:
-    slug: Гастроли
-    name: tour
+    title: Гастроли
+    slug: tour

@@ -7,5 +7,5 @@ jos_id: '291'
 jos_alias: ehaladerevniaparis
 taxonomy:
   category:
-    slug: Гастроли
-    name: tour
+    title: Гастроли
+    slug: tour

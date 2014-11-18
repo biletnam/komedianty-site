@@ -6,5 +6,5 @@ jos_id: '148'
 jos_alias: oslo
 taxonomy:
   category:
-    slug: Гастроли
-    name: tour
+    title: Гастроли
+    slug: tour

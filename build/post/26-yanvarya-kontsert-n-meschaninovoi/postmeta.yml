@@ -7,5 +7,5 @@ jos_id: '304'
 jos_alias: koncertnmeshaninovakomedianty
 taxonomy:
   category:
-    slug: Анонсы
-    name: announcements
+    title: Анонсы
+    slug: announcements

@@ -6,5 +6,5 @@ jos_id: '183'
 jos_alias: prostrannosti-love
 taxonomy:
   category:
-    slug: Анонсы
-    name: announcements
+    title: Анонсы
+    slug: announcements

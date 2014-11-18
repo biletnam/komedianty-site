@@ -7,5 +7,5 @@ jos_id: '309'
 jos_alias: premiera-zemlyki-shukshin-pikalovo
 taxonomy:
   category:
-    slug: Премьеры
-    name: premiere
+    title: Премьеры
+    slug: premiere

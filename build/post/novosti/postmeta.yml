@@ -7,5 +7,5 @@ jos_id: '12'
 jos_alias: komnews
 taxonomy:
   category:
-    slug: Новости
-    name: news
+    title: Новости
+    slug: news

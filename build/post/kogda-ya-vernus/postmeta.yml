@@ -7,5 +7,5 @@ jos_id: '308'
 jos_alias: kogda-ya-vernus
 taxonomy:
   category:
-    slug: Анонсы
-    name: announcements
+    title: Анонсы
+    slug: announcements

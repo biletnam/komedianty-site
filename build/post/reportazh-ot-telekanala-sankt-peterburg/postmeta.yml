@@ -7,5 +7,5 @@ jos_id: '279'
 jos_alias: reportajspbtv
 taxonomy:
   category:
-    slug: Новости
-    name: news
+    title: Новости
+    slug: news

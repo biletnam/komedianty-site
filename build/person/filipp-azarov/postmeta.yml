@@ -32,5 +32,5 @@ kinoteatr: 'http://www.kino-teatr.ru/teatr/acter/m/ros/16218/bio/'
 ruskino: 'http://ruskino.ru/art/5424'
 taxonomy:
   carier:
-    slug: Актер
-    name: actor
+    title: Актер
+    slug: actor

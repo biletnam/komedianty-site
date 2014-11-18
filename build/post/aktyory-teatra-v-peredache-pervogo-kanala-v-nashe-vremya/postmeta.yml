@@ -7,5 +7,5 @@ jos_id: '303'
 jos_alias: v-nashe-vremy-aktors-komed
 taxonomy:
   category:
-    slug: Новости
-    name: news
+    title: Новости
+    slug: news

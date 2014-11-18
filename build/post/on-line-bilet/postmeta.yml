@@ -6,5 +6,5 @@ jos_id: '173'
 jos_alias: on-line-
 taxonomy:
   category:
-    slug: Новости
-    name: news
+    title: Новости
+    slug: news

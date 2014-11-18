@@ -7,5 +7,5 @@ jos_id: '296'
 jos_alias: antverpriza
 taxonomy:
   category:
-    slug: Анонсы
-    name: announcements
+    title: Анонсы
+    slug: announcements

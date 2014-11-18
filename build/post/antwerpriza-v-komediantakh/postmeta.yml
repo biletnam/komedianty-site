@@ -7,5 +7,5 @@ jos_id: '297'
 jos_alias: antwerpriza--
 taxonomy:
   category:
-    slug: Новости
-    name: news
+    title: Новости
+    slug: news

@@ -6,5 +6,5 @@ jos_id: '98'
 jos_alias: '-qq-'
 taxonomy:
   category:
-    slug: Новости
-    name: news
+    title: Новости
+    slug: news

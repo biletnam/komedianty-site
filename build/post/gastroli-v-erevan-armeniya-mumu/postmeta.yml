@@ -6,5 +6,5 @@ jos_id: '287'
 jos_alias: gastroli-erevan
 taxonomy:
   category:
-    slug: Гастроли
-    name: tour
+    title: Гастроли
+    slug: tour

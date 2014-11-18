@@ -7,5 +7,5 @@ jos_id: '252'
 jos_alias: pressa-premera-pomanalnaya1
 taxonomy:
   category:
-    slug: Премьеры
-    name: premiere
+    title: Премьеры
+    slug: premiere

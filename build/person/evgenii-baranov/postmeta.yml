@@ -12,5 +12,5 @@ gender: male
 grade: 'Заслуженный артист России'
 taxonomy:
   carier:
-    slug: Актер
-    name: actor
+    title: Актер
+    slug: actor

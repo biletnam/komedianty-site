@@ -6,5 +6,5 @@ jos_id: '276'
 jos_alias: 2013-05-07-19-57-46
 taxonomy:
   category:
-    slug: Гастроли
-    name: tour
+    title: Гастроли
+    slug: tour

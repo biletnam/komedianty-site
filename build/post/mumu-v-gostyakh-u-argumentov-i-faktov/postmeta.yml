@@ -7,5 +7,5 @@ jos_id: '174'
 jos_alias: aif-mymy
 taxonomy:
   category:
-    slug: Новости
-    name: news
+    title: Новости
+    slug: news

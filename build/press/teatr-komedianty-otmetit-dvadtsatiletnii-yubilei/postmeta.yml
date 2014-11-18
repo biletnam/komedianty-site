@@ -10,5 +10,5 @@ source: 'Газета «Вести»'
 source_date: 22.12.2009
 taxonomy:
   category:
-    slug: 'Без рубрики'
-    name: no-category
+    title: 'Без рубрики'
+    slug: no-category

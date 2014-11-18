@@ -6,5 +6,5 @@ jos_id: '274'
 jos_alias: sto-k-odnomy
 taxonomy:
   category:
-    slug: Новости
-    name: news
+    title: Новости
+    slug: news

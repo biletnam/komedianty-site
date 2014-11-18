@@ -6,5 +6,5 @@ jos_id: '275'
 jos_alias: trigorin100komedianti
 taxonomy:
   category:
-    slug: Новости
-    name: news
+    title: Новости
+    slug: news

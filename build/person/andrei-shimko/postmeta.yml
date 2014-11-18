@@ -25,5 +25,5 @@ gender: male
 kinoteatr: 'http://www.kino-teatr.ru/kino/acter/m/ros/5826/bio/'
 taxonomy:
   carier:
-    slug: Актер
-    name: actor
+    title: Актер
+    slug: actor

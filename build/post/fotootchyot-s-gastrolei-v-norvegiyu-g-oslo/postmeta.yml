@@ -6,5 +6,5 @@ jos_id: '152'
 jos_alias: oslo-viezd
 taxonomy:
   category:
-    slug: Фотоотчёты
-    name: photoalbum
+    title: Фотоотчёты
+    slug: photoalbum

@@ -35,5 +35,5 @@ gender: male
 kinoteatr: 'http://www.kino-teatr.ru/kino/acter/m/ros/5825/bio/'
 taxonomy:
   carier:
-    slug: Драматург
-    name: playwright
+    title: Драматург
+    slug: playwright

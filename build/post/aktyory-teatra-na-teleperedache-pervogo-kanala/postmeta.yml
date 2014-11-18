@@ -7,5 +7,5 @@ jos_id: '293'
 jos_alias: perviiaktri
 taxonomy:
   category:
-    slug: Новости
-    name: news
+    title: Новости
+    slug: news

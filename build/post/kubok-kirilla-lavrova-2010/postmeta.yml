@@ -6,5 +6,5 @@ jos_id: '93'
 jos_alias: 2011-06-23-09-09-12
 taxonomy:
   category:
-    slug: Новости
-    name: news
+    title: Новости
+    slug: news

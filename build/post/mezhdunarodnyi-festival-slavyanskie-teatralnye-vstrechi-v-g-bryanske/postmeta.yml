@@ -7,5 +7,5 @@ jos_id: '92'
 jos_alias: '-l-r-'
 taxonomy:
   category:
-    slug: Фестивали
-    name: festivals
+    title: Фестивали
+    slug: festivals

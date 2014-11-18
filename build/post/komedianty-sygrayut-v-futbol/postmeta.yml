@@ -6,5 +6,5 @@ jos_id: '264'
 jos_alias: futbol
 taxonomy:
   category:
-    slug: Новости
-    name: news
+    title: Новости
+    slug: news

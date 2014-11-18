@@ -7,5 +7,5 @@ jos_id: '289'
 jos_alias: kompromiss-sdovlatov
 taxonomy:
   category:
-    slug: Премьеры
-    name: premiere
+    title: Премьеры
+    slug: premiere

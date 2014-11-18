@@ -6,5 +6,5 @@ jos_id: '286'
 jos_alias: teledom
 taxonomy:
   category:
-    slug: Новости
-    name: news
+    title: Новости
+    slug: news

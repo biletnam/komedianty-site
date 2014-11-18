@@ -7,5 +7,5 @@ jos_id: '299'
 jos_alias: igra-v-djin
 taxonomy:
   category:
-    slug: Анонсы
-    name: announcements
+    title: Анонсы
+    slug: announcements

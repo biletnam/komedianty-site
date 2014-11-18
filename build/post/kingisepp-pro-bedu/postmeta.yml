@@ -6,5 +6,5 @@ jos_id: '101'
 jos_alias: kingisepp-pro-bedy
 taxonomy:
   category:
-    slug: Пресса
-    name: press
+    title: Пресса
+    slug: press

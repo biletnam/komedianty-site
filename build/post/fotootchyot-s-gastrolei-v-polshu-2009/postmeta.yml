@@ -6,5 +6,5 @@ jos_id: '118'
 jos_alias: foto-polsha
 taxonomy:
   category:
-    slug: Фотоотчёты
-    name: photoalbum
+    title: Фотоотчёты
+    slug: photoalbum

@@ -7,5 +7,5 @@ jos_id: '117'
 jos_alias: foto-raznoe
 taxonomy:
   category:
-    slug: Фотоотчёты
-    name: photoalbum
+    title: Фотоотчёты
+    slug: photoalbum

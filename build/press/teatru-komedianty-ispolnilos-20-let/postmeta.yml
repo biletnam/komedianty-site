@@ -11,5 +11,5 @@ source_date: 16.02.2010
 source: 'Департамент информационной политики правительства Ленинградской области'
 taxonomy:
   category:
-    slug: 'Без рубрики'
-    name: no-category
+    title: 'Без рубрики'
+    slug: no-category

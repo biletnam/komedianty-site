@@ -7,5 +7,5 @@ jos_id: '277'
 jos_alias: komedianty
 taxonomy:
   category:
-    slug: Гастроли
-    name: tour
+    title: Гастроли
+    slug: tour
