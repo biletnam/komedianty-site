@@ -1,13 +1,7 @@
 prose:
   rooturl: 'build'
   siteurl: 'http://abnmt.com/komedianty/'
-  media:   'build'
   metadata:
-    # build/event:
-    # build/page:
-    # build/performance:
-    # build/person:
-    # build/post:
     build/press:
     - name: 'date'
       field:
