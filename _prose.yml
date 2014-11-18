@@ -1,0 +1,4 @@
+prose:
+  rooturl: 'build'
+  siteurl: 'http://abnmt.com/komedianty/'
+  media:   'build'
