@@ -3,7 +3,8 @@ prose:
   siteurl: 'http://abnmt.com/komedianty/'
   metadata:
     build/press:
-    - name: 'date'
+    -
+      name: 'date'
       field:
         element: 'text'
         label: 'Дата'
@@ -11,28 +12,36 @@ prose:
         value: CURRENT_DATETIME
         placeholder: 'Введите дату'
         type: 'text'
-    - name: 'source'
+    -
+      name: 'source'
+      field:
         element: 'text'
         label: 'Источник публикации'
         help: 'Источник публикации'
         value: ''
         placeholder: 'Введите источник'
         type: 'text'
-    - name: 'source_author'
+    -
+      name: 'source_author'
+      field:
         element: 'text'
         label: 'Автор публикации'
         help: 'Автор публикации'
         value: ''
         placeholder: 'Введите имя автора'
         type: 'text'
-    - name: 'source_date'
+    -
+      name: 'source_date'
+      field:
         element: 'text'
         label: 'Дата публикации'
         help: 'Дата в формате `YYYY-MM-DD hh:mm:ss`'
         value: CURRENT_DATETIME
         placeholder: 'Введите дату публикации'
         type: 'text'
-    - name: 'source_link'
+    -
+      name: 'source_link'
+      field:
         element: 'text'
         label: 'Ссылка'
         help: 'Ссылка'
