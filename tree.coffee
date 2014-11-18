@@ -84,6 +84,7 @@ _(list).forEach (entry) ->
 			image.gID = ID
 
 			image.guid           = uploads_dir + entryPathName
+			image.post_title     = entryName
 			image.post_name      = entryBasename
 
 			image.post_mime_type = mime.lookup entry
@@ -182,12 +183,12 @@ _(posts).forEach (post, ID) ->
 
 
 
-
+###
 fs.writeJSON 'Posts.json', posts, (err, data) ->
 	console.log err if err
 fs.writeJSON 'Outlinks.json', outlinks, (err, data) ->
 	console.log err if err
-
+###
 
 
 # ADD ID
@@ -200,6 +201,7 @@ _(posts).where("sort").sortBy('sort').forEach (post) ->
 	_(posts).where({"post_parent":post.gID, "post_date":undefined}).sortBy('post_name').forEach (image, igID) ->
 		image.ID = ID
 		image.post_parent = post.ID
+		image.post_title = post.post_title + " (Фото)"
 		ID++
 		postsSort.push image
 	_(posts).where({"post_parent":post.gID}).sortBy('sort').forEach (child, chID) ->
@@ -211,52 +213,44 @@ _(posts).where("sort").sortBy('sort').forEach (post) ->
 # 	if _.isString(post.post_parent)
 # 		post.post_parent = _(postsSort).where({"gID":post.post_parent}).pluck('ID').value().pop()
 
+
+###
 fs.writeJSON 'PostsSort.json', postsSort, (err, data) ->
 	console.log err if err
-
-
+###
 
 
 # TO SQL
 
 post_keys = []
-# o = 0
-# _(postsSort).forEach (post) ->
-# _(postsSort).first(20).forEach (post) ->
-# 	o++
-# 	console.log '\n\n===', o, '==='
-# 	console.log post_keys
-# 	console.log _.keys post
-# 	_.merge post_keys, _.keys(post)
-# 	console.log post_keys
-# 	console.log '===\n\n'
-# console.log post_keys
-# console.log post_keys
 
-_(postsSort).first(20).forEach (post) ->
+_(postsSort).forEach (post) ->
 	post_keys = post_keys.concat _.keys(post)
 
 post_keys = _.uniq post_keys
 post_keys = _.difference post_keys, ['gID', 'sort', 'postmeta']
 
-console.log post_keys
-#  ?????
 
-# post_keys = [
-# 	'ID',
-# 	'post_title',
-# 	'post_name',
-# 	'post_type',
-# 	'guid',
-# 	'post_mime_type',
-# 	'post_status',
-# 	'post_parent',
-# 	'post_date',
-# 	'post_date_gmt',
-# 	'post_modified',
-# 	'post_modified_gmt',
-# 	'post_content'
-# ]
+
+# THUMBNAILS
+
+postsImages = {}
+
+_(postsSort).where({'post_type': 'attachment'}).forEach (image) ->
+	if image.post_parent
+		pid = parseInt(image.post_parent)
+		postsImages[pid] = [] if not postsImages[pid]
+		postsImages[pid].push image.ID
+	else
+		console.log image.post_name
+
+
+_(postsImages).forEach (post, ID) ->
+	thumbnail = _.sample post
+	_(postsSort).where({'ID':parseInt(ID)}).forEach (post) ->
+		post.postmeta['_thumbnail_id'] = thumbnail
+
+
 
 # POSTMETA
 
@@ -274,6 +268,13 @@ _(postsSort).where('postmeta').forEach (post) ->
 		if _.isPlainObject meta.meta_value
 			meta.meta_value = php.serialize meta.meta_value
 		postmetaSort.push meta
+
+
+
+fs.writeJSON 'PostsSort.json', postsSort, (err, data) ->
+	console.log err if err
+
+
 
 
 toSQL = (table, keys, data, step = 50) ->
@@ -314,7 +315,7 @@ toSQL = (table, keys, data, step = 50) ->
 
 
 sql = "TRUNCATE `kt_postmeta`;\nTRUNCATE `kt_posts`;\n" + toSQL('kt_posts', post_keys, postsSort, 75) + toSQL('kt_postmeta', ['post_id', 'meta_key', 'meta_value'], postmetaSort, 75)
-write sql, 'sql.sql', true
+write sql, 'SQL.sql', true
 
 
 
