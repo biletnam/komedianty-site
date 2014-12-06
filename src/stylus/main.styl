@@ -1,0 +1,235 @@
+// @import "kouto-swiss"
+// @import "jeet"
+/*
+ *  FONTS
+ */
+@import "_fonts"
+
+//
+//  VARIABLES
+//
+
+$text_color = white - 10%
+$body_color = black
+$page_color = black
+
+$rem = 16px
+$line = $rem * 1.6
+
+//
+//  LIBS & FRAMEWORKS
+//
+@import "axis"
+
+/*
+ *  NORMALIZE
+ */
+normalize-css()
+
+
+
+/*
+ *  GENERAL
+ */
+
+//
+// BOX-SIZING reset
+//
+// box-sizing-reset()
+
+
+body
+	background-color $body_color
+	color $text_color
+
+	font-size $rem
+	font-family "proba_proregular"
+
+
+
+
+/*
+ *  BASE TYPOGRAPHY
+ */
+
+
+// HEADINGS
+h1
+	h1()
+h2
+	h2()
+h3
+	h3()
+h4
+	h4()
+h5
+	h5()
+h6
+	h6()
+
+// PRE & CODE
+pre
+	pre()
+code
+	code()
+
+// QUOTES
+blockquote
+	blockquote()
+
+// IMG
+img
+	max-width 100%
+
+
+// ANCHORS
+a
+	link #FF2E2E 'underline'
+
+
+/*
+ *  HEAD LOGO
+ */
+#masthead
+	a
+		link white
+	.home-link
+		display block
+		ir("./main_logo.png", 266px 66px)
+
+
+#site-branding
+	float left
+	h1
+		margin 0
+
+/*
+ *  MENU
+ */
+#site-navigation
+	.children
+		display none
+	.page_item_has_children.open
+		.children
+			display block
+
+	height 67px
+
+	.children
+		text-align justify
+
+	ul:after
+		content " "
+		width 100%
+		display inline-block
+
+	// float right
+	// margin-left 266px
+	li
+		display inline-block
+		margin 47px 0 0
+		padding 0
+		&:after
+			content ' '
+
+
+
+#main-menu
+	ul
+		ul
+			display none
+		li.open
+			ul
+				display block
+
+/*
+ *  CONTENT
+ */
+
+#page
+	max-width 960px
+	margin 0 auto
+	padding 2*$line 3*$line
+	padding-top 0
+
+	background-color $page_color
+	// border 1px solid $page_color + 5%
+
+
+/*
+ *  HOMEPAGE
+ */
+// #newsblock * + *
+	// margin 0
+	// margin-top 3*$line
+
+
+
+.hentry * + *
+	margin 0
+	margin-top $line
+
+
+/*
+ *  MAIN MENU
+ */
+#site-navigation
+	.menu-toggle
+		display none
+		@media screen and (max-width: 600px)
+			display block
+	.menu
+		display block
+		@media screen and (max-width: 599px)
+			display none
+
+/*
+ *  SCENARIO
+ */
+
+.scenario
+	.preamble
+		margin 3em
+		margin-left 10em
+		italic()
+
+	.act
+		margin-top 2em
+		margin-left 8em
+	.act + .act
+		margin 1em
+		margin-left 8em
+		margin-bottom 2em
+	.character
+		margin-top 2em
+		margin-bottom 0.5em
+		uppercase()
+		bold()
+		letter-spacing 0.075em
+		&::after
+			content ": "
+	.tone
+		display inline-block
+		margin 0
+		italic()
+		&::before
+			content " ("
+		&::after
+			content ") "
+	p
+		margin 0.5em 0
+
+.poem2
+	margin-top 2em
+	margin-bottom 2em
+	p
+		white-space pre-wrap
+		margin 0
+		margin-left 12em
+		margin-bottom 1em
+	cite
+		fs(0.8em)
+		// text-align right
+		p
+			margin 0
+			margin-left 15em
