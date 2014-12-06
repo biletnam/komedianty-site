@@ -1,40 +1,57 @@
 extends ./_layout.jade
 
+block prepend scripts
+	script(src="/js/vendor/jquery.textfill.min.js")
 
 block title
 	title Сайт театра «Комедианты» | Главная
 
 block content
-	- var dw = locals.where({"post_name": "directors-word"}).value().pop()
-	- var news = locals.where({"post_type": "post"}).last(6).value()
+	- var dw = data.where({"post_name": "directors-word"}).value().pop()
+	- var news = data.where({"post_type": "post"}).last(6).value()
+	- var events = data.where({"post_type": "event"}).first(2).value()
+	- var monthsA = ["Нулября","Января","Февраля","Марта","Апреля","Мая","Июня","Июля","Августа","Сентября","Октября","Ноября","Декабря"]
 
-	#primary.content-area
-		main#main.site-main(role='main')
-			#playbill
-				h3 Афиша
-			// #playbill
-			#newsblock
-				h3 Новости
-				each post, index in news
-					article.news
-						header.entry-header
-							h3.entry-title
-								a(href='#')!= post.post_title
-						.content!= post.post_content
-						footer.entry-footer
-							a.newslink(href='#', title='Читать далее') Читать далее…
-			// #newsblock
-			#directors-word
-				h3!= dw.post_title
-				.content!= dw.post_content
-			#test
-				h3 Test
-				ul
-					each val, index in locals.where({"post_type": "press"}).value()
-						li= index + ': ' + val.post_title
-		// #main
-	// #primary
 
-	script.
-		console.log('Hi!');
-		console.log(directorsWord);
+	#playbill
+		each event in events
+			- var image = data.where({"post_parent": event.ID, "post_type": 'attachment'}).value().pop();
+			- var parent = data.where({"post_title": event.post_title, "post_type": 'performance'}).value().pop()
+			- moment().locale('ru', {months : ["Января", "Февраля", "Марта", "Апреля", "Мая", "Июня", "Июля", "Августа", "Сентября", "Октября", "Ноября", "Декабря"]})
+			- if(parent)
+				- var author = parent.postmeta.author
+			.event(style="background:url('#{image.postmeta['_wp_attached_file']}') right bottom no-repeat; background-size: contain;", id="#{event.post_name}")
+				.title-block
+					p.author!= author
+					p.title!= event.post_title
+				.date-block
+					p.day
+						span!= moment(event.postmeta.event_date).format('DD')
+					p.month
+						span!= monthsA[moment(event.postmeta.event_date).format('MM')]
+					p.weekday
+						span!= moment(event.postmeta.event_date).locale('ru').format('dddd')
+					a(href="#").button-buy Купить билет
+		.calendar
+			a(href="#")
+				i.fa.fa-chevron-left
+			a(href="#")
+				i.fa.fa-chevron-right
+
+
+
+	// #playbill
+	#newsblock
+		h3 Новости
+		each post, index in news
+			article.news
+				header.entry-header
+					h3.entry-title
+						a(href='#')!= post.post_title
+				.content!= post.post_content
+				footer.entry-footer
+					a.newslink(href='#', title='Читать далее') Читать далее…
+	// #newsblock
+	#directors-word
+		h3!= dw.post_title
+		.content!= dw.post_content

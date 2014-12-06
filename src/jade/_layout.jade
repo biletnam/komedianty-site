@@ -7,8 +7,9 @@ html.no-js
 			title NoTitle page
 		meta(name='description', content='')
 		meta(name='viewport', content='width=device-width, initial-scale=1')
+		link(rel='stylesheet', href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css")
 		link(rel='stylesheet', href='css/main.css')
-		//-script(src='js/vendor/modernizr-2.7.1.min.js')
+		//-script(src='/js/vendor/modernizr-2.7.1.min.js')
 	body
 		<!--[if lt IE 8]>
 		p.browsehappy
@@ -23,7 +24,21 @@ html.no-js
 			header#masthead.site-header(role='banner')
 				.site-branding
 					h1.site-title
-						a.home-link(href='get_site_url()', rel='home', title='На главную')
+						a.home-link(href='/', rel='home', title='На главную') Государственный драматический театр «Комедианты»
+
+				.descriptor
+					div
+						p ЛО ГУК «Драматический театр «Комедианты»
+						p СПб, Лиговский пр., д. 44
+						p Касса: (812) 764−81−14
+						p с 12:00 до 19:00
+						p.social-top
+							i.fa.fa-vk
+							i.fa.fa-facebook
+							i.fa.fa-youtube
+							i.fa.fa-twitter
+							i.fa.fa-vimeo-square
+							i.fa.fa-rss
 
 				nav#site-navigation.main-navigation.clear(role='navigation')
 					ul.nav-menu
@@ -39,6 +54,10 @@ html.no-js
 							a(href="troupe.html") Труппа
 						li.page_item
 							a(href="contact.html") Контакты
+						li.page_item.search
+							i.fa.fa-search
+							form(action="search.php", method="get")
+								input(class="text" name="search" type="text" value="" placeholder="Поиск")
 
 			// #masthead
 
@@ -75,7 +94,9 @@ html.no-js
 							p Widget content
 			footer#footer
 				p © Copyrights
-
-		script(src='//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js')
-		script window.jQuery || document.write('<script src="js/vendor/jquery-1.11.0.min.js"><\/script>')
-		script(src='js/main.js')
+			script(src='//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js')
+			script window.jQuery || document.write('<script src="/js/vendor/jquery-1.11.0.min.js"><\/script>')
+		block scripts
+			script(src='/js/vendor/classie.js')
+			script(src='/js/vendor/cbpAnimatedHeader.js')
+			script(src='/js/main.js')

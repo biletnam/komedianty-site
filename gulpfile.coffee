@@ -27,12 +27,6 @@ write = (data, out_file, rw = false) ->
 				console.error 'ERROR during Write the file ' + out_file + ' ' + err if err
 
 
-# readJSON
-
-Posts = fs.readJsonSync './PostsSort.json'
-
-# console.log _(Posts).pluck('post_title').value()
-
 
 # GulpFile
 gulp       = require 'gulp'
@@ -82,6 +76,8 @@ paths =
 		source: './src/assets/**/*.*'
 		watch: './src/assets/**/*.*'
 		destination: './public/'
+	data:
+		watch: 'PostsSort.json'
 	# public:
 	# 	watch: './public/**/*.*'
 
@@ -112,12 +108,18 @@ gulp.task 'scripts', ->
 
 # JADE
 gulp.task 'templates', ->
+	# readJSON
+	Posts = fs.readJsonSync './PostsSort.json'
 	templates = gulp
 		.src paths.templates.source
 		# .pipe jade pretty: not production
 		.pipe jade
 			pretty: true
-			locals: _(Posts)
+			locals: {
+				'data':_(Posts)
+				'_': require 'lodash'
+				'moment': require 'moment'
+			}
 		.on 'error', handleError
 
 	templates = templates.pipe gulp.dest paths.templates.destination
@@ -130,7 +132,7 @@ gulp.task 'styles', ->
 		.src paths.styles.source
 		.pipe stylus
 			set: ['include css']
-			use: [axis()]
+			use: [axis(), jeet()]
 			sourcemap:
 				inline: true
 				sourceRoot: '.'
@@ -177,6 +179,7 @@ gulp.task 'watch', ->
 
 	gulp.watch paths.scripts.watch, ['scripts']
 	gulp.watch paths.templates.watch, ['templates']
+	gulp.watch paths.data.watch, ['templates']
 	gulp.watch paths.styles.watch, ['styles']
 	gulp.watch paths.assets.watch, ['assets']
 	# gulp.watch paths.public.watch, ['build']

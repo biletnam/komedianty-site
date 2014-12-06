@@ -200,7 +200,7 @@
     "sort": 1283596496,
     "postmeta": {
       "menu_order": 60,
-      "_thumbnail_id": 11
+      "_thumbnail_id": 10
     },
     "post_status": "publish",
     "menu_order": 60
@@ -1548,7 +1548,7 @@
       "source_author": "Игорь Шнуренко",
       "source_date": "05.03.2011",
       "source_link": "http://www.dp.ru/a/2011/03/04/Krepostnoe_pravo_nafone",
-      "_thumbnail_id": 80
+      "_thumbnail_id": 78
     },
     "post_status": "publish"
   },
@@ -1784,7 +1784,7 @@
       "source": "Электронный Театральный Авторский Журнал Павла Чердынцева",
       "source_date": "09.06.2010",
       "source_link": "http://zhizn-teatr.ru/rubric/performance/7/40",
-      "_thumbnail_id": 91
+      "_thumbnail_id": 90
     },
     "post_status": "publish"
   },
@@ -1869,7 +1869,7 @@
       "source": "«Pro-сцениум» № 1-2 (81-82)",
       "source_date": "01.2010",
       "source_link": "http://www.mtfontanka.spb.ru/pro_stceniym/81_82_1_2/13.htm",
-      "_thumbnail_id": 95
+      "_thumbnail_id": 93
     },
     "post_status": "publish"
   },
@@ -2275,7 +2275,7 @@
       "source_author": "Владимир НЕСТОРОВИЧ",
       "source_date": "13.10.2011",
       "source_link": "http://www.kidsreview.ru/reviews/retsenziya-na-spektakl-uchilka-iz-budushchego-teatra-komedianty-dlya-detei-ot-10-let",
-      "_thumbnail_id": 113
+      "_thumbnail_id": 112
     },
     "post_status": "publish"
   },
@@ -2378,7 +2378,7 @@
       "source": "Ежемесячный журнал для детей «МУРЗИЛКА»",
       "source_date": "26.10.2011",
       "source_link": "murzilka.org/home/news/4265",
-      "_thumbnail_id": 116
+      "_thumbnail_id": 115
     },
     "post_status": "publish"
   },
@@ -2491,7 +2491,7 @@
       "source_author": "Ирина КОРОЛЕВА",
       "source_date": "25.02.10",
       "source_link": "http://www.vesty.spb.ru/modules.php?name=News&amp;file=article&amp;sid=17604",
-      "_thumbnail_id": 121
+      "_thumbnail_id": 120
     },
     "post_status": "publish"
   },
@@ -3200,7 +3200,7 @@
           "slug": "photoalbum"
         }
       },
-      "_thumbnail_id": 151
+      "_thumbnail_id": 142
     },
     "post_status": "publish"
   },
@@ -3647,7 +3647,7 @@
           "slug": "photoalbum"
         }
       },
-      "_thumbnail_id": 181
+      "_thumbnail_id": 172
     },
     "post_status": "publish"
   },
@@ -4364,7 +4364,7 @@
       "source": "Schwäbische Post",
       "source_date": "07.10.2012",
       "source_link": "http://www.schwaebische-post.de/635638?fb_action_ids=476122609094818&amp;fb_action_types=og.recommends&amp;fb_source=aggregation&amp;fb_aggregation_id=288381481237582",
-      "_thumbnail_id": 199
+      "_thumbnail_id": 198
     },
     "post_status": "publish"
   },
@@ -4618,7 +4618,7 @@
           "slug": "photoalbum"
         }
       },
-      "_thumbnail_id": 228
+      "_thumbnail_id": 222
     },
     "post_status": "publish"
   },
@@ -5047,7 +5047,7 @@
           "slug": "photoalbum"
         }
       },
-      "_thumbnail_id": 242
+      "_thumbnail_id": 231
     },
     "post_status": "publish"
   },
@@ -5380,7 +5380,7 @@
           "slug": "photoalbum"
         }
       },
-      "_thumbnail_id": 253
+      "_thumbnail_id": 251
     },
     "post_status": "publish"
   },
@@ -7578,7 +7578,7 @@
       "source_author": "Владимир Несторович",
       "source_date": "13.05.2011",
       "source_link": "http://www.kidsreview.ru/reviews/retsenziya-na-spektakl-ekhala-derevnya-mimo-muzhika-teatra-komedianty-dlya-detei-4-12-let",
-      "_thumbnail_id": 354
+      "_thumbnail_id": 355
     },
     "post_status": "publish"
   },
@@ -7855,7 +7855,7 @@
           "slug": "news"
         }
       },
-      "_thumbnail_id": 366
+      "_thumbnail_id": 365
     },
     "post_status": "publish"
   },
@@ -9469,7 +9469,7 @@
       "source": "Газета «Вести» он-лайн",
       "source_date": "12.02.2013",
       "source_link": "http://www.vesty.spb.ru/apps/novosti/2013/02/12/vodevil-xxi-veka/",
-      "_thumbnail_id": 410
+      "_thumbnail_id": 411
     },
     "post_status": "publish"
   },
@@ -9607,7 +9607,7 @@
       "source_author": "Оксана Солопова",
       "source": "Молодёжный журнал Piter.Students",
       "source_date": "21.02.2013",
-      "_thumbnail_id": 416
+      "_thumbnail_id": 418
     },
     "post_status": "publish"
   },
@@ -9830,7 +9830,7 @@
       "source_date": "7.03.2013",
       "source_author": "М. Смирнова-Несвицкая",
       "source_link": "http://ptj.spb.ru/blog/brodvej-naligovke/",
-      "_thumbnail_id": 426
+      "_thumbnail_id": 427
     },
     "post_status": "publish"
   },
@@ -10706,7 +10706,7 @@
       "source_date": "27.03.2013",
       "source_author": "Елизавета Садкова",
       "source_link": "http://ok-inform.ru/prazdnik-zhizni/1613-o-bolshikh-lyudyakh-nebolshogo-teatra.html",
-      "_thumbnail_id": 472
+      "_thumbnail_id": 474
     },
     "post_status": "publish"
   },
@@ -10886,7 +10886,7 @@
       "source_author": "Татьяна Морозова",
       "source_date": "11.10.2010",
       "source_link": "http://www.mr7.ru/articles/33937/",
-      "_thumbnail_id": 476
+      "_thumbnail_id": 477
     },
     "post_status": "publish"
   },
@@ -10952,7 +10952,7 @@
       "source_author": "Мария Кингисепп",
       "source_date": "14.12.2005",
       "source_link": "http://www.blogslov.ru/date.php/2005/12/09/09_01-22-23.xml",
-      "_thumbnail_id": 480
+      "_thumbnail_id": 479
     },
     "post_status": "publish"
   },
@@ -11149,7 +11149,7 @@
       "source_author": "Мария Максимычева",
       "source_date": "2008",
       "source_link": "http://www.mtfontanka.spb.ru/pro_stceniym/57_58_19_20/06.htm",
-      "_thumbnail_id": 487
+      "_thumbnail_id": 488
     },
     "post_status": "publish"
   },
@@ -12674,7 +12674,7 @@
       "source": "телеканал «Россия», RUTV.ru",
       "source_author": "Майорова Дарья",
       "source_date": "2010",
-      "_thumbnail_id": 564
+      "_thumbnail_id": 563
     },
     "post_status": "publish"
   },
@@ -17565,7 +17565,7 @@
           "slug": "photoalbum"
         }
       },
-      "_thumbnail_id": 799
+      "_thumbnail_id": 793
     },
     "post_status": "publish"
   },
@@ -22569,7 +22569,7 @@
           "slug": "photoalbum"
         }
       },
-      "_thumbnail_id": 1002
+      "_thumbnail_id": 1010
     },
     "post_status": "publish"
   },
@@ -23496,7 +23496,7 @@
           "slug": "announcements"
         }
       },
-      "_thumbnail_id": 1047
+      "_thumbnail_id": 1048
     },
     "post_status": "publish"
   },
@@ -23622,7 +23622,7 @@
       "duration": "1:50",
       "premiere_date": "2014-12-17 19:00:00",
       "rate": "12+",
-      "_thumbnail_id": 1054
+      "_thumbnail_id": 1056
     },
     "post_status": "publish"
   },
@@ -30613,7 +30613,7 @@
       "source": "Газета «ВЕСТИ»",
       "source_author": "Лейла Галактионова",
       "source_date": "9.12.2011",
-      "_thumbnail_id": 1401
+      "_thumbnail_id": 1400
     },
     "post_status": "publish"
   },
@@ -37075,7 +37075,7 @@
       "source_date": "18.01.2014",
       "source_author": "Михаил Прошутинский aka Parachute",
       "source_link": "http://sub-cult.ru/index.php/foto/teatr/1876-18-01-2014-krepostnaya-lubov-spb-dramaticheskiy-teatr-komedianty.html",
-      "_thumbnail_id": 1721
+      "_thumbnail_id": 1718
     },
     "post_status": "publish"
   },
@@ -37238,7 +37238,7 @@
           "slug": "premiere"
         }
       },
-      "_thumbnail_id": 1723
+      "_thumbnail_id": 1724
     },
     "post_status": "publish"
   },
@@ -42564,258 +42564,120 @@
   },
   {
     "ID": 1994,
-    "post_title": "Беда от нежного сердца",
-    "post_name": "beda-ot-nezhnogo-serdtsa",
+    "post_title": "Крепостная любовь",
+    "post_name": "2014-12-04-19-krepostnaya-lyubov",
     "post_type": "event",
     "post_content": "",
-    "gID": "event/beda-ot-nezhnogo-serdtsa",
-    "guid": "http://abnmt.com/komedianty/event/beda-ot-nezhnogo-serdtsa",
+    "gID": "event/2014-12-04-19-krepostnaya-lyubov",
+    "guid": "http://abnmt.com/komedianty/event/2014-12-04-19-krepostnaya-lyubov",
     "post_date": "2014-08-06 12:00:14",
     "post_date_gmt": "2014-08-06 08:00:14",
     "post_modified": "2014-08-06 12:00:14",
     "post_modified_gmt": "2014-08-06 08:00:14",
     "sort": 1407312014,
     "postmeta": {
-      "old_names": [
-        "2014-9-28-18"
-      ],
-      "event_date": "2014-09-28 18:00:00"
+      "event_date": "2014-12-04 19:00:00",
+      "_thumbnail_id": 1995
     },
     "post_status": "publish"
   },
   {
     "ID": 1995,
-    "post_title": "Дачницы",
-    "post_name": "dachnitsy",
-    "post_type": "event",
-    "post_content": "",
-    "gID": "event/dachnitsy",
-    "guid": "http://abnmt.com/komedianty/event/dachnitsy",
-    "post_date": "2014-08-06 12:00:14",
-    "post_date_gmt": "2014-08-06 08:00:14",
-    "post_modified": "2014-08-06 12:00:14",
-    "post_modified_gmt": "2014-08-06 08:00:14",
-    "sort": 1407312014,
+    "gID": "event/2014-12-04-19-krepostnaya-lyubov",
+    "guid": "http://abnmt.com/komedianty/wp-content/uploads/event/2014-12-04-19-krepostnaya-lyubov/playbill.jpg",
+    "post_title": "Крепостная любовь (Фото)",
+    "post_name": "playbill.jpg",
+    "post_mime_type": "image/jpeg",
+    "post_status": "inherit",
+    "post_type": "attachment",
+    "post_parent": 1994,
     "postmeta": {
-      "old_names": [
-        "2014-9-18-19"
-      ],
-      "event_date": "2014-09-18 19:00:00"
-    },
-    "post_status": "publish"
+      "_wp_attached_file": "event/2014-12-04-19-krepostnaya-lyubov/playbill.jpg",
+      "_wp_attachment_metadata": {
+        "width": 1440,
+        "height": 920,
+        "file": "event/2014-12-04-19-krepostnaya-lyubov/playbill.jpg"
+      }
+    }
   },
   {
     "ID": 1996,
-    "post_title": "Дурочка",
-    "post_name": "durochka",
+    "post_title": "Поминальная молитва",
+    "post_name": "2014-12-11-19-pominalnaya-molitva",
     "post_type": "event",
     "post_content": "",
-    "gID": "event/durochka",
-    "guid": "http://abnmt.com/komedianty/event/durochka",
+    "gID": "event/2014-12-11-19-pominalnaya-molitva",
+    "guid": "http://abnmt.com/komedianty/event/2014-12-11-19-pominalnaya-molitva",
     "post_date": "2014-08-06 12:00:14",
     "post_date_gmt": "2014-08-06 08:00:14",
     "post_modified": "2014-08-06 12:00:14",
     "post_modified_gmt": "2014-08-06 08:00:14",
     "sort": 1407312014,
     "postmeta": {
-      "old_names": [
-        "2014-9-25-19"
-      ],
-      "event_date": "2014-09-25 19:00:00"
+      "event_date": "2014-12-11 19:00:00",
+      "_thumbnail_id": 1997
     },
     "post_status": "publish"
   },
   {
     "ID": 1997,
-    "post_title": "Ехала деревня мимо мужика",
-    "post_name": "ekhala-derevnya-mimo-muzhika",
-    "post_type": "event",
-    "post_content": "",
-    "gID": "event/ekhala-derevnya-mimo-muzhika",
-    "guid": "http://abnmt.com/komedianty/event/ekhala-derevnya-mimo-muzhika",
-    "post_date": "2014-08-06 12:00:14",
-    "post_date_gmt": "2014-08-06 08:00:14",
-    "post_modified": "2014-08-06 12:00:14",
-    "post_modified_gmt": "2014-08-06 08:00:14",
-    "sort": 1407312014,
+    "gID": "event/2014-12-11-19-pominalnaya-molitva",
+    "guid": "http://abnmt.com/komedianty/wp-content/uploads/event/2014-12-11-19-pominalnaya-molitva/playbill.jpg",
+    "post_title": "Поминальная молитва (Фото)",
+    "post_name": "playbill.jpg",
+    "post_mime_type": "image/jpeg",
+    "post_status": "inherit",
+    "post_type": "attachment",
+    "post_parent": 1996,
     "postmeta": {
-      "old_names": [
-        "2014-9-28-12"
-      ],
-      "event_date": "2014-09-28 12:00:00"
-    },
-    "post_status": "publish"
+      "_wp_attached_file": "event/2014-12-11-19-pominalnaya-molitva/playbill.jpg",
+      "_wp_attachment_metadata": {
+        "width": 1440,
+        "height": 949,
+        "file": "event/2014-12-11-19-pominalnaya-molitva/playbill.jpg"
+      }
+    }
   },
   {
     "ID": 1998,
     "post_title": "Компромисс",
-    "post_name": "kompromiss",
+    "post_name": "2014-12-28-18-kompromiss",
     "post_type": "event",
     "post_content": "",
-    "gID": "event/kompromiss",
-    "guid": "http://abnmt.com/komedianty/event/kompromiss",
+    "gID": "event/2014-12-28-18-kompromiss",
+    "guid": "http://abnmt.com/komedianty/event/2014-12-28-18-kompromiss",
     "post_date": "2014-08-06 12:00:14",
     "post_date_gmt": "2014-08-06 08:00:14",
     "post_modified": "2014-08-06 12:00:14",
     "post_modified_gmt": "2014-08-06 08:00:14",
     "sort": 1407312014,
     "postmeta": {
-      "old_names": [
-        "2014-9-19-19"
-      ],
-      "event_date": "2014-09-19 19:00:00"
+      "event_date": "2014-12-28 18:00:00",
+      "_thumbnail_id": 1999
     },
     "post_status": "publish"
   },
   {
     "ID": 1999,
-    "post_title": "Не всякий вор — грабитель",
-    "post_name": "ne-vsyakii-vor-grabitel",
-    "post_type": "event",
-    "post_content": "",
-    "gID": "event/ne-vsyakii-vor-grabitel",
-    "guid": "http://abnmt.com/komedianty/event/ne-vsyakii-vor-grabitel",
-    "post_date": "2014-08-06 12:00:14",
-    "post_date_gmt": "2014-08-06 08:00:14",
-    "post_modified": "2014-08-06 12:00:14",
-    "post_modified_gmt": "2014-08-06 08:00:14",
-    "sort": 1407312014,
+    "gID": "event/2014-12-28-18-kompromiss",
+    "guid": "http://abnmt.com/komedianty/wp-content/uploads/event/2014-12-28-18-kompromiss/playbill.jpg",
+    "post_title": "Компромисс (Фото)",
+    "post_name": "playbill.jpg",
+    "post_mime_type": "image/jpeg",
+    "post_status": "inherit",
+    "post_type": "attachment",
+    "post_parent": 1998,
     "postmeta": {
-      "old_names": [
-        "2014-9-24-19"
-      ],
-      "event_date": "2014-09-24 19:00:00"
-    },
-    "post_status": "publish"
+      "_wp_attached_file": "event/2014-12-28-18-kompromiss/playbill.jpg",
+      "_wp_attachment_metadata": {
+        "width": 1440,
+        "height": 959,
+        "file": "event/2014-12-28-18-kompromiss/playbill.jpg"
+      }
+    }
   },
   {
     "ID": 2000,
-    "post_title": "Поминальная молитва",
-    "post_name": "pominalnaya-molitva",
-    "post_type": "event",
-    "post_content": "",
-    "gID": "event/pominalnaya-molitva",
-    "guid": "http://abnmt.com/komedianty/event/pominalnaya-molitva",
-    "post_date": "2014-08-06 12:00:14",
-    "post_date_gmt": "2014-08-06 08:00:14",
-    "post_modified": "2014-08-06 12:00:14",
-    "post_modified_gmt": "2014-08-06 08:00:14",
-    "sort": 1407312014,
-    "postmeta": {
-      "old_names": [
-        "2014-9-27-18"
-      ],
-      "event_date": "2014-09-27 18:00:00"
-    },
-    "post_status": "publish"
-  },
-  {
-    "ID": 2001,
-    "post_title": "Провинциальные анекдоты",
-    "post_name": "provintsialnye-anekdoty",
-    "post_type": "event",
-    "post_content": "",
-    "gID": "event/provintsialnye-anekdoty",
-    "guid": "http://abnmt.com/komedianty/event/provintsialnye-anekdoty",
-    "post_date": "2014-08-06 12:00:14",
-    "post_date_gmt": "2014-08-06 08:00:14",
-    "post_modified": "2014-08-06 12:00:14",
-    "post_modified_gmt": "2014-08-06 08:00:14",
-    "sort": 1407312014,
-    "postmeta": {
-      "old_names": [
-        "2014-9-26-19"
-      ],
-      "event_date": "2014-09-26 19:00:00"
-    },
-    "post_status": "publish"
-  },
-  {
-    "ID": 2002,
-    "post_title": "Страсти по-итальянски",
-    "post_name": "strasti-po-italyanski",
-    "post_type": "event",
-    "post_content": "",
-    "gID": "event/strasti-po-italyanski",
-    "guid": "http://abnmt.com/komedianty/event/strasti-po-italyanski",
-    "post_date": "2014-08-06 12:00:14",
-    "post_date_gmt": "2014-08-06 08:00:14",
-    "post_modified": "2014-08-06 12:00:14",
-    "post_modified_gmt": "2014-08-06 08:00:14",
-    "sort": 1407312014,
-    "postmeta": {
-      "old_names": [
-        "2014-9-20-18"
-      ],
-      "event_date": "2014-09-20 18:00:00"
-    },
-    "post_status": "publish"
-  },
-  {
-    "ID": 2003,
-    "post_title": "Училка из будущего",
-    "post_name": "uchilka-iz-buduschego",
-    "post_type": "event",
-    "post_content": "",
-    "gID": "event/uchilka-iz-buduschego",
-    "guid": "http://abnmt.com/komedianty/event/uchilka-iz-buduschego",
-    "post_date": "2014-08-06 12:00:14",
-    "post_date_gmt": "2014-08-06 08:00:14",
-    "post_modified": "2014-08-06 12:00:14",
-    "post_modified_gmt": "2014-08-06 08:00:14",
-    "sort": 1407312014,
-    "postmeta": {
-      "old_names": [
-        "2014-9-21-12"
-      ],
-      "event_date": "2014-09-21 12:00:00"
-    },
-    "post_status": "publish"
-  },
-  {
-    "ID": 2004,
-    "post_title": "В Париж!",
-    "post_name": "v-parizh",
-    "post_type": "event",
-    "post_content": "",
-    "gID": "event/v-parizh",
-    "guid": "http://abnmt.com/komedianty/event/v-parizh",
-    "post_date": "2014-08-06 12:00:14",
-    "post_date_gmt": "2014-08-06 08:00:14",
-    "post_modified": "2014-08-06 12:00:14",
-    "post_modified_gmt": "2014-08-06 08:00:14",
-    "sort": 1407312014,
-    "postmeta": {
-      "old_names": [
-        "2014-9-21-18"
-      ],
-      "event_date": "2014-09-21 18:00:00"
-    },
-    "post_status": "publish"
-  },
-  {
-    "ID": 2005,
-    "post_title": "Земляки",
-    "post_name": "zemlyaki",
-    "post_type": "event",
-    "post_content": "",
-    "gID": "event/zemlyaki",
-    "guid": "http://abnmt.com/komedianty/event/zemlyaki",
-    "post_date": "2014-08-06 12:00:14",
-    "post_date_gmt": "2014-08-06 08:00:14",
-    "post_modified": "2014-08-06 12:00:14",
-    "post_modified_gmt": "2014-08-06 08:00:14",
-    "sort": 1407312014,
-    "postmeta": {
-      "old_names": [
-        "2014-9-12-19"
-      ],
-      "event_date": "2014-09-12 19:00:00"
-    },
-    "post_status": "publish"
-  },
-  {
-    "ID": 2006,
     "post_title": "Архив прессы",
     "post_name": "press-archive",
     "post_type": "page",
@@ -42835,7 +42697,7 @@
     "menu_order": 80
   },
   {
-    "ID": 2007,
+    "ID": 2001,
     "post_title": "Афиша",
     "post_name": "playbill",
     "post_type": "page",
@@ -42854,7 +42716,7 @@
     "menu_order": 10
   },
   {
-    "ID": 2008,
+    "ID": 2002,
     "post_title": "Репертуар",
     "post_name": "repertoire",
     "post_type": "page",
@@ -42873,7 +42735,7 @@
     "menu_order": 20
   },
   {
-    "ID": 2009,
+    "ID": 2003,
     "post_title": "Александр Гончарук",
     "post_name": "aleksandr-goncharuk",
     "post_type": "person",
@@ -42912,12 +42774,12 @@
           "slug": "actor"
         }
       },
-      "_thumbnail_id": 2010
+      "_thumbnail_id": 2004
     },
     "post_status": "publish"
   },
   {
-    "ID": 2010,
+    "ID": 2004,
     "gID": "person/aleksandr-goncharuk",
     "guid": "http://abnmt.com/komedianty/wp-content/uploads/person/aleksandr-goncharuk/portrait.jpg",
     "post_title": "Александр Гончарук (Фото)",
@@ -42925,7 +42787,7 @@
     "post_mime_type": "image/jpeg",
     "post_status": "inherit",
     "post_type": "attachment",
-    "post_parent": 2009,
+    "post_parent": 2003,
     "postmeta": {
       "_wp_attached_file": "person/aleksandr-goncharuk/portrait.jpg",
       "_wp_attachment_metadata": {
@@ -42936,7 +42798,7 @@
     }
   },
   {
-    "ID": 2011,
+    "ID": 2005,
     "gID": "person/aleksandr-goncharuk",
     "guid": "http://abnmt.com/komedianty/wp-content/uploads/person/aleksandr-goncharuk/troupe.jpg",
     "post_title": "Александр Гончарук (Фото)",
@@ -42944,7 +42806,7 @@
     "post_mime_type": "image/jpeg",
     "post_status": "inherit",
     "post_type": "attachment",
-    "post_parent": 2009,
+    "post_parent": 2003,
     "postmeta": {
       "_wp_attached_file": "person/aleksandr-goncharuk/troupe.jpg",
       "_wp_attachment_metadata": {
@@ -42955,7 +42817,7 @@
     }
   },
   {
-    "ID": 2012,
+    "ID": 2006,
     "post_title": "Андрей Шимко",
     "post_name": "andrei-shimko",
     "post_type": "person",
@@ -43004,12 +42866,12 @@
           "slug": "actor"
         }
       },
-      "_thumbnail_id": 2014
+      "_thumbnail_id": 2008
     },
     "post_status": "publish"
   },
   {
-    "ID": 2013,
+    "ID": 2007,
     "gID": "person/andrei-shimko",
     "guid": "http://abnmt.com/komedianty/wp-content/uploads/person/andrei-shimko/andrei-shimko.jpg",
     "post_title": "Андрей Шимко (Фото)",
@@ -43017,7 +42879,7 @@
     "post_mime_type": "image/jpeg",
     "post_status": "inherit",
     "post_type": "attachment",
-    "post_parent": 2012,
+    "post_parent": 2006,
     "postmeta": {
       "_wp_attached_file": "person/andrei-shimko/andrei-shimko.jpg",
       "_wp_attachment_metadata": {
@@ -43028,7 +42890,7 @@
     }
   },
   {
-    "ID": 2014,
+    "ID": 2008,
     "gID": "person/andrei-shimko",
     "guid": "http://abnmt.com/komedianty/wp-content/uploads/person/andrei-shimko/portrait.jpg",
     "post_title": "Андрей Шимко (Фото)",
@@ -43036,7 +42898,7 @@
     "post_mime_type": "image/jpeg",
     "post_status": "inherit",
     "post_type": "attachment",
-    "post_parent": 2012,
+    "post_parent": 2006,
     "postmeta": {
       "_wp_attached_file": "person/andrei-shimko/portrait.jpg",
       "_wp_attachment_metadata": {
@@ -43047,7 +42909,7 @@
     }
   },
   {
-    "ID": 2015,
+    "ID": 2009,
     "gID": "person/andrei-shimko",
     "guid": "http://abnmt.com/komedianty/wp-content/uploads/person/andrei-shimko/troupe.jpg",
     "post_title": "Андрей Шимко (Фото)",
@@ -43055,7 +42917,7 @@
     "post_mime_type": "image/jpeg",
     "post_status": "inherit",
     "post_type": "attachment",
-    "post_parent": 2012,
+    "post_parent": 2006,
     "postmeta": {
       "_wp_attached_file": "person/andrei-shimko/troupe.jpg",
       "_wp_attachment_metadata": {
@@ -43066,7 +42928,7 @@
     }
   },
   {
-    "ID": 2016,
+    "ID": 2010,
     "post_title": "Андрей Вергелис",
     "post_name": "andrei-vergelis",
     "post_type": "person",
@@ -43105,12 +42967,12 @@
           "slug": "actor"
         }
       },
-      "_thumbnail_id": 2017
+      "_thumbnail_id": 2011
     },
     "post_status": "publish"
   },
   {
-    "ID": 2017,
+    "ID": 2011,
     "gID": "person/andrei-vergelis",
     "guid": "http://abnmt.com/komedianty/wp-content/uploads/person/andrei-vergelis/portrait.jpg",
     "post_title": "Андрей Вергелис (Фото)",
@@ -43118,7 +42980,7 @@
     "post_mime_type": "image/jpeg",
     "post_status": "inherit",
     "post_type": "attachment",
-    "post_parent": 2016,
+    "post_parent": 2010,
     "postmeta": {
       "_wp_attached_file": "person/andrei-vergelis/portrait.jpg",
       "_wp_attachment_metadata": {
@@ -43129,7 +42991,7 @@
     }
   },
   {
-    "ID": 2018,
+    "ID": 2012,
     "gID": "person/andrei-vergelis",
     "guid": "http://abnmt.com/komedianty/wp-content/uploads/person/andrei-vergelis/troupe.jpg",
     "post_title": "Андрей Вергелис (Фото)",
@@ -43137,7 +42999,7 @@
     "post_mime_type": "image/jpeg",
     "post_status": "inherit",
     "post_type": "attachment",
-    "post_parent": 2016,
+    "post_parent": 2010,
     "postmeta": {
       "_wp_attached_file": "person/andrei-vergelis/troupe.jpg",
       "_wp_attachment_metadata": {
@@ -43148,7 +43010,7 @@
     }
   },
   {
-    "ID": 2019,
+    "ID": 2013,
     "post_title": "Евгений Баранов",
     "post_name": "evgenii-baranov",
     "post_type": "person",
@@ -43181,12 +43043,12 @@
           "slug": "actor"
         }
       },
-      "_thumbnail_id": 2021
+      "_thumbnail_id": 2015
     },
     "post_status": "publish"
   },
   {
-    "ID": 2020,
+    "ID": 2014,
     "gID": "person/evgenii-baranov",
     "guid": "http://abnmt.com/komedianty/wp-content/uploads/person/evgenii-baranov/evgenii-baranov.jpg",
     "post_title": "Евгений Баранов (Фото)",
@@ -43194,7 +43056,7 @@
     "post_mime_type": "image/jpeg",
     "post_status": "inherit",
     "post_type": "attachment",
-    "post_parent": 2019,
+    "post_parent": 2013,
     "postmeta": {
       "_wp_attached_file": "person/evgenii-baranov/evgenii-baranov.jpg",
       "_wp_attachment_metadata": {
@@ -43205,7 +43067,7 @@
     }
   },
   {
-    "ID": 2021,
+    "ID": 2015,
     "gID": "person/evgenii-baranov",
     "guid": "http://abnmt.com/komedianty/wp-content/uploads/person/evgenii-baranov/portrait.jpg",
     "post_title": "Евгений Баранов (Фото)",
@@ -43213,7 +43075,7 @@
     "post_mime_type": "image/jpeg",
     "post_status": "inherit",
     "post_type": "attachment",
-    "post_parent": 2019,
+    "post_parent": 2013,
     "postmeta": {
       "_wp_attached_file": "person/evgenii-baranov/portrait.jpg",
       "_wp_attachment_metadata": {
@@ -43224,7 +43086,7 @@
     }
   },
   {
-    "ID": 2022,
+    "ID": 2016,
     "gID": "person/evgenii-baranov",
     "guid": "http://abnmt.com/komedianty/wp-content/uploads/person/evgenii-baranov/troupe.jpg",
     "post_title": "Евгений Баранов (Фото)",
@@ -43232,7 +43094,7 @@
     "post_mime_type": "image/jpeg",
     "post_status": "inherit",
     "post_type": "attachment",
-    "post_parent": 2019,
+    "post_parent": 2013,
     "postmeta": {
       "_wp_attached_file": "person/evgenii-baranov/troupe.jpg",
       "_wp_attachment_metadata": {
@@ -43243,7 +43105,7 @@
     }
   },
   {
-    "ID": 2023,
+    "ID": 2017,
     "post_title": "Лина Сорокина",
     "post_name": "lina-sorokina",
     "post_type": "person",
@@ -43266,12 +43128,12 @@
           "slug": "actor"
         }
       },
-      "_thumbnail_id": 2024
+      "_thumbnail_id": 2018
     },
     "post_status": "publish"
   },
   {
-    "ID": 2024,
+    "ID": 2018,
     "gID": "person/lina-sorokina",
     "guid": "http://abnmt.com/komedianty/wp-content/uploads/person/lina-sorokina/portrait.jpg",
     "post_title": "Лина Сорокина (Фото)",
@@ -43279,7 +43141,7 @@
     "post_mime_type": "image/jpeg",
     "post_status": "inherit",
     "post_type": "attachment",
-    "post_parent": 2023,
+    "post_parent": 2017,
     "postmeta": {
       "_wp_attached_file": "person/lina-sorokina/portrait.jpg",
       "_wp_attachment_metadata": {
@@ -43290,7 +43152,7 @@
     }
   },
   {
-    "ID": 2025,
+    "ID": 2019,
     "gID": "person/lina-sorokina",
     "guid": "http://abnmt.com/komedianty/wp-content/uploads/person/lina-sorokina/troupe.jpg",
     "post_title": "Лина Сорокина (Фото)",
@@ -43298,7 +43160,7 @@
     "post_mime_type": "image/jpeg",
     "post_status": "inherit",
     "post_type": "attachment",
-    "post_parent": 2023,
+    "post_parent": 2017,
     "postmeta": {
       "_wp_attached_file": "person/lina-sorokina/troupe.jpg",
       "_wp_attachment_metadata": {
@@ -43309,7 +43171,7 @@
     }
   },
   {
-    "ID": 2026,
+    "ID": 2020,
     "post_title": "Наталья Боярёнок",
     "post_name": "natalya-boyaryonok",
     "post_type": "person",
@@ -43355,12 +43217,12 @@
           "slug": "actor"
         }
       },
-      "_thumbnail_id": 2028
+      "_thumbnail_id": 2022
     },
     "post_status": "publish"
   },
   {
-    "ID": 2027,
+    "ID": 2021,
     "gID": "person/natalya-boyaryonok",
     "guid": "http://abnmt.com/komedianty/wp-content/uploads/person/natalya-boyaryonok/natalya-boyaryonok.jpg",
     "post_title": "Наталья Боярёнок (Фото)",
@@ -43368,7 +43230,7 @@
     "post_mime_type": "image/jpeg",
     "post_status": "inherit",
     "post_type": "attachment",
-    "post_parent": 2026,
+    "post_parent": 2020,
     "postmeta": {
       "_wp_attached_file": "person/natalya-boyaryonok/natalya-boyaryonok.jpg",
       "_wp_attachment_metadata": {
@@ -43379,7 +43241,7 @@
     }
   },
   {
-    "ID": 2028,
+    "ID": 2022,
     "gID": "person/natalya-boyaryonok",
     "guid": "http://abnmt.com/komedianty/wp-content/uploads/person/natalya-boyaryonok/portrait.jpg",
     "post_title": "Наталья Боярёнок (Фото)",
@@ -43387,7 +43249,7 @@
     "post_mime_type": "image/jpeg",
     "post_status": "inherit",
     "post_type": "attachment",
-    "post_parent": 2026,
+    "post_parent": 2020,
     "postmeta": {
       "_wp_attached_file": "person/natalya-boyaryonok/portrait.jpg",
       "_wp_attachment_metadata": {
@@ -43398,7 +43260,7 @@
     }
   },
   {
-    "ID": 2029,
+    "ID": 2023,
     "gID": "person/natalya-boyaryonok",
     "guid": "http://abnmt.com/komedianty/wp-content/uploads/person/natalya-boyaryonok/troupe.jpg",
     "post_title": "Наталья Боярёнок (Фото)",
@@ -43406,7 +43268,7 @@
     "post_mime_type": "image/jpeg",
     "post_status": "inherit",
     "post_type": "attachment",
-    "post_parent": 2026,
+    "post_parent": 2020,
     "postmeta": {
       "_wp_attached_file": "person/natalya-boyaryonok/troupe.jpg",
       "_wp_attachment_metadata": {
@@ -43417,7 +43279,7 @@
     }
   },
   {
-    "ID": 2030,
+    "ID": 2024,
     "post_title": "Сергей Суржин",
     "post_name": "sergei-surzhin",
     "post_type": "person",
@@ -43473,12 +43335,12 @@
           "slug": "actor"
         }
       },
-      "_thumbnail_id": 2031
+      "_thumbnail_id": 2025
     },
     "post_status": "publish"
   },
   {
-    "ID": 2031,
+    "ID": 2025,
     "gID": "person/sergei-surzhin",
     "guid": "http://abnmt.com/komedianty/wp-content/uploads/person/sergei-surzhin/portrait.jpg",
     "post_title": "Сергей Суржин (Фото)",
@@ -43486,7 +43348,7 @@
     "post_mime_type": "image/jpeg",
     "post_status": "inherit",
     "post_type": "attachment",
-    "post_parent": 2030,
+    "post_parent": 2024,
     "postmeta": {
       "_wp_attached_file": "person/sergei-surzhin/portrait.jpg",
       "_wp_attachment_metadata": {
@@ -43497,7 +43359,7 @@
     }
   },
   {
-    "ID": 2032,
+    "ID": 2026,
     "gID": "person/sergei-surzhin",
     "guid": "http://abnmt.com/komedianty/wp-content/uploads/person/sergei-surzhin/sergei-surzhin.jpg",
     "post_title": "Сергей Суржин (Фото)",
@@ -43505,7 +43367,7 @@
     "post_mime_type": "image/jpeg",
     "post_status": "inherit",
     "post_type": "attachment",
-    "post_parent": 2030,
+    "post_parent": 2024,
     "postmeta": {
       "_wp_attached_file": "person/sergei-surzhin/sergei-surzhin.jpg",
       "_wp_attachment_metadata": {
@@ -43516,7 +43378,7 @@
     }
   },
   {
-    "ID": 2033,
+    "ID": 2027,
     "gID": "person/sergei-surzhin",
     "guid": "http://abnmt.com/komedianty/wp-content/uploads/person/sergei-surzhin/troupe.jpg",
     "post_title": "Сергей Суржин (Фото)",
@@ -43524,7 +43386,7 @@
     "post_mime_type": "image/jpeg",
     "post_status": "inherit",
     "post_type": "attachment",
-    "post_parent": 2030,
+    "post_parent": 2024,
     "postmeta": {
       "_wp_attached_file": "person/sergei-surzhin/troupe.jpg",
       "_wp_attachment_metadata": {
@@ -43535,7 +43397,7 @@
     }
   },
   {
-    "ID": 2034,
+    "ID": 2028,
     "post_title": "Симона Строганова",
     "post_name": "simona-stroganova",
     "post_type": "person",
@@ -43571,7 +43433,7 @@
     "post_status": "publish"
   },
   {
-    "ID": 2035,
+    "ID": 2029,
     "post_title": "Станислав Осколков",
     "post_name": "stanislav-oskolkov",
     "post_type": "person",
@@ -43613,12 +43475,12 @@
           "slug": "actor"
         }
       },
-      "_thumbnail_id": 2036
+      "_thumbnail_id": 2030
     },
     "post_status": "publish"
   },
   {
-    "ID": 2036,
+    "ID": 2030,
     "gID": "person/stanislav-oskolkov",
     "guid": "http://abnmt.com/komedianty/wp-content/uploads/person/stanislav-oskolkov/portrait.jpg",
     "post_title": "Станислав Осколков (Фото)",
@@ -43626,7 +43488,7 @@
     "post_mime_type": "image/jpeg",
     "post_status": "inherit",
     "post_type": "attachment",
-    "post_parent": 2035,
+    "post_parent": 2029,
     "postmeta": {
       "_wp_attached_file": "person/stanislav-oskolkov/portrait.jpg",
       "_wp_attachment_metadata": {
@@ -43637,7 +43499,7 @@
     }
   },
   {
-    "ID": 2037,
+    "ID": 2031,
     "gID": "person/stanislav-oskolkov",
     "guid": "http://abnmt.com/komedianty/wp-content/uploads/person/stanislav-oskolkov/stanislav-oskolkov.jpg",
     "post_title": "Станислав Осколков (Фото)",
@@ -43645,7 +43507,7 @@
     "post_mime_type": "image/jpeg",
     "post_status": "inherit",
     "post_type": "attachment",
-    "post_parent": 2035,
+    "post_parent": 2029,
     "postmeta": {
       "_wp_attached_file": "person/stanislav-oskolkov/stanislav-oskolkov.jpg",
       "_wp_attachment_metadata": {
@@ -43656,7 +43518,7 @@
     }
   },
   {
-    "ID": 2038,
+    "ID": 2032,
     "gID": "person/stanislav-oskolkov",
     "guid": "http://abnmt.com/komedianty/wp-content/uploads/person/stanislav-oskolkov/troupe.jpg",
     "post_title": "Станислав Осколков (Фото)",
@@ -43664,7 +43526,7 @@
     "post_mime_type": "image/jpeg",
     "post_status": "inherit",
     "post_type": "attachment",
-    "post_parent": 2035,
+    "post_parent": 2029,
     "postmeta": {
       "_wp_attached_file": "person/stanislav-oskolkov/troupe.jpg",
       "_wp_attachment_metadata": {
@@ -43675,7 +43537,7 @@
     }
   },
   {
-    "ID": 2039,
+    "ID": 2033,
     "post_title": "Виталий Такс",
     "post_name": "vitalii-taks",
     "post_type": "person",
@@ -43707,12 +43569,12 @@
           "slug": "actor"
         }
       },
-      "_thumbnail_id": 2040
+      "_thumbnail_id": 2034
     },
     "post_status": "publish"
   },
   {
-    "ID": 2040,
+    "ID": 2034,
     "gID": "person/vitalii-taks",
     "guid": "http://abnmt.com/komedianty/wp-content/uploads/person/vitalii-taks/portrait.jpg",
     "post_title": "Виталий Такс (Фото)",
@@ -43720,7 +43582,7 @@
     "post_mime_type": "image/jpeg",
     "post_status": "inherit",
     "post_type": "attachment",
-    "post_parent": 2039,
+    "post_parent": 2033,
     "postmeta": {
       "_wp_attached_file": "person/vitalii-taks/portrait.jpg",
       "_wp_attachment_metadata": {
@@ -43731,7 +43593,7 @@
     }
   },
   {
-    "ID": 2041,
+    "ID": 2035,
     "gID": "person/vitalii-taks",
     "guid": "http://abnmt.com/komedianty/wp-content/uploads/person/vitalii-taks/troupe.jpg",
     "post_title": "Виталий Такс (Фото)",
@@ -43739,7 +43601,7 @@
     "post_mime_type": "image/jpeg",
     "post_status": "inherit",
     "post_type": "attachment",
-    "post_parent": 2039,
+    "post_parent": 2033,
     "postmeta": {
       "_wp_attached_file": "person/vitalii-taks/troupe.jpg",
       "_wp_attachment_metadata": {
@@ -43750,7 +43612,7 @@
     }
   },
   {
-    "ID": 2042,
+    "ID": 2036,
     "gID": "person/vitalii-taks",
     "guid": "http://abnmt.com/komedianty/wp-content/uploads/person/vitalii-taks/vitalii-taks.jpg",
     "post_title": "Виталий Такс (Фото)",
@@ -43758,7 +43620,7 @@
     "post_mime_type": "image/jpeg",
     "post_status": "inherit",
     "post_type": "attachment",
-    "post_parent": 2039,
+    "post_parent": 2033,
     "postmeta": {
       "_wp_attached_file": "person/vitalii-taks/vitalii-taks.jpg",
       "_wp_attachment_metadata": {
@@ -43769,7 +43631,7 @@
     }
   },
   {
-    "ID": 2043,
+    "ID": 2037,
     "post_title": "Юлия Копылова",
     "post_name": "yuliya-kopylova",
     "post_type": "person",
@@ -43805,7 +43667,7 @@
     "post_status": "publish"
   },
   {
-    "ID": 2044,
+    "ID": 2038,
     "post_title": "Юрий Агейкин",
     "post_name": "yurii-ageikin",
     "post_type": "person",
@@ -43844,12 +43706,12 @@
           "slug": "actor"
         }
       },
-      "_thumbnail_id": 2045
+      "_thumbnail_id": 2039
     },
     "post_status": "publish"
   },
   {
-    "ID": 2045,
+    "ID": 2039,
     "gID": "person/yurii-ageikin",
     "guid": "http://abnmt.com/komedianty/wp-content/uploads/person/yurii-ageikin/portrait.jpg",
     "post_title": "Юрий Агейкин (Фото)",
@@ -43857,7 +43719,7 @@
     "post_mime_type": "image/jpeg",
     "post_status": "inherit",
     "post_type": "attachment",
-    "post_parent": 2044,
+    "post_parent": 2038,
     "postmeta": {
       "_wp_attached_file": "person/yurii-ageikin/portrait.jpg",
       "_wp_attachment_metadata": {
@@ -43868,7 +43730,7 @@
     }
   },
   {
-    "ID": 2046,
+    "ID": 2040,
     "gID": "person/yurii-ageikin",
     "guid": "http://abnmt.com/komedianty/wp-content/uploads/person/yurii-ageikin/troupe.jpg",
     "post_title": "Юрий Агейкин (Фото)",
@@ -43876,7 +43738,7 @@
     "post_mime_type": "image/jpeg",
     "post_status": "inherit",
     "post_type": "attachment",
-    "post_parent": 2044,
+    "post_parent": 2038,
     "postmeta": {
       "_wp_attached_file": "person/yurii-ageikin/troupe.jpg",
       "_wp_attachment_metadata": {
@@ -43887,7 +43749,7 @@
     }
   },
   {
-    "ID": 2047,
+    "ID": 2041,
     "gID": "person/yurii-ageikin",
     "guid": "http://abnmt.com/komedianty/wp-content/uploads/person/yurii-ageikin/yurii-ageikin.jpg",
     "post_title": "Юрий Агейкин (Фото)",
@@ -43895,7 +43757,7 @@
     "post_mime_type": "image/jpeg",
     "post_status": "inherit",
     "post_type": "attachment",
-    "post_parent": 2044,
+    "post_parent": 2038,
     "postmeta": {
       "_wp_attached_file": "person/yurii-ageikin/yurii-ageikin.jpg",
       "_wp_attachment_metadata": {
@@ -43906,7 +43768,7 @@
     }
   },
   {
-    "ID": 2048,
+    "ID": 2042,
     "post_title": "Antwerpriza в Комедиантах",
     "post_name": "antwerpriza-v-komediantakh",
     "post_type": "post",
@@ -43935,7 +43797,7 @@
     "post_status": "publish"
   },
   {
-    "ID": 2049,
+    "ID": 2043,
     "post_title": "Марлен, рожденная для любви",
     "post_name": "marlen-rozhdennaya-dlya-lyubvi",
     "post_type": "performance",
@@ -44023,12 +43885,12 @@
           ]
         }
       ],
-      "_thumbnail_id": 2056
+      "_thumbnail_id": 2050
     },
     "post_status": "publish"
   },
   {
-    "ID": 2050,
+    "ID": 2044,
     "gID": "performance/marlen-rozhdennaya-dlya-lyubvi",
     "guid": "http://abnmt.com/komedianty/wp-content/uploads/performance/marlen-rozhdennaya-dlya-lyubvi/marlen-1.jpg",
     "post_title": "Марлен, рожденная для любви (Фото)",
@@ -44036,7 +43898,7 @@
     "post_mime_type": "image/jpeg",
     "post_status": "inherit",
     "post_type": "attachment",
-    "post_parent": 2049,
+    "post_parent": 2043,
     "postmeta": {
       "_wp_attached_file": "performance/marlen-rozhdennaya-dlya-lyubvi/marlen-1.jpg",
       "_wp_attachment_metadata": {
@@ -44047,7 +43909,7 @@
     }
   },
   {
-    "ID": 2051,
+    "ID": 2045,
     "gID": "performance/marlen-rozhdennaya-dlya-lyubvi",
     "guid": "http://abnmt.com/komedianty/wp-content/uploads/performance/marlen-rozhdennaya-dlya-lyubvi/marlen-2.jpg",
     "post_title": "Марлен, рожденная для любви (Фото)",
@@ -44055,7 +43917,7 @@
     "post_mime_type": "image/jpeg",
     "post_status": "inherit",
     "post_type": "attachment",
-    "post_parent": 2049,
+    "post_parent": 2043,
     "postmeta": {
       "_wp_attached_file": "performance/marlen-rozhdennaya-dlya-lyubvi/marlen-2.jpg",
       "_wp_attachment_metadata": {
@@ -44066,7 +43928,7 @@
     }
   },
   {
-    "ID": 2052,
+    "ID": 2046,
     "gID": "performance/marlen-rozhdennaya-dlya-lyubvi",
     "guid": "http://abnmt.com/komedianty/wp-content/uploads/performance/marlen-rozhdennaya-dlya-lyubvi/marlen-3.jpg",
     "post_title": "Марлен, рожденная для любви (Фото)",
@@ -44074,7 +43936,7 @@
     "post_mime_type": "image/jpeg",
     "post_status": "inherit",
     "post_type": "attachment",
-    "post_parent": 2049,
+    "post_parent": 2043,
     "postmeta": {
       "_wp_attached_file": "performance/marlen-rozhdennaya-dlya-lyubvi/marlen-3.jpg",
       "_wp_attachment_metadata": {
@@ -44085,7 +43947,7 @@
     }
   },
   {
-    "ID": 2053,
+    "ID": 2047,
     "gID": "performance/marlen-rozhdennaya-dlya-lyubvi",
     "guid": "http://abnmt.com/komedianty/wp-content/uploads/performance/marlen-rozhdennaya-dlya-lyubvi/marlen-4.jpg",
     "post_title": "Марлен, рожденная для любви (Фото)",
@@ -44093,7 +43955,7 @@
     "post_mime_type": "image/jpeg",
     "post_status": "inherit",
     "post_type": "attachment",
-    "post_parent": 2049,
+    "post_parent": 2043,
     "postmeta": {
       "_wp_attached_file": "performance/marlen-rozhdennaya-dlya-lyubvi/marlen-4.jpg",
       "_wp_attachment_metadata": {
@@ -44104,7 +43966,7 @@
     }
   },
   {
-    "ID": 2054,
+    "ID": 2048,
     "gID": "performance/marlen-rozhdennaya-dlya-lyubvi",
     "guid": "http://abnmt.com/komedianty/wp-content/uploads/performance/marlen-rozhdennaya-dlya-lyubvi/marlen-5.jpg",
     "post_title": "Марлен, рожденная для любви (Фото)",
@@ -44112,7 +43974,7 @@
     "post_mime_type": "image/jpeg",
     "post_status": "inherit",
     "post_type": "attachment",
-    "post_parent": 2049,
+    "post_parent": 2043,
     "postmeta": {
       "_wp_attached_file": "performance/marlen-rozhdennaya-dlya-lyubvi/marlen-5.jpg",
       "_wp_attachment_metadata": {
@@ -44123,7 +43985,7 @@
     }
   },
   {
-    "ID": 2055,
+    "ID": 2049,
     "gID": "performance/marlen-rozhdennaya-dlya-lyubvi",
     "guid": "http://abnmt.com/komedianty/wp-content/uploads/performance/marlen-rozhdennaya-dlya-lyubvi/poster-2.jpg",
     "post_title": "Марлен, рожденная для любви (Фото)",
@@ -44131,7 +43993,7 @@
     "post_mime_type": "image/jpeg",
     "post_status": "inherit",
     "post_type": "attachment",
-    "post_parent": 2049,
+    "post_parent": 2043,
     "postmeta": {
       "_wp_attached_file": "performance/marlen-rozhdennaya-dlya-lyubvi/poster-2.jpg",
       "_wp_attachment_metadata": {
@@ -44142,7 +44004,7 @@
     }
   },
   {
-    "ID": 2056,
+    "ID": 2050,
     "gID": "performance/marlen-rozhdennaya-dlya-lyubvi",
     "guid": "http://abnmt.com/komedianty/wp-content/uploads/performance/marlen-rozhdennaya-dlya-lyubvi/poster.jpg",
     "post_title": "Марлен, рожденная для любви (Фото)",
@@ -44150,7 +44012,7 @@
     "post_mime_type": "image/jpeg",
     "post_status": "inherit",
     "post_type": "attachment",
-    "post_parent": 2049,
+    "post_parent": 2043,
     "postmeta": {
       "_wp_attached_file": "performance/marlen-rozhdennaya-dlya-lyubvi/poster.jpg",
       "_wp_attachment_metadata": {
