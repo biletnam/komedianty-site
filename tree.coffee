@@ -17,7 +17,7 @@ YAML       = require 'yamljs'
 base = './build'
 
 
-uploads_dir = 'http://abnmt.com/komedianty/wp-content/uploads/'
+uploads_dir = 'http://abnmt.com/komedianty/'
 url     = 'http://abnmt.com/komedianty/'
 
 # uploads_dir = 'http://komedianty.com/content/uploads/'
