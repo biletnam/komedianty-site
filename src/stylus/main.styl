@@ -115,9 +115,34 @@ img
 
 
 
+header()
+	color $main_color
+	font-weight bold
+	font-family 'Georgia' serif
 
+	fs: 1.75rem
 
+	text-transform uppercase
+	letter-spacing 0.15em
 
+	a
+		color $main_color
+		text-decoration none
+		border none
+
+		link $main_color 'underline'
+
+		// border-bottom 2px
+		// transition all 0.5s
+
+		// &:hover
+		// 	border-bottom solid 2px
+		// 	transition all 0.5s
+
+article-header-large()
+	header()
+	color $text_color
+	fs: 1.625rem
 
 
 
@@ -136,9 +161,10 @@ img
 	background: linear-gradient(to bottom, rgba(0,0,0,1) 0%, rgba(0,0,0,0) 100%);
 	transition all 3s
 	ease-in-quad()
+	padding-bottom $line
 
 #masthead.shrink
-	background: linear-gradient(to bottom, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 55%, rgba(1,0,0,0.15) 90%, rgba(1,0,0,0) 100%);
+	background: linear-gradient(to bottom, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 80%, rgba(1,0,0,0.05) 97%, rgba(1,0,0,0) 100%);
 	transition all 5s
 	ease-in-quad()
 
@@ -150,9 +176,10 @@ img
 	span(1/7, offset: 1/7)
 
 	// width 236px
-	height 164px
+	height 2*$mod
 
-	background: url("./../images/logo-large.png") no-repeat;
+	background: url("./../images/logo-large.png") no-repeat
+	background-size: cover
 
 	hover-pop: 1.02
 
@@ -347,6 +374,19 @@ img
 	height 12*$mod
 	position relative
 	margin-bottom $mod
+
+
+	.section-header
+		header()
+		position absolute
+		bottom .5*$line
+		height $mod
+		left (100%/7)
+		z-index 10
+
+		line-height 1em
+		margin 0
+
 	.event
 		display none // for JS
 		// &:first-child
@@ -486,12 +526,54 @@ img
  ********************************************************************************************************************************************/
 
 #newsblock
-	background-color #03050B
+	background-color #070B18
+	cf()
+
+	a
+		link $main_color 'underline'
 
 #newsblock .container
 	// display none
+	padding-top $mod
+
+	.articles
+		span(16/21, offset: 1/7)
+		// span(5/7, offset: 1/7)
+
+	.section-header
+		header()
+		position relative
+		// bottom .5*$line
+		height $mod
+		left (100%/7)
+		z-index 10
+
+		line-height 1em
+		margin 0
+
+	.entry-image
+		box-sizing: border-box
+		span(1/2)
+		img
+			width auto
+			height 100%
+	.entry-content
+		span(1/2)
+		box-sizing: border-box
+		padding $line 2*$line
+		overflow hidden
+
+	article
+		height 4*$mod
+		overflow hidden
+		padding 5px
+
+		&:first-child
+			background-color #020042
 
 
+	.readmore
+		link $main_color 'underline'
 
 
 
@@ -508,5 +590,25 @@ img
 	background: linear-gradient(to right, #580202 0%, #1e0c09 100%);
 
 #directors-word .container
-	// display none
+	height 12*$mod
+
+	article
+		// box-sizing: padding-box
+		span(4/14, offset: 1/7)
+		padding $pad1
+
+		fs: 0.875rem
+
+		em
+			color $main_color
+			font-family 'Georgia' serif
+
+		p + p
+			margin-bottom $line
+
+
+	.article-header
+		article-header-large()
+
+
 

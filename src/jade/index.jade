@@ -8,13 +8,19 @@ block title
 
 block content
 	- var dw = data.where({"post_name": "directors-word"}).value().pop()
-	- var news = data.where({"post_type": "post"}).last(6).value()
+	- var dwbg = data.where({"post_type":"attachment", "post_parent":dw.ID, "post_name":"background.png"}).value().pop()
+	- if (dwbg)
+		//- - var dwbg = dwbg.postmeta['_wp_attached_file']
+		- var dwbg = 'background:url(' + dwbg.postmeta['_wp_attached_file'] + ') right bottom no-repeat; background-size: cover;'
+	- var news = data.where({"post_type": "post"}).last(6).value().reverse()
 	- var events = data.where({"post_type": "event"}).first(24).value()
 	- var monthsA = ["Нулября","Января","Февраля","Марта","Апреля","Мая","Июня","Июля","Августа","Сентября","Октября","Ноября","Декабря"]
 
 
 	#playbill
 		.container
+			h3.section-header
+				a(href="playbill.html") Афиша
 
 			each event in events
 				- var parent = data.where({"post_title": event.post_title, "post_type": 'performance'}).value().pop()
@@ -60,25 +66,35 @@ block content
 	#newsblock
 		.container
 
-			h3 Новости
-			each post, index in news
-				article.news
-					header.entry-header
-						h3.entry-title
-							a(href='#')!= post.post_title
-					.content!= post.post_content
-					footer.entry-footer
-						a.newslink(href='#', title='Читать далее') Читать далее…
+			h3.section-header Новости
+
+			.articles
+				each post, index in news
+					article.news
+						- var newsimage = data.where({"post_parent": post.ID, "post_type": 'attachment', "post_name":'featured.jpg'}).value().pop()
+						- if (newsimage)
+							.entry-image
+								img(src="#{newsimage.postmeta['_wp_attached_file']}")
+						.entry-content
+							header.entry-header
+								h3.entry-title
+									a(href='#')!= post.post_title
+							.content!= post.post_content.replace(/<img(.+?)>/g, '')
+							footer.entry-footer
+								a.readmore(href='#', title='Читать далее') Читать далее…
 
 		//.container
 	// #newsblock
 
 
 	#directors-word
-		.container
+		.container(style="#{dwbg}")
 
-			h3!= dw.post_title
-			.content!= dw.post_content
+			article.post
+				header.entry-header
+					h3.article-header!= dw.post_title
+				.entry-content!= dw.post_content
+				footer.entry-footer
 
 		//.container
 	// #directors-word
