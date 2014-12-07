@@ -304,6 +304,9 @@ img
 	position relative
 	margin-bottom $mod
 	.event
+		display none // for JS
+		&:first-child
+			display block
 
 		position absolute
 		// position relative
@@ -311,6 +314,9 @@ img
 		right 0
 		width 100%
 		height 100%
+
+	.event.active
+		display block // for JS
 
 	.title-block
 		position absolute
@@ -358,23 +364,25 @@ img
 		letter-spacing 0.1em
 
 		.day
-			fs: 12.5rem
+			fs: 10rem
 			line-height 1em
+			// margin-top ($pad1/2)
 		.month
-			// fs: 2rem
+			fs: 2rem
 			font-weight bold
 		.weekday
-			// fs: 1.8rem
-		.day, .month, .weekday
-			// line-height 1.2em
+			fs: 1.5rem
+		.date
+			line-height 1.2em
 			margin 0
 			padding 0
-
+			display block
 		text-align center
 
 		.button-buy
 			margin-top $line
 			button()
+			// margin-bottom ($pad1/2)
 
 	.calendar
 		height 45px
@@ -383,18 +391,33 @@ img
 		bottom 0
 		width 100%
 		color $text_color
-		fs: 1.5rem
+		fs: 1.3rem
 		text-align center
 		a
 			// vertically-align()
 			display inline-block
 			color $text_color
 			background $main_color
+			border none
+			text-decoration none
+			width 23px
+			text-align center
 			&:hover
 				border none
-			hover-pop()
-			padding 0 0.5em
+				text-decoration none
+			hover-pop: 1.5
+			padding 0 0.2em
+			margin 0 0.5em
 			line-height 44px
+
+			.weekday
+				fs: 1.1rem
+				text-transform uppercase
+				line-height 38px
+				display block
+				position absolute
+				background $body_color
+				top 100%
 
 
 

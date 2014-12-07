@@ -1,7 +1,7 @@
 extends ./_layout.jade
 
 block prepend scripts
-	script(src="/js/vendor/jquery.textfill.min.js")
+	script(src="/js/vendor/jquery.fittext.js")
 
 block title
 	title Сайт театра «Комедианты» | Главная
@@ -9,7 +9,7 @@ block title
 block content
 	- var dw = data.where({"post_name": "directors-word"}).value().pop()
 	- var news = data.where({"post_type": "post"}).last(6).value()
-	- var events = data.where({"post_type": "event"}).first(2).value()
+	- var events = data.where({"post_type": "event"}).value()
 	- var monthsA = ["Нулября","Января","Февраля","Марта","Апреля","Мая","Июня","Июля","Августа","Сентября","Октября","Ноября","Декабря"]
 
 
@@ -25,16 +25,17 @@ block content
 					p.author!= author
 					p.title!= event.post_title
 				.date-block
-					p.day
-						span!= moment(event.postmeta.event_date).format('DD')
-					p.month
-						span!= monthsA[moment(event.postmeta.event_date).format('MM')]
-					p.weekday
-						span!= moment(event.postmeta.event_date).locale('ru').format('dddd')
+					p.date.day!= moment(event.postmeta.event_date).format('DD')
+					p.date.month!= monthsA[moment(event.postmeta.event_date).format('MM')]
+					p.date.weekday!= moment(event.postmeta.event_date).locale('ru').format('dddd')
 					a(href="#").button-buy Купить билет
 		.calendar
 			a(href="#")
 				i.fa.fa-chevron-left
+			each item in events
+				a(href="##{item.post_name}")
+					.day= moment(item.postmeta.event_date).format('DD')
+					.weekday= moment(item.postmeta.event_date).locale('ru').format('dd')
 			a(href="#")
 				i.fa.fa-chevron-right
 
