@@ -9,62 +9,76 @@ block title
 block content
 	- var dw = data.where({"post_name": "directors-word"}).value().pop()
 	- var news = data.where({"post_type": "post"}).last(6).value()
-	- var events = data.where({"post_type": "event"}).first(25).value()
+	- var events = data.where({"post_type": "event"}).first(24).value()
 	- var monthsA = ["Нулября","Января","Февраля","Марта","Апреля","Мая","Июня","Июля","Августа","Сентября","Октября","Ноября","Декабря"]
 
 
 	#playbill
-		each event in events
-			- var parent = data.where({"post_title": event.post_title, "post_type": 'performance'}).value().pop()
-			- if (parent)
-				- var image = data.where({"post_parent": parent.ID, "post_type": 'attachment', "post_name":'playbill.jpg'}).value().pop()
-			- if (image && image.postmeta && image.postmeta['_wp_attached_file'])
-				- var image = 'background:url(' + image.postmeta['_wp_attached_file'] + ') right bottom no-repeat; background-size: contain;'
-			- else
-				- var image = 'background-color: black'
-			- if(parent)
-				- var author = parent.postmeta.author
-			- if (moment().format('YYYY-MM-DD') == moment(event.postmeta.event_date).format('YYYY-MM-DD'))
-				- var active = 'active'
-			- else
-				- var active = ''
-			.event(style="#{image}", id="#{event.post_name}", class=active)
-				.title-block
-					p.author!= author
-					p.title!= event.post_title
-				.date-block
-					p.date.day!= moment(event.postmeta.event_date).format('DD')
-					p.date.month!= monthsA[moment(event.postmeta.event_date).format('MM')]
-					p.date.weekday!= moment(event.postmeta.event_date).locale('ru').format('dddd')
-					a(href="#").button-buy Купить билет
-		.calendar
-			a(href="#")
-				i.fa.fa-chevron-left
-			each item in events
-				- if (moment().format('YYYY-MM-DD') == moment(item.postmeta.event_date).format('YYYY-MM-DD'))
+		.container
+
+			each event in events
+				- var parent = data.where({"post_title": event.post_title, "post_type": 'performance'}).value().pop()
+				- if (parent)
+					- var image = data.where({"post_parent": parent.ID, "post_type": 'attachment', "post_name":'playbill.jpg'}).value().pop()
+				- if (image && image.postmeta && image.postmeta['_wp_attached_file'])
+					- var image = 'background:url(' + image.postmeta['_wp_attached_file'] + ') right bottom no-repeat; background-size: contain;'
+				- else
+					- var image = 'background-color: black'
+				- if(parent)
+					- var author = parent.postmeta.author
+				- if (moment().format('YYYY-MM-DD') == moment(event.postmeta.event_date).format('YYYY-MM-DD'))
 					- var active = 'active'
 				- else
 					- var active = ''
-				a(href="##{item.post_name}", class=active)
-					.day= moment(item.postmeta.event_date).format('DD')
-					.weekday= moment(item.postmeta.event_date).locale('ru').format('dd')
-			a(href="#")
-				i.fa.fa-chevron-right
+				.event(style="#{image}", id="#{event.post_name}", class=active)
+					.title-block
+						p.author!= author
+						p.title!= event.post_title
+					.date-block
+						p.date.day!= moment(event.postmeta.event_date).format('DD')
+						p.date.month!= monthsA[moment(event.postmeta.event_date).format('MM')]
+						p.date.weekday!= moment(event.postmeta.event_date).locale('ru').format('dddd')
+						a(href="#").button-buy Купить билет
+			.calendar
+				a(href="#")
+					i.fa.fa-chevron-left
+				each item in events
+					- if (moment().format('YYYY-MM-DD') == moment(item.postmeta.event_date).format('YYYY-MM-DD'))
+						- var active = 'active'
+					- else
+						- var active = ''
+					a(href="##{item.post_name}", class=active)
+						.day= moment(item.postmeta.event_date).format('DD')
+						.weekday= moment(item.postmeta.event_date).locale('ru').format('dd')
+				a(href="#")
+					i.fa.fa-chevron-right
 
-
-
+		// .container
 	// #playbill
+
+
 	#newsblock
-		h3 Новости
-		each post, index in news
-			article.news
-				header.entry-header
-					h3.entry-title
-						a(href='#')!= post.post_title
-				.content!= post.post_content
-				footer.entry-footer
-					a.newslink(href='#', title='Читать далее') Читать далее…
+		.container
+
+			h3 Новости
+			each post, index in news
+				article.news
+					header.entry-header
+						h3.entry-title
+							a(href='#')!= post.post_title
+					.content!= post.post_content
+					footer.entry-footer
+						a.newslink(href='#', title='Читать далее') Читать далее…
+
+		//.container
 	// #newsblock
+
+
 	#directors-word
-		h3!= dw.post_title
-		.content!= dw.post_content
+		.container
+
+			h3!= dw.post_title
+			.content!= dw.post_content
+
+		//.container
+	// #directors-word

@@ -22,42 +22,43 @@ html.no-js
 		#page.hfeed.site
 
 			header#masthead.site-header(role='banner')
-				.site-branding
-					h1.site-title
-						a.home-link(href='/', rel='home', title='На главную') Государственный драматический театр «Комедианты»
+				.container
+					.site-branding
+						h1.site-title
+							a.home-link(href='/', rel='home', title='На главную') Государственный драматический театр «Комедианты»
 
-				.descriptor
-					div
-						p ЛО ГУК «Драматический театр «Комедианты»
-						p СПб, Лиговский пр., д. 44
-						p Касса: (812) 764−81−14
-						p с 12:00 до 19:00
-						p.social-top
-							i.fa.fa-vk
-							i.fa.fa-facebook
-							i.fa.fa-youtube
-							i.fa.fa-twitter
-							i.fa.fa-vimeo-square
-							i.fa.fa-rss
+					.descriptor
+						div
+							p ЛО ГУК «Драматический театр «Комедианты»
+							p СПб, Лиговский пр., д. 44
+							p Касса: (812) 764−81−14
+							p с 12:00 до 19:00
+							p.social-top
+								i.fa.fa-vk
+								i.fa.fa-facebook
+								i.fa.fa-youtube
+								i.fa.fa-twitter
+								i.fa.fa-vimeo-square
+								i.fa.fa-rss
 
-				nav#site-navigation.main-navigation.clear(role='navigation')
-					ul.nav-menu
-						li.page_item
-							a(href="about.html") О театре
-						li.page_item
-							a(href="news.html") Новости
-						li.page_item
-							a(href="playbill.html") Афиша
-						li.page_item
-							a(href="repertoire.html") Репертуар
-						li.page_item
-							a(href="troupe.html") Труппа
-						li.page_item
-							a(href="contact.html") Контакты
-						li.page_item.search
-							i.fa.fa-search
-							form(action="search.php", method="get")
-								input(class="text" name="search" type="text" value="" placeholder="")
+					nav#site-navigation.main-navigation.clear(role='navigation')
+						ul.nav-menu
+							li.page_item
+								a(href="about.html") О театре
+							li.page_item
+								a(href="news.html") Новости
+							li.page_item
+								a(href="playbill.html") Афиша
+							li.page_item
+								a(href="repertoire.html") Репертуар
+							li.page_item
+								a(href="troupe.html") Труппа
+							li.page_item
+								a(href="contact.html") Контакты
+							li.page_item.search
+								i.fa.fa-search
+								form(action="search.php", method="get")
+									input(class="text" name="search" type="text" value="" placeholder="")
 
 			// #masthead
 
@@ -87,13 +88,17 @@ html.no-js
 									block entry-content
 										p Content…
 								footer.entry-footer
-				#secondary.widget-area(role='complementary')
-					aside.widget
-						h4.widget-title Widget title
-						.widget-content
-							p Widget content
+
+				//- #secondary.widget-area(role='complementary')
+				//- 	aside.widget
+				//- 		h4.widget-title Widget title
+				//- 		.widget-content
+				//- 			p Widget content
+
 			footer#footer
-				p © Copyrights
+				.container
+					p © Copyrights
+
 			script(src='//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js')
 			script window.jQuery || document.write('<script src="/js/vendor/jquery-1.11.0.min.js"><\/script>')
 		block scripts
