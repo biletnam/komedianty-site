@@ -19,7 +19,7 @@ $gray_color = #848484
 $rem = 16px
 $line = $rem * 1.6
 
-$pad1 = 50px
+$pad1 = 55px
 $mod = 80px
 
 //
@@ -144,12 +144,13 @@ img
 
 .descriptor
 	span(4/7)
-	padding-top 28px
+	padding-top 18px
+	padding-bottom 10px
 	color $gray_color
 	fs: 0.75rem
 	// padding-left $pad1
 	position relative
-	left 50px
+	left $pad1
 
 
 	// Выравнивание по ширине
@@ -241,7 +242,7 @@ img
 			text-align left
 			/* Востанавливаем у потомков, кроме последнего*/
 			line-height normal
-			fs 0.875rem
+			fs 1rem
 			/* Без него в Opera будет отступ под элементами */
 			vertical-align top
 			/* эмуляция inline-block для IE6-7*/
@@ -253,7 +254,7 @@ img
 		i
 			float left
 			color $gray_color
-			fs: 1.3em
+			fs: 1.1rem
 		form
 			margin 0
 			padding 0
@@ -305,8 +306,8 @@ img
 	margin-bottom $mod
 	.event
 		display none // for JS
-		&:first-child
-			display block
+		// &:first-child
+		// 	display block
 
 		position absolute
 		// position relative
@@ -314,6 +315,8 @@ img
 		right 0
 		width 100%
 		height 100%
+
+		// background-color red
 
 	.event.active
 		display block // for JS
@@ -418,6 +421,8 @@ img
 				position absolute
 				background $body_color
 				top 100%
+		a.active
+			transform scale(1.5)
 
 
 

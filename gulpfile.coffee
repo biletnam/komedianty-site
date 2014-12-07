@@ -78,6 +78,9 @@ paths =
 		destination: './public/'
 	data:
 		watch: 'PostsSort.json'
+	images:
+		source: './build/**/*.{jpg,png,gif,jpeg}'
+		destination: './public/'
 	# public:
 	# 	watch: './public/**/*.*'
 
@@ -162,6 +165,16 @@ gulp.task 'assets', ->
 	assets = assets.pipe livereload() unless production
 	assets
 
+# IMAGES
+gulp.task 'images', ->
+	images = gulp
+		.src paths.images.source
+		.pipe changed paths.images.destination
+
+	images = images.pipe gulp.dest paths.images.destination
+	images = images.pipe livereload() unless production
+	images
+
 
 # CLEAN
 gulp.task 'clean', ->
@@ -182,9 +195,10 @@ gulp.task 'watch', ->
 	gulp.watch paths.data.watch, ['templates']
 	gulp.watch paths.styles.watch, ['styles']
 	gulp.watch paths.assets.watch, ['assets']
+	# gulp.watch paths.images.watch, ['images']
 	# gulp.watch paths.public.watch, ['build']
 
 	.emit 'update'
 
-gulp.task 'build', ['scripts', 'templates', 'styles', 'assets']
+gulp.task 'build', ['scripts', 'templates', 'styles', 'assets', 'images']
 gulp.task 'default', ['build', 'watch', 'server']

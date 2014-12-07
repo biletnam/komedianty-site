@@ -9,18 +9,26 @@ block title
 block content
 	- var dw = data.where({"post_name": "directors-word"}).value().pop()
 	- var news = data.where({"post_type": "post"}).last(6).value()
-	- var events = data.where({"post_type": "event"}).value()
+	- var events = data.where({"post_type": "event"}).first(25).value()
 	- var monthsA = ["Нулября","Января","Февраля","Марта","Апреля","Мая","Июня","Июля","Августа","Сентября","Октября","Ноября","Декабря"]
 
 
 	#playbill
 		each event in events
-			- var image = data.where({"post_parent": event.ID, "post_type": 'attachment'}).value().pop();
 			- var parent = data.where({"post_title": event.post_title, "post_type": 'performance'}).value().pop()
-			- moment().locale('ru', {months : ["Января", "Февраля", "Марта", "Апреля", "Мая", "Июня", "Июля", "Августа", "Сентября", "Октября", "Ноября", "Декабря"]})
+			- if (parent)
+				- var image = data.where({"post_parent": parent.ID, "post_type": 'attachment', "post_name":'playbill.jpg'}).value().pop()
+			- if (image && image.postmeta && image.postmeta['_wp_attached_file'])
+				- var image = 'background:url(' + image.postmeta['_wp_attached_file'] + ') right bottom no-repeat; background-size: contain;'
+			- else
+				- var image = 'background-color: black'
 			- if(parent)
 				- var author = parent.postmeta.author
-			.event(style="background:url('#{image.postmeta['_wp_attached_file']}') right bottom no-repeat; background-size: contain;", id="#{event.post_name}")
+			- if (moment().format('YYYY-MM-DD') == moment(event.postmeta.event_date).format('YYYY-MM-DD'))
+				- var active = 'active'
+			- else
+				- var active = ''
+			.event(style="#{image}", id="#{event.post_name}", class=active)
 				.title-block
 					p.author!= author
 					p.title!= event.post_title
@@ -33,7 +41,11 @@ block content
 			a(href="#")
 				i.fa.fa-chevron-left
 			each item in events
-				a(href="##{item.post_name}")
+				- if (moment().format('YYYY-MM-DD') == moment(item.postmeta.event_date).format('YYYY-MM-DD'))
+					- var active = 'active'
+				- else
+					- var active = ''
+				a(href="##{item.post_name}", class=active)
 					.day= moment(item.postmeta.event_date).format('DD')
 					.weekday= moment(item.postmeta.event_date).locale('ru').format('dd')
 			a(href="#")
