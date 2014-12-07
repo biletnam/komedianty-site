@@ -178,7 +178,7 @@ gulp.task 'images', ->
 
 # CLEAN
 gulp.task 'clean', ->
-	del build + '**/Thumbs.db', (err) ->
+	del './**/Thumbs.db', (err) ->
 		console.log 'Files deleted'
 
 # SERVER
@@ -200,5 +200,5 @@ gulp.task 'watch', ->
 
 	.emit 'update'
 
-gulp.task 'build', ['scripts', 'templates', 'styles', 'assets', 'images']
+gulp.task 'build', ['scripts', 'templates', 'styles', 'clean', 'assets', 'images']
 gulp.task 'default', ['build', 'watch', 'server']

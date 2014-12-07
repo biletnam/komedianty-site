@@ -26,6 +26,11 @@ $line = $rem * 1.6
 $pad1 = 55px
 $mod  = 80px
 
+main_font()
+		font-family "proba_proregular" sans-serif
+second_font()
+		font-family "Georgia" serif
+
 //
 //  LIBS & FRAMEWORKS
 //
@@ -59,7 +64,7 @@ body
 	color $text_color
 
 	font-size $rem
-	font-family "proba_proregular"
+	main_font()
 
 
 
@@ -99,6 +104,7 @@ h6
 // PRE & CODE
 pre
 	pre()
+	color black
 code
 	code()
 
@@ -118,7 +124,7 @@ img
 header()
 	color $main_color
 	font-weight bold
-	font-family 'Georgia' serif
+	second_font()
 
 	fs: 1.75rem
 
@@ -176,10 +182,10 @@ article-header-large()
 	span(1/7, offset: 1/7)
 
 	// width 236px
-	height 2*$mod
+	height 1.1*$mod
 
-	background: url("./../images/logo-large.png") no-repeat
-	background-size: cover
+	background: url("./../images/logo-mid.png") no-repeat
+	background-size: contain
 
 	hover-pop: 1.02
 
@@ -206,7 +212,7 @@ article-header-large()
 	fs: 0.75rem
 	// padding-left $pad1
 	position relative
-	left $pad1
+	// left $pad1
 
 
 	// Выравнивание по ширине
@@ -265,7 +271,7 @@ article-header-large()
 
 #site-navigation
 	position relative
-	left $pad1
+	// left $pad1
 
 	span(4/7)
 	position relative
@@ -414,7 +420,7 @@ article-header-large()
 		.title
 			margin 0
 
-			font-family 'Georgia', serif
+			second_font()
 			fs: 2.8rem
 			line-height 1em
 			text-transform uppercase
@@ -445,7 +451,7 @@ article-header-large()
 		padding 0 ($pad1/2)
 
 		color black
-		font-family 'Georgia', serif
+		second_font()
 		text-transform uppercase
 		letter-spacing 0.1em
 
@@ -601,7 +607,7 @@ article-header-large()
 
 		em
 			color $main_color
-			font-family 'Georgia' serif
+			second_font()
 
 		p + p
 			margin-bottom $line
@@ -612,3 +618,131 @@ article-header-large()
 
 
 
+
+
+
+/********************************************************************************************************************************************
+ *  PLAYBILL PAGE
+ ********************************************************************************************************************************************/
+
+
+
+#playbill-page
+	padding 2*$mod
+	cf()
+
+	.container
+
+		.playbill-navigation
+
+			text-transform uppercase
+
+			span(1/7, offset: 1/7)
+
+			ul, li
+				margin 0
+				padding 0
+				list-style none
+
+			a
+				link ($main_color - 40%)
+				text-decoration none
+				border none
+
+				line-height 1.8em
+
+				&:hover
+					color $main_color
+					&:hover
+						border none
+				&.active
+					color $main_color
+
+
+		.playbill-list
+			span(4/7)
+
+			.section
+				display none
+				&.active
+					display block
+
+			.event
+
+				// height (2/3)*$mod
+				margin-bottom 2.5em
+
+				.date
+					color $main_color
+					second_font()
+					&:after
+						content ' '
+
+					&.day
+						font-weight bold
+						fs: 1rem
+					&.weekday
+						fs: (13/16)rem
+
+
+				.date-block, .title-block, .other, .meta
+					display inline-block
+
+				.date-block
+					width 50px
+				.title-block
+					position relative
+					max-width (55%)
+					.title
+						text-transform uppercase
+						letter-spacing 0.05em
+						a
+							link $text_color
+							text-decoration none
+							border none
+							&:hover
+								border none
+								text-decoration none
+								color $main_color
+					.author
+						position absolute
+						// width 100%
+						top 100%
+						left 0
+
+						fs: (13/16)rem
+						color $gray_color
+
+						white-space nowrap
+				.other
+					.rate
+						second_font()
+						color $main_color - 70%
+						margin-left 1em
+				.meta
+					margin-left 1em
+					// display none
+					opacity 0
+					color $gray_color
+
+					transition all 0.3s ease-out
+
+					position absolute
+
+					.duration, .start-time
+						&:after
+							content ' '
+
+				&:hover
+					.meta
+						// display inline-block
+						opacity 1
+						transition all 1s ease
+
+// .date.day
+// .date.weekday
+// .title
+// .author
+// .rate
+// .duration
+// .start-time

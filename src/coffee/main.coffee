@@ -19,3 +19,18 @@ $("#playbill .calendar a").click (e) ->
 		$($(this).attr("href")).removeClass "active"
 		$(this).removeClass "active"
 		$("#playbill .event").removeClass "active"
+
+$("#playbill-page .playbill-navigation a").click (e) ->
+	e.preventDefault()
+	unless $(this).attr("class") is "active"
+		$("#playbill-page .playbill-navigation a").removeClass "active"
+		$(this).addClass "active"
+		unless $("#playbill-page .playbill-list .section").attr("class") is "active"
+			$("#playbill-page .playbill-list .section").addClass "active"
+			unless $($(this).attr("href")).attr("class") is "active"
+				$("#playbill-page .playbill-list .section").removeClass "active"
+				$($(this).attr("href")).addClass "active"
+	else
+		$($(this).attr("href")).removeClass "active"
+		$(this).removeClass "active"
+		$("#playbill-page .playbill-list .section").removeClass "active"

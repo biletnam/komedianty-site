@@ -63,28 +63,28 @@ block content
 	// #playbill
 
 
-	#newsblock
-		.container
+	//- #newsblock
+	//- 	.container
 
-			h3.section-header Новости
+	//- 		h3.section-header Новости
 
-			.articles
-				each post, index in news
-					article.news
-						- var newsimage = data.where({"post_parent": post.ID, "post_type": 'attachment', "post_name":'featured.jpg'}).value().pop()
-						- if (newsimage)
-							.entry-image
-								img(src="#{newsimage.postmeta['_wp_attached_file']}")
-						.entry-content
-							header.entry-header
-								h3.entry-title
-									a(href='#')!= post.post_title
-							.content!= post.post_content.replace(/<img(.+?)>/g, '')
-							footer.entry-footer
-								a.readmore(href='#', title='Читать далее') Читать далее…
+	//- 		.articles
+	//- 			each post, index in news
+	//- 				article.news
+	//- 					- var newsimage = data.where({"post_parent": post.ID, "post_type": 'attachment', "post_name":'featured.jpg'}).value().pop()
+	//- 					- if (newsimage)
+	//- 						.entry-image
+	//- 							img(src="#{newsimage.postmeta['_wp_attached_file']}")
+	//- 					.entry-content
+	//- 						header.entry-header
+	//- 							h3.entry-title
+	//- 								a(href='#')!= post.post_title
+	//- 						.content!= post.post_content.replace(/<img(.+?)>/g, '')
+	//- 						footer.entry-footer
+	//- 							a.readmore(href='#', title='Читать далее') Читать далее…
 
-		//.container
-	// #newsblock
+	//- 	//.container
+	//- // #newsblock
 
 
 	#directors-word
