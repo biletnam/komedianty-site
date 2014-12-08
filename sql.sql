@@ -2371,7 +2371,7 @@ INSERT INTO `kt_postmeta` (`post_id`, `meta_key`, `meta_value`) VALUES
 ('82', 'source_author', 'Борислава ШАРОВА'),
 ('82', 'source_date', '07.06.2011'),
 ('82', 'source_link', 'http://www.vesty.spb.ru/modules.php?name=News&amp;file=article&amp;sid=21590'),
-('82', '_thumbnail_id', '84'),
+('82', '_thumbnail_id', '83'),
 ('83', '_wp_attached_file', 'press/mumu-v-lodeinom-pole/image-01.jpg'),
 ('83', '_wp_attachment_metadata', 'a:3:{s:5:"width";i:436;s:6:"height";i:654;s:4:"file";s:39:"press/mumu-v-lodeinom-pole/image-01.jpg";};'),
 ('84', '_wp_attached_file', 'press/mumu-v-lodeinom-pole/image-02.jpg'),
@@ -2383,7 +2383,7 @@ INSERT INTO `kt_postmeta` (`post_id`, `meta_key`, `meta_value`) VALUES
 ('85', 'source_author', 'Елена ДОБРЯКОВА'),
 ('85', 'source_date', '22.03.2011'),
 ('85', 'source_link', 'http://www.nvspb.ru/stories/ne-o-mumu-pisal-turgenev-o-rossii-44700'),
-('85', '_thumbnail_id', '86');
+('85', '_thumbnail_id', '88');
 
 INSERT INTO `kt_postmeta` (`post_id`, `meta_key`, `meta_value`) VALUES
 ('86', '_wp_attached_file', 'press/ne-o-mumu-pisal-turgenev-o-rossii/image-01.jpg'),
@@ -2451,6 +2451,7 @@ INSERT INTO `kt_postmeta` (`post_id`, `meta_key`, `meta_value`) VALUES
 ('105', 'jos_id', '77'),
 ('105', 'jos_alias', 'ilgiz-bulgakov'),
 ('105', 'employment', 'a:5:{i:0;a:3:{s:14:"performance_id";s:2:"68";s:17:"performance_title";s:6:"Лес";s:5:"roles";a:1:{s:2:"r9";s:12:"Бодаев";};};i:1;a:3:{s:14:"performance_id";s:2:"70";s:17:"performance_title";s:37:"Поминальная молитва";s:5:"roles";a:1:{s:3:"r11";s:8:"Ребе";};};i:2;a:3:{s:14:"performance_id";s:2:"71";s:17:"performance_title";s:31:"Прогулка в Лю-Блё";s:5:"roles";a:1:{s:2:"r3";s:25:"Хербст Фогель";};};i:3;a:3:{s:14:"performance_id";s:2:"72";s:17:"performance_title";s:45:"Провинциальные анекдоты";s:5:"roles";a:1:{s:2:"r8";s:14:"Анчугин";};};i:4;a:3:{s:14:"performance_id";s:2:"73";s:17:"performance_title";s:34:"Сирано де Бержерак";s:5:"roles";a:1:{s:3:"r12";s:11:"Де Гиш";};};};'),
+('105', 'instate', '1'),
 ('105', 'gender', 'male'),
 ('105', 'taxonomy', 'a:1:{s:6:"carier";a:2:{s:5:"title";s:10:"Актер";s:4:"slug";s:5:"actor";};};'),
 ('105', '_thumbnail_id', '107'),
@@ -2459,10 +2460,10 @@ INSERT INTO `kt_postmeta` (`post_id`, `meta_key`, `meta_value`) VALUES
 ('107', '_wp_attached_file', 'person/ilgiz-bulgakov/portrait.jpg'),
 ('107', '_wp_attachment_metadata', 'a:3:{s:5:"width";i:319;s:6:"height";i:480;s:4:"file";s:34:"person/ilgiz-bulgakov/portrait.jpg";};'),
 ('108', '_wp_attached_file', 'person/ilgiz-bulgakov/troupe.jpg'),
-('108', '_wp_attachment_metadata', 'a:3:{s:5:"width";i:118;s:6:"height";i:177;s:4:"file";s:32:"person/ilgiz-bulgakov/troupe.jpg";};'),
-('109', 'old_names', 'a:2:{i:0;s:50:"242-pressa-podmostki-peterburga-sergeev-i-nikolaev";i:1;s:52:"dlya-spektaklya-dostatochno-tryoh-chelovek-i-kovrika";};');
+('108', '_wp_attachment_metadata', 'a:3:{s:5:"width";i:118;s:6:"height";i:177;s:4:"file";s:32:"person/ilgiz-bulgakov/troupe.jpg";};');
 
 INSERT INTO `kt_postmeta` (`post_id`, `meta_key`, `meta_value`) VALUES
+('109', 'old_names', 'a:2:{i:0;s:50:"242-pressa-podmostki-peterburga-sergeev-i-nikolaev";i:1;s:52:"dlya-spektaklya-dostatochno-tryoh-chelovek-i-kovrika";};'),
 ('109', 'jos_id', '242'),
 ('109', 'jos_alias', 'pressa-podmostki-peterburga-sergeev-i-nikolaev'),
 ('109', 'source', 'Театральный видеожурнал "Подмостки в Петербурге"'),
@@ -2475,7 +2476,7 @@ INSERT INTO `kt_postmeta` (`post_id`, `meta_key`, `meta_value`) VALUES
 ('110', 'source_author', 'Владимир НЕСТОРОВИЧ'),
 ('110', 'source_date', '13.10.2011'),
 ('110', 'source_link', 'http://www.kidsreview.ru/reviews/retsenziya-na-spektakl-uchilka-iz-budushchego-teatra-komedianty-dlya-detei-ot-10-let'),
-('110', '_thumbnail_id', '114'),
+('110', '_thumbnail_id', '113'),
 ('111', '_wp_attached_file', 'press/retsenziya-na-spektakl-uchilka-iz-buduschego-teatra-komedianty/image-01.png'),
 ('111', '_wp_attachment_metadata', 'a:3:{s:5:"width";i:807;s:6:"height";i:538;s:4:"file";s:81:"press/retsenziya-na-spektakl-uchilka-iz-buduschego-teatra-komedianty/image-01.png";};'),
 ('112', '_wp_attached_file', 'press/retsenziya-na-spektakl-uchilka-iz-buduschego-teatra-komedianty/image-02.png'),
@@ -2490,7 +2491,7 @@ INSERT INTO `kt_postmeta` (`post_id`, `meta_key`, `meta_value`) VALUES
 ('115', 'source', 'Ежемесячный журнал для детей «МУРЗИЛКА»'),
 ('115', 'source_date', '26.10.2011'),
 ('115', 'source_link', 'murzilka.org/home/news/4265'),
-('115', '_thumbnail_id', '116'),
+('115', '_thumbnail_id', '117'),
 ('116', '_wp_attached_file', 'press/teatralnyi-festival-dvortsy-sankt-peterburga-detyam-otmechaet-svoi-dvadtsatiletnii-yubilei/image-01.jpg'),
 ('116', '_wp_attachment_metadata', 'a:3:{s:5:"width";i:220;s:6:"height";i:309;s:4:"file";s:109:"press/teatralnyi-festival-dvortsy-sankt-peterburga-detyam-otmechaet-svoi-dvadtsatiletnii-yubilei/image-01.jpg";};'),
 ('117', '_wp_attached_file', 'press/teatralnyi-festival-dvortsy-sankt-peterburga-detyam-otmechaet-svoi-dvadtsatiletnii-yubilei/image-02.jpg'),
@@ -2512,7 +2513,7 @@ INSERT INTO `kt_postmeta` (`post_id`, `meta_key`, `meta_value`) VALUES
 ('120', 'source_author', 'Ирина КОРОЛЕВА'),
 ('120', 'source_date', '25.02.10'),
 ('120', 'source_link', 'http://www.vesty.spb.ru/modules.php?name=News&amp;file=article&amp;sid=17604'),
-('120', '_thumbnail_id', '122'),
+('120', '_thumbnail_id', '121'),
 ('121', '_wp_attached_file', 'press/20-letnim-komediantam-mnogaya-leta/image-01.jpg'),
 ('121', '_wp_attachment_metadata', 'a:3:{s:5:"width";i:312;s:6:"height";i:198;s:4:"file";s:53:"press/20-letnim-komediantam-mnogaya-leta/image-01.jpg";};'),
 ('122', '_wp_attached_file', 'press/20-letnim-komediantam-mnogaya-leta/image-02.jpg'),
@@ -2532,14 +2533,15 @@ INSERT INTO `kt_postmeta` (`post_id`, `meta_key`, `meta_value`) VALUES
 ('125', 'jos_alias', 'ekaterina-kyltina'),
 ('125', 'employment', 'a:7:{i:0;a:3:{s:14:"performance_id";s:2:"78";s:17:"performance_title";s:22:"Волки и овцы";s:5:"roles";a:1:{s:2:"r4";s:14:"Глафира";};};i:1;a:3:{s:14:"performance_id";s:2:"80";s:17:"performance_title";s:48:"Записные книжки Тригорина";s:5:"roles";a:1:{s:2:"r7";s:25:"Нина Заречная";};};i:2;a:3:{s:14:"performance_id";s:2:"60";s:17:"performance_title";s:14:"Дурочка";s:5:"roles";a:1:{s:2:"r0";s:10:"Финея";};};i:3;a:3:{s:14:"performance_id";s:2:"72";s:17:"performance_title";s:45:"Провинциальные анекдоты";s:5:"roles";a:1:{s:3:"r10";s:40:"Фаина (второй анекдот)";};};i:4;a:3:{s:14:"performance_id";s:2:"73";s:17:"performance_title";s:34:"Сирано де Бержерак";s:5:"roles";a:1:{s:2:"r1";s:14:"Роксана";};};i:5;a:3:{s:14:"performance_id";s:2:"57";s:17:"performance_title";s:41:"Беда от нежного сердца";s:5:"roles";a:1:{s:2:"r3";s:18:"Настенька";};};i:6;a:3:{s:14:"performance_id";s:2:"79";s:17:"performance_title";s:35:"Волшебные сосульки";s:5:"roles";a:1:{s:2:"r1";s:18:"Настенька";};};};'),
 ('125', 'cinema', 'a:5:{i:0;s:35:"«Лабиринты разума»";i:1;s:51:"т/с«Улицы разбитых фонарей»";i:2;s:53:"«Русалка» (короткометражный)";i:3;s:39:"т/с «Тайны следствия»";i:4;s:62:"«Опера-3. Хроники убойного отдела»";};'),
+('125', 'instate', '1'),
 ('125', 'gender', 'female'),
 ('125', 'kinoteatr', 'http://www.kino-teatr.ru/kino/acter/w/ros/27455/bio/'),
 ('125', 'taxonomy', 'a:1:{s:6:"carier";a:2:{s:5:"title";s:10:"Актер";s:4:"slug";s:5:"actor";};};'),
-('125', '_thumbnail_id', '127'),
-('126', '_wp_attached_file', 'person/ekaterina-kultina/ekaterina-kultina.jpg'),
-('126', '_wp_attachment_metadata', 'a:3:{s:5:"width";i:546;s:6:"height";i:586;s:4:"file";s:46:"person/ekaterina-kultina/ekaterina-kultina.jpg";};');
+('125', '_thumbnail_id', '127');
 
 INSERT INTO `kt_postmeta` (`post_id`, `meta_key`, `meta_value`) VALUES
+('126', '_wp_attached_file', 'person/ekaterina-kultina/ekaterina-kultina.jpg'),
+('126', '_wp_attachment_metadata', 'a:3:{s:5:"width";i:546;s:6:"height";i:586;s:4:"file";s:46:"person/ekaterina-kultina/ekaterina-kultina.jpg";};'),
 ('127', '_wp_attached_file', 'person/ekaterina-kultina/portrait.jpg'),
 ('127', '_wp_attachment_metadata', 'a:3:{s:5:"width";i:360;s:6:"height";i:480;s:4:"file";s:37:"person/ekaterina-kultina/portrait.jpg";};'),
 ('128', '_wp_attached_file', 'person/ekaterina-kultina/troupe.jpg'),
@@ -2549,6 +2551,7 @@ INSERT INTO `kt_postmeta` (`post_id`, `meta_key`, `meta_value`) VALUES
 ('129', 'jos_alias', 'irina-mityshkina'),
 ('129', 'employment', 'a:3:{i:0;a:3:{s:14:"performance_id";s:2:"73";s:17:"performance_title";s:34:"Сирано де Бержерак";s:5:"roles";a:1:{s:3:"r13";s:12:"Дуэнья";};};i:1;a:3:{s:14:"performance_id";s:2:"77";s:17:"performance_title";s:14:"В Париж!";s:5:"roles";a:1:{s:2:"r4";s:44:"Лукинична (Вторая сваха)";};};i:2;a:3:{s:14:"performance_id";s:2:"81";s:17:"performance_title";s:14:"Земляки";s:5:"roles";a:1:{s:2:"r6";s:29:"Людмила Ярикова";};};};'),
 ('129', 'cinema', 'a:5:{i:0;s:36:"«Гоголь. Ближайший»";i:1;s:47:"«Пушкин. Последняя Дуэль»";i:2;s:16:"«Стерва»";i:3;s:46:"«Улицы разбитых фонарей»";i:4;s:18:"«Лиговка»";};'),
+('129', 'instate', '1'),
 ('129', 'gender', 'female'),
 ('129', 'kinoteatr', 'http://www.kino-teatr.ru/teatr/acter/w/ros/242217/bio/'),
 ('129', 'taxonomy', 'a:1:{s:6:"carier";a:2:{s:5:"title";s:10:"Актер";s:4:"slug";s:5:"actor";};};'),
@@ -2564,6 +2567,7 @@ INSERT INTO `kt_postmeta` (`post_id`, `meta_key`, `meta_value`) VALUES
 ('133', 'jos_alias', 'oksana-surnina'),
 ('133', 'employment', 'a:7:{i:0;a:3:{s:14:"performance_id";s:2:"78";s:17:"performance_title";s:22:"Волки и овцы";s:5:"roles";a:1:{s:2:"r2";s:54:"Евлампия Николаевна Купавина";};};i:1;a:3:{s:14:"performance_id";s:2:"57";s:17:"performance_title";s:41:"Беда от нежного сердца";s:5:"roles";a:1:{s:2:"r1";s:36:"Катенька из Тамбова";};};i:2;a:3:{s:14:"performance_id";s:2:"77";s:17:"performance_title";s:14:"В Париж!";s:5:"roles";a:1:{s:2:"r5";s:8:"Лёля";};};i:3;a:3:{s:14:"performance_id";s:2:"65";s:17:"performance_title";s:24:"Кот в сапогах";s:5:"roles";a:1:{s:2:"r1";s:18:"Принцесса";};};i:4;a:3:{s:14:"performance_id";s:2:"63";s:17:"performance_title";s:14:"Карлсон";s:5:"roles";a:1:{s:2:"r4";s:8:"Мама";};};i:5;a:3:{s:14:"performance_id";s:2:"59";s:17:"performance_title";s:14:"Дачницы";s:5:"roles";a:1:{s:2:"r4";s:12:"Внучка";};};i:6;a:3:{s:14:"performance_id";s:2:"60";s:17:"performance_title";s:14:"Дурочка";s:5:"roles";a:1:{s:2:"r6";s:10:"Клара";};};};'),
 ('133', 'cinema', 'a:5:{i:0;s:27:"«Ветка сирени»";i:1;s:32:"«Холмы и равнины»";i:2;s:37:"«В сторону от войны»";i:3;s:20:"«Робинзон»";i:4;s:145:"Так же очень много работает на озвучании и дубляже русского и зарубежного кино.";};'),
+('133', 'instate', '1'),
 ('133', 'gender', 'female'),
 ('133', 'kinoteatr', 'http://www.kino-teatr.ru/kino/acter/w/ros/17756/bio/'),
 ('133', 'taxonomy', 'a:1:{s:6:"carier";a:2:{s:5:"title";s:10:"Актер";s:4:"slug";s:5:"actor";};};'),
@@ -2579,6 +2583,7 @@ INSERT INTO `kt_postmeta` (`post_id`, `meta_key`, `meta_value`) VALUES
 ('137', 'jos_alias', 'afendulov-semen'),
 ('137', 'employment', 'a:8:{i:0;a:3:{s:14:"performance_id";s:2:"77";s:17:"performance_title";s:14:"В Париж!";s:5:"roles";a:1:{s:2:"r6";s:32:"Грязнов, чиновник";};};i:1;a:3:{s:14:"performance_id";s:2:"82";s:17:"performance_title";s:16:"Женитьба";s:5:"roles";a:1:{s:2:"r4";s:12:"Офицер";};};i:2;a:3:{s:14:"performance_id";s:2:"65";s:17:"performance_title";s:24:"Кот в сапогах";s:5:"roles";a:1:{s:2:"r2";s:12:"Людоед";};};i:3;a:3:{s:14:"performance_id";s:2:"72";s:17:"performance_title";s:45:"Провинциальные анекдоты";s:5:"roles";a:2:{s:2:"r4";s:14:"Потапов";s:3:"r12";s:12:"Ступак";};};i:4;a:3:{s:14:"performance_id";s:2:"78";s:17:"performance_title";s:22:"Волки и овцы";s:5:"roles";a:1:{s:2:"r6";s:16:"Горецкий";};};i:5;a:3:{s:14:"performance_id";s:2:"60";s:17:"performance_title";s:14:"Дурочка";s:5:"roles";a:1:{s:2:"r7";s:10:"Лисео";};};i:6;a:3:{s:14:"performance_id";s:2:"57";s:17:"performance_title";s:41:"Беда от нежного сердца";s:5:"roles";a:1:{s:2:"r6";s:14:"Француз";};};i:7;a:3:{s:14:"performance_id";s:2:"79";s:17:"performance_title";s:35:"Волшебные сосульки";s:5:"roles";a:1:{s:2:"r4";s:14:"Жадюкин";};};};'),
 ('137', 'cinema', 'a:4:{i:0;s:52:"т/с «Улицы разбитых фонарей»";i:1;s:33:"«Зеркало Фараона»";i:2;s:26:"т/с «Литейный»";i:3;s:47:"«Мама» (короткометражный)";};'),
+('137', 'instate', '1'),
 ('137', 'gender', 'male'),
 ('137', 'kinoteatr', 'http://www.kino-teatr.ru/kino/acter/m/ros/6450/bio/'),
 ('137', 'taxonomy', 'a:1:{s:6:"carier";a:2:{s:5:"title";s:10:"Актер";s:4:"slug";s:5:"actor";};};'),
@@ -2600,7 +2605,7 @@ INSERT INTO `kt_postmeta` (`post_id`, `meta_key`, `meta_value`) VALUES
 ('142', 'jos_id', '95'),
 ('142', 'jos_alias', '2011-06-23-09-15-19'),
 ('142', 'taxonomy', 'a:1:{s:8:"category";a:2:{s:5:"title";s:20:"Фотоотчёты";s:4:"slug";s:10:"photoalbum";};};'),
-('142', '_thumbnail_id', '145'),
+('142', '_thumbnail_id', '160'),
 ('143', '_wp_attached_file', 'post/foto-s-yubileya-teatra-20-let/image-02.jpg'),
 ('143', '_wp_attachment_metadata', 'a:3:{s:5:"width";i:730;s:6:"height";i:486;s:4:"file";s:47:"post/foto-s-yubileya-teatra-20-let/image-02.jpg";};'),
 ('144', '_wp_attached_file', 'post/foto-s-yubileya-teatra-20-let/image-04.jpg'),
@@ -2609,14 +2614,14 @@ INSERT INTO `kt_postmeta` (`post_id`, `meta_key`, `meta_value`) VALUES
 ('145', '_wp_attachment_metadata', 'a:3:{s:5:"width";i:742;s:6:"height";i:495;s:4:"file";s:47:"post/foto-s-yubileya-teatra-20-let/image-05.jpg";};'),
 ('146', '_wp_attached_file', 'post/foto-s-yubileya-teatra-20-let/image-06.jpg'),
 ('146', '_wp_attachment_metadata', 'a:3:{s:5:"width";i:742;s:6:"height";i:495;s:4:"file";s:47:"post/foto-s-yubileya-teatra-20-let/image-06.jpg";};'),
-('147', '_wp_attached_file', 'post/foto-s-yubileya-teatra-20-let/image-07.jpg'),
+('147', '_wp_attached_file', 'post/foto-s-yubileya-teatra-20-let/image-07.jpg');
+
+INSERT INTO `kt_postmeta` (`post_id`, `meta_key`, `meta_value`) VALUES
 ('147', '_wp_attachment_metadata', 'a:3:{s:5:"width";i:742;s:6:"height";i:495;s:4:"file";s:47:"post/foto-s-yubileya-teatra-20-let/image-07.jpg";};'),
 ('148', '_wp_attached_file', 'post/foto-s-yubileya-teatra-20-let/image-08.jpg'),
 ('148', '_wp_attachment_metadata', 'a:3:{s:5:"width";i:742;s:6:"height";i:495;s:4:"file";s:47:"post/foto-s-yubileya-teatra-20-let/image-08.jpg";};'),
 ('149', '_wp_attached_file', 'post/foto-s-yubileya-teatra-20-let/image-09.jpg'),
-('149', '_wp_attachment_metadata', 'a:3:{s:5:"width";i:730;s:6:"height";i:486;s:4:"file";s:47:"post/foto-s-yubileya-teatra-20-let/image-09.jpg";};');
-
-INSERT INTO `kt_postmeta` (`post_id`, `meta_key`, `meta_value`) VALUES
+('149', '_wp_attachment_metadata', 'a:3:{s:5:"width";i:730;s:6:"height";i:486;s:4:"file";s:47:"post/foto-s-yubileya-teatra-20-let/image-09.jpg";};'),
 ('150', '_wp_attached_file', 'post/foto-s-yubileya-teatra-20-let/image-10.jpg'),
 ('150', '_wp_attachment_metadata', 'a:3:{s:5:"width";i:704;s:6:"height";i:469;s:4:"file";s:47:"post/foto-s-yubileya-teatra-20-let/image-10.jpg";};'),
 ('151', '_wp_attached_file', 'post/foto-s-yubileya-teatra-20-let/image-11.jpg'),
@@ -2651,7 +2656,7 @@ INSERT INTO `kt_postmeta` (`post_id`, `meta_key`, `meta_value`) VALUES
 ('165', 'jos_id', '118'),
 ('165', 'jos_alias', 'foto-polsha'),
 ('165', 'taxonomy', 'a:1:{s:8:"category";a:2:{s:5:"title";s:20:"Фотоотчёты";s:4:"slug";s:10:"photoalbum";};};'),
-('165', '_thumbnail_id', '181'),
+('165', '_thumbnail_id', '182'),
 ('166', '_wp_attached_file', 'post/fotootchyot-s-gastrolei-v-polshu-2009/image-01.jpg'),
 ('166', '_wp_attachment_metadata', 'a:3:{s:5:"width";i:604;s:6:"height";i:453;s:4:"file";s:55:"post/fotootchyot-s-gastrolei-v-polshu-2009/image-01.jpg";};'),
 ('167', '_wp_attached_file', 'post/fotootchyot-s-gastrolei-v-polshu-2009/image-02.jpg'),
@@ -2686,14 +2691,14 @@ INSERT INTO `kt_postmeta` (`post_id`, `meta_key`, `meta_value`) VALUES
 ('181', '_wp_attachment_metadata', 'a:3:{s:5:"width";i:604;s:6:"height";i:453;s:4:"file";s:55:"post/fotootchyot-s-gastrolei-v-polshu-2009/image-16.jpg";};'),
 ('182', '_wp_attached_file', 'post/fotootchyot-s-gastrolei-v-polshu-2009/image-17.jpg'),
 ('182', '_wp_attachment_metadata', 'a:3:{s:5:"width";i:604;s:6:"height";i:453;s:4:"file";s:55:"post/fotootchyot-s-gastrolei-v-polshu-2009/image-17.jpg";};'),
-('183', '_wp_attached_file', 'post/fotootchyot-s-gastrolei-v-polshu-2009/image-18.jpg'),
+('183', '_wp_attached_file', 'post/fotootchyot-s-gastrolei-v-polshu-2009/image-18.jpg');
+
+INSERT INTO `kt_postmeta` (`post_id`, `meta_key`, `meta_value`) VALUES
 ('183', '_wp_attachment_metadata', 'a:3:{s:5:"width";i:604;s:6:"height";i:453;s:4:"file";s:55:"post/fotootchyot-s-gastrolei-v-polshu-2009/image-18.jpg";};'),
 ('184', '_wp_attached_file', 'post/fotootchyot-s-gastrolei-v-polshu-2009/image-19.jpg'),
 ('184', '_wp_attachment_metadata', 'a:3:{s:5:"width";i:604;s:6:"height";i:453;s:4:"file";s:55:"post/fotootchyot-s-gastrolei-v-polshu-2009/image-19.jpg";};'),
 ('185', 'old_names', 'a:1:{i:0;s:22:"101-kingisepp-pro-bedy";};'),
-('185', 'jos_id', '101');
-
-INSERT INTO `kt_postmeta` (`post_id`, `meta_key`, `meta_value`) VALUES
+('185', 'jos_id', '101'),
 ('185', 'jos_alias', 'kingisepp-pro-bedy'),
 ('185', 'taxonomy', 'a:1:{s:8:"category";a:2:{s:5:"title";s:12:"Пресса";s:4:"slug";s:5:"press";};};'),
 ('186', 'old_names', 'a:1:{i:0;s:22:"93-2011-06-23-09-09-12";};'),
@@ -2763,14 +2768,14 @@ INSERT INTO `kt_postmeta` (`post_id`, `meta_key`, `meta_value`) VALUES
 ('202', '_wp_attached_file', 'post/slovo-serebro-a-molchanie-zoloto/image-01.jpg'),
 ('202', '_wp_attachment_metadata', 'a:3:{s:5:"width";i:212;s:6:"height";i:300;s:4:"file";s:50:"post/slovo-serebro-a-molchanie-zoloto/image-01.jpg";};'),
 ('203', 'old_names', 'a:2:{i:0;s:36:"241-podmostki-peterburga-drygay-gizn";i:1;s:13:"drugaya-zhizn";};'),
-('203', 'jos_id', '241'),
+('203', 'jos_id', '241');
+
+INSERT INTO `kt_postmeta` (`post_id`, `meta_key`, `meta_value`) VALUES
 ('203', 'jos_alias', 'podmostki-peterburga-drygay-gizn'),
 ('203', 'source_date', '13.10.2012'),
 ('203', 'source', 'Театральный видеожурнал "Подмостки в Петербурге"'),
 ('203', 'source_link', 'http://theatre.inspb.ru/Theaters/22.html'),
-('203', '_thumbnail_id', '204');
-
-INSERT INTO `kt_postmeta` (`post_id`, `meta_key`, `meta_value`) VALUES
+('203', '_thumbnail_id', '204'),
 ('204', '_wp_attached_file', 'press/drugaya-zhizn/image-02.jpg'),
 ('204', '_wp_attachment_metadata', 'a:3:{s:5:"width";i:200;s:6:"height";i:319;s:4:"file";s:32:"press/drugaya-zhizn/image-02.jpg";};'),
 ('205', 'old_names', 'a:2:{i:0;s:49:"244-pressa-podmostki-peterburga-kirill-dateshidze";i:1;s:28:"pust-rastsvetayut-vse-tsvety";};'),
@@ -2795,7 +2800,7 @@ INSERT INTO `kt_postmeta` (`post_id`, `meta_key`, `meta_value`) VALUES
 ('209', 'jos_id', '208'),
 ('209', 'jos_alias', 'foto-iz-trabzona-mymy'),
 ('209', 'taxonomy', 'a:1:{s:8:"category";a:2:{s:5:"title";s:20:"Фотоотчёты";s:4:"slug";s:10:"photoalbum";};};'),
-('209', '_thumbnail_id', '229'),
+('209', '_thumbnail_id', '218'),
 ('210', '_wp_attached_file', 'post/foto-s-gastrolei-v-turtsiyu-gtrabzon/image-01.jpg'),
 ('210', '_wp_attachment_metadata', 'a:3:{s:5:"width";i:636;s:6:"height";i:954;s:4:"file";s:54:"post/foto-s-gastrolei-v-turtsiyu-gtrabzon/image-01.jpg";};'),
 ('211', '_wp_attached_file', 'post/foto-s-gastrolei-v-turtsiyu-gtrabzon/image-02.jpg'),
@@ -2840,14 +2845,14 @@ INSERT INTO `kt_postmeta` (`post_id`, `meta_key`, `meta_value`) VALUES
 ('230', '_wp_attachment_metadata', 'a:3:{s:5:"width";i:752;s:6:"height";i:500;s:4:"file";s:54:"post/foto-s-gastrolei-v-turtsiyu-gtrabzon/image-21.jpg";};'),
 ('231', 'old_names', 'a:2:{i:0;s:25:"240-foto-iz-germanii-mymy";i:1;s:47:"fotootchyot-s-gastrolej-v-germaniyu-g-oberkohen";};'),
 ('231', 'jos_id', '240'),
-('231', 'jos_alias', 'foto-iz-germanii-mymy'),
-('231', 'taxonomy', 'a:1:{s:8:"category";a:2:{s:5:"title";s:20:"Фотоотчёты";s:4:"slug";s:10:"photoalbum";};};'),
-('231', '_thumbnail_id', '247'),
-('232', '_wp_attached_file', 'post/fotootchyot-s-gastrolei-v-germaniyu-g-oberkokhen/image-01.jpg'),
-('232', '_wp_attachment_metadata', 'a:3:{s:5:"width";i:1280;s:6:"height";i:851;s:4:"file";s:66:"post/fotootchyot-s-gastrolei-v-germaniyu-g-oberkokhen/image-01.jpg";};'),
-('233', '_wp_attached_file', 'post/fotootchyot-s-gastrolei-v-germaniyu-g-oberkokhen/image-02.jpg');
+('231', 'jos_alias', 'foto-iz-germanii-mymy');
 
 INSERT INTO `kt_postmeta` (`post_id`, `meta_key`, `meta_value`) VALUES
+('231', 'taxonomy', 'a:1:{s:8:"category";a:2:{s:5:"title";s:20:"Фотоотчёты";s:4:"slug";s:10:"photoalbum";};};'),
+('231', '_thumbnail_id', '236'),
+('232', '_wp_attached_file', 'post/fotootchyot-s-gastrolei-v-germaniyu-g-oberkokhen/image-01.jpg'),
+('232', '_wp_attachment_metadata', 'a:3:{s:5:"width";i:1280;s:6:"height";i:851;s:4:"file";s:66:"post/fotootchyot-s-gastrolei-v-germaniyu-g-oberkokhen/image-01.jpg";};'),
+('233', '_wp_attached_file', 'post/fotootchyot-s-gastrolei-v-germaniyu-g-oberkokhen/image-02.jpg'),
 ('233', '_wp_attachment_metadata', 'a:3:{s:5:"width";i:1280;s:6:"height";i:851;s:4:"file";s:66:"post/fotootchyot-s-gastrolei-v-germaniyu-g-oberkokhen/image-02.jpg";};'),
 ('234', '_wp_attached_file', 'post/fotootchyot-s-gastrolei-v-germaniyu-g-oberkokhen/image-03.jpg'),
 ('234', '_wp_attachment_metadata', 'a:3:{s:5:"width";i:1280;s:6:"height";i:851;s:4:"file";s:66:"post/fotootchyot-s-gastrolei-v-germaniyu-g-oberkokhen/image-03.jpg";};'),
@@ -2881,7 +2886,7 @@ INSERT INTO `kt_postmeta` (`post_id`, `meta_key`, `meta_value`) VALUES
 ('248', 'jos_id', '152'),
 ('248', 'jos_alias', 'oslo-viezd'),
 ('248', 'taxonomy', 'a:1:{s:8:"category";a:2:{s:5:"title";s:20:"Фотоотчёты";s:4:"slug";s:10:"photoalbum";};};'),
-('248', '_thumbnail_id', '252'),
+('248', '_thumbnail_id', '254'),
 ('249', '_wp_attached_file', 'post/fotootchyot-s-gastrolei-v-norvegiyu-g-oslo/image-01.jpg'),
 ('249', '_wp_attachment_metadata', 'a:3:{s:5:"width";i:807;s:6:"height";i:538;s:4:"file";s:60:"post/fotootchyot-s-gastrolei-v-norvegiyu-g-oslo/image-01.jpg";};'),
 ('250', '_wp_attached_file', 'post/fotootchyot-s-gastrolei-v-norvegiyu-g-oslo/image-02.jpg'),
@@ -2917,14 +2922,14 @@ INSERT INTO `kt_postmeta` (`post_id`, `meta_key`, `meta_value`) VALUES
 ('265', '_wp_attached_file', 'post/fotootchyot-s-gastrolei-v-norvegiyu-g-oslo/image-17.jpg'),
 ('265', '_wp_attachment_metadata', 'a:3:{s:5:"width";i:807;s:6:"height";i:605;s:4:"file";s:60:"post/fotootchyot-s-gastrolei-v-norvegiyu-g-oslo/image-17.jpg";};'),
 ('266', '_wp_attached_file', 'post/fotootchyot-s-gastrolei-v-norvegiyu-g-oslo/image-18.jpg'),
-('266', '_wp_attachment_metadata', 'a:3:{s:5:"width";i:605;s:6:"height";i:807;s:4:"file";s:60:"post/fotootchyot-s-gastrolei-v-norvegiyu-g-oslo/image-18.jpg";};'),
+('266', '_wp_attachment_metadata', 'a:3:{s:5:"width";i:605;s:6:"height";i:807;s:4:"file";s:60:"post/fotootchyot-s-gastrolei-v-norvegiyu-g-oslo/image-18.jpg";};');
+
+INSERT INTO `kt_postmeta` (`post_id`, `meta_key`, `meta_value`) VALUES
 ('267', '_wp_attached_file', 'post/fotootchyot-s-gastrolei-v-norvegiyu-g-oslo/image-19.jpg'),
 ('267', '_wp_attachment_metadata', 'a:3:{s:5:"width";i:960;s:6:"height";i:720;s:4:"file";s:60:"post/fotootchyot-s-gastrolei-v-norvegiyu-g-oslo/image-19.jpg";};'),
 ('268', '_wp_attached_file', 'post/fotootchyot-s-gastrolei-v-norvegiyu-g-oslo/image-20.jpg'),
 ('268', '_wp_attachment_metadata', 'a:3:{s:5:"width";i:807;s:6:"height";i:536;s:4:"file";s:60:"post/fotootchyot-s-gastrolei-v-norvegiyu-g-oslo/image-20.jpg";};'),
-('269', 'old_names', 'a:2:{i:0;s:11:"43-dachnici";i:1;s:9:"dachnitsy";};');
-
-INSERT INTO `kt_postmeta` (`post_id`, `meta_key`, `meta_value`) VALUES
+('269', 'old_names', 'a:2:{i:0;s:11:"43-dachnici";i:1;s:9:"dachnitsy";};'),
 ('269', 'jos_id', '43'),
 ('269', 'jos_alias', 'dachnici'),
 ('269', 'author', 'В. Карасёв'),
@@ -2994,14 +2999,14 @@ INSERT INTO `kt_postmeta` (`post_id`, `meta_key`, `meta_value`) VALUES
 ('298', '_wp_attachment_metadata', 'a:3:{s:5:"width";i:604;s:6:"height";i:402;s:4:"file";s:36:"performance/dachnitsy/dachitsy29.jpg";};'),
 ('299', '_wp_attached_file', 'performance/dachnitsy/dachitsy30.jpg'),
 ('299', '_wp_attachment_metadata', 'a:3:{s:5:"width";i:604;s:6:"height";i:402;s:4:"file";s:36:"performance/dachnitsy/dachitsy30.jpg";};'),
-('300', '_wp_attached_file', 'performance/dachnitsy/dachitsy31.jpg'),
+('300', '_wp_attached_file', 'performance/dachnitsy/dachitsy31.jpg');
+
+INSERT INTO `kt_postmeta` (`post_id`, `meta_key`, `meta_value`) VALUES
 ('300', '_wp_attachment_metadata', 'a:3:{s:5:"width";i:604;s:6:"height";i:402;s:4:"file";s:36:"performance/dachnitsy/dachitsy31.jpg";};'),
 ('301', '_wp_attached_file', 'performance/dachnitsy/dachitsy32.jpg'),
 ('301', '_wp_attachment_metadata', 'a:3:{s:5:"width";i:604;s:6:"height";i:402;s:4:"file";s:36:"performance/dachnitsy/dachitsy32.jpg";};'),
 ('302', '_wp_attached_file', 'performance/dachnitsy/dachitsy33.jpg'),
-('302', '_wp_attachment_metadata', 'a:3:{s:5:"width";i:319;s:6:"height";i:479;s:4:"file";s:36:"performance/dachnitsy/dachitsy33.jpg";};');
-
-INSERT INTO `kt_postmeta` (`post_id`, `meta_key`, `meta_value`) VALUES
+('302', '_wp_attachment_metadata', 'a:3:{s:5:"width";i:319;s:6:"height";i:479;s:4:"file";s:36:"performance/dachnitsy/dachitsy33.jpg";};'),
 ('303', '_wp_attached_file', 'performance/dachnitsy/dachitsy34.jpg'),
 ('303', '_wp_attachment_metadata', 'a:3:{s:5:"width";i:604;s:6:"height";i:402;s:4:"file";s:36:"performance/dachnitsy/dachitsy34.jpg";};'),
 ('304', '_wp_attached_file', 'performance/dachnitsy/dachitsy35.jpg'),
@@ -3071,14 +3076,15 @@ INSERT INTO `kt_postmeta` (`post_id`, `meta_key`, `meta_value`) VALUES
 ('332', 'taxonomy', 'a:1:{s:8:"category";a:2:{s:5:"title";s:14:"Новости";s:4:"slug";s:4:"news";};};'),
 ('333', 'old_names', 'a:2:{i:0;s:23:"64-asia-pigel-sergeevna";i:1;s:17:"anastasiya-pizhel";};'),
 ('333', 'jos_id', '64'),
-('333', 'jos_alias', 'asia-pigel-sergeevna'),
+('333', 'jos_alias', 'asia-pigel-sergeevna');
+
+INSERT INTO `kt_postmeta` (`post_id`, `meta_key`, `meta_value`) VALUES
 ('333', 'employment', 'a:6:{i:0;a:3:{s:14:"performance_id";s:2:"69";s:17:"performance_title";s:47:"Не всякий вор — грабитель";s:5:"roles";a:1:{s:2:"r2";s:45:"Мария Торнати (жена вора)";};};i:1;a:3:{s:14:"performance_id";s:2:"66";s:17:"performance_title";s:44:"Крепостная любовь (Муму)";s:5:"roles";a:1:{s:3:"r10";s:14:"Устинья";};};i:2;a:3:{s:14:"performance_id";s:2:"72";s:17:"performance_title";s:45:"Провинциальные анекдоты";s:5:"roles";a:1:{s:2:"r2";s:40:"Марина (жена Калошина)";};};i:3;a:3:{s:14:"performance_id";s:2:"79";s:17:"performance_title";s:35:"Волшебные сосульки";s:5:"roles";a:1:{s:2:"r3";s:18:"Грушенька";};};i:4;a:3:{s:14:"performance_id";s:2:"71";s:17:"performance_title";s:31:"Прогулка в Лю-Блё";s:5:"roles";a:1:{s:2:"r5";s:35:"Помощник режиссёра";};};i:5;a:3:{s:14:"performance_id";s:2:"81";s:17:"performance_title";s:14:"Земляки";s:5:"roles";a:1:{s:2:"r5";s:28:"Судья, Продавец";};};};'),
+('333', 'instate', '1'),
 ('333', 'gender', 'female'),
 ('333', 'kinoteatr', 'http://www.kino-teatr.ru/teatr/acter/w/ros/14143/bio/'),
 ('333', 'taxonomy', 'a:1:{s:6:"carier";a:2:{s:5:"title";s:10:"Актер";s:4:"slug";s:5:"actor";};};'),
-('333', '_thumbnail_id', '335');
-
-INSERT INTO `kt_postmeta` (`post_id`, `meta_key`, `meta_value`) VALUES
+('333', '_thumbnail_id', '335'),
 ('334', '_wp_attached_file', 'person/anastasiya-pizhel/anastasiya-pizhel.jpg'),
 ('334', '_wp_attachment_metadata', 'a:3:{s:5:"width";i:910;s:6:"height";i:1024;s:4:"file";s:46:"person/anastasiya-pizhel/anastasiya-pizhel.jpg";};'),
 ('335', '_wp_attached_file', 'person/anastasiya-pizhel/portrait.jpg'),
@@ -3090,6 +3096,7 @@ INSERT INTO `kt_postmeta` (`post_id`, `meta_key`, `meta_value`) VALUES
 ('337', 'jos_alias', 'fillipp-azarov'),
 ('337', 'employment', 'a:3:{i:0;a:3:{s:14:"performance_id";s:2:"72";s:17:"performance_title";s:45:"Провинциальные анекдоты";s:5:"roles";a:1:{s:2:"r5";s:12:"Камаев";};};i:1;a:3:{s:14:"performance_id";s:2:"73";s:17:"performance_title";s:34:"Сирано де Бержерак";s:5:"roles";a:1:{s:2:"r2";s:16:"Кристиан";};};i:2;a:3:{s:14:"performance_id";s:2:"66";s:17:"performance_title";s:44:"Крепостная любовь (Муму)";s:5:"roles";a:1:{s:2:"r0";s:14:"Герасим";};};};'),
 ('337', 'cinema', 'a:5:{i:0;s:45:"т/с «Морские дьяволы — 3»";i:1;s:35:"«Военная разведка»";i:2;s:52:"«Не думай про белых обезьян»";i:3;s:41:"«Исполнительный лист»";i:4;s:34:"«Первая ночь луны»";};'),
+('337', 'instate', '1'),
 ('337', 'gender', 'male'),
 ('337', 'kinoteatr', 'http://www.kino-teatr.ru/teatr/acter/m/ros/16218/bio/'),
 ('337', 'ruskino', 'http://ruskino.ru/art/5424'),
@@ -3146,16 +3153,16 @@ INSERT INTO `kt_postmeta` (`post_id`, `meta_key`, `meta_value`) VALUES
 ('351', '_wp_attachment_metadata', 'a:3:{s:5:"width";i:312;s:6:"height";i:448;s:4:"file";s:58:"press/my-svyazany-agneshka-davno-odnoi-sudboi/image-01.jpg";};'),
 ('352', 'old_names', 'a:2:{i:0;s:64:"28-vizit-qkomediantovq-gazeta-lkulturar-9-7368-6-12-marta-2003-g";i:1;s:17:"vizit-komediantov";};'),
 ('352', 'jos_id', '28'),
-('352', 'jos_alias', 'vizit-qkomediantovq-gazeta-lkulturar-9-7368-6-12-marta-2003-g'),
+('352', 'jos_alias', 'vizit-qkomediantovq-gazeta-lkulturar-9-7368-6-12-marta-2003-g');
+
+INSERT INTO `kt_postmeta` (`post_id`, `meta_key`, `meta_value`) VALUES
 ('352', 'source', 'Газета «Культура» №9 (7368)'),
 ('352', 'source_date', '6.03.2003'),
 ('353', 'old_names', 'a:2:{i:0;s:40:"33-recenzia-na-ehala-derevna-mimo-mujika";i:1;s:50:"retsenziya-na-spektakl-ehala-derevnya-mimo-muzhika";};'),
 ('353', 'jos_id', '33'),
 ('353', 'jos_alias', 'recenzia-na-ehala-derevna-mimo-mujika'),
 ('353', 'source', 'интернет-журнал «KidsReview.ru»'),
-('353', 'source_author', 'Владимир Несторович');
-
-INSERT INTO `kt_postmeta` (`post_id`, `meta_key`, `meta_value`) VALUES
+('353', 'source_author', 'Владимир Несторович'),
 ('353', 'source_date', '13.05.2011'),
 ('353', 'source_link', 'http://www.kidsreview.ru/reviews/retsenziya-na-spektakl-ekhala-derevnya-mimo-muzhika-teatra-komedianty-dlya-detei-4-12-let'),
 ('353', '_thumbnail_id', '355'),
@@ -3194,7 +3201,7 @@ INSERT INTO `kt_postmeta` (`post_id`, `meta_key`, `meta_value`) VALUES
 ('365', 'jos_id', '151'),
 ('365', 'jos_alias', '2011-11-16-20-22-04'),
 ('365', 'taxonomy', 'a:1:{s:8:"category";a:2:{s:5:"title";s:14:"Новости";s:4:"slug";s:4:"news";};};'),
-('365', '_thumbnail_id', '367'),
+('365', '_thumbnail_id', '366'),
 ('366', '_wp_attached_file', 'post/zolotoi-sofit/image-01.jpg'),
 ('366', '_wp_attachment_metadata', 'a:3:{s:5:"width";i:244;s:6:"height";i:357;s:4:"file";s:31:"post/zolotoi-sofit/image-01.jpg";};'),
 ('367', '_wp_attached_file', 'post/zolotoi-sofit/image-02.jpg'),
@@ -3213,6 +3220,7 @@ INSERT INTO `kt_postmeta` (`post_id`, `meta_key`, `meta_value`) VALUES
 ('370', 'jos_alias', 'larisa-klimova'),
 ('370', 'employment', 'a:6:{i:0;a:3:{s:14:"performance_id";s:2:"59";s:17:"performance_title";s:14:"Дачницы";s:5:"roles";a:1:{s:2:"r3";s:23:"Хозяйка дачи";};};i:1;a:3:{s:14:"performance_id";s:2:"69";s:17:"performance_title";s:47:"Не всякий вор — грабитель";s:5:"roles";a:1:{s:2:"r1";s:50:"Джулия (любовница Францози)";};};i:2;a:3:{s:14:"performance_id";s:2:"71";s:17:"performance_title";s:31:"Прогулка в Лю-Блё";s:5:"roles";a:1:{s:2:"r2";s:8:"Люля";};};i:3;a:3:{s:14:"performance_id";s:2:"77";s:17:"performance_title";s:14:"В Париж!";s:5:"roles";a:1:{s:2:"r2";a:2:{i:0;s:29:"Мария Денисовна";i:1;s:29:"Марья Денисовна";};};};i:4;a:3:{s:14:"performance_id";s:2:"66";s:17:"performance_title";s:44:"Крепостная любовь (Муму)";s:5:"roles";a:1:{s:2:"r4";s:31:"Любовь Любимовна";};};i:5;a:3:{s:14:"performance_id";s:2:"76";s:17:"performance_title";s:34:"Училка из будущего";s:5:"roles";a:1:{s:2:"r0";s:49:"Училка №23638/А041 Ненси Аллен";};};};'),
 ('370', 'cinema', 'a:6:{i:0;s:52:"т/с «Улицы разбитых фонарей»";i:1;s:16:"«Гончие»";i:2;s:41:"«Вербное воскресенье»";i:3;s:47:"«Государственная защита»";i:4;s:70:"т/с «Агент национальной безопасности»";i:5;s:62:"«Опера-3. Хроники убойного отдела»";};'),
+('370', 'instate', '1'),
 ('370', 'gender', 'female'),
 ('370', 'kinoteatr', 'http://www.kino-teatr.ru/teatr/acter/w/ros/16931/bio/'),
 ('370', 'taxonomy', 'a:1:{s:6:"carier";a:2:{s:5:"title";s:10:"Актер";s:4:"slug";s:5:"actor";};};'),
@@ -3222,17 +3230,18 @@ INSERT INTO `kt_postmeta` (`post_id`, `meta_key`, `meta_value`) VALUES
 ('372', '_wp_attached_file', 'person/larisa-klimova/portrait.jpg'),
 ('372', '_wp_attachment_metadata', 'a:3:{s:5:"width";i:321;s:6:"height";i:479;s:4:"file";s:34:"person/larisa-klimova/portrait.jpg";};'),
 ('373', '_wp_attached_file', 'person/larisa-klimova/troupe.jpg'),
-('373', '_wp_attachment_metadata', 'a:3:{s:5:"width";i:270;s:6:"height";i:369;s:4:"file";s:32:"person/larisa-klimova/troupe.jpg";};'),
+('373', '_wp_attachment_metadata', 'a:3:{s:5:"width";i:270;s:6:"height";i:369;s:4:"file";s:32:"person/larisa-klimova/troupe.jpg";};');
+
+INSERT INTO `kt_postmeta` (`post_id`, `meta_key`, `meta_value`) VALUES
 ('374', 'old_names', 'a:2:{i:0;s:17:"89-olga-yakovleva";i:1;s:14:"olga-yakovleva";};'),
 ('374', 'jos_id', '89'),
 ('374', 'jos_alias', 'olga-yakovleva'),
 ('374', 'employment', 'a:7:{i:0;a:3:{s:14:"performance_id";s:2:"66";s:17:"performance_title";s:44:"Крепостная любовь (Муму)";s:5:"roles";a:1:{s:2:"r2";s:12:"Барыня";};};i:1;a:3:{s:14:"performance_id";s:2:"75";s:17:"performance_title";s:40:"Страсти по-итальянски";s:5:"roles";a:1:{s:2:"r0";s:40:"Рита, Женщина, Доротея";};};i:2;a:3:{s:14:"performance_id";s:2:"57";s:17:"performance_title";s:41:"Беда от нежного сердца";s:5:"roles";a:1:{s:2:"r4";s:46:"Бояркина Дарья Семёновна";};};i:3;a:3:{s:14:"performance_id";s:2:"59";s:17:"performance_title";s:14:"Дачницы";s:5:"roles";a:1:{s:2:"r1";s:14:"Бабушка";};};i:4;a:3:{s:14:"performance_id";s:2:"80";s:17:"performance_title";s:48:"Записные книжки Тригорина";s:5:"roles";a:1:{s:2:"r2";s:31:"Полина Андреевна";};};i:5;a:3:{s:14:"performance_id";s:2:"77";s:17:"performance_title";s:14:"В Париж!";s:5:"roles";a:1:{s:2:"r1";s:29:"Маша Лампадкина";};};i:6;a:3:{s:14:"performance_id";s:2:"81";s:17:"performance_title";s:14:"Земляки";s:5:"roles";a:1:{s:2:"r1";s:70:"Нина Ануфриева (зав.клубом), Мать Игоря";};};};'),
 ('374', 'cinema', 'a:3:{i:0;s:35:"«Катя.Продолжение»";i:1;s:16:"«Бездна»";i:2;s:36:"«Любовь без правил»";};'),
+('374', 'instate', '1'),
 ('374', 'gender', 'female'),
 ('374', 'kinoteatr', 'http://www.kino-teatr.ru/teatr/acter/w/ros/283054/bio/'),
-('374', 'ruskino', 'http://ruskino.ru/art/10329');
-
-INSERT INTO `kt_postmeta` (`post_id`, `meta_key`, `meta_value`) VALUES
+('374', 'ruskino', 'http://ruskino.ru/art/10329'),
 ('374', 'taxonomy', 'a:1:{s:6:"carier";a:2:{s:5:"title";s:10:"Актер";s:4:"slug";s:5:"actor";};};'),
 ('374', '_thumbnail_id', '376'),
 ('375', '_wp_attached_file', 'person/olga-yakovleva/olga-yakovleva.jpg'),
@@ -3246,6 +3255,7 @@ INSERT INTO `kt_postmeta` (`post_id`, `meta_key`, `meta_value`) VALUES
 ('378', 'jos_alias', '-gennadij-spiridenkov-za-rf'),
 ('378', 'employment', 'a:6:{i:0;a:3:{s:14:"performance_id";s:2:"68";s:17:"performance_title";s:6:"Лес";s:5:"roles";a:1:{s:2:"r5";s:24:"Восьмибратов";};};i:1;a:3:{s:14:"performance_id";s:2:"77";s:17:"performance_title";s:14:"В Париж!";s:5:"roles";a:1:{s:2:"r0";s:42:"Петр Федорыч Пересолин";};};i:2;a:3:{s:14:"performance_id";s:2:"82";s:17:"performance_title";s:16:"Женитьба";s:5:"roles";a:1:{s:2:"r1";s:14:"Яичница";};};i:3;a:3:{s:14:"performance_id";s:2:"59";s:17:"performance_title";s:14:"Дачницы";s:5:"roles";a:1:{s:2:"r0";s:10:"Мужик";};};i:4;a:3:{s:14:"performance_id";s:2:"63";s:17:"performance_title";s:14:"Карлсон";s:5:"roles";a:1:{s:2:"r2";s:19:"Фрекен Бок";};};i:5;a:3:{s:14:"performance_id";s:2:"81";s:17:"performance_title";s:14:"Земляки";s:5:"roles";a:1:{s:3:"r13";s:68:"Представительный мужчина, Отец Игоря";};};};'),
 ('378', 'cinema', 'a:8:{i:0;s:47:"«Мама» (короткометражный)";i:1;s:16:"«Версия»";i:2;s:41:"т/с «Тайны следствия-7»";i:3;s:52:"т/с «Улицы разбитых фонарей»";i:4;s:31:"«Татьяна Ларина»";i:5;s:74:"«Синема, синема, или Неотвратимая весна»";i:6;s:48:"«Осечка» (фильм-спектакль)";i:7;s:38:"«Кабачок "13 стульев"»";};'),
+('378', 'instate', '1'),
 ('378', 'gender', 'male'),
 ('378', 'grade', 'Заслуженный артист России'),
 ('378', 'kinoteatr', 'http://www.kino-teatr.ru/kino/acter/m/ros/6427/bio/'),
@@ -3261,6 +3271,7 @@ INSERT INTO `kt_postmeta` (`post_id`, `meta_key`, `meta_value`) VALUES
 ('382', 'jos_id', '67'),
 ('382', 'jos_alias', 'leonid-zabkin'),
 ('382', 'employment', 'a:11:{i:0;a:3:{s:14:"performance_id";s:2:"70";s:17:"performance_title";s:37:"Поминальная молитва";s:5:"roles";a:1:{s:2:"r7";s:12:"Перчик";};};i:1;a:3:{s:14:"performance_id";s:2:"68";s:17:"performance_title";s:6:"Лес";s:5:"roles";a:1:{s:3:"r10";s:14:"Милонов";};};i:2;a:3:{s:14:"performance_id";s:2:"61";s:17:"performance_title";s:47:"Ехала деревня мимо мужика";s:5:"roles";a:1:{s:2:"r2";s:16:"Скоморох";};};i:3;a:3:{s:14:"performance_id";s:2:"58";s:17:"performance_title";s:57:"Брысь! или История кота Филофея";s:5:"roles";a:1:{s:2:"r5";s:12:"Мурзик";};};i:4;a:3:{s:14:"performance_id";s:2:"73";s:17:"performance_title";s:34:"Сирано де Бержерак";s:5:"roles";a:1:{s:3:"r10";a:2:{i:0;s:14:"Вальвер";i:2;s:16:"Гвардеец";};};};i:5;a:3:{s:14:"performance_id";s:2:"60";s:17:"performance_title";s:14:"Дурочка";s:5:"roles";a:1:{s:2:"r9";s:27:"учитель Дуардо";};};i:6;a:3:{s:14:"performance_id";s:2:"57";s:17:"performance_title";s:41:"Беда от нежного сердца";s:5:"roles";a:1:{s:2:"r0";s:37:"Сашенька Золотников";};};i:7;a:3:{s:14:"performance_id";s:2:"69";s:17:"performance_title";s:47:"Не всякий вор — грабитель";s:5:"roles";a:1:{s:2:"r5";s:14:"Антонио";};};i:8;a:3:{s:14:"performance_id";s:2:"76";s:17:"performance_title";s:34:"Училка из будущего";s:5:"roles";a:1:{s:2:"r5";s:16:"Наладчик";};};i:9;a:3:{s:14:"performance_id";s:2:"63";s:17:"performance_title";s:14:"Карлсон";s:5:"roles";a:1:{s:2:"r3";s:8:"Папа";};};i:10;a:3:{s:14:"performance_id";s:2:"75";s:17:"performance_title";s:40:"Страсти по-итальянски";s:5:"roles";a:1:{s:2:"r2";s:14:"Атнонио";};};};'),
+('382', 'instate', '1'),
 ('382', 'gender', 'male'),
 ('382', 'taxonomy', 'a:1:{s:6:"carier";a:2:{s:5:"title";s:10:"Актер";s:4:"slug";s:5:"actor";};};'),
 ('382', '_thumbnail_id', '384'),
@@ -3275,6 +3286,7 @@ INSERT INTO `kt_postmeta` (`post_id`, `meta_key`, `meta_value`) VALUES
 ('386', 'jos_alias', 'nikolai-ispolatov'),
 ('386', 'employment', 'a:4:{i:0;a:3:{s:14:"performance_id";s:2:"70";s:17:"performance_title";s:37:"Поминальная молитва";s:5:"roles";a:1:{s:3:"r12";s:18:"Священник";};};i:1;a:3:{s:14:"performance_id";s:2:"82";s:17:"performance_title";s:16:"Женитьба";s:5:"roles";a:1:{s:2:"r6";s:12:"Степан";};};i:2;a:3:{s:14:"performance_id";s:2:"73";s:17:"performance_title";s:34:"Сирано де Бержерак";s:5:"roles";a:1:{s:3:"r14";s:14:"Капуцин";};};i:3;a:3:{s:14:"performance_id";s:2:"72";s:17:"performance_title";s:45:"Провинциальные анекдоты";s:5:"roles";a:1:{s:3:"r11";s:34:"cкрипач Базильский";};};};'),
 ('386', 'cinema', 'a:5:{i:0;s:36:"«Жена керосинщика»,";i:1;s:52:"т/с «Улицы разбитых фонарей»";i:2;s:38:"«Мифы моего детства»";i:3;s:27:"«Ветка сирени»";i:4;s:10:"«Псы»";};'),
+('386', 'instate', '1'),
 ('386', 'gender', 'male'),
 ('386', 'kinoteatr', 'http://www.kino-teatr.ru/kino/acter/m/ros/1762/works/'),
 ('386', 'taxonomy', 'a:1:{s:6:"carier";a:2:{s:5:"title";s:10:"Актер";s:4:"slug";s:5:"actor";};};'),
@@ -3289,12 +3301,15 @@ INSERT INTO `kt_postmeta` (`post_id`, `meta_key`, `meta_value`) VALUES
 ('390', 'jos_id', '25'),
 ('390', 'jos_alias', 'mewaninova-nina'),
 ('390', 'employment', 'a:13:{i:0;a:3:{s:14:"performance_id";s:2:"68";s:17:"performance_title";s:6:"Лес";s:5:"roles";a:1:{s:2:"r0";s:20:"Гурмыжская";};};i:1;a:3:{s:14:"performance_id";s:2:"80";s:17:"performance_title";s:48:"Записные книжки Тригорина";s:5:"roles";a:1:{s:2:"r0";s:16:"Аркадина";};};i:2;a:3:{s:14:"performance_id";s:2:"77";s:17:"performance_title";s:14:"В Париж!";s:5:"roles";a:1:{s:2:"r1";s:29:"Маша Лампадкина";};};i:3;a:3:{s:14:"performance_id";s:3:"NP1";s:17:"performance_title";s:35:"Татуированная роза";s:5:"roles";a:1:{s:1:"r";s:33:"Серафинадела Роза";};};i:4;a:3:{s:14:"performance_id";s:2:"82";s:17:"performance_title";s:16:"Женитьба";s:5:"roles";a:1:{s:2:"r0";s:31:"Агафья Тихоновна";};};i:5;a:3:{s:14:"performance_id";s:3:"NP2";s:17:"performance_title";s:28:"Чехов на Диване";s:5:"roles";a:1:{s:1:"r";s:8:"Соня";};};i:6;a:3:{s:14:"performance_id";s:3:"NP3";s:17:"performance_title";s:16:"Пригород";s:5:"roles";a:1:{s:1:"r";s:31:"Алена Васильевна";};};i:7;a:3:{s:14:"performance_id";s:3:"NP4";s:17:"performance_title";s:49:"Кошка на раскаленной крыше";s:5:"roles";a:1:{s:1:"r";s:10:"Мэгги";};};i:8;a:3:{s:14:"performance_id";s:3:"NP5";s:17:"performance_title";s:31:"Весеннее рандеву";s:5:"roles";a:1:{s:1:"r";s:58:"Певица, Шансонетка, Рассказчица";};};i:9;a:3:{s:14:"performance_id";s:3:"NP6";s:17:"performance_title";s:39:"Петербургский романс";s:5:"roles";a:1:{s:1:"r";s:0:"";};};i:10;a:3:{s:14:"performance_id";s:3:"NP7";s:17:"performance_title";s:56:"Я никогда не буду француженкой";s:5:"roles";a:1:{s:1:"r";s:0:"";};};i:11;a:3:{s:14:"performance_id";s:3:"NP8";s:17:"performance_title";s:61:"Барская спесь, или Анютины глазки";s:5:"roles";a:1:{s:1:"r";s:56:"Дарья Петровна, Юлия Чухлымова";};};i:12;a:3:{s:14:"performance_id";s:2:"75";s:17:"performance_title";s:40:"Страсти по-итальянски";s:5:"roles";a:1:{s:1:"r";s:40:"Рита, Женщина, Доротея";};};};'),
+('390', 'instate', '1'),
 ('390', 'gender', 'female'),
 ('390', 'grade', 'Заслуженная артистка России'),
 ('390', 'kinoteatr', 'http://www.kino-teatr.ru/teatr/acter/w/ros/34775/bio/'),
 ('390', 'taxonomy', 'a:1:{s:6:"carier";a:2:{s:5:"title";s:10:"Актер";s:4:"slug";s:5:"actor";};};'),
 ('390', '_thumbnail_id', '392'),
-('391', '_wp_attached_file', 'person/nina-meschaninova/nina-meschaninova.jpg'),
+('391', '_wp_attached_file', 'person/nina-meschaninova/nina-meschaninova.jpg');
+
+INSERT INTO `kt_postmeta` (`post_id`, `meta_key`, `meta_value`) VALUES
 ('391', '_wp_attachment_metadata', 'a:3:{s:5:"width";i:910;s:6:"height";i:1024;s:4:"file";s:46:"person/nina-meschaninova/nina-meschaninova.jpg";};'),
 ('392', '_wp_attached_file', 'person/nina-meschaninova/portrait.jpg'),
 ('392', '_wp_attachment_metadata', 'a:3:{s:5:"width";i:888;s:6:"height";i:1332;s:4:"file";s:37:"person/nina-meschaninova/portrait.jpg";};'),
@@ -3305,11 +3320,10 @@ INSERT INTO `kt_postmeta` (`post_id`, `meta_key`, `meta_value`) VALUES
 ('394', 'jos_alias', 'blednyh-sergej'),
 ('394', 'employment', 'a:8:{i:0;a:3:{s:14:"performance_id";s:2:"78";s:17:"performance_title";s:22:"Волки и овцы";s:5:"roles";a:1:{s:2:"r1";s:48:"Беркутов Василий Иванович";};};i:1;a:3:{s:14:"performance_id";s:2:"66";s:17:"performance_title";s:44:"Крепостная любовь (Муму)";s:5:"roles";a:1:{s:2:"r6";s:14:"Гаврила";};};i:2;a:3:{s:14:"performance_id";s:2:"72";s:17:"performance_title";s:45:"Провинциальные анекдоты";s:5:"roles";a:1:{s:2:"r3";s:27:"Рукосуев (врач)";};};i:3;a:3:{s:14:"performance_id";s:2:"77";s:17:"performance_title";s:14:"В Париж!";s:5:"roles";a:1:{s:2:"r7";s:36:"Лампадкин, чиновник";};};i:4;a:3:{s:14:"performance_id";s:2:"59";s:17:"performance_title";s:14:"Дачницы";s:5:"roles";a:1:{s:2:"r0";s:10:"Мужик";};};i:5;a:3:{s:14:"performance_id";s:2:"76";s:17:"performance_title";s:34:"Училка из будущего";s:5:"roles";a:1:{s:2:"r1";s:34:"Джон Трайвер (папа)";};};i:6;a:3:{s:14:"performance_id";s:2:"69";s:17:"performance_title";s:47:"Не всякий вор — грабитель";s:5:"roles";a:1:{s:2:"r5";s:14:"Антонио";};};i:7;a:3:{s:14:"performance_id";s:2:"81";s:17:"performance_title";s:14:"Земляки";s:5:"roles";a:1:{s:2:"r0";s:60:"Николай Худяков, Редактор газеты";};};};'),
 ('394', 'cinema', 'a:5:{i:0;s:52:"т/с «Улицы разбитых фонарей»";i:1;s:54:"«Катерина.Возвращение любви»";i:2;s:26:"т/с «Литейный»";i:3;s:46:"«Предел. Кровь с молоком»";i:4;s:79:"«Любовь под грифом "Совершенно секретно"- 3»";};'),
+('394', 'instate', '1'),
 ('394', 'gender', 'male'),
 ('394', 'kinoteatr', 'http://www.kino-teatr.ru/kino/acter/m/ros/47510/bio/'),
-('394', 'taxonomy', 'a:1:{s:6:"carier";a:2:{s:5:"title";s:10:"Актер";s:4:"slug";s:5:"actor";};};');
-
-INSERT INTO `kt_postmeta` (`post_id`, `meta_key`, `meta_value`) VALUES
+('394', 'taxonomy', 'a:1:{s:6:"carier";a:2:{s:5:"title";s:10:"Актер";s:4:"slug";s:5:"actor";};};'),
 ('394', '_thumbnail_id', '395'),
 ('395', '_wp_attached_file', 'person/sergei-blednykh/portrait.jpg'),
 ('395', '_wp_attachment_metadata', 'a:3:{s:5:"width";i:276;s:6:"height";i:415;s:4:"file";s:35:"person/sergei-blednykh/portrait.jpg";};'),
@@ -3321,6 +3335,7 @@ INSERT INTO `kt_postmeta` (`post_id`, `meta_key`, `meta_value`) VALUES
 ('398', 'jos_id', '26'),
 ('398', 'jos_alias', 'popenko-taisija'),
 ('398', 'employment', 'a:5:{i:0;a:3:{s:14:"performance_id";s:2:"70";s:17:"performance_title";s:37:"Поминальная молитва";s:5:"roles";a:1:{s:2:"r1";s:10:"Голда";};};i:1;a:3:{s:14:"performance_id";s:2:"59";s:17:"performance_title";s:14:"Дачницы";s:5:"roles";a:1:{s:2:"r2";s:8:"Мама";};};i:2;a:3:{s:14:"performance_id";s:2:"80";s:17:"performance_title";s:48:"Записные книжки Тригорина";s:5:"roles";a:1:{s:2:"r2";s:31:"Полина Андреевна";};};i:3;a:3:{s:14:"performance_id";s:2:"71";s:17:"performance_title";s:31:"Прогулка в Лю-Блё";s:5:"roles";a:1:{s:2:"r0";s:8:"Рута";};};i:4;a:3:{s:14:"performance_id";s:2:"58";s:17:"performance_title";s:57:"Брысь! или История кота Филофея";s:5:"roles";a:1:{s:2:"r7";s:23:"Бабушка Шура";};};};'),
+('398', 'instate', '1'),
 ('398', 'gender', 'female'),
 ('398', 'grade', 'Заслуженная артистка России'),
 ('398', 'kinoteatr', 'http://www.kino-teatr.ru/kino/acter/w/ros/267779/bio/'),
@@ -3337,6 +3352,7 @@ INSERT INTO `kt_postmeta` (`post_id`, `meta_key`, `meta_value`) VALUES
 ('402', 'jos_alias', 'tatiana-kogevnikova'),
 ('402', 'employment', 'a:8:{i:0;a:3:{s:14:"performance_id";s:2:"68";s:17:"performance_title";s:6:"Лес";s:5:"roles";a:1:{s:2:"r8";s:10:"Улита";};};i:1;a:3:{s:14:"performance_id";s:2:"79";s:17:"performance_title";s:35:"Волшебные сосульки";s:5:"roles";a:1:{s:2:"r2";s:44:"мачеха Параша Тарасовна";};};i:2;a:3:{s:14:"performance_id";s:2:"57";s:17:"performance_title";s:41:"Беда от нежного сердца";s:5:"roles";a:1:{s:2:"r4";s:46:"Бояркина Дарья Семёновна";};};i:3;a:3:{s:14:"performance_id";s:2:"59";s:17:"performance_title";s:14:"Дачницы";s:5:"roles";a:1:{s:2:"r5";s:33:"Домработница Дуся";};};i:4;a:3:{s:14:"performance_id";s:2:"72";s:17:"performance_title";s:45:"Провинциальные анекдоты";s:5:"roles";a:1:{s:2:"r9";a:2:{i:0;s:31:"Васюта (2 анекдот)";i:1;s:12:"Васюта";};};};i:5;a:3:{s:14:"performance_id";s:2:"77";s:17:"performance_title";s:14:"В Париж!";s:5:"roles";a:1:{s:2:"r3";s:23:"Первая сваха";};};i:6;a:3:{s:14:"performance_id";s:2:"62";s:17:"performance_title";s:10:"Фарсы";s:5:"roles";a:1:{s:2:"r1";s:1:"?";};};i:7;a:3:{s:14:"performance_id";s:2:"81";s:17:"performance_title";s:14:"Земляки";s:5:"roles";a:1:{s:3:"r15";s:66:"Елизавета Киселёва, Лариса Худякова";};};};'),
 ('402', 'cinema', 'a:5:{i:0;s:49:"«Встретимся в метро» (1983 г.)";i:1;s:25:"«Гений» (1991 г.)";i:2;s:43:"«Смерть от любви» (1991 г.)";i:3;s:46:"«Улицы разбитых фонарей»";i:4;s:27:"«Чёрный ворон»";};'),
+('402', 'instate', '1'),
 ('402', 'gender', 'female'),
 ('402', 'taxonomy', 'a:1:{s:6:"carier";a:2:{s:5:"title";s:10:"Актер";s:4:"slug";s:5:"actor";};};'),
 ('402', '_thumbnail_id', '403'),
@@ -3351,6 +3367,7 @@ INSERT INTO `kt_postmeta` (`post_id`, `meta_key`, `meta_value`) VALUES
 ('406', 'jos_alias', 'anatolii-ilchenko'),
 ('406', 'employment', 'a:7:{i:0;a:3:{s:14:"performance_id";s:2:"66";s:17:"performance_title";s:44:"Крепостная любовь (Муму)";s:5:"roles";a:1:{s:2:"r3";a:2:{i:0;s:14:"Капитон";i:1;s:12:"Капион";};};};i:1;a:3:{s:14:"performance_id";s:2:"73";s:17:"performance_title";s:34:"Сирано де Бержерак";s:5:"roles";a:1:{s:2:"r3";s:11:"Ле Бре";};};i:2;a:3:{s:14:"performance_id";s:2:"72";s:17:"performance_title";s:45:"Провинциальные анекдоты";s:5:"roles";a:1:{s:2:"r7";s:12:"Угаров";};};i:3;a:3:{s:14:"performance_id";s:2:"80";s:17:"performance_title";s:48:"Записные книжки Тригорина";s:5:"roles";a:1:{s:2:"r8";s:20:"Медведенко";};};i:4;a:3:{s:14:"performance_id";s:2:"82";s:17:"performance_title";s:16:"Женитьба";s:5:"roles";a:1:{s:2:"r5";s:14:"Жевакин";};};i:5;a:3:{s:14:"performance_id";s:2:"77";s:17:"performance_title";s:14:"В Париж!";s:5:"roles";a:1:{s:2:"r9";s:30:"Соусов, чиновник";};};i:6;a:3:{s:14:"performance_id";s:2:"81";s:17:"performance_title";s:14:"Земляки";s:5:"roles";a:1:{s:2:"r4";s:57:"Сергей Духанин, Зам.дир.совхоза";};};};'),
 ('406', 'cinema', 'a:6:{i:0;s:26:"«Аэропорт — 2»";i:1;s:15:"«План Б»";i:2;s:22:"«Гончие — 3»";i:3;s:16:"«Клеймо»";i:4;s:28:"«Отставник — 2»";i:5;s:41:"«Ментовские войны — 5»";};'),
+('406', 'instate', '1'),
 ('406', 'gender', 'male'),
 ('406', 'kinoteatr', 'http://www.kino-teatr.ru/teatr/acter/m/ros/8040/bio/'),
 ('406', 'ruskino', 'http://ruskino.ru/art/8341'),
@@ -3367,9 +3384,11 @@ INSERT INTO `kt_postmeta` (`post_id`, `meta_key`, `meta_value`) VALUES
 ('410', 'jos_alias', 'pressa-premera-les'),
 ('410', 'source_author', 'Вера Трошнева'),
 ('410', 'source', 'Газета «Вести» он-лайн'),
-('410', 'source_date', '12.02.2013'),
+('410', 'source_date', '12.02.2013');
+
+INSERT INTO `kt_postmeta` (`post_id`, `meta_key`, `meta_value`) VALUES
 ('410', 'source_link', 'http://www.vesty.spb.ru/apps/novosti/2013/02/12/vodevil-xxi-veka/'),
-('410', '_thumbnail_id', '411'),
+('410', '_thumbnail_id', '413'),
 ('411', '_wp_attached_file', 'press/vodevil-xxi-veka/image-01.jpg'),
 ('411', '_wp_attachment_metadata', 'a:3:{s:5:"width";i:835;s:6:"height";i:572;s:4:"file";s:35:"press/vodevil-xxi-veka/image-01.jpg";};'),
 ('412', '_wp_attached_file', 'press/vodevil-xxi-veka/image-02.jpg'),
@@ -3384,9 +3403,7 @@ INSERT INTO `kt_postmeta` (`post_id`, `meta_key`, `meta_value`) VALUES
 ('415', 'jos_id', '255'),
 ('415', 'jos_alias', 'pressa-premera-les-recenziya'),
 ('415', 'source_author', 'Людмила Филатова'),
-('415', 'source_date', '20.02.2013');
-
-INSERT INTO `kt_postmeta` (`post_id`, `meta_key`, `meta_value`) VALUES
+('415', 'source_date', '20.02.2013'),
 ('416', 'old_names', 'a:2:{i:0;s:25:"256-art-chitka-kompromiss";i:1;s:31:"art-chitka-s-sergeem-dovlatovym";};'),
 ('416', 'jos_id', '256'),
 ('416', 'jos_alias', 'art-chitka-kompromiss'),
@@ -3407,7 +3424,7 @@ INSERT INTO `kt_postmeta` (`post_id`, `meta_key`, `meta_value`) VALUES
 ('420', 'source_date', '24.02.2013'),
 ('420', 'source_author', 'Екатерина Приклонская'),
 ('420', 'source_link', 'http://okolo.me/2013/02/vmeste-my-ne-propadyom-ili-pominalnaya-molitva-g-gorina/'),
-('420', '_thumbnail_id', '423'),
+('420', '_thumbnail_id', '421'),
 ('421', '_wp_attached_file', 'press/vmeste-my-ne-propadyom-ili-pominalnaya-molitva-g-gorina/image-01.jpg'),
 ('421', '_wp_attachment_metadata', 'a:3:{s:5:"width";i:503;s:6:"height";i:711;s:4:"file";s:74:"press/vmeste-my-ne-propadyom-ili-pominalnaya-molitva-g-gorina/image-01.jpg";};'),
 ('422', '_wp_attached_file', 'press/vmeste-my-ne-propadyom-ili-pominalnaya-molitva-g-gorina/image-02.jpg'),
@@ -3444,7 +3461,9 @@ INSERT INTO `kt_postmeta` (`post_id`, `meta_key`, `meta_value`) VALUES
 ('429', 'jos_id', '263'),
 ('429', 'jos_alias', '-q-q'),
 ('429', 'source_author', 'Лилия Шафранская'),
-('429', 'source', 'Студенческая газета «Gaudeamus»'),
+('429', 'source', 'Студенческая газета «Gaudeamus»');
+
+INSERT INTO `kt_postmeta` (`post_id`, `meta_key`, `meta_value`) VALUES
 ('429', 'source_date', '7.03.2013'),
 ('429', 'source_link', 'http://gaude.ru/news/23100'),
 ('429', '_thumbnail_id', '430'),
@@ -3461,9 +3480,7 @@ INSERT INTO `kt_postmeta` (`post_id`, `meta_key`, `meta_value`) VALUES
 ('432', 'source_link', 'http://ptj.spb.ru/pressa/o-zhizni-kotoraya-dobree-i-mudree-nas/'),
 ('432', '_thumbnail_id', '433'),
 ('433', '_wp_attached_file', 'press/o-zhizni-kotoraya-dobree-i-mudree-nas/image-01.jpg'),
-('433', '_wp_attachment_metadata', 'a:3:{s:5:"width";i:604;s:6:"height";i:403;s:4:"file";s:56:"press/o-zhizni-kotoraya-dobree-i-mudree-nas/image-01.jpg";};');
-
-INSERT INTO `kt_postmeta` (`post_id`, `meta_key`, `meta_value`) VALUES
+('433', '_wp_attachment_metadata', 'a:3:{s:5:"width";i:604;s:6:"height";i:403;s:4:"file";s:56:"press/o-zhizni-kotoraya-dobree-i-mudree-nas/image-01.jpg";};'),
 ('434', 'old_names', 'a:2:{i:0;s:35:"257-recenzia-na-pominalnaya-molitva";i:1;s:70:"retsenziya-eleny-dobryakovoj-o-premernom-spektakle-pominalnaya-molitva";};'),
 ('434', 'jos_id', '257'),
 ('434', 'jos_alias', 'recenzia-na-pominalnaya-molitva'),
@@ -3521,7 +3538,9 @@ INSERT INTO `kt_postmeta` (`post_id`, `meta_key`, `meta_value`) VALUES
 ('450', '_wp_attachment_metadata', 'a:3:{s:5:"width";i:604;s:6:"height";i:402;s:4:"file";s:55:"performance/volshebnye-sosulki/volshebnye-sosulki11.jpg";};'),
 ('451', '_wp_attached_file', 'performance/volshebnye-sosulki/volshebnye-sosulki12.jpg'),
 ('451', '_wp_attachment_metadata', 'a:3:{s:5:"width";i:604;s:6:"height";i:402;s:4:"file";s:55:"performance/volshebnye-sosulki/volshebnye-sosulki12.jpg";};'),
-('452', '_wp_attached_file', 'performance/volshebnye-sosulki/volshebnye-sosulki13.jpg'),
+('452', '_wp_attached_file', 'performance/volshebnye-sosulki/volshebnye-sosulki13.jpg');
+
+INSERT INTO `kt_postmeta` (`post_id`, `meta_key`, `meta_value`) VALUES
 ('452', '_wp_attachment_metadata', 'a:3:{s:5:"width";i:319;s:6:"height";i:479;s:4:"file";s:55:"performance/volshebnye-sosulki/volshebnye-sosulki13.jpg";};'),
 ('453', '_wp_attached_file', 'performance/volshebnye-sosulki/volshebnye-sosulki14.jpg'),
 ('453', '_wp_attachment_metadata', 'a:3:{s:5:"width";i:604;s:6:"height";i:402;s:4:"file";s:55:"performance/volshebnye-sosulki/volshebnye-sosulki14.jpg";};'),
@@ -3538,9 +3557,7 @@ INSERT INTO `kt_postmeta` (`post_id`, `meta_key`, `meta_value`) VALUES
 ('459', '_wp_attached_file', 'performance/volshebnye-sosulki/volshebnye-sosulki20.jpg'),
 ('459', '_wp_attachment_metadata', 'a:3:{s:5:"width";i:604;s:6:"height";i:443;s:4:"file";s:55:"performance/volshebnye-sosulki/volshebnye-sosulki20.jpg";};'),
 ('460', '_wp_attached_file', 'performance/volshebnye-sosulki/volshebnye-sosulki21.jpg'),
-('460', '_wp_attachment_metadata', 'a:3:{s:5:"width";i:319;s:6:"height";i:479;s:4:"file";s:55:"performance/volshebnye-sosulki/volshebnye-sosulki21.jpg";};');
-
-INSERT INTO `kt_postmeta` (`post_id`, `meta_key`, `meta_value`) VALUES
+('460', '_wp_attachment_metadata', 'a:3:{s:5:"width";i:319;s:6:"height";i:479;s:4:"file";s:55:"performance/volshebnye-sosulki/volshebnye-sosulki21.jpg";};'),
 ('461', '_wp_attached_file', 'performance/volshebnye-sosulki/volshebnye-sosulki22.jpg'),
 ('461', '_wp_attachment_metadata', 'a:3:{s:5:"width";i:604;s:6:"height";i:402;s:4:"file";s:55:"performance/volshebnye-sosulki/volshebnye-sosulki22.jpg";};'),
 ('462', 'old_names', 'a:2:{i:0;s:31:"252-pressa-premera-pomanalnaya1";i:1;s:47:"pressa-o-premere-spektaklya-pominalnaya-molitva";};'),
@@ -3556,7 +3573,7 @@ INSERT INTO `kt_postmeta` (`post_id`, `meta_key`, `meta_value`) VALUES
 ('464', 'source', 'Газета «Невское время»'),
 ('464', 'source_date', '13.03.2013'),
 ('464', 'source_author', 'Елена Добрякова'),
-('464', '_thumbnail_id', '466'),
+('464', '_thumbnail_id', '465'),
 ('465', '_wp_attached_file', 'press/o-spektakle-pominalnaya-molitva/image-01.jpg'),
 ('465', '_wp_attachment_metadata', 'a:3:{s:5:"width";i:604;s:6:"height";i:403;s:4:"file";s:50:"press/o-spektakle-pominalnaya-molitva/image-01.jpg";};'),
 ('466', '_wp_attached_file', 'press/o-spektakle-pominalnaya-molitva/image-02.jpg'),
@@ -3568,7 +3585,7 @@ INSERT INTO `kt_postmeta` (`post_id`, `meta_key`, `meta_value`) VALUES
 ('467', 'source_date', '27.03.2013'),
 ('467', 'source_author', 'Елизавета Садкова'),
 ('467', 'source_link', 'http://ok-inform.ru/prazdnik-zhizni/1613-o-bolshikh-lyudyakh-nebolshogo-teatra.html'),
-('467', '_thumbnail_id', '471'),
+('467', '_thumbnail_id', '472'),
 ('468', '_wp_attached_file', 'press/o-bolshikh-lyudyakh-nebolshogo-teatra/image-01.jpg'),
 ('468', '_wp_attachment_metadata', 'a:3:{s:5:"width";i:619;s:6:"height";i:453;s:4:"file";s:56:"press/o-bolshikh-lyudyakh-nebolshogo-teatra/image-01.jpg";};'),
 ('469', '_wp_attached_file', 'press/o-bolshikh-lyudyakh-nebolshogo-teatra/image-02.jpg'),
@@ -3592,19 +3609,21 @@ INSERT INTO `kt_postmeta` (`post_id`, `meta_key`, `meta_value`) VALUES
 ('476', 'source_author', 'Татьяна Морозова'),
 ('476', 'source_date', '11.10.2010'),
 ('476', 'source_link', 'http://www.mr7.ru/articles/33937/'),
-('476', '_thumbnail_id', '478'),
+('476', '_thumbnail_id', '477'),
 ('477', '_wp_attached_file', 'press/provintsialnye-anekdoty-v-teatre-komedianty-vse-ne-prosto-tak/image-01.jpg'),
 ('477', '_wp_attachment_metadata', 'a:3:{s:5:"width";i:604;s:6:"height";i:400;s:4:"file";s:80:"press/provintsialnye-anekdoty-v-teatre-komedianty-vse-ne-prosto-tak/image-01.jpg";};'),
 ('478', '_wp_attached_file', 'press/provintsialnye-anekdoty-v-teatre-komedianty-vse-ne-prosto-tak/image-02.jpg'),
 ('478', '_wp_attachment_metadata', 'a:3:{s:5:"width";i:604;s:6:"height";i:402;s:4:"file";s:80:"press/provintsialnye-anekdoty-v-teatre-komedianty-vse-ne-prosto-tak/image-02.jpg";};'),
 ('479', 'old_names', 'a:2:{i:0;s:23:"269-pressa-vjlki-i-ovci";i:1;s:35:"zhivaya-klassika-na-malenkoj-stsene";};'),
-('479', 'jos_id', '269'),
+('479', 'jos_id', '269');
+
+INSERT INTO `kt_postmeta` (`post_id`, `meta_key`, `meta_value`) VALUES
 ('479', 'jos_alias', 'pressa-vjlki-i-ovci'),
 ('479', 'source', 'Издание «BlogSlov»'),
 ('479', 'source_author', 'Мария Кингисепп'),
 ('479', 'source_date', '14.12.2005'),
 ('479', 'source_link', 'http://www.blogslov.ru/date.php/2005/12/09/09_01-22-23.xml'),
-('479', '_thumbnail_id', '482'),
+('479', '_thumbnail_id', '481'),
 ('480', '_wp_attached_file', 'press/zhivaya-klassika-na-malenkoi-stsene/image-01.jpg'),
 ('480', '_wp_attachment_metadata', 'a:3:{s:5:"width";i:604;s:6:"height";i:402;s:4:"file";s:54:"press/zhivaya-klassika-na-malenkoi-stsene/image-01.jpg";};'),
 ('481', '_wp_attached_file', 'press/zhivaya-klassika-na-malenkoi-stsene/image-02.jpg'),
@@ -3615,9 +3634,8 @@ INSERT INTO `kt_postmeta` (`post_id`, `meta_key`, `meta_value`) VALUES
 ('483', 'jos_id', '58'),
 ('483', 'jos_alias', 'viktor-kostetskii'),
 ('483', 'employment', 'a:1:{i:0;a:3:{s:14:"performance_id";s:2:"80";s:17:"performance_title";s:48:"Записные книжки Тригорина";s:5:"roles";a:1:{s:2:"r1";s:21:"Доктор Дорн";};};};'),
-('483', 'cinema', 'a:10:{i:0;s:48:"«Труффальдино из Бергамо»";i:1;s:49:"«Убойная сила» (все сезоны)";i:2;s:41:"«Свадьба Кречинского»";i:3;s:12:"«Крот»";i:4;s:41:"«Секретные поручения»";i:5;s:42:"«Там, где живёт любовь»";i:6;s:43:"«Бандитский Петербург»";i:7;s:33:"«Русский транзит»";i:8;s:14:"«Гений»";i:9;s:35:"«Счастливый конец»";};');
-
-INSERT INTO `kt_postmeta` (`post_id`, `meta_key`, `meta_value`) VALUES
+('483', 'cinema', 'a:10:{i:0;s:48:"«Труффальдино из Бергамо»";i:1;s:49:"«Убойная сила» (все сезоны)";i:2;s:41:"«Свадьба Кречинского»";i:3;s:12:"«Крот»";i:4;s:41:"«Секретные поручения»";i:5;s:42:"«Там, где живёт любовь»";i:6;s:43:"«Бандитский Петербург»";i:7;s:33:"«Русский транзит»";i:8;s:14:"«Гений»";i:9;s:35:"«Счастливый конец»";};'),
+('483', 'instate', '1'),
 ('483', 'gender', 'male'),
 ('483', 'grade', 'Заслуженный артист России'),
 ('483', 'kinoteatr', 'http://www.kino-teatr.ru/teatr/acter/m/ros/2176/bio/'),
@@ -3669,12 +3687,14 @@ INSERT INTO `kt_postmeta` (`post_id`, `meta_key`, `meta_value`) VALUES
 ('494', 'source_date', '15.12.2001'),
 ('494', 'source_author', 'Кира Николаева'),
 ('494', 'source_link', 'http://www.theart.ru/cgi-bin/programmaterial.cgi?id=332'),
-('494', '_thumbnail_id', '496'),
+('494', '_thumbnail_id', '495'),
 ('495', '_wp_attached_file', 'press/intervyu-mikhaila-levshina-teatralnyi-peterburg/image-02.jpg'),
 ('495', '_wp_attachment_metadata', 'a:3:{s:5:"width";i:319;s:6:"height";i:479;s:4:"file";s:66:"press/intervyu-mikhaila-levshina-teatralnyi-peterburg/image-02.jpg";};'),
 ('496', '_wp_attached_file', 'press/intervyu-mikhaila-levshina-teatralnyi-peterburg/image-03.jpg'),
 ('496', '_wp_attachment_metadata', 'a:3:{s:5:"width";i:320;s:6:"height";i:480;s:4:"file";s:66:"press/intervyu-mikhaila-levshina-teatralnyi-peterburg/image-03.jpg";};'),
-('497', 'old_names', 'a:2:{i:0;s:26:"39-beda-ot-neghnogo-serdca";i:1;s:24:"beda-ot-nezhnogo-serdtsa";};'),
+('497', 'old_names', 'a:2:{i:0;s:26:"39-beda-ot-neghnogo-serdca";i:1;s:24:"beda-ot-nezhnogo-serdtsa";};');
+
+INSERT INTO `kt_postmeta` (`post_id`, `meta_key`, `meta_value`) VALUES
 ('497', 'jos_id', '39'),
 ('497', 'jos_alias', 'beda-ot-neghnogo-serdca'),
 ('497', 'author', 'Владимир Сологуб'),
@@ -3692,9 +3712,7 @@ INSERT INTO `kt_postmeta` (`post_id`, `meta_key`, `meta_value`) VALUES
 ('500', '_wp_attachment_metadata', 'a:3:{s:5:"width";i:1280;s:6:"height";i:853;s:4:"file";s:47:"performance/beda-ot-nezhnogo-serdtsa/beda03.jpg";};'),
 ('501', '_wp_attached_file', 'performance/beda-ot-nezhnogo-serdtsa/beda04.jpg'),
 ('501', '_wp_attachment_metadata', 'a:3:{s:5:"width";i:1280;s:6:"height";i:853;s:4:"file";s:47:"performance/beda-ot-nezhnogo-serdtsa/beda04.jpg";};'),
-('502', '_wp_attached_file', 'performance/beda-ot-nezhnogo-serdtsa/beda05.jpg');
-
-INSERT INTO `kt_postmeta` (`post_id`, `meta_key`, `meta_value`) VALUES
+('502', '_wp_attached_file', 'performance/beda-ot-nezhnogo-serdtsa/beda05.jpg'),
 ('502', '_wp_attachment_metadata', 'a:3:{s:5:"width";i:853;s:6:"height";i:1280;s:4:"file";s:47:"performance/beda-ot-nezhnogo-serdtsa/beda05.jpg";};'),
 ('503', '_wp_attached_file', 'performance/beda-ot-nezhnogo-serdtsa/beda06.jpg'),
 ('503', '_wp_attachment_metadata', 'a:3:{s:5:"width";i:319;s:6:"height";i:479;s:4:"file";s:47:"performance/beda-ot-nezhnogo-serdtsa/beda06.jpg";};'),
@@ -3751,7 +3769,9 @@ INSERT INTO `kt_postmeta` (`post_id`, `meta_key`, `meta_value`) VALUES
 ('529', '_wp_attached_file', 'performance/beda-ot-nezhnogo-serdtsa/beda32.jpg'),
 ('529', '_wp_attachment_metadata', 'a:3:{s:5:"width";i:604;s:6:"height";i:402;s:4:"file";s:47:"performance/beda-ot-nezhnogo-serdtsa/beda32.jpg";};'),
 ('530', '_wp_attached_file', 'performance/beda-ot-nezhnogo-serdtsa/beda33.jpg'),
-('530', '_wp_attachment_metadata', 'a:3:{s:5:"width";i:1280;s:6:"height";i:853;s:4:"file";s:47:"performance/beda-ot-nezhnogo-serdtsa/beda33.jpg";};'),
+('530', '_wp_attachment_metadata', 'a:3:{s:5:"width";i:1280;s:6:"height";i:853;s:4:"file";s:47:"performance/beda-ot-nezhnogo-serdtsa/beda33.jpg";};');
+
+INSERT INTO `kt_postmeta` (`post_id`, `meta_key`, `meta_value`) VALUES
 ('531', '_wp_attached_file', 'performance/beda-ot-nezhnogo-serdtsa/beda34.jpg'),
 ('531', '_wp_attachment_metadata', 'a:3:{s:5:"width";i:1280;s:6:"height";i:853;s:4:"file";s:47:"performance/beda-ot-nezhnogo-serdtsa/beda34.jpg";};'),
 ('532', '_wp_attached_file', 'performance/beda-ot-nezhnogo-serdtsa/beda35.jpg'),
@@ -3769,9 +3789,7 @@ INSERT INTO `kt_postmeta` (`post_id`, `meta_key`, `meta_value`) VALUES
 ('538', '_wp_attached_file', 'performance/beda-ot-nezhnogo-serdtsa/beda41.jpg'),
 ('538', '_wp_attachment_metadata', 'a:3:{s:5:"width";i:853;s:6:"height";i:1280;s:4:"file";s:47:"performance/beda-ot-nezhnogo-serdtsa/beda41.jpg";};'),
 ('539', '_wp_attached_file', 'performance/beda-ot-nezhnogo-serdtsa/beda42.jpg'),
-('539', '_wp_attachment_metadata', 'a:3:{s:5:"width";i:604;s:6:"height";i:402;s:4:"file";s:47:"performance/beda-ot-nezhnogo-serdtsa/beda42.jpg";};');
-
-INSERT INTO `kt_postmeta` (`post_id`, `meta_key`, `meta_value`) VALUES
+('539', '_wp_attachment_metadata', 'a:3:{s:5:"width";i:604;s:6:"height";i:402;s:4:"file";s:47:"performance/beda-ot-nezhnogo-serdtsa/beda42.jpg";};'),
 ('540', '_wp_attached_file', 'performance/beda-ot-nezhnogo-serdtsa/beda43.jpg'),
 ('540', '_wp_attachment_metadata', 'a:3:{s:5:"width";i:319;s:6:"height";i:479;s:4:"file";s:47:"performance/beda-ot-nezhnogo-serdtsa/beda43.jpg";};'),
 ('541', '_wp_attached_file', 'performance/beda-ot-nezhnogo-serdtsa/beda44.jpg'),
@@ -3828,9 +3846,11 @@ INSERT INTO `kt_postmeta` (`post_id`, `meta_key`, `meta_value`) VALUES
 ('563', 'jos_alias', 'tereh'),
 ('563', 'source_link', 'http://russia.tv/article/show/article_id/10171/brand_id/16765/type_id/1'),
 ('563', 'source', 'телеканал «Россия», RUTV.ru'),
-('563', 'source_author', 'Майорова Дарья'),
+('563', 'source_author', 'Майорова Дарья');
+
+INSERT INTO `kt_postmeta` (`post_id`, `meta_key`, `meta_value`) VALUES
 ('563', 'source_date', '2010'),
-('563', '_thumbnail_id', '565'),
+('563', '_thumbnail_id', '564'),
 ('564', '_wp_attached_file', 'press/vedma-zhenka-v-koldovstvo-ne-verit-intervyu-natali-terekhovoi-telekanal-rossiya/image-01.jpg'),
 ('564', '_wp_attachment_metadata', 'a:3:{s:5:"width";i:320;s:6:"height";i:240;s:4:"file";s:98:"press/vedma-zhenka-v-koldovstvo-ne-verit-intervyu-natali-terekhovoi-telekanal-rossiya/image-01.jpg";};'),
 ('565', '_wp_attached_file', 'press/vedma-zhenka-v-koldovstvo-ne-verit-intervyu-natali-terekhovoi-telekanal-rossiya/image-02.jpg'),
@@ -3846,9 +3866,7 @@ INSERT INTO `kt_postmeta` (`post_id`, `meta_key`, `meta_value`) VALUES
 ('568', 'jos_id', '69'),
 ('568', 'jos_alias', 'genitba'),
 ('568', 'author', 'Н. Гоголь'),
-('568', 'authors', 'a:4:{i:0;a:1:{s:39:"Режиссёр-постановщик";s:25:"Михаил Левшин";};i:1;a:1:{s:22:"Сценография";s:89:"Народный художник России Э. Кочергина, О. Головко";};i:2;a:1:{s:14:"Костюмы";s:22:"А. Алексеева";};i:3;a:1:{s:43:"Музыкальное оформление";s:22:"Е. Кириченко";};};');
-
-INSERT INTO `kt_postmeta` (`post_id`, `meta_key`, `meta_value`) VALUES
+('568', 'authors', 'a:4:{i:0;a:1:{s:39:"Режиссёр-постановщик";s:25:"Михаил Левшин";};i:1;a:1:{s:22:"Сценография";s:89:"Народный художник России Э. Кочергина, О. Головко";};i:2;a:1:{s:14:"Костюмы";s:22:"А. Алексеева";};i:3;a:1:{s:43:"Музыкальное оформление";s:22:"Е. Кириченко";};};'),
 ('568', 'duration', '3:00'),
 ('568', 'entracte', '1'),
 ('568', 'genre', 'Комедия'),
@@ -3905,7 +3923,9 @@ INSERT INTO `kt_postmeta` (`post_id`, `meta_key`, `meta_value`) VALUES
 ('592', '_wp_attachment_metadata', 'a:3:{s:5:"width";i:604;s:6:"height";i:402;s:4:"file";s:35:"performance/zhenitba/zhenitba23.jpg";};'),
 ('593', '_wp_attached_file', 'performance/zhenitba/zhenitba24.jpg'),
 ('593', '_wp_attachment_metadata', 'a:3:{s:5:"width";i:604;s:6:"height";i:402;s:4:"file";s:35:"performance/zhenitba/zhenitba24.jpg";};'),
-('594', '_wp_attached_file', 'performance/zhenitba/zhenitba25.jpg'),
+('594', '_wp_attached_file', 'performance/zhenitba/zhenitba25.jpg');
+
+INSERT INTO `kt_postmeta` (`post_id`, `meta_key`, `meta_value`) VALUES
 ('594', '_wp_attachment_metadata', 'a:3:{s:5:"width";i:604;s:6:"height";i:402;s:4:"file";s:35:"performance/zhenitba/zhenitba25.jpg";};'),
 ('595', '_wp_attached_file', 'performance/zhenitba/zhenitba26.jpg'),
 ('595', '_wp_attachment_metadata', 'a:3:{s:5:"width";i:604;s:6:"height";i:402;s:4:"file";s:35:"performance/zhenitba/zhenitba26.jpg";};'),
@@ -3923,9 +3943,7 @@ INSERT INTO `kt_postmeta` (`post_id`, `meta_key`, `meta_value`) VALUES
 ('601', '_wp_attachment_metadata', 'a:3:{s:5:"width";i:604;s:6:"height";i:402;s:4:"file";s:35:"performance/zhenitba/zhenitba32.jpg";};'),
 ('602', '_wp_attached_file', 'performance/zhenitba/zhenitba33.jpg'),
 ('602', '_wp_attachment_metadata', 'a:3:{s:5:"width";i:604;s:6:"height";i:402;s:4:"file";s:35:"performance/zhenitba/zhenitba33.jpg";};'),
-('603', '_wp_attached_file', 'performance/zhenitba/zhenitba34.jpg');
-
-INSERT INTO `kt_postmeta` (`post_id`, `meta_key`, `meta_value`) VALUES
+('603', '_wp_attached_file', 'performance/zhenitba/zhenitba34.jpg'),
 ('603', '_wp_attachment_metadata', 'a:3:{s:5:"width";i:604;s:6:"height";i:402;s:4:"file";s:35:"performance/zhenitba/zhenitba34.jpg";};'),
 ('604', '_wp_attached_file', 'performance/zhenitba/zhenitba35.jpg'),
 ('604', '_wp_attachment_metadata', 'a:3:{s:5:"width";i:604;s:6:"height";i:402;s:4:"file";s:35:"performance/zhenitba/zhenitba35.jpg";};'),
@@ -3981,7 +3999,10 @@ INSERT INTO `kt_postmeta` (`post_id`, `meta_key`, `meta_value`) VALUES
 ('625', 'employment', 'a:5:{i:0;a:3:{s:14:"performance_id";s:2:"70";s:17:"performance_title";s:37:"Поминальная молитва";s:5:"roles";a:1:{s:3:"r16";s:12:"Степан";};};i:1;a:3:{s:14:"performance_id";s:2:"60";s:17:"performance_title";s:14:"Дурочка";s:5:"roles";a:1:{s:2:"r1";s:14:"Октавьо";};};i:2;a:3:{s:14:"performance_id";s:2:"57";s:17:"performance_title";s:41:"Беда от нежного сердца";s:5:"roles";a:1:{s:2:"r7";s:16:"Папенька";};};i:3;a:3:{s:14:"performance_id";s:2:"68";s:17:"performance_title";s:6:"Лес";s:5:"roles";a:1:{s:2:"r7";s:8:"Карп";};};i:4;a:3:{s:14:"performance_id";s:2:"73";s:17:"performance_title";s:34:"Сирано де Бержерак";s:5:"roles";a:1:{s:3:"r11";s:10:"Рагно";};};};'),
 ('625', 'theater', 'a:6:{i:0;s:80:"Диоген («Диоген» — Константинов В., Рацер Б.)";i:1;s:89:"Малахов («Остановите Малахова» — Аграновский В.)";i:2;s:80:"Подсекальников («Самоубийца» — Эрдман Н. Р.)";i:3;s:68:"Счастливцев («Лес» — Островский А. Н.)";i:4;s:84:"Шмага («Без вины виноватые» — Островский А. Н.)";i:5;s:91:"Щукарь («Поднятая целина» — Шолохов М. А., Демин П.)";};'),
 ('625', 'cinema', 'a:13:{i:0;s:67:"«Школа волшебства» (фильм-спектакль)";i:1;s:70:"«Розабелла и тролль» (фильм-спектакль)";i:2;s:73:"«Романс о Санта Крусе» (фильм-спектакль)";i:3;s:52:"«Время печали еще не пришло»";i:4;s:16:"«Огниво»";i:5;s:41:"«Заповедник гоблинов»";i:6;s:16:"«Улыбка»";i:7;s:70:"«Агент национальной безопасности — 2»";i:8;s:48:"«Улицы разбитых фонарей-2»";i:9;s:39:"«Тайны следствия — 9»";i:10;s:38:"«Литейный (4-й сезон)»";i:11;s:16:"«Танцор»";i:12;s:29:"«Убойная сила-1»";};'),
-('625', 'gender', 'male'),
+('625', 'instate', '1'),
+('625', 'gender', 'male');
+
+INSERT INTO `kt_postmeta` (`post_id`, `meta_key`, `meta_value`) VALUES
 ('625', 'kinoteatr', 'http://www.kino-teatr.ru/kino/acter/m/ros/8974/bio/'),
 ('625', 'taxonomy', 'a:1:{s:6:"carier";a:2:{s:5:"title";s:10:"Актер";s:4:"slug";s:5:"actor";};};'),
 ('625', '_thumbnail_id', '627'),
@@ -4000,9 +4021,7 @@ INSERT INTO `kt_postmeta` (`post_id`, `meta_key`, `meta_value`) VALUES
 ('630', '_wp_attachment_metadata', 'a:3:{s:5:"width";i:926;s:6:"height";i:960;s:4:"file";s:61:"post/gastroli-na-stsene-komediantov-29-i-30-maya/image-01.jpg";};'),
 ('631', '_wp_attached_file', 'post/gastroli-na-stsene-komediantov-29-i-30-maya/image-02.jpg'),
 ('631', '_wp_attachment_metadata', 'a:3:{s:5:"width";i:330;s:6:"height";i:221;s:4:"file";s:61:"post/gastroli-na-stsene-komediantov-29-i-30-maya/image-02.jpg";};'),
-('632', 'old_names', 'a:2:{i:0;s:9:"280-plani";i:1;s:24:"plany-na-sezon-2013-2014";};');
-
-INSERT INTO `kt_postmeta` (`post_id`, `meta_key`, `meta_value`) VALUES
+('632', 'old_names', 'a:2:{i:0;s:9:"280-plani";i:1;s:24:"plany-na-sezon-2013-2014";};'),
 ('632', 'jos_id', '280'),
 ('632', 'jos_alias', 'plani'),
 ('632', 'taxonomy', 'a:1:{s:8:"category";a:2:{s:5:"title";s:14:"Новости";s:4:"slug";s:4:"news";};};'),
@@ -4014,6 +4033,7 @@ INSERT INTO `kt_postmeta` (`post_id`, `meta_key`, `meta_value`) VALUES
 ('634', 'jos_alias', 'kirilldateshidze'),
 ('634', 'employment', 'a:4:{i:0;a:3:{s:14:"performance_id";s:2:"60";s:17:"performance_title";s:14:"Дурочка";s:5:"roles";a:1:{s:2:"r1";s:14:"Октавьо";};};i:1;a:3:{s:14:"performance_id";s:2:"78";s:17:"performance_title";s:22:"Волки и овцы";s:5:"roles";a:1:{s:2:"r7";s:12:"Лыняев";};};i:2;a:3:{s:14:"performance_id";s:2:"80";s:17:"performance_title";s:48:"Записные книжки Тригорина";s:5:"roles";a:1:{s:2:"r6";s:10:"Сорин";};};i:3;a:3:{s:14:"performance_id";s:2:"70";s:17:"performance_title";s:37:"Поминальная молитва";s:5:"roles";a:1:{s:2:"r9";s:23:"Лейзер Вольф";};};};'),
 ('634', 'cinema', 'a:5:{i:0;s:43:"«Бандитский Петербург»";i:1;s:26:"«Настоятель-2»";i:2;s:36:"«Попытка к бегству»";i:3;s:14:"«Честь»";i:4;s:27:"«Третий дубль»";};'),
+('634', 'instate', ''),
 ('634', 'gender', 'male'),
 ('634', 'kinoteatr', 'http://www.kino-teatr.ru/kino/acter/m/ros/8915/bio/'),
 ('634', 'taxonomy', 'a:1:{s:6:"carier";a:2:{s:5:"title";s:10:"Актер";s:4:"slug";s:5:"actor";};};'),
@@ -4028,6 +4048,7 @@ INSERT INTO `kt_postmeta` (`post_id`, `meta_key`, `meta_value`) VALUES
 ('638', 'jos_id', '82'),
 ('638', 'jos_alias', 'valerii-poletaev'),
 ('638', 'employment', 'a:4:{i:0;a:3:{s:14:"performance_id";s:2:"57";s:17:"performance_title";s:41:"Беда от нежного сердца";s:5:"roles";a:1:{s:2:"r7";s:16:"Папенька";};};i:1;a:3:{s:14:"performance_id";s:2:"70";s:17:"performance_title";s:37:"Поминальная молитва";s:5:"roles";a:1:{s:2:"r0";s:27:"Тевье-молочник";};};i:2;a:3:{s:14:"performance_id";s:2:"80";s:17:"performance_title";s:48:"Записные книжки Тригорина";s:5:"roles";a:1:{s:2:"r4";s:16:"Тригорин";};};i:3;a:3:{s:14:"performance_id";s:2:"82";s:17:"performance_title";s:16:"Женитьба";s:5:"roles";a:1:{s:2:"r9";s:20:"Подколесин";};};};'),
+('638', 'instate', '1'),
 ('638', 'gender', 'male'),
 ('638', 'taxonomy', 'a:1:{s:6:"carier";a:2:{s:5:"title";s:10:"Актер";s:4:"slug";s:5:"actor";};};'),
 ('638', '_thumbnail_id', '639'),
@@ -4042,6 +4063,7 @@ INSERT INTO `kt_postmeta` (`post_id`, `meta_key`, `meta_value`) VALUES
 ('642', 'jos_alias', 'mark-gavrilov'),
 ('642', 'employment', 'a:3:{i:0;a:3:{s:14:"performance_id";s:2:"71";s:17:"performance_title";s:31:"Прогулка в Лю-Блё";s:5:"roles";a:1:{s:2:"r4";s:14:"Альберт";};};i:1;a:3:{s:14:"performance_id";s:2:"75";s:17:"performance_title";s:40:"Страсти по-итальянски";s:5:"roles";a:1:{s:2:"r1";s:16:"Джованни";};};i:2;a:3:{s:14:"performance_id";s:2:"70";s:17:"performance_title";s:37:"Поминальная молитва";s:5:"roles";a:1:{s:2:"r8";s:25:"Менахем Мендл";};};};'),
 ('642', 'cinema', 'a:6:{i:0;s:35:"«Лабиринты разума»";i:1;s:51:"«Саквояж с большим будущим»";i:2;s:28:"«Двое из ларца»";i:3;s:29:"«Тот, кто рядом»";i:4;s:18:"«Бомбилы»";i:5;s:16:"«Груз 200»";};'),
+('642', 'instate', '1'),
 ('642', 'gender', 'male'),
 ('642', 'kinoteatr', 'http://www.kino-teatr.ru/teatr/acter/m/ros/5164/bio/'),
 ('642', 'taxonomy', 'a:1:{s:6:"carier";a:2:{s:5:"title";s:10:"Актер";s:4:"slug";s:5:"actor";};};'),
@@ -4055,8 +4077,11 @@ INSERT INTO `kt_postmeta` (`post_id`, `meta_key`, `meta_value`) VALUES
 ('646', 'old_names', 'a:2:{i:0;s:17:"88-roman-yakushov";i:1;s:14:"roman-yakushov";};'),
 ('646', 'jos_id', '88'),
 ('646', 'jos_alias', 'roman-yakushov'),
-('646', 'employment', 'a:5:{i:0;a:3:{s:14:"performance_id";s:2:"58";s:17:"performance_title";s:57:"Брысь! или История кота Филофея";s:5:"roles";a:1:{s:2:"r4";s:14:"Филофей";};};i:1;a:3:{s:14:"performance_id";s:2:"80";s:17:"performance_title";s:48:"Записные книжки Тригорина";s:5:"roles";a:1:{s:2:"r5";s:35:"Константин Треплев";};};i:2;a:3:{s:14:"performance_id";s:2:"65";s:17:"performance_title";s:24:"Кот в сапогах";s:5:"roles";a:1:{s:2:"r2";s:12:"Людоед";};};i:3;a:3:{s:14:"performance_id";s:2:"70";s:17:"performance_title";s:37:"Поминальная молитва";s:5:"roles";a:1:{s:2:"r6";s:8:"Мотл";};};i:4;a:3:{s:14:"performance_id";s:2:"67";s:17:"performance_title";s:49:"Кыцик, Мыцик и тётушка Мари";s:5:"roles";a:1:{s:2:"r1";s:10:"Кыцик";};};};'),
+('646', 'employment', 'a:5:{i:0;a:3:{s:14:"performance_id";s:2:"58";s:17:"performance_title";s:57:"Брысь! или История кота Филофея";s:5:"roles";a:1:{s:2:"r4";s:14:"Филофей";};};i:1;a:3:{s:14:"performance_id";s:2:"80";s:17:"performance_title";s:48:"Записные книжки Тригорина";s:5:"roles";a:1:{s:2:"r5";s:35:"Константин Треплев";};};i:2;a:3:{s:14:"performance_id";s:2:"65";s:17:"performance_title";s:24:"Кот в сапогах";s:5:"roles";a:1:{s:2:"r2";s:12:"Людоед";};};i:3;a:3:{s:14:"performance_id";s:2:"70";s:17:"performance_title";s:37:"Поминальная молитва";s:5:"roles";a:1:{s:2:"r6";s:8:"Мотл";};};i:4;a:3:{s:14:"performance_id";s:2:"67";s:17:"performance_title";s:49:"Кыцик, Мыцик и тётушка Мари";s:5:"roles";a:1:{s:2:"r1";s:10:"Кыцик";};};};');
+
+INSERT INTO `kt_postmeta` (`post_id`, `meta_key`, `meta_value`) VALUES
 ('646', 'cinema', 'a:5:{i:0;s:46:"«Улицы разбитых фонарей»";i:1;s:20:"«Литейный»";i:2;s:35:"«Ментовские войны»";i:3;s:33:"«Тайны следствия»";i:4;s:16:"«Гончие»";};'),
+('646', 'instate', '1'),
 ('646', 'gender', 'male'),
 ('646', 'kinoteatr', 'http://www.kino-teatr.ru/kino/acter/m/ros/18482/bio/'),
 ('646', 'taxonomy', 'a:1:{s:6:"carier";a:2:{s:5:"title";s:10:"Актер";s:4:"slug";s:5:"actor";};};'),
@@ -4072,14 +4097,13 @@ INSERT INTO `kt_postmeta` (`post_id`, `meta_key`, `meta_value`) VALUES
 ('650', 'jos_alias', 'vitalii-kravchenko'),
 ('650', 'employment', 'a:11:{i:0;a:3:{s:14:"performance_id";s:2:"70";s:17:"performance_title";s:37:"Поминальная молитва";s:5:"roles";a:1:{s:3:"r13";s:14:"Урядник";};};i:1;a:3:{s:14:"performance_id";s:2:"68";s:17:"performance_title";s:6:"Лес";s:5:"roles";a:1:{s:2:"r6";s:8:"Пётр";};};i:2;a:3:{s:14:"performance_id";s:2:"73";s:17:"performance_title";s:34:"Сирано де Бержерак";s:5:"roles";a:1:{s:2:"r8";s:16:"Гвардеец";};};i:3;a:3:{s:14:"performance_id";s:2:"78";s:17:"performance_title";s:22:"Волки и овцы";s:5:"roles";a:1:{s:2:"r9";s:12:"Павлин";};};i:4;a:3:{s:14:"performance_id";s:2:"72";s:17:"performance_title";s:45:"Провинциальные анекдоты";s:5:"roles";a:1:{s:2:"r6";s:14:"Хомутов";};};i:5;a:3:{s:14:"performance_id";s:2:"66";s:17:"performance_title";s:44:"Крепостная любовь (Муму)";s:5:"roles";a:1:{s:3:"r12";s:25:"сторож Степан";};};i:6;a:3:{s:14:"performance_id";s:2:"61";s:17:"performance_title";s:47:"Ехала деревня мимо мужика";s:5:"roles";a:1:{s:2:"r1";s:16:"Скоморох";};};i:7;a:3:{s:14:"performance_id";s:2:"82";s:17:"performance_title";s:16:"Женитьба";s:5:"roles";a:1:{s:2:"r7";s:10:"Купец";};};i:8;a:3:{s:14:"performance_id";s:2:"65";s:17:"performance_title";s:24:"Кот в сапогах";s:5:"roles";a:1:{s:2:"r4";s:23:"Жак–простак";};};i:9;a:3:{s:14:"performance_id";s:2:"79";s:17:"performance_title";s:35:"Волшебные сосульки";s:5:"roles";a:1:{s:2:"r0";s:17:"Дед Мороз";};};i:10;a:3:{s:14:"performance_id";s:2:"81";s:17:"performance_title";s:14:"Земляки";s:5:"roles";a:1:{s:3:"r10";s:39:"Иван Петин, Тоскливый";};};};'),
 ('650', 'cinema', 'a:2:{i:0;s:52:"т/с «Улицы разбитых фонарей»";i:1;s:27:"«Свой — чужой»";};'),
+('650', 'instate', '1'),
 ('650', 'gender', 'male'),
 ('650', 'kinoteatr', 'http://www.kino-teatr.ru/teatr/acter/m/ros/235283/bio/'),
 ('650', 'taxonomy', 'a:1:{s:6:"carier";a:2:{s:5:"title";s:10:"Актер";s:4:"slug";s:5:"actor";};};'),
 ('650', '_thumbnail_id', '651'),
 ('651', '_wp_attached_file', 'person/vitalii-kravchenko/portrait.jpg'),
-('651', '_wp_attachment_metadata', 'a:3:{s:5:"width";i:542;s:6:"height";i:757;s:4:"file";s:38:"person/vitalii-kravchenko/portrait.jpg";};');
-
-INSERT INTO `kt_postmeta` (`post_id`, `meta_key`, `meta_value`) VALUES
+('651', '_wp_attachment_metadata', 'a:3:{s:5:"width";i:542;s:6:"height";i:757;s:4:"file";s:38:"person/vitalii-kravchenko/portrait.jpg";};'),
 ('652', '_wp_attached_file', 'person/vitalii-kravchenko/troupe.jpg'),
 ('652', '_wp_attachment_metadata', 'a:3:{s:5:"width";i:542;s:6:"height";i:757;s:4:"file";s:36:"person/vitalii-kravchenko/troupe.jpg";};'),
 ('653', '_wp_attached_file', 'person/vitalii-kravchenko/vitalii-kravchenko.jpg'),
@@ -4130,7 +4154,9 @@ INSERT INTO `kt_postmeta` (`post_id`, `meta_key`, `meta_value`) VALUES
 ('670', '_wp_attached_file', 'performance/progulka-v-lyu-blyo/lyu-blyo16.jpg'),
 ('670', '_wp_attachment_metadata', 'a:3:{s:5:"width";i:1280;s:6:"height";i:850;s:4:"file";s:46:"performance/progulka-v-lyu-blyo/lyu-blyo16.jpg";};'),
 ('671', '_wp_attached_file', 'performance/progulka-v-lyu-blyo/lyu-blyo17.jpg'),
-('671', '_wp_attachment_metadata', 'a:3:{s:5:"width";i:680;s:6:"height";i:1024;s:4:"file";s:46:"performance/progulka-v-lyu-blyo/lyu-blyo17.jpg";};'),
+('671', '_wp_attachment_metadata', 'a:3:{s:5:"width";i:680;s:6:"height";i:1024;s:4:"file";s:46:"performance/progulka-v-lyu-blyo/lyu-blyo17.jpg";};');
+
+INSERT INTO `kt_postmeta` (`post_id`, `meta_key`, `meta_value`) VALUES
 ('672', '_wp_attached_file', 'performance/progulka-v-lyu-blyo/lyu-blyo18.jpg'),
 ('672', '_wp_attachment_metadata', 'a:3:{s:5:"width";i:604;s:6:"height";i:401;s:4:"file";s:46:"performance/progulka-v-lyu-blyo/lyu-blyo18.jpg";};'),
 ('673', '_wp_attached_file', 'performance/progulka-v-lyu-blyo/lyu-blyo19.jpg'),
@@ -4154,9 +4180,7 @@ INSERT INTO `kt_postmeta` (`post_id`, `meta_key`, `meta_value`) VALUES
 ('682', '_wp_attached_file', 'performance/progulka-v-lyu-blyo/lyu-blyo28.jpg'),
 ('682', '_wp_attachment_metadata', 'a:3:{s:5:"width";i:604;s:6:"height";i:402;s:4:"file";s:46:"performance/progulka-v-lyu-blyo/lyu-blyo28.jpg";};'),
 ('683', '_wp_attached_file', 'performance/progulka-v-lyu-blyo/lyu-blyo29.jpg'),
-('683', '_wp_attachment_metadata', 'a:3:{s:5:"width";i:604;s:6:"height";i:402;s:4:"file";s:46:"performance/progulka-v-lyu-blyo/lyu-blyo29.jpg";};');
-
-INSERT INTO `kt_postmeta` (`post_id`, `meta_key`, `meta_value`) VALUES
+('683', '_wp_attachment_metadata', 'a:3:{s:5:"width";i:604;s:6:"height";i:402;s:4:"file";s:46:"performance/progulka-v-lyu-blyo/lyu-blyo29.jpg";};'),
 ('684', '_wp_attached_file', 'performance/progulka-v-lyu-blyo/lyu-blyo30.jpg'),
 ('684', '_wp_attachment_metadata', 'a:3:{s:5:"width";i:604;s:6:"height";i:402;s:4:"file";s:46:"performance/progulka-v-lyu-blyo/lyu-blyo30.jpg";};'),
 ('685', '_wp_attached_file', 'performance/progulka-v-lyu-blyo/lyu-blyo31.jpg'),
@@ -4207,7 +4231,9 @@ INSERT INTO `kt_postmeta` (`post_id`, `meta_key`, `meta_value`) VALUES
 ('707', '_wp_attachment_metadata', 'a:3:{s:5:"width";i:604;s:6:"height";i:402;s:4:"file";s:46:"performance/progulka-v-lyu-blyo/lyu-blyo53.jpg";};'),
 ('708', '_wp_attached_file', 'performance/progulka-v-lyu-blyo/lyu-blyo54.jpg'),
 ('708', '_wp_attachment_metadata', 'a:3:{s:5:"width";i:319;s:6:"height";i:479;s:4:"file";s:46:"performance/progulka-v-lyu-blyo/lyu-blyo54.jpg";};'),
-('709', '_wp_attached_file', 'performance/progulka-v-lyu-blyo/lyu-blyo55.jpg'),
+('709', '_wp_attached_file', 'performance/progulka-v-lyu-blyo/lyu-blyo55.jpg');
+
+INSERT INTO `kt_postmeta` (`post_id`, `meta_key`, `meta_value`) VALUES
 ('709', '_wp_attachment_metadata', 'a:3:{s:5:"width";i:604;s:6:"height";i:402;s:4:"file";s:46:"performance/progulka-v-lyu-blyo/lyu-blyo55.jpg";};'),
 ('710', '_wp_attached_file', 'performance/progulka-v-lyu-blyo/lyu-blyo56.jpg'),
 ('710', '_wp_attachment_metadata', 'a:3:{s:5:"width";i:604;s:6:"height";i:402;s:4:"file";s:46:"performance/progulka-v-lyu-blyo/lyu-blyo56.jpg";};'),
@@ -4231,9 +4257,7 @@ INSERT INTO `kt_postmeta` (`post_id`, `meta_key`, `meta_value`) VALUES
 ('719', '_wp_attachment_metadata', 'a:3:{s:5:"width";i:604;s:6:"height";i:402;s:4:"file";s:46:"performance/progulka-v-lyu-blyo/lyu-blyo65.jpg";};'),
 ('720', '_wp_attached_file', 'performance/progulka-v-lyu-blyo/lyu-blyo66.jpg'),
 ('720', '_wp_attachment_metadata', 'a:3:{s:5:"width";i:604;s:6:"height";i:402;s:4:"file";s:46:"performance/progulka-v-lyu-blyo/lyu-blyo66.jpg";};'),
-('721', '_wp_attached_file', 'performance/progulka-v-lyu-blyo/lyu-blyo67.jpg');
-
-INSERT INTO `kt_postmeta` (`post_id`, `meta_key`, `meta_value`) VALUES
+('721', '_wp_attached_file', 'performance/progulka-v-lyu-blyo/lyu-blyo67.jpg'),
 ('721', '_wp_attachment_metadata', 'a:3:{s:5:"width";i:680;s:6:"height";i:1024;s:4:"file";s:46:"performance/progulka-v-lyu-blyo/lyu-blyo67.jpg";};'),
 ('722', '_wp_attached_file', 'performance/progulka-v-lyu-blyo/lyu-blyo68.jpg'),
 ('722', '_wp_attachment_metadata', 'a:3:{s:5:"width";i:680;s:6:"height";i:1024;s:4:"file";s:46:"performance/progulka-v-lyu-blyo/lyu-blyo68.jpg";};'),
@@ -4284,7 +4308,9 @@ INSERT INTO `kt_postmeta` (`post_id`, `meta_key`, `meta_value`) VALUES
 ('739', '_wp_attached_file', 'performance/uchilka-iz-buduschego/uchilka11.jpg'),
 ('739', '_wp_attachment_metadata', 'a:3:{s:5:"width";i:538;s:6:"height";i:807;s:4:"file";s:47:"performance/uchilka-iz-buduschego/uchilka11.jpg";};'),
 ('740', '_wp_attached_file', 'performance/uchilka-iz-buduschego/uchilka12.jpg'),
-('740', '_wp_attachment_metadata', 'a:3:{s:5:"width";i:807;s:6:"height";i:538;s:4:"file";s:47:"performance/uchilka-iz-buduschego/uchilka12.jpg";};'),
+('740', '_wp_attachment_metadata', 'a:3:{s:5:"width";i:807;s:6:"height";i:538;s:4:"file";s:47:"performance/uchilka-iz-buduschego/uchilka12.jpg";};');
+
+INSERT INTO `kt_postmeta` (`post_id`, `meta_key`, `meta_value`) VALUES
 ('741', '_wp_attached_file', 'performance/uchilka-iz-buduschego/uchilka13.jpg'),
 ('741', '_wp_attachment_metadata', 'a:3:{s:5:"width";i:1023;s:6:"height";i:1023;s:4:"file";s:47:"performance/uchilka-iz-buduschego/uchilka13.jpg";};'),
 ('742', '_wp_attached_file', 'performance/uchilka-iz-buduschego/uchilka14.jpg'),
@@ -4308,9 +4334,7 @@ INSERT INTO `kt_postmeta` (`post_id`, `meta_key`, `meta_value`) VALUES
 ('751', '_wp_attached_file', 'performance/uchilka-iz-buduschego/uchilka23.jpg'),
 ('751', '_wp_attachment_metadata', 'a:3:{s:5:"width";i:538;s:6:"height";i:807;s:4:"file";s:47:"performance/uchilka-iz-buduschego/uchilka23.jpg";};'),
 ('752', '_wp_attached_file', 'performance/uchilka-iz-buduschego/uchilka24.jpg'),
-('752', '_wp_attachment_metadata', 'a:3:{s:5:"width";i:807;s:6:"height";i:538;s:4:"file";s:47:"performance/uchilka-iz-buduschego/uchilka24.jpg";};');
-
-INSERT INTO `kt_postmeta` (`post_id`, `meta_key`, `meta_value`) VALUES
+('752', '_wp_attachment_metadata', 'a:3:{s:5:"width";i:807;s:6:"height";i:538;s:4:"file";s:47:"performance/uchilka-iz-buduschego/uchilka24.jpg";};'),
 ('753', '_wp_attached_file', 'performance/uchilka-iz-buduschego/uchilka25.jpg'),
 ('753', '_wp_attachment_metadata', 'a:3:{s:5:"width";i:807;s:6:"height";i:538;s:4:"file";s:47:"performance/uchilka-iz-buduschego/uchilka25.jpg";};'),
 ('754', '_wp_attached_file', 'performance/uchilka-iz-buduschego/uchilka26.jpg'),
@@ -4361,7 +4385,9 @@ INSERT INTO `kt_postmeta` (`post_id`, `meta_key`, `meta_value`) VALUES
 ('776', '_wp_attachment_metadata', 'a:3:{s:5:"width";i:807;s:6:"height";i:538;s:4:"file";s:47:"performance/uchilka-iz-buduschego/uchilka48.jpg";};'),
 ('777', '_wp_attached_file', 'performance/uchilka-iz-buduschego/uchilka49.jpg'),
 ('777', '_wp_attachment_metadata', 'a:3:{s:5:"width";i:538;s:6:"height";i:807;s:4:"file";s:47:"performance/uchilka-iz-buduschego/uchilka49.jpg";};'),
-('778', '_wp_attached_file', 'performance/uchilka-iz-buduschego/uchilka50.jpg'),
+('778', '_wp_attached_file', 'performance/uchilka-iz-buduschego/uchilka50.jpg');
+
+INSERT INTO `kt_postmeta` (`post_id`, `meta_key`, `meta_value`) VALUES
 ('778', '_wp_attachment_metadata', 'a:3:{s:5:"width";i:807;s:6:"height";i:538;s:4:"file";s:47:"performance/uchilka-iz-buduschego/uchilka50.jpg";};'),
 ('779', '_wp_attached_file', 'performance/uchilka-iz-buduschego/uchilka51.jpg'),
 ('779', '_wp_attachment_metadata', 'a:3:{s:5:"width";i:680;s:6:"height";i:1024;s:4:"file";s:47:"performance/uchilka-iz-buduschego/uchilka51.jpg";};'),
@@ -4378,6 +4404,7 @@ INSERT INTO `kt_postmeta` (`post_id`, `meta_key`, `meta_value`) VALUES
 ('784', 'jos_alias', 'anna-zagrebna'),
 ('784', 'employment', 'a:8:{i:0;a:3:{s:14:"performance_id";s:2:"73";s:17:"performance_title";s:34:"Сирано де Бержерак";s:5:"roles";a:1:{s:2:"r1";s:14:"Роксана";};};i:1;a:3:{s:14:"performance_id";s:2:"60";s:17:"performance_title";s:14:"Дурочка";s:5:"roles";a:1:{s:2:"r0";s:10:"Финея";};};i:2;a:3:{s:14:"performance_id";s:2:"79";s:17:"performance_title";s:35:"Волшебные сосульки";s:5:"roles";a:1:{s:1:"r";s:18:"Настенька";};};i:3;a:3:{s:14:"performance_id";s:2:"57";s:17:"performance_title";s:41:"Беда от нежного сердца";s:5:"roles";a:1:{s:2:"r3";s:18:"Настенька";};};i:4;a:3:{s:14:"performance_id";s:2:"59";s:17:"performance_title";s:14:"Дачницы";s:5:"roles";a:1:{s:2:"r4";s:12:"Внучка";};};i:5;a:3:{s:14:"performance_id";s:2:"58";s:17:"performance_title";s:57:"Брысь! или История кота Филофея";s:5:"roles";a:1:{s:2:"r6";s:12:"Анфиса";};};i:6;a:3:{s:14:"performance_id";s:2:"67";s:17:"performance_title";s:49:"Кыцик, Мыцик и тётушка Мари";s:5:"roles";a:1:{s:2:"r0";s:10:"Мыцик";};};i:7;a:3:{s:14:"performance_id";s:2:"76";s:17:"performance_title";s:34:"Училка из будущего";s:5:"roles";a:1:{s:2:"r6";s:21:"Уэнди Кларк";};};};'),
 ('784', 'cinema', 'a:2:{i:0;s:12:"«Свои»";i:1;s:46:"«Улицы разбитых фонарей»";};'),
+('784', 'instate', '1'),
 ('784', 'gender', 'female'),
 ('784', 'kinoteatr', 'http://www.kino-teatr.ru/kino/acter/w/ros/8276/bio/'),
 ('784', 'taxonomy', 'a:1:{s:6:"carier";a:2:{s:5:"title";s:10:"Актер";s:4:"slug";s:5:"actor";};};'),
@@ -4385,9 +4412,7 @@ INSERT INTO `kt_postmeta` (`post_id`, `meta_key`, `meta_value`) VALUES
 ('785', '_wp_attached_file', 'person/anna-zagrebna/anna-zagrebna.jpg'),
 ('785', '_wp_attachment_metadata', 'a:3:{s:5:"width";i:910;s:6:"height";i:1024;s:4:"file";s:38:"person/anna-zagrebna/anna-zagrebna.jpg";};'),
 ('786', '_wp_attached_file', 'person/anna-zagrebna/portrait.jpg'),
-('786', '_wp_attachment_metadata', 'a:3:{s:5:"width";i:319;s:6:"height";i:480;s:4:"file";s:33:"person/anna-zagrebna/portrait.jpg";};');
-
-INSERT INTO `kt_postmeta` (`post_id`, `meta_key`, `meta_value`) VALUES
+('786', '_wp_attachment_metadata', 'a:3:{s:5:"width";i:319;s:6:"height";i:480;s:4:"file";s:33:"person/anna-zagrebna/portrait.jpg";};'),
 ('787', '_wp_attached_file', 'person/anna-zagrebna/troupe.jpg'),
 ('787', '_wp_attachment_metadata', 'a:3:{s:5:"width";i:320;s:6:"height";i:480;s:4:"file";s:31:"person/anna-zagrebna/troupe.jpg";};'),
 ('788', 'old_names', 'a:2:{i:0;s:15:"285-24th-season";i:1;s:37:"teatr-komedianty-otkryvaet-24-j-sezon";};'),
@@ -4437,7 +4462,10 @@ INSERT INTO `kt_postmeta` (`post_id`, `meta_key`, `meta_value`) VALUES
 ('804', 'jos_id', '53'),
 ('804', 'jos_alias', 'aleksei-ispolatov'),
 ('804', 'employment', 'a:4:{i:0;a:3:{s:14:"performance_id";s:2:"65";s:17:"performance_title";s:24:"Кот в сапогах";s:5:"roles";a:1:{s:2:"r3";s:12:"Король";};};i:1;a:3:{s:14:"performance_id";s:2:"77";s:17:"performance_title";s:14:"В Париж!";s:5:"roles";a:1:{s:3:"r10";s:34:"Стручков, чиновник";};};i:2;a:3:{s:14:"performance_id";s:2:"78";s:17:"performance_title";s:22:"Волки и овцы";s:5:"roles";a:1:{s:2:"r8";s:14:"Чугунов";};};i:3;a:3:{s:14:"performance_id";s:2:"64";s:17:"performance_title";s:20:"Компромисс";s:5:"roles";a:1:{s:2:"r5";s:104:"Сотрудник КГБ Сорокин, Михкель Теппе, Иван Трулль, Лийвак";};};};'),
-('804', 'cinema', 'a:4:{i:0;s:26:"«Ленинградец»";i:1;s:18:"«Фаворит»";i:2;s:48:"«Как пройти в библиотеку?»";i:3;s:46:"«Улицы разбитых фонарей»";};'),
+('804', 'cinema', 'a:4:{i:0;s:26:"«Ленинградец»";i:1;s:18:"«Фаворит»";i:2;s:48:"«Как пройти в библиотеку?»";i:3;s:46:"«Улицы разбитых фонарей»";};');
+
+INSERT INTO `kt_postmeta` (`post_id`, `meta_key`, `meta_value`) VALUES
+('804', 'instate', '1'),
 ('804', 'gender', 'male'),
 ('804', 'kinoteatr', 'http://www.kino-teatr.ru/kino/acter/m/ros/5825/bio/'),
 ('804', 'taxonomy', 'a:1:{s:6:"carier";a:2:{s:5:"title";s:18:"Драматург";s:4:"slug";s:10:"playwright";};};'),
@@ -4453,6 +4481,7 @@ INSERT INTO `kt_postmeta` (`post_id`, `meta_key`, `meta_value`) VALUES
 ('808', 'jos_alias', 'alena-azarova'),
 ('808', 'employment', 'a:8:{i:0;a:3:{s:14:"performance_id";s:2:"70";s:17:"performance_title";s:37:"Поминальная молитва";s:5:"roles";a:1:{s:2:"r4";s:8:"Годл";};};i:1;a:3:{s:14:"performance_id";s:2:"66";s:17:"performance_title";s:44:"Крепостная любовь (Муму)";s:5:"roles";a:1:{s:2:"r1";s:27:"Татьяна (дебют)";};};i:2;a:3:{s:14:"performance_id";s:2:"57";s:17:"performance_title";s:41:"Беда от нежного сердца";s:5:"roles";a:1:{s:2:"r3";s:18:"Настенька";};};i:3;a:3:{s:14:"performance_id";s:2:"67";s:17:"performance_title";s:49:"Кыцик, Мыцик и тётушка Мари";s:5:"roles";a:1:{s:2:"r0";s:10:"Мыцик";};};i:4;a:3:{s:14:"performance_id";s:2:"76";s:17:"performance_title";s:34:"Училка из будущего";s:5:"roles";a:1:{s:2:"r6";s:21:"Уэнди Кларк";};};i:5;a:3:{s:14:"performance_id";s:2:"64";s:17:"performance_title";s:20:"Компромисс";s:5:"roles";a:1:{s:3:"r11";s:19:"Эви Саксон";};};i:6;a:3:{s:14:"performance_id";s:2:"73";s:17:"performance_title";s:34:"Сирано де Бержерак";s:5:"roles";a:1:{s:2:"r5";s:14:"Монашка";};};i:7;a:3:{s:14:"performance_id";s:2:"81";s:17:"performance_title";s:14:"Земляки";s:5:"roles";a:1:{s:2:"r9";s:24:"Людмила, Соня";};};};'),
 ('808', 'cinema', 'a:4:{i:0;s:39:"«Три дня с придурком»";i:1;s:35:"«Ментовские войны»";i:2;s:20:"«Гаишники»";i:3;s:38:"«Катя 2. Продолжение»";};'),
+('808', 'instate', '1'),
 ('808', 'gender', 'female'),
 ('808', 'kinoteatr', 'http://www.kino-teatr.ru/teatr/acter/w/ros/290442/bio/'),
 ('808', 'taxonomy', 'a:1:{s:6:"carier";a:2:{s:5:"title";s:10:"Актер";s:4:"slug";s:5:"actor";};};'),
@@ -4462,14 +4491,13 @@ INSERT INTO `kt_postmeta` (`post_id`, `meta_key`, `meta_value`) VALUES
 ('810', '_wp_attached_file', 'person/alyona-azarova/portrait.jpg'),
 ('810', '_wp_attachment_metadata', 'a:3:{s:5:"width";i:563;s:6:"height";i:822;s:4:"file";s:34:"person/alyona-azarova/portrait.jpg";};'),
 ('811', '_wp_attached_file', 'person/alyona-azarova/troupe.jpg'),
-('811', '_wp_attachment_metadata', 'a:3:{s:5:"width";i:354;s:6:"height";i:500;s:4:"file";s:32:"person/alyona-azarova/troupe.jpg";};');
-
-INSERT INTO `kt_postmeta` (`post_id`, `meta_key`, `meta_value`) VALUES
+('811', '_wp_attachment_metadata', 'a:3:{s:5:"width";i:354;s:6:"height";i:500;s:4:"file";s:32:"person/alyona-azarova/troupe.jpg";};'),
 ('812', 'old_names', 'a:2:{i:0;s:19:"23-belova-ekaterina";i:1;s:16:"ekaterina-belova";};'),
 ('812', 'jos_id', '23'),
 ('812', 'jos_alias', 'belova-ekaterina'),
 ('812', 'employment', 'a:11:{i:0;a:3:{s:14:"performance_id";s:2:"60";s:17:"performance_title";s:14:"Дурочка";s:5:"roles";a:1:{s:2:"r0";s:10:"Финея";};};i:1;a:3:{s:14:"performance_id";s:2:"78";s:17:"performance_title";s:22:"Волки и овцы";s:5:"roles";a:1:{s:2:"r5";s:31:"Анфиса Тихоновна";};};i:2;a:3:{s:14:"performance_id";s:2:"57";s:17:"performance_title";s:41:"Беда от нежного сердца";s:5:"roles";a:1:{s:2:"r1";s:36:"Катенька из Тамбова";};};i:3;a:3:{s:14:"performance_id";s:2:"65";s:17:"performance_title";s:24:"Кот в сапогах";s:5:"roles";a:1:{s:2:"r1";s:18:"Принцесса";};};i:4;a:3:{s:14:"performance_id";s:2:"72";s:17:"performance_title";s:45:"Провинциальные анекдоты";s:5:"roles";a:1:{s:2:"r1";s:16:"Виктория";};};i:5;a:3:{s:14:"performance_id";s:2:"66";s:17:"performance_title";s:44:"Крепостная любовь (Муму)";s:5:"roles";a:1:{s:2:"r7";s:10:"Фимка";};};i:6;a:3:{s:14:"performance_id";s:2:"76";s:17:"performance_title";s:34:"Училка из будущего";s:5:"roles";a:1:{s:2:"r4";s:12:"Джекки";};};i:7;a:3:{s:14:"performance_id";s:2:"63";s:17:"performance_title";s:14:"Карлсон";s:5:"roles";a:1:{s:2:"r2";s:19:"Фрекен Бок";};};i:8;a:3:{s:14:"performance_id";s:2:"58";s:17:"performance_title";s:57:"Брысь! или История кота Филофея";s:5:"roles";a:1:{s:2:"r3";s:12:"Фунтик";};};i:9;a:3:{s:14:"performance_id";s:2:"64";s:17:"performance_title";s:20:"Компромисс";s:5:"roles";a:1:{s:2:"r2";s:32:"Галина (жена Буша)";};};i:10;a:3:{s:14:"performance_id";s:2:"81";s:17:"performance_title";s:14:"Земляки";s:5:"roles";a:1:{s:2:"r3";s:45:"Клавдия Духанина, Светка";};};};'),
 ('812', 'cinema', 'a:4:{i:0;s:46:"«Улицы разбитых фонарей»";i:1;s:50:"«Агент особого назначения»";i:2;s:20:"«Катерина»";i:3;s:27:"«Эра стрельца»";};'),
+('812', 'instate', '1'),
 ('812', 'gender', 'female'),
 ('812', 'kinoteatr', 'http://www.kino-teatr.ru/kino/acter/w/ros/319449/bio/'),
 ('812', 'taxonomy', 'a:1:{s:6:"carier";a:2:{s:5:"title";s:10:"Актер";s:4:"slug";s:5:"actor";};};'),
@@ -4485,6 +4513,7 @@ INSERT INTO `kt_postmeta` (`post_id`, `meta_key`, `meta_value`) VALUES
 ('816', 'jos_alias', 'bezryk-ilya'),
 ('816', 'employment', 'a:12:{i:0;a:3:{s:14:"performance_id";s:2:"72";s:17:"performance_title";s:45:"Провинциальные анекдоты";s:5:"roles";a:1:{s:3:"r12";s:12:"Ступак";};};i:1;a:3:{s:14:"performance_id";s:2:"63";s:17:"performance_title";s:14:"Карлсон";s:5:"roles";a:1:{s:2:"r3";s:8:"Папа";};};i:2;a:3:{s:14:"performance_id";s:2:"70";s:17:"performance_title";s:37:"Поминальная молитва";s:5:"roles";a:1:{s:3:"r15";s:20:"Трактирщик";};};i:3;a:3:{s:14:"performance_id";s:2:"73";s:17:"performance_title";s:34:"Сирано де Бержерак";s:5:"roles";a:1:{s:2:"r9";s:16:"Гвардеец";};};i:4;a:3:{s:14:"performance_id";s:2:"60";s:17:"performance_title";s:14:"Дурочка";s:5:"roles";a:1:{s:3:"r10";s:12:"Фенисо";};};i:5;a:3:{s:14:"performance_id";s:2:"57";s:17:"performance_title";s:41:"Беда от нежного сердца";s:5:"roles";a:1:{s:2:"r6";s:14:"Француз";};};i:6;a:3:{s:14:"performance_id";s:2:"76";s:17:"performance_title";s:34:"Училка из будущего";s:5:"roles";a:1:{s:2:"r5";s:16:"Наладчик";};};i:7;a:3:{s:14:"performance_id";s:2:"77";s:17:"performance_title";s:14:"В Париж!";s:5:"roles";a:1:{s:3:"r13";s:28:"поэт Миша Бобов";};};i:8;a:3:{s:14:"performance_id";s:2:"79";s:17:"performance_title";s:35:"Волшебные сосульки";s:5:"roles";a:1:{s:2:"r0";s:17:"Дед Мороз";};};i:9;a:3:{s:14:"performance_id";s:2:"61";s:17:"performance_title";s:47:"Ехала деревня мимо мужика";s:5:"roles";a:1:{s:2:"r0";s:16:"Скоморох";};};i:10;a:3:{s:14:"performance_id";s:2:"64";s:17:"performance_title";s:20:"Компромисс";s:5:"roles";a:1:{s:2:"r7";s:28:"Мельдер, Хуберт";};};i:11;a:3:{s:14:"performance_id";s:2:"81";s:17:"performance_title";s:14:"Земляки";s:5:"roles";a:1:{s:2:"r8";s:70:"Колька, Лапшин, Шофёр, Парень с гитарой";};};};'),
 ('816', 'cinema', 'a:3:{i:0;s:32:"т/с «Время и люди»";i:1;s:43:"т/с «Счастливчик Пашка»";i:2;s:31:"т/ф «Почти весна»";};'),
+('816', 'instate', '1'),
 ('816', 'gender', 'male'),
 ('816', 'taxonomy', 'a:1:{s:6:"carier";a:2:{s:5:"title";s:10:"Актер";s:4:"slug";s:5:"actor";};};'),
 ('816', '_thumbnail_id', '818'),
@@ -4499,6 +4528,7 @@ INSERT INTO `kt_postmeta` (`post_id`, `meta_key`, `meta_value`) VALUES
 ('820', 'jos_alias', 'lyda-nikitina'),
 ('820', 'employment', 'a:6:{i:0;a:3:{s:14:"performance_id";s:2:"70";s:17:"performance_title";s:37:"Поминальная молитва";s:5:"roles";a:1:{s:2:"r1";s:10:"Голда";};};i:1;a:3:{s:14:"performance_id";s:2:"66";s:17:"performance_title";s:44:"Крепостная любовь (Муму)";s:5:"roles";a:1:{s:2:"r9";s:20:"Кастелянша";};};i:2;a:3:{s:14:"performance_id";s:2:"82";s:17:"performance_title";s:16:"Женитьба";s:5:"roles";a:1:{s:2:"r2";s:16:"Служанка";};};i:3;a:3:{s:14:"performance_id";s:2:"58";s:17:"performance_title";s:57:"Брысь! или История кота Филофея";s:5:"roles";a:1:{s:2:"r6";s:12:"Анфиса";};};i:4;a:3:{s:14:"performance_id";s:2:"76";s:17:"performance_title";s:34:"Училка из будущего";s:5:"roles";a:1:{s:2:"r3";s:38:"Миссис Трайвер (мама)";};};i:5;a:3:{s:14:"performance_id";s:2:"64";s:17:"performance_title";s:20:"Компромисс";s:5:"roles";a:1:{s:2:"r8";s:19:"Тийна Кару";};};};'),
 ('820', 'works', 'a:10:{i:0;s:88:"1989 г. — «Кушетка» по киносценарию Е. Габриловича";i:1;s:147:"1996 г. — «Хочу слоника» по стихам С. Я. Маршака, “Театр Малый”, г. Великий Новгород";i:2;s:153:"1997 г. — «Реквием» Л. Андреева. Муниципальный драматический театр, г. Санкт-Петербург";i:3;s:121:"2000 г. — «Картофельный Эльф» по В. В. Набокову в театре «Комедианты»";i:4;s:160:"2001 г. — «Приключения Незнайки и его друзей» Н. Носов, театр «Львенок», г. Санкт-Петербург";i:5;s:151:"2002 г. — «От судьбы не убежишь» В. Сэф, Г. Эджебия, театр «Львенок», г. Санкт-Петербург";i:6;s:144:"2003 г. — «Тайна волшебной книги» Л. Никитина, театр «Львенок», г. Санкт-Петербург";i:7;s:130:"2007 г. — «Апчхи! Или Царевна-Лягушка» по мотивам русской народной сказки";i:8;s:64:"2009 г. — «Контрабас» Патрик Зюскинд;";i:9;s:48:"2010 г. — «Госпожа Метелица»";};'),
+('820', 'instate', '1'),
 ('820', 'gender', 'female'),
 ('820', 'kinoteatr', 'http://www.kino-teatr.ru/kino/acter/w/ros/281305/bio/'),
 ('820', 'taxonomy', 'a:1:{s:6:"carier";a:2:{s:5:"title";s:10:"Актер";s:4:"slug";s:5:"actor";};};'),
@@ -4509,11 +4539,14 @@ INSERT INTO `kt_postmeta` (`post_id`, `meta_key`, `meta_value`) VALUES
 ('822', '_wp_attachment_metadata', 'a:3:{s:5:"width";i:646;s:6:"height";i:918;s:4:"file";s:37:"person/lyudmila-nikitina/portrait.jpg";};'),
 ('823', '_wp_attached_file', 'person/lyudmila-nikitina/troupe.jpg'),
 ('823', '_wp_attachment_metadata', 'a:3:{s:5:"width";i:448;s:6:"height";i:654;s:4:"file";s:35:"person/lyudmila-nikitina/troupe.jpg";};'),
-('824', 'old_names', 'a:2:{i:0;s:17:"57-maxsim-sergeev";i:1;s:14:"maksim-sergeev";};'),
+('824', 'old_names', 'a:2:{i:0;s:17:"57-maxsim-sergeev";i:1;s:14:"maksim-sergeev";};');
+
+INSERT INTO `kt_postmeta` (`post_id`, `meta_key`, `meta_value`) VALUES
 ('824', 'jos_id', '57'),
 ('824', 'jos_alias', 'maxsim-sergeev'),
 ('824', 'employment', 'a:6:{i:0;a:3:{s:14:"performance_id";s:2:"68";s:17:"performance_title";s:6:"Лес";s:5:"roles";a:1:{s:2:"r5";s:24:"Восьмибратов";};};i:1;a:3:{s:14:"performance_id";s:2:"75";s:17:"performance_title";s:40:"Страсти по-итальянски";s:5:"roles";a:1:{s:2:"r1";s:16:"Джованни";};};i:2;a:3:{s:14:"performance_id";s:2:"77";s:17:"performance_title";s:14:"В Париж!";s:5:"roles";a:1:{s:3:"r12";s:41:"Брюнет, гордый человек";};};i:3;a:3:{s:14:"performance_id";s:2:"69";s:17:"performance_title";s:47:"Не всякий вор — грабитель";s:5:"roles";a:1:{s:2:"r3";s:16:"Францози";};};i:4;a:3:{s:14:"performance_id";s:2:"80";s:17:"performance_title";s:48:"Записные книжки Тригорина";s:5:"roles";a:1:{s:2:"r9";s:14:"Шамраев";};};i:5;a:3:{s:14:"performance_id";s:2:"64";s:17:"performance_title";s:20:"Компромисс";s:5:"roles";a:1:{s:3:"r12";s:39:"фотохудожник Жбанков";};};};'),
 ('824', 'cinema', 'a:12:{i:0;s:338:"«Васька Немешаев» (главная роль, фильм удостоен Гран-при фестиваля «Будапешт-95», приз зрительских симпатий фестиваля в Чикаго, национальное представление на «Оскар»; режиссёр П. Готар)";i:1;s:86:"«Молох» (роль Адъютанта Гитлера; реж. А Сокуров)";i:2;s:56:"«Телец» (Офицер; реж. А Сокуров)";i:3;s:71:"«Русский ковчег» (Пётр I; реж. А Сокуров)";i:4;s:52:"т/с «Улицы разбитых фонарей»";i:5;s:39:"т/с «Тайны следствия»";i:6;s:27:"«Чёрный ворон»";i:7;s:27:"«Свой — чужой»";i:8;s:32:"«Эхо из прошлого»";i:9;s:28:"т/с «Литейный 4»";i:10;s:29:"«Анна Каренина»";i:11;s:41:"т/с «Военная разведка»";};'),
+('824', 'instate', '1'),
 ('824', 'gender', 'male'),
 ('824', 'kinoteatr', 'http://www.kino-teatr.ru/teatr/acter/m/ros/3876/bio/'),
 ('824', 'ruskino', 'http://ruskino.ru/art/3953'),
@@ -4530,6 +4563,7 @@ INSERT INTO `kt_postmeta` (`post_id`, `meta_key`, `meta_value`) VALUES
 ('828', 'jos_alias', 'natasha-terehova'),
 ('828', 'employment', 'a:7:{i:0;a:3:{s:14:"performance_id";s:2:"70";s:17:"performance_title";s:37:"Поминальная молитва";s:5:"roles";a:1:{s:2:"r4";s:8:"Годл";};};i:1;a:3:{s:14:"performance_id";s:2:"59";s:17:"performance_title";s:14:"Дачницы";s:5:"roles";a:1:{s:2:"r4";s:12:"Внучка";};};i:2;a:3:{s:14:"performance_id";s:2:"58";s:17:"performance_title";s:57:"Брысь! или История кота Филофея";s:5:"roles";a:1:{s:2:"r0";s:12:"Офелия";};};i:3;a:3:{s:14:"performance_id";s:2:"77";s:17:"performance_title";s:14:"В Париж!";s:5:"roles";a:1:{s:2:"r5";s:8:"Лёля";};};i:4;a:3:{s:14:"performance_id";s:2:"57";s:17:"performance_title";s:41:"Беда от нежного сердца";s:5:"roles";a:1:{s:2:"r2";s:16:"Машенька";};};i:5;a:3:{s:14:"performance_id";s:2:"79";s:17:"performance_title";s:35:"Волшебные сосульки";s:5:"roles";a:1:{s:2:"r1";s:18:"Настенька";};};i:6;a:3:{s:14:"performance_id";s:2:"64";s:17:"performance_title";s:20:"Компромисс";s:5:"roles";a:1:{s:1:"r";s:39:"Белла Константиновна";};};};'),
 ('828', 'cinema', 'a:10:{i:0;s:34:"«Ключи от счастья»";i:1;s:37:"«Как же быть сердцу»";i:2;s:37:"«Колдовская любовь»";i:3;s:14:"«Алька»";i:4;s:20:"«Тронутые»";i:5;s:36:"«Золушка в сапогах»";i:6;s:37:"«Петя Великолепный»";i:7;s:18:"«Снайпер»";i:8;s:40:"«Ключи от счастья — 2»";i:9;s:29:"«История зечки»";};'),
+('828', 'instate', '1'),
 ('828', 'gender', 'female'),
 ('828', 'kinoteatr', 'http://www.kino-teatr.ru/teatr/acter/w/ros/4275/bio/'),
 ('828', 'ruskino', 'http://ruskino.ru/art/5120'),
@@ -4539,15 +4573,14 @@ INSERT INTO `kt_postmeta` (`post_id`, `meta_key`, `meta_value`) VALUES
 ('829', '_wp_attachment_metadata', 'a:3:{s:5:"width";i:910;s:6:"height";i:1024;s:4:"file";s:46:"person/natalya-terekhova/natalya-terekhova.jpg";};'),
 ('830', '_wp_attached_file', 'person/natalya-terekhova/portrait.jpg'),
 ('830', '_wp_attachment_metadata', 'a:3:{s:5:"width";i:321;s:6:"height";i:480;s:4:"file";s:37:"person/natalya-terekhova/portrait.jpg";};'),
-('831', '_wp_attached_file', 'person/natalya-terekhova/troupe.jpg');
-
-INSERT INTO `kt_postmeta` (`post_id`, `meta_key`, `meta_value`) VALUES
+('831', '_wp_attached_file', 'person/natalya-terekhova/troupe.jpg'),
 ('831', '_wp_attachment_metadata', 'a:3:{s:5:"width";i:195;s:6:"height";i:283;s:4:"file";s:35:"person/natalya-terekhova/troupe.jpg";};'),
 ('832', 'old_names', 'a:2:{i:0;s:18:"52-sergei-nikolaev";i:1;s:15:"sergey-nikolaev";};'),
 ('832', 'jos_id', '52'),
 ('832', 'jos_alias', 'sergei-nikolaev'),
 ('832', 'employment', 'a:7:{i:0;a:3:{s:14:"performance_id";s:2:"68";s:17:"performance_title";s:6:"Лес";s:5:"roles";a:1:{s:2:"r4";s:22:"Счастливцев";};};i:1;a:3:{s:14:"performance_id";s:2:"77";s:17:"performance_title";s:14:"В Париж!";s:5:"roles";a:1:{s:3:"r11";a:2:{i:0;s:14:"Брындин";i:1;s:32:"Брындин, чиновник";};};};i:2;a:3:{s:14:"performance_id";s:2:"72";s:17:"performance_title";s:45:"Провинциальные анекдоты";s:5:"roles";a:1:{s:2:"r0";s:14:"Калошин";};};i:3;a:3:{s:14:"performance_id";s:2:"69";s:17:"performance_title";s:47:"Не всякий вор — грабитель";s:5:"roles";a:1:{s:2:"r4";s:6:"Вор";};};i:4;a:3:{s:14:"performance_id";s:2:"75";s:17:"performance_title";s:40:"Страсти по-итальянски";s:5:"roles";a:1:{s:2:"r2";s:14:"Атнонио";};};i:5;a:3:{s:14:"performance_id";s:2:"82";s:17:"performance_title";s:16:"Женитьба";s:5:"roles";a:1:{s:2:"r8";s:14:"Анучкин";};};i:6;a:3:{s:14:"performance_id";s:2:"64";s:17:"performance_title";s:20:"Компромисс";s:5:"roles";a:1:{s:2:"r4";s:46:"Турунок Генрих Францевич";};};};'),
 ('832', 'cinema', 'a:6:{i:0;s:35:"«Лабиринты разума»";i:1;s:14:"«Мечта»";i:2;s:17:"«Час пик»";i:3;s:27:"«Свой — чужой»";i:4;s:45:"т/с «Морские дьяволы — 4»";i:5;s:49:"«Дорогой мой человек» и др.";};'),
+('832', 'instate', '1'),
 ('832', 'gender', 'male'),
 ('832', 'kinoteatr', 'http://www.kino-teatr.ru/teatr/acter/m/ros/29820/bio/'),
 ('832', 'ruskino', 'http://ruskino.ru/art/9036'),
@@ -4564,6 +4597,7 @@ INSERT INTO `kt_postmeta` (`post_id`, `meta_key`, `meta_value`) VALUES
 ('836', 'jos_alias', 'stas-voronetski'),
 ('836', 'employment', 'a:8:{i:0;a:3:{s:14:"performance_id";s:2:"70";s:17:"performance_title";s:37:"Поминальная молитва";s:5:"roles";a:1:{s:3:"r10";s:10:"Фёдор";};};i:1;a:3:{s:14:"performance_id";s:2:"66";s:17:"performance_title";s:44:"Крепостная любовь (Муму)";s:5:"roles";a:1:{s:3:"r11";s:12:"Ерошка";};};i:2;a:3:{s:14:"performance_id";s:2:"60";s:17:"performance_title";s:14:"Дурочка";s:5:"roles";a:1:{s:2:"r8";s:10:"Педро";};};i:3;a:3:{s:14:"performance_id";s:2:"77";s:17:"performance_title";s:14:"В Париж!";s:5:"roles";a:1:{s:2:"r8";s:38:"Дездемонов, чиновник";};};i:4;a:3:{s:14:"performance_id";s:2:"65";s:17:"performance_title";s:24:"Кот в сапогах";s:5:"roles";a:1:{s:2:"r0";s:24:"Кот в сапогах";};};i:5;a:3:{s:14:"performance_id";s:2:"72";s:17:"performance_title";s:45:"Провинциальные анекдоты";s:5:"roles";a:1:{s:2:"r4";s:14:"Потапов";};};i:6;a:3:{s:14:"performance_id";s:2:"76";s:17:"performance_title";s:34:"Училка из будущего";s:5:"roles";a:1:{s:2:"r2";s:23:"Марк Трайвер";};};i:7;a:3:{s:14:"performance_id";s:2:"64";s:17:"performance_title";s:20:"Компромисс";s:5:"roles";a:1:{s:2:"r6";s:95:"Ося Чернов, жокей Анатолий Иванов, официант, Логинов";};};};'),
 ('836', 'cinema', 'a:4:{i:0;s:30:"«Пером и шпагой»";i:1;s:41:"т/с «Дорожный патруль»";i:2;s:52:"т/с «Улицы разбитых фонарей»";i:3;s:20:"«Формат А4»";};'),
+('836', 'instate', '1'),
 ('836', 'gender', 'male'),
 ('836', 'kinoteatr', 'http://www.kino-teatr.ru/teatr/acter/m/ros/31838/bio/'),
 ('836', 'taxonomy', 'a:1:{s:6:"carier";a:2:{s:5:"title";s:10:"Актер";s:4:"slug";s:5:"actor";};};'),
@@ -4579,9 +4613,12 @@ INSERT INTO `kt_postmeta` (`post_id`, `meta_key`, `meta_value`) VALUES
 ('840', 'jos_alias', 'ylia-gorshenina'),
 ('840', 'employment', 'a:8:{i:0;a:3:{s:14:"performance_id";s:2:"70";s:17:"performance_title";s:37:"Поминальная молитва";s:5:"roles";a:1:{s:2:"r2";s:10:"Цейтл";};};i:1;a:3:{s:14:"performance_id";s:2:"67";s:17:"performance_title";s:49:"Кыцик, Мыцик и тётушка Мари";s:5:"roles";a:1:{s:2:"r2";s:23:"тётушка Мари";};};i:2;a:3:{s:14:"performance_id";s:2:"72";s:17:"performance_title";s:45:"Провинциальные анекдоты";s:5:"roles";a:1:{s:2:"r2";s:40:"Марина (жена Калошина)";};};i:3;a:3:{s:14:"performance_id";s:2:"69";s:17:"performance_title";s:47:"Не всякий вор — грабитель";s:5:"roles";a:1:{s:2:"r0";s:8:"Анна";};};i:4;a:3:{s:14:"performance_id";s:2:"58";s:17:"performance_title";s:57:"Брысь! или История кота Филофея";s:5:"roles";a:1:{s:2:"r0";s:12:"Офелия";};};i:5;a:3:{s:14:"performance_id";s:2:"79";s:17:"performance_title";s:35:"Волшебные сосульки";s:5:"roles";a:1:{s:2:"r3";s:18:"Грушенька";};};i:6;a:3:{s:14:"performance_id";s:2:"57";s:17:"performance_title";s:41:"Беда от нежного сердца";s:5:"roles";a:1:{s:2:"r2";s:16:"Машенька";};};i:7;a:3:{s:14:"performance_id";s:2:"64";s:17:"performance_title";s:20:"Компромисс";s:5:"roles";a:1:{s:3:"r10";s:39:"Белла Константиновна";};};};'),
 ('840', 'cinema', 'a:8:{i:0;s:27:"«Чёрный ворон»";i:1;s:33:"«Закон мышеловки»";i:2;s:26:"т/с «Гаишники»";i:3;s:27:"«Цвет пламени»";i:4;s:31:"«Янтарный барон»";i:5;s:30:"«Дубля не будет»";i:6;s:12:"«Груз»";i:7;s:39:"х/ф «Ключ Саламандры»";};'),
+('840', 'instate', '1'),
 ('840', 'gender', 'female'),
 ('840', 'kinoteatr', 'http://www.kino-teatr.ru/teatr/acter/w/ros/1072/bio/'),
-('840', 'ruskino', 'http://ruskino.ru/art/1706'),
+('840', 'ruskino', 'http://ruskino.ru/art/1706');
+
+INSERT INTO `kt_postmeta` (`post_id`, `meta_key`, `meta_value`) VALUES
 ('840', 'taxonomy', 'a:1:{s:6:"carier";a:2:{s:5:"title";s:10:"Актер";s:4:"slug";s:5:"actor";};};'),
 ('840', '_thumbnail_id', '841'),
 ('841', '_wp_attached_file', 'person/yuliya-gorshenina/portrait.jpg'),
@@ -4596,7 +4633,7 @@ INSERT INTO `kt_postmeta` (`post_id`, `meta_key`, `meta_value`) VALUES
 ('844', 'source', 'Интернет-издание «MUSECUBE»'),
 ('844', 'source_author', 'Валентина Казакова'),
 ('844', 'source_date', '23.10.2013'),
-('844', '_thumbnail_id', '847'),
+('844', '_thumbnail_id', '845'),
 ('845', '_wp_attached_file', 'press/trudna-doroga-ot-pravdy-k-istine-kompromiss/image-01.jpg'),
 ('845', '_wp_attachment_metadata', 'a:3:{s:5:"width";i:1000;s:6:"height";i:666;s:4:"file";s:62:"press/trudna-doroga-ot-pravdy-k-istine-kompromiss/image-01.jpg";};'),
 ('846', '_wp_attached_file', 'press/trudna-doroga-ot-pravdy-k-istine-kompromiss/image-03.jpg'),
@@ -4616,9 +4653,7 @@ INSERT INTO `kt_postmeta` (`post_id`, `meta_key`, `meta_value`) VALUES
 ('850', 'taxonomy', 'a:1:{s:8:"category";a:2:{s:5:"title";s:16:"Гастроли";s:4:"slug";s:4:"tour";};};'),
 ('850', '_thumbnail_id', '852'),
 ('851', '_wp_attached_file', 'post/krepostnaya-lyubovmumu-v-germanii/image-02.jpg'),
-('851', '_wp_attachment_metadata', 'a:3:{s:5:"width";i:640;s:6:"height";i:425;s:4:"file";s:51:"post/krepostnaya-lyubovmumu-v-germanii/image-02.jpg";};');
-
-INSERT INTO `kt_postmeta` (`post_id`, `meta_key`, `meta_value`) VALUES
+('851', '_wp_attachment_metadata', 'a:3:{s:5:"width";i:640;s:6:"height";i:425;s:4:"file";s:51:"post/krepostnaya-lyubovmumu-v-germanii/image-02.jpg";};'),
 ('852', '_wp_attached_file', 'post/krepostnaya-lyubovmumu-v-germanii/image-03.jpg'),
 ('852', '_wp_attachment_metadata', 'a:3:{s:5:"width";i:1280;s:6:"height";i:851;s:4:"file";s:51:"post/krepostnaya-lyubovmumu-v-germanii/image-03.jpg";};'),
 ('853', 'old_names', 'a:1:{i:0;s:17:"206-mymy-v-tyrcii";};'),
@@ -4658,7 +4693,9 @@ INSERT INTO `kt_postmeta` (`post_id`, `meta_key`, `meta_value`) VALUES
 ('861', 'taxonomy', 'a:1:{s:8:"category";a:2:{s:5:"title";s:14:"Новости";s:4:"slug";s:4:"news";};};'),
 ('861', '_thumbnail_id', '862'),
 ('862', '_wp_attached_file', 'post/teatr-komedianty-v-teleigre-sto-k-odnomu/image-01.jpg'),
-('862', '_wp_attachment_metadata', 'a:3:{s:5:"width";i:265;s:6:"height";i:375;s:4:"file";s:58:"post/teatr-komedianty-v-teleigre-sto-k-odnomu/image-01.jpg";};'),
+('862', '_wp_attachment_metadata', 'a:3:{s:5:"width";i:265;s:6:"height";i:375;s:4:"file";s:58:"post/teatr-komedianty-v-teleigre-sto-k-odnomu/image-01.jpg";};');
+
+INSERT INTO `kt_postmeta` (`post_id`, `meta_key`, `meta_value`) VALUES
 ('863', 'old_names', 'a:1:{i:0;s:9:"210-video";};'),
 ('863', 'jos_id', '210'),
 ('863', 'jos_alias', 'video'),
@@ -4693,9 +4730,7 @@ INSERT INTO `kt_postmeta` (`post_id`, `meta_key`, `meta_value`) VALUES
 ('874', '_wp_attached_file', 'performance/volki-i-ovtsy/volki-i-ovtsy09.jpg'),
 ('874', '_wp_attachment_metadata', 'a:3:{s:5:"width";i:319;s:6:"height";i:479;s:4:"file";s:45:"performance/volki-i-ovtsy/volki-i-ovtsy09.jpg";};'),
 ('875', '_wp_attached_file', 'performance/volki-i-ovtsy/volki-i-ovtsy10.jpg'),
-('875', '_wp_attachment_metadata', 'a:3:{s:5:"width";i:319;s:6:"height";i:479;s:4:"file";s:45:"performance/volki-i-ovtsy/volki-i-ovtsy10.jpg";};');
-
-INSERT INTO `kt_postmeta` (`post_id`, `meta_key`, `meta_value`) VALUES
+('875', '_wp_attachment_metadata', 'a:3:{s:5:"width";i:319;s:6:"height";i:479;s:4:"file";s:45:"performance/volki-i-ovtsy/volki-i-ovtsy10.jpg";};'),
 ('876', '_wp_attached_file', 'performance/volki-i-ovtsy/volki-i-ovtsy11.jpg'),
 ('876', '_wp_attachment_metadata', 'a:3:{s:5:"width";i:604;s:6:"height";i:402;s:4:"file";s:45:"performance/volki-i-ovtsy/volki-i-ovtsy11.jpg";};'),
 ('877', '_wp_attached_file', 'performance/volki-i-ovtsy/volki-i-ovtsy12.jpg'),
@@ -4735,7 +4770,9 @@ INSERT INTO `kt_postmeta` (`post_id`, `meta_key`, `meta_value`) VALUES
 ('894', '_wp_attached_file', 'performance/volki-i-ovtsy/volki-i-ovtsy29.jpg'),
 ('894', '_wp_attachment_metadata', 'a:3:{s:5:"width";i:604;s:6:"height";i:402;s:4:"file";s:45:"performance/volki-i-ovtsy/volki-i-ovtsy29.jpg";};'),
 ('895', '_wp_attached_file', 'performance/volki-i-ovtsy/volki-i-ovtsy30.jpg'),
-('895', '_wp_attachment_metadata', 'a:3:{s:5:"width";i:319;s:6:"height";i:479;s:4:"file";s:45:"performance/volki-i-ovtsy/volki-i-ovtsy30.jpg";};'),
+('895', '_wp_attachment_metadata', 'a:3:{s:5:"width";i:319;s:6:"height";i:479;s:4:"file";s:45:"performance/volki-i-ovtsy/volki-i-ovtsy30.jpg";};');
+
+INSERT INTO `kt_postmeta` (`post_id`, `meta_key`, `meta_value`) VALUES
 ('896', '_wp_attached_file', 'performance/volki-i-ovtsy/volki-i-ovtsy31.jpg'),
 ('896', '_wp_attachment_metadata', 'a:3:{s:5:"width";i:604;s:6:"height";i:402;s:4:"file";s:45:"performance/volki-i-ovtsy/volki-i-ovtsy31.jpg";};'),
 ('897', '_wp_attached_file', 'performance/volki-i-ovtsy/volki-i-ovtsy32.jpg'),
@@ -4770,9 +4807,7 @@ INSERT INTO `kt_postmeta` (`post_id`, `meta_key`, `meta_value`) VALUES
 ('911', '_wp_attachment_metadata', 'a:3:{s:5:"width";i:319;s:6:"height";i:479;s:4:"file";s:45:"performance/volki-i-ovtsy/volki-i-ovtsy46.jpg";};'),
 ('912', '_wp_attached_file', 'performance/volki-i-ovtsy/volki-i-ovtsy47.jpg'),
 ('912', '_wp_attachment_metadata', 'a:3:{s:5:"width";i:319;s:6:"height";i:479;s:4:"file";s:45:"performance/volki-i-ovtsy/volki-i-ovtsy47.jpg";};'),
-('913', '_wp_attached_file', 'performance/volki-i-ovtsy/volki-i-ovtsy48.jpg');
-
-INSERT INTO `kt_postmeta` (`post_id`, `meta_key`, `meta_value`) VALUES
+('913', '_wp_attached_file', 'performance/volki-i-ovtsy/volki-i-ovtsy48.jpg'),
 ('913', '_wp_attachment_metadata', 'a:3:{s:5:"width";i:604;s:6:"height";i:402;s:4:"file";s:45:"performance/volki-i-ovtsy/volki-i-ovtsy48.jpg";};'),
 ('914', '_wp_attached_file', 'performance/volki-i-ovtsy/volki-i-ovtsy49.jpg'),
 ('914', '_wp_attachment_metadata', 'a:3:{s:5:"width";i:604;s:6:"height";i:437;s:4:"file";s:45:"performance/volki-i-ovtsy/volki-i-ovtsy49.jpg";};'),
@@ -4812,7 +4847,9 @@ INSERT INTO `kt_postmeta` (`post_id`, `meta_key`, `meta_value`) VALUES
 ('931', '_wp_attachment_metadata', 'a:3:{s:5:"width";i:319;s:6:"height";i:479;s:4:"file";s:45:"performance/volki-i-ovtsy/volki-i-ovtsy66.jpg";};'),
 ('932', '_wp_attached_file', 'performance/volki-i-ovtsy/volki-i-ovtsy67.jpg'),
 ('932', '_wp_attachment_metadata', 'a:3:{s:5:"width";i:604;s:6:"height";i:402;s:4:"file";s:45:"performance/volki-i-ovtsy/volki-i-ovtsy67.jpg";};'),
-('933', '_wp_attached_file', 'performance/volki-i-ovtsy/volki-i-ovtsy68.jpg'),
+('933', '_wp_attached_file', 'performance/volki-i-ovtsy/volki-i-ovtsy68.jpg');
+
+INSERT INTO `kt_postmeta` (`post_id`, `meta_key`, `meta_value`) VALUES
 ('933', '_wp_attachment_metadata', 'a:3:{s:5:"width";i:319;s:6:"height";i:479;s:4:"file";s:45:"performance/volki-i-ovtsy/volki-i-ovtsy68.jpg";};'),
 ('934', '_wp_attached_file', 'performance/volki-i-ovtsy/volki-i-ovtsy69.jpg'),
 ('934', '_wp_attachment_metadata', 'a:3:{s:5:"width";i:319;s:6:"height";i:479;s:4:"file";s:45:"performance/volki-i-ovtsy/volki-i-ovtsy69.jpg";};'),
@@ -4847,9 +4884,7 @@ INSERT INTO `kt_postmeta` (`post_id`, `meta_key`, `meta_value`) VALUES
 ('944', '_wp_attachment_metadata', 'a:3:{s:5:"width";i:604;s:6:"height";i:402;s:4:"file";s:53:"performance/zapisnye-knizhki-trigorina/trigorin02.jpg";};'),
 ('945', '_wp_attached_file', 'performance/zapisnye-knizhki-trigorina/trigorin03.jpg'),
 ('945', '_wp_attachment_metadata', 'a:3:{s:5:"width";i:319;s:6:"height";i:479;s:4:"file";s:53:"performance/zapisnye-knizhki-trigorina/trigorin03.jpg";};'),
-('946', '_wp_attached_file', 'performance/zapisnye-knizhki-trigorina/trigorin04.jpg');
-
-INSERT INTO `kt_postmeta` (`post_id`, `meta_key`, `meta_value`) VALUES
+('946', '_wp_attached_file', 'performance/zapisnye-knizhki-trigorina/trigorin04.jpg'),
 ('946', '_wp_attachment_metadata', 'a:3:{s:5:"width";i:319;s:6:"height";i:479;s:4:"file";s:53:"performance/zapisnye-knizhki-trigorina/trigorin04.jpg";};'),
 ('947', '_wp_attached_file', 'performance/zapisnye-knizhki-trigorina/trigorin05.jpg'),
 ('947', '_wp_attachment_metadata', 'a:3:{s:5:"width";i:604;s:6:"height";i:402;s:4:"file";s:53:"performance/zapisnye-knizhki-trigorina/trigorin05.jpg";};'),
@@ -4889,7 +4924,9 @@ INSERT INTO `kt_postmeta` (`post_id`, `meta_key`, `meta_value`) VALUES
 ('964', '_wp_attachment_metadata', 'a:3:{s:5:"width";i:340;s:6:"height";i:479;s:4:"file";s:53:"performance/zapisnye-knizhki-trigorina/trigorin22.jpg";};'),
 ('965', '_wp_attached_file', 'performance/zapisnye-knizhki-trigorina/trigorin23.jpg'),
 ('965', '_wp_attachment_metadata', 'a:3:{s:5:"width";i:604;s:6:"height";i:403;s:4:"file";s:53:"performance/zapisnye-knizhki-trigorina/trigorin23.jpg";};'),
-('966', '_wp_attached_file', 'performance/zapisnye-knizhki-trigorina/trigorin24.jpg'),
+('966', '_wp_attached_file', 'performance/zapisnye-knizhki-trigorina/trigorin24.jpg');
+
+INSERT INTO `kt_postmeta` (`post_id`, `meta_key`, `meta_value`) VALUES
 ('966', '_wp_attachment_metadata', 'a:3:{s:5:"width";i:319;s:6:"height";i:479;s:4:"file";s:53:"performance/zapisnye-knizhki-trigorina/trigorin24.jpg";};'),
 ('967', '_wp_attached_file', 'performance/zapisnye-knizhki-trigorina/trigorin25.jpg'),
 ('967', '_wp_attachment_metadata', 'a:3:{s:5:"width";i:604;s:6:"height";i:402;s:4:"file";s:53:"performance/zapisnye-knizhki-trigorina/trigorin25.jpg";};'),
@@ -4924,9 +4961,7 @@ INSERT INTO `kt_postmeta` (`post_id`, `meta_key`, `meta_value`) VALUES
 ('982', '_wp_attached_file', 'performance/zapisnye-knizhki-trigorina/trigorin40.jpg'),
 ('982', '_wp_attachment_metadata', 'a:3:{s:5:"width";i:1280;s:6:"height";i:853;s:4:"file";s:53:"performance/zapisnye-knizhki-trigorina/trigorin40.jpg";};'),
 ('983', '_wp_attached_file', 'performance/zapisnye-knizhki-trigorina/trigorin41.jpg'),
-('983', '_wp_attachment_metadata', 'a:3:{s:5:"width";i:682;s:6:"height";i:1024;s:4:"file";s:53:"performance/zapisnye-knizhki-trigorina/trigorin41.jpg";};');
-
-INSERT INTO `kt_postmeta` (`post_id`, `meta_key`, `meta_value`) VALUES
+('983', '_wp_attachment_metadata', 'a:3:{s:5:"width";i:682;s:6:"height";i:1024;s:4:"file";s:53:"performance/zapisnye-knizhki-trigorina/trigorin41.jpg";};'),
 ('984', '_wp_attached_file', 'performance/zapisnye-knizhki-trigorina/trigorin42.jpg'),
 ('984', '_wp_attachment_metadata', 'a:3:{s:5:"width";i:1280;s:6:"height";i:853;s:4:"file";s:53:"performance/zapisnye-knizhki-trigorina/trigorin42.jpg";};'),
 ('985', '_wp_attached_file', 'performance/zapisnye-knizhki-trigorina/trigorin43.jpg'),
@@ -4966,7 +5001,9 @@ INSERT INTO `kt_postmeta` (`post_id`, `meta_key`, `meta_value`) VALUES
 ('997', '_thumbnail_id', '998'),
 ('998', '_wp_attached_file', 'post/iz-frantsii-s-gran-pri/image-01.jpg'),
 ('998', '_wp_attachment_metadata', 'a:3:{s:5:"width";i:1149;s:6:"height";i:1698;s:4:"file";s:40:"post/iz-frantsii-s-gran-pri/image-01.jpg";};'),
-('999', 'old_names', 'a:2:{i:0;s:20:"294-pressa-mymy-2013";i:1;s:27:"fantazii-na-tryoh-skamejkah";};'),
+('999', 'old_names', 'a:2:{i:0;s:20:"294-pressa-mymy-2013";i:1;s:27:"fantazii-na-tryoh-skamejkah";};');
+
+INSERT INTO `kt_postmeta` (`post_id`, `meta_key`, `meta_value`) VALUES
 ('999', 'jos_id', '294'),
 ('999', 'jos_alias', 'pressa-mymy-2013'),
 ('999', 'source_author', 'Борис Шаров'),
@@ -4979,7 +5016,7 @@ INSERT INTO `kt_postmeta` (`post_id`, `meta_key`, `meta_value`) VALUES
 ('1001', 'jos_id', '117'),
 ('1001', 'jos_alias', 'foto-raznoe'),
 ('1001', 'taxonomy', 'a:1:{s:8:"category";a:2:{s:5:"title";s:20:"Фотоотчёты";s:4:"slug";s:10:"photoalbum";};};'),
-('1001', '_thumbnail_id', '1018'),
+('1001', '_thumbnail_id', '1007'),
 ('1002', '_wp_attached_file', 'post/foto-raznoe/image-01.jpg'),
 ('1002', '_wp_attachment_metadata', 'a:3:{s:5:"width";i:1280;s:6:"height";i:797;s:4:"file";s:29:"post/foto-raznoe/image-01.jpg";};'),
 ('1003', '_wp_attached_file', 'post/foto-raznoe/image-02.jpg'),
@@ -5001,9 +5038,7 @@ INSERT INTO `kt_postmeta` (`post_id`, `meta_key`, `meta_value`) VALUES
 ('1011', '_wp_attached_file', 'post/foto-raznoe/image-10.jpg'),
 ('1011', '_wp_attachment_metadata', 'a:3:{s:5:"width";i:604;s:6:"height";i:402;s:4:"file";s:29:"post/foto-raznoe/image-10.jpg";};'),
 ('1012', '_wp_attached_file', 'post/foto-raznoe/image-11.jpg'),
-('1012', '_wp_attachment_metadata', 'a:3:{s:5:"width";i:604;s:6:"height";i:447;s:4:"file";s:29:"post/foto-raznoe/image-11.jpg";};');
-
-INSERT INTO `kt_postmeta` (`post_id`, `meta_key`, `meta_value`) VALUES
+('1012', '_wp_attachment_metadata', 'a:3:{s:5:"width";i:604;s:6:"height";i:447;s:4:"file";s:29:"post/foto-raznoe/image-11.jpg";};'),
 ('1013', '_wp_attached_file', 'post/foto-raznoe/image-12.jpg'),
 ('1013', '_wp_attachment_metadata', 'a:3:{s:5:"width";i:1280;s:6:"height";i:851;s:4:"file";s:29:"post/foto-raznoe/image-12.jpg";};'),
 ('1014', '_wp_attached_file', 'post/foto-raznoe/image-13.jpg'),
@@ -5043,7 +5078,9 @@ INSERT INTO `kt_postmeta` (`post_id`, `meta_key`, `meta_value`) VALUES
 ('1025', 'author', 'Дарио Фо'),
 ('1025', 'authors', 'a:3:{i:0;a:1:{s:16:"Режиссёр";s:93:"Заслуженный деятель искусств России Михаил Левшин";};i:1;a:1:{s:40:"Сценография и костюмы";s:26:"Ф. Волосенкова";};i:2;a:1:{s:43:"Музыкальное оформление";s:52:"С. Пономарёва, А. Галишникова";};};'),
 ('1025', 'duration', '1:30'),
-('1025', 'genre', 'Фарс'),
+('1025', 'genre', 'Фарс');
+
+INSERT INTO `kt_postmeta` (`post_id`, `meta_key`, `meta_value`) VALUES
 ('1025', 'premiere_date', '2003-06-17 15:00:00'),
 ('1025', 'rate', '16+'),
 ('1025', '_thumbnail_id', '1026'),
@@ -5078,9 +5115,7 @@ INSERT INTO `kt_postmeta` (`post_id`, `meta_key`, `meta_value`) VALUES
 ('1040', '_wp_attached_file', 'performance/ne-vsyakii-vor-grabitel/vor14.jpg'),
 ('1040', '_wp_attachment_metadata', 'a:3:{s:5:"width";i:682;s:6:"height";i:1024;s:4:"file";s:45:"performance/ne-vsyakii-vor-grabitel/vor14.jpg";};'),
 ('1041', '_wp_attached_file', 'performance/ne-vsyakii-vor-grabitel/vor15.jpg'),
-('1041', '_wp_attachment_metadata', 'a:3:{s:5:"width";i:1280;s:6:"height";i:853;s:4:"file";s:45:"performance/ne-vsyakii-vor-grabitel/vor15.jpg";};');
-
-INSERT INTO `kt_postmeta` (`post_id`, `meta_key`, `meta_value`) VALUES
+('1041', '_wp_attachment_metadata', 'a:3:{s:5:"width";i:1280;s:6:"height";i:853;s:4:"file";s:45:"performance/ne-vsyakii-vor-grabitel/vor15.jpg";};'),
 ('1042', '_wp_attached_file', 'performance/ne-vsyakii-vor-grabitel/vor16.jpg'),
 ('1042', '_wp_attachment_metadata', 'a:3:{s:5:"width";i:1280;s:6:"height";i:853;s:4:"file";s:45:"performance/ne-vsyakii-vor-grabitel/vor16.jpg";};'),
 ('1043', '_wp_attached_file', 'performance/ne-vsyakii-vor-grabitel/vor17.jpg'),
@@ -5095,7 +5130,7 @@ INSERT INTO `kt_postmeta` (`post_id`, `meta_key`, `meta_value`) VALUES
 ('1047', 'jos_id', '296'),
 ('1047', 'jos_alias', 'antverpriza'),
 ('1047', 'taxonomy', 'a:1:{s:8:"category";a:2:{s:5:"title";s:12:"Анонсы";s:4:"slug";s:13:"announcements";};};'),
-('1047', '_thumbnail_id', '1048'),
+('1047', '_thumbnail_id', '1049'),
 ('1048', '_wp_attached_file', 'post/antverpriza-v-komediantakh/image-01.jpg'),
 ('1048', '_wp_attachment_metadata', 'a:3:{s:5:"width";i:707;s:6:"height";i:1000;s:4:"file";s:44:"post/antverpriza-v-komediantakh/image-01.jpg";};'),
 ('1049', '_wp_attached_file', 'post/antverpriza-v-komediantakh/image-02.jpg'),
@@ -5117,10 +5152,12 @@ INSERT INTO `kt_postmeta` (`post_id`, `meta_key`, `meta_value`) VALUES
 ('1052', 'duration', '1:50'),
 ('1052', 'premiere_date', '2014-12-17 19:00:00'),
 ('1052', 'rate', '12+'),
-('1052', '_thumbnail_id', '1055'),
+('1052', '_thumbnail_id', '1054'),
 ('1053', '_wp_attached_file', 'performance/esli-pozhenilis-znachit-zhit-pridetsya/farsy-1.jpg'),
 ('1053', '_wp_attachment_metadata', 'a:3:{s:5:"width";i:604;s:6:"height";i:403;s:4:"file";s:62:"performance/esli-pozhenilis-znachit-zhit-pridetsya/farsy-1.jpg";};'),
-('1054', '_wp_attached_file', 'performance/esli-pozhenilis-znachit-zhit-pridetsya/farsy-2.jpg'),
+('1054', '_wp_attached_file', 'performance/esli-pozhenilis-znachit-zhit-pridetsya/farsy-2.jpg');
+
+INSERT INTO `kt_postmeta` (`post_id`, `meta_key`, `meta_value`) VALUES
 ('1054', '_wp_attachment_metadata', 'a:3:{s:5:"width";i:604;s:6:"height";i:403;s:4:"file";s:62:"performance/esli-pozhenilis-znachit-zhit-pridetsya/farsy-2.jpg";};'),
 ('1055', '_wp_attached_file', 'performance/esli-pozhenilis-znachit-zhit-pridetsya/farsy-3.jpg'),
 ('1055', '_wp_attachment_metadata', 'a:3:{s:5:"width";i:402;s:6:"height";i:604;s:4:"file";s:62:"performance/esli-pozhenilis-znachit-zhit-pridetsya/farsy-3.jpg";};'),
@@ -5155,9 +5192,7 @@ INSERT INTO `kt_postmeta` (`post_id`, `meta_key`, `meta_value`) VALUES
 ('1066', '_wp_attached_file', 'performance/strasti-po-italyanski/strasti06.jpg'),
 ('1066', '_wp_attachment_metadata', 'a:3:{s:5:"width";i:319;s:6:"height";i:479;s:4:"file";s:47:"performance/strasti-po-italyanski/strasti06.jpg";};'),
 ('1067', '_wp_attached_file', 'performance/strasti-po-italyanski/strasti07.jpg'),
-('1067', '_wp_attachment_metadata', 'a:3:{s:5:"width";i:319;s:6:"height";i:479;s:4:"file";s:47:"performance/strasti-po-italyanski/strasti07.jpg";};');
-
-INSERT INTO `kt_postmeta` (`post_id`, `meta_key`, `meta_value`) VALUES
+('1067', '_wp_attachment_metadata', 'a:3:{s:5:"width";i:319;s:6:"height";i:479;s:4:"file";s:47:"performance/strasti-po-italyanski/strasti07.jpg";};'),
 ('1068', '_wp_attached_file', 'performance/strasti-po-italyanski/strasti08.jpg'),
 ('1068', '_wp_attachment_metadata', 'a:3:{s:5:"width";i:319;s:6:"height";i:479;s:4:"file";s:47:"performance/strasti-po-italyanski/strasti08.jpg";};'),
 ('1069', '_wp_attached_file', 'performance/strasti-po-italyanski/strasti09.jpg'),
@@ -5197,7 +5232,9 @@ INSERT INTO `kt_postmeta` (`post_id`, `meta_key`, `meta_value`) VALUES
 ('1086', '_wp_attached_file', 'performance/strasti-po-italyanski/strasti26.jpg'),
 ('1086', '_wp_attachment_metadata', 'a:3:{s:5:"width";i:604;s:6:"height";i:402;s:4:"file";s:47:"performance/strasti-po-italyanski/strasti26.jpg";};'),
 ('1087', '_wp_attached_file', 'performance/strasti-po-italyanski/strasti27.jpg'),
-('1087', '_wp_attachment_metadata', 'a:3:{s:5:"width";i:319;s:6:"height";i:479;s:4:"file";s:47:"performance/strasti-po-italyanski/strasti27.jpg";};'),
+('1087', '_wp_attachment_metadata', 'a:3:{s:5:"width";i:319;s:6:"height";i:479;s:4:"file";s:47:"performance/strasti-po-italyanski/strasti27.jpg";};');
+
+INSERT INTO `kt_postmeta` (`post_id`, `meta_key`, `meta_value`) VALUES
 ('1088', '_wp_attached_file', 'performance/strasti-po-italyanski/strasti28.jpg'),
 ('1088', '_wp_attachment_metadata', 'a:3:{s:5:"width";i:319;s:6:"height";i:479;s:4:"file";s:47:"performance/strasti-po-italyanski/strasti28.jpg";};'),
 ('1089', '_wp_attached_file', 'performance/strasti-po-italyanski/strasti29.jpg'),
@@ -5232,9 +5269,7 @@ INSERT INTO `kt_postmeta` (`post_id`, `meta_key`, `meta_value`) VALUES
 ('1098', '_wp_attachment_metadata', 'a:3:{s:5:"width";i:604;s:6:"height";i:402;s:4:"file";s:35:"performance/durochka/durochka01.jpg";};'),
 ('1099', '_wp_attached_file', 'performance/durochka/durochka02.jpg'),
 ('1099', '_wp_attachment_metadata', 'a:3:{s:5:"width";i:319;s:6:"height";i:479;s:4:"file";s:35:"performance/durochka/durochka02.jpg";};'),
-('1100', '_wp_attached_file', 'performance/durochka/durochka03.jpg');
-
-INSERT INTO `kt_postmeta` (`post_id`, `meta_key`, `meta_value`) VALUES
+('1100', '_wp_attached_file', 'performance/durochka/durochka03.jpg'),
 ('1100', '_wp_attachment_metadata', 'a:3:{s:5:"width";i:319;s:6:"height";i:479;s:4:"file";s:35:"performance/durochka/durochka03.jpg";};'),
 ('1101', '_wp_attached_file', 'performance/durochka/durochka04.jpg'),
 ('1101', '_wp_attachment_metadata', 'a:3:{s:5:"width";i:1280;s:6:"height";i:853;s:4:"file";s:35:"performance/durochka/durochka04.jpg";};'),
@@ -5274,7 +5309,9 @@ INSERT INTO `kt_postmeta` (`post_id`, `meta_key`, `meta_value`) VALUES
 ('1118', '_wp_attachment_metadata', 'a:3:{s:5:"width";i:2560;s:6:"height";i:1707;s:4:"file";s:35:"performance/durochka/durochka21.jpg";};'),
 ('1119', '_wp_attached_file', 'performance/durochka/durochka22.jpg'),
 ('1119', '_wp_attachment_metadata', 'a:3:{s:5:"width";i:2560;s:6:"height";i:1707;s:4:"file";s:35:"performance/durochka/durochka22.jpg";};'),
-('1120', '_wp_attached_file', 'performance/durochka/durochka23.jpg'),
+('1120', '_wp_attached_file', 'performance/durochka/durochka23.jpg');
+
+INSERT INTO `kt_postmeta` (`post_id`, `meta_key`, `meta_value`) VALUES
 ('1120', '_wp_attachment_metadata', 'a:3:{s:5:"width";i:1365;s:6:"height";i:2048;s:4:"file";s:35:"performance/durochka/durochka23.jpg";};'),
 ('1121', '_wp_attached_file', 'performance/durochka/durochka24.jpg'),
 ('1121', '_wp_attachment_metadata', 'a:3:{s:5:"width";i:604;s:6:"height";i:402;s:4:"file";s:35:"performance/durochka/durochka24.jpg";};'),
@@ -5309,9 +5346,7 @@ INSERT INTO `kt_postmeta` (`post_id`, `meta_key`, `meta_value`) VALUES
 ('1136', '_wp_attached_file', 'performance/durochka/durochka39.jpg'),
 ('1136', '_wp_attachment_metadata', 'a:3:{s:5:"width";i:1280;s:6:"height";i:853;s:4:"file";s:35:"performance/durochka/durochka39.jpg";};'),
 ('1137', '_wp_attached_file', 'performance/durochka/durochka40.jpg'),
-('1137', '_wp_attachment_metadata', 'a:3:{s:5:"width";i:1280;s:6:"height";i:853;s:4:"file";s:35:"performance/durochka/durochka40.jpg";};');
-
-INSERT INTO `kt_postmeta` (`post_id`, `meta_key`, `meta_value`) VALUES
+('1137', '_wp_attachment_metadata', 'a:3:{s:5:"width";i:1280;s:6:"height";i:853;s:4:"file";s:35:"performance/durochka/durochka40.jpg";};'),
 ('1138', '_wp_attached_file', 'performance/durochka/durochka41.jpg'),
 ('1138', '_wp_attachment_metadata', 'a:3:{s:5:"width";i:319;s:6:"height";i:479;s:4:"file";s:35:"performance/durochka/durochka41.jpg";};'),
 ('1139', '_wp_attached_file', 'performance/durochka/poster.jpg'),
@@ -5351,7 +5386,9 @@ INSERT INTO `kt_postmeta` (`post_id`, `meta_key`, `meta_value`) VALUES
 ('1150', '_wp_attachment_metadata', 'a:3:{s:5:"width";i:604;s:6:"height";i:402;s:4:"file";s:55:"performance/ekhala-derevnya-mimo-muzhika/derevnya10.jpg";};'),
 ('1151', '_wp_attached_file', 'performance/ekhala-derevnya-mimo-muzhika/derevnya11.jpg'),
 ('1151', '_wp_attachment_metadata', 'a:3:{s:5:"width";i:604;s:6:"height";i:402;s:4:"file";s:55:"performance/ekhala-derevnya-mimo-muzhika/derevnya11.jpg";};'),
-('1152', '_wp_attached_file', 'performance/ekhala-derevnya-mimo-muzhika/derevnya12.jpg'),
+('1152', '_wp_attached_file', 'performance/ekhala-derevnya-mimo-muzhika/derevnya12.jpg');
+
+INSERT INTO `kt_postmeta` (`post_id`, `meta_key`, `meta_value`) VALUES
 ('1152', '_wp_attachment_metadata', 'a:3:{s:5:"width";i:319;s:6:"height";i:479;s:4:"file";s:55:"performance/ekhala-derevnya-mimo-muzhika/derevnya12.jpg";};'),
 ('1153', '_wp_attached_file', 'performance/ekhala-derevnya-mimo-muzhika/derevnya13.jpg'),
 ('1153', '_wp_attachment_metadata', 'a:3:{s:5:"width";i:319;s:6:"height";i:479;s:4:"file";s:55:"performance/ekhala-derevnya-mimo-muzhika/derevnya13.jpg";};'),
@@ -5386,9 +5423,7 @@ INSERT INTO `kt_postmeta` (`post_id`, `meta_key`, `meta_value`) VALUES
 ('1168', '_wp_attached_file', 'performance/ekhala-derevnya-mimo-muzhika/derevnya28.jpg'),
 ('1168', '_wp_attachment_metadata', 'a:3:{s:5:"width";i:604;s:6:"height";i:401;s:4:"file";s:55:"performance/ekhala-derevnya-mimo-muzhika/derevnya28.jpg";};'),
 ('1169', '_wp_attached_file', 'performance/ekhala-derevnya-mimo-muzhika/derevnya29.jpg'),
-('1169', '_wp_attachment_metadata', 'a:3:{s:5:"width";i:319;s:6:"height";i:479;s:4:"file";s:55:"performance/ekhala-derevnya-mimo-muzhika/derevnya29.jpg";};');
-
-INSERT INTO `kt_postmeta` (`post_id`, `meta_key`, `meta_value`) VALUES
+('1169', '_wp_attachment_metadata', 'a:3:{s:5:"width";i:319;s:6:"height";i:479;s:4:"file";s:55:"performance/ekhala-derevnya-mimo-muzhika/derevnya29.jpg";};'),
 ('1170', '_wp_attached_file', 'performance/ekhala-derevnya-mimo-muzhika/derevnya30.jpg'),
 ('1170', '_wp_attachment_metadata', 'a:3:{s:5:"width";i:604;s:6:"height";i:402;s:4:"file";s:55:"performance/ekhala-derevnya-mimo-muzhika/derevnya30.jpg";};'),
 ('1171', '_wp_attached_file', 'performance/ekhala-derevnya-mimo-muzhika/derevnya31.jpg'),
@@ -5428,7 +5463,9 @@ INSERT INTO `kt_postmeta` (`post_id`, `meta_key`, `meta_value`) VALUES
 ('1184', '_wp_attachment_metadata', 'a:3:{s:5:"width";i:666;s:6:"height";i:1000;s:4:"file";s:39:"performance/kompromiss/kompromiss02.jpg";};'),
 ('1185', '_wp_attached_file', 'performance/kompromiss/kompromiss03.jpg'),
 ('1185', '_wp_attachment_metadata', 'a:3:{s:5:"width";i:1000;s:6:"height";i:666;s:4:"file";s:39:"performance/kompromiss/kompromiss03.jpg";};'),
-('1186', '_wp_attached_file', 'performance/kompromiss/kompromiss04.jpg'),
+('1186', '_wp_attached_file', 'performance/kompromiss/kompromiss04.jpg');
+
+INSERT INTO `kt_postmeta` (`post_id`, `meta_key`, `meta_value`) VALUES
 ('1186', '_wp_attachment_metadata', 'a:3:{s:5:"width";i:1280;s:6:"height";i:853;s:4:"file";s:39:"performance/kompromiss/kompromiss04.jpg";};'),
 ('1187', '_wp_attached_file', 'performance/kompromiss/kompromiss05.jpg'),
 ('1187', '_wp_attachment_metadata', 'a:3:{s:5:"width";i:853;s:6:"height";i:1280;s:4:"file";s:39:"performance/kompromiss/kompromiss05.jpg";};'),
@@ -5463,9 +5500,7 @@ INSERT INTO `kt_postmeta` (`post_id`, `meta_key`, `meta_value`) VALUES
 ('1202', '_wp_attached_file', 'performance/kompromiss/kompromiss20.jpg'),
 ('1202', '_wp_attachment_metadata', 'a:3:{s:5:"width";i:1280;s:6:"height";i:853;s:4:"file";s:39:"performance/kompromiss/kompromiss20.jpg";};'),
 ('1203', '_wp_attached_file', 'performance/kompromiss/kompromiss21.jpg'),
-('1203', '_wp_attachment_metadata', 'a:3:{s:5:"width";i:1280;s:6:"height";i:853;s:4:"file";s:39:"performance/kompromiss/kompromiss21.jpg";};');
-
-INSERT INTO `kt_postmeta` (`post_id`, `meta_key`, `meta_value`) VALUES
+('1203', '_wp_attachment_metadata', 'a:3:{s:5:"width";i:1280;s:6:"height";i:853;s:4:"file";s:39:"performance/kompromiss/kompromiss21.jpg";};'),
 ('1204', '_wp_attached_file', 'performance/kompromiss/kompromiss22.jpg'),
 ('1204', '_wp_attachment_metadata', 'a:3:{s:5:"width";i:1280;s:6:"height";i:853;s:4:"file";s:39:"performance/kompromiss/kompromiss22.jpg";};'),
 ('1205', '_wp_attached_file', 'performance/kompromiss/kompromiss23.jpg'),
@@ -5505,7 +5540,9 @@ INSERT INTO `kt_postmeta` (`post_id`, `meta_key`, `meta_value`) VALUES
 ('1222', '_wp_attached_file', 'performance/kompromiss/kompromiss40.jpg'),
 ('1222', '_wp_attachment_metadata', 'a:3:{s:5:"width";i:1280;s:6:"height";i:853;s:4:"file";s:39:"performance/kompromiss/kompromiss40.jpg";};'),
 ('1223', '_wp_attached_file', 'performance/kompromiss/kompromiss41.jpg'),
-('1223', '_wp_attachment_metadata', 'a:3:{s:5:"width";i:1280;s:6:"height";i:853;s:4:"file";s:39:"performance/kompromiss/kompromiss41.jpg";};'),
+('1223', '_wp_attachment_metadata', 'a:3:{s:5:"width";i:1280;s:6:"height";i:853;s:4:"file";s:39:"performance/kompromiss/kompromiss41.jpg";};');
+
+INSERT INTO `kt_postmeta` (`post_id`, `meta_key`, `meta_value`) VALUES
 ('1224', '_wp_attached_file', 'performance/kompromiss/kompromiss42.jpg'),
 ('1224', '_wp_attachment_metadata', 'a:3:{s:5:"width";i:1000;s:6:"height";i:666;s:4:"file";s:39:"performance/kompromiss/kompromiss42.jpg";};'),
 ('1225', '_wp_attached_file', 'performance/kompromiss/kompromiss43.jpg'),
@@ -5540,9 +5577,7 @@ INSERT INTO `kt_postmeta` (`post_id`, `meta_key`, `meta_value`) VALUES
 ('1239', '_wp_attachment_metadata', 'a:3:{s:5:"width";i:1280;s:6:"height";i:853;s:4:"file";s:39:"performance/kompromiss/kompromiss57.jpg";};'),
 ('1240', '_wp_attached_file', 'performance/kompromiss/kompromiss58.jpg'),
 ('1240', '_wp_attachment_metadata', 'a:3:{s:5:"width";i:1000;s:6:"height";i:666;s:4:"file";s:39:"performance/kompromiss/kompromiss58.jpg";};'),
-('1241', '_wp_attached_file', 'performance/kompromiss/kompromiss59.jpg');
-
-INSERT INTO `kt_postmeta` (`post_id`, `meta_key`, `meta_value`) VALUES
+('1241', '_wp_attached_file', 'performance/kompromiss/kompromiss59.jpg'),
 ('1241', '_wp_attachment_metadata', 'a:3:{s:5:"width";i:1280;s:6:"height";i:853;s:4:"file";s:39:"performance/kompromiss/kompromiss59.jpg";};'),
 ('1242', '_wp_attached_file', 'performance/kompromiss/kompromiss60.jpg'),
 ('1242', '_wp_attachment_metadata', 'a:3:{s:5:"width";i:853;s:6:"height";i:1280;s:4:"file";s:39:"performance/kompromiss/kompromiss60.jpg";};'),
@@ -5582,7 +5617,9 @@ INSERT INTO `kt_postmeta` (`post_id`, `meta_key`, `meta_value`) VALUES
 ('1259', '_wp_attachment_metadata', 'a:3:{s:5:"width";i:1280;s:6:"height";i:853;s:4:"file";s:39:"performance/kompromiss/kompromiss77.jpg";};'),
 ('1260', '_wp_attached_file', 'performance/kompromiss/kompromiss78.jpg'),
 ('1260', '_wp_attachment_metadata', 'a:3:{s:5:"width";i:859;s:6:"height";i:652;s:4:"file";s:39:"performance/kompromiss/kompromiss78.jpg";};'),
-('1261', '_wp_attached_file', 'performance/kompromiss/kompromiss79.jpg'),
+('1261', '_wp_attached_file', 'performance/kompromiss/kompromiss79.jpg');
+
+INSERT INTO `kt_postmeta` (`post_id`, `meta_key`, `meta_value`) VALUES
 ('1261', '_wp_attachment_metadata', 'a:3:{s:5:"width";i:1280;s:6:"height";i:853;s:4:"file";s:39:"performance/kompromiss/kompromiss79.jpg";};'),
 ('1262', '_wp_attached_file', 'performance/kompromiss/kompromiss80.jpg'),
 ('1262', '_wp_attachment_metadata', 'a:3:{s:5:"width";i:1000;s:6:"height";i:666;s:4:"file";s:39:"performance/kompromiss/kompromiss80.jpg";};'),
@@ -5617,9 +5654,7 @@ INSERT INTO `kt_postmeta` (`post_id`, `meta_key`, `meta_value`) VALUES
 ('1272', '_wp_attachment_metadata', 'a:3:{s:5:"width";i:284;s:6:"height";i:389;s:4:"file";s:62:"performance/kytsik-mytsik-i-tyotushka-mari/kytsyk-mytsyk01.jpg";};'),
 ('1273', '_wp_attached_file', 'performance/kytsik-mytsik-i-tyotushka-mari/kytsyk-mytsyk02.jpg'),
 ('1273', '_wp_attachment_metadata', 'a:3:{s:5:"width";i:604;s:6:"height";i:402;s:4:"file";s:62:"performance/kytsik-mytsik-i-tyotushka-mari/kytsyk-mytsyk02.jpg";};'),
-('1274', '_wp_attached_file', 'performance/kytsik-mytsik-i-tyotushka-mari/kytsyk-mytsyk03.jpg');
-
-INSERT INTO `kt_postmeta` (`post_id`, `meta_key`, `meta_value`) VALUES
+('1274', '_wp_attached_file', 'performance/kytsik-mytsik-i-tyotushka-mari/kytsyk-mytsyk03.jpg'),
 ('1274', '_wp_attachment_metadata', 'a:3:{s:5:"width";i:604;s:6:"height";i:402;s:4:"file";s:62:"performance/kytsik-mytsik-i-tyotushka-mari/kytsyk-mytsyk03.jpg";};'),
 ('1275', '_wp_attached_file', 'performance/kytsik-mytsik-i-tyotushka-mari/kytsyk-mytsyk04.jpg'),
 ('1275', '_wp_attachment_metadata', 'a:3:{s:5:"width";i:604;s:6:"height";i:402;s:4:"file";s:62:"performance/kytsik-mytsik-i-tyotushka-mari/kytsyk-mytsyk04.jpg";};'),
@@ -5659,7 +5694,9 @@ INSERT INTO `kt_postmeta` (`post_id`, `meta_key`, `meta_value`) VALUES
 ('1292', '_wp_attachment_metadata', 'a:3:{s:5:"width";i:604;s:6:"height";i:402;s:4:"file";s:62:"performance/kytsik-mytsik-i-tyotushka-mari/kytsyk-mytsyk21.jpg";};'),
 ('1293', '_wp_attached_file', 'performance/kytsik-mytsik-i-tyotushka-mari/kytsyk-mytsyk22.jpg'),
 ('1293', '_wp_attachment_metadata', 'a:3:{s:5:"width";i:318;s:6:"height";i:479;s:4:"file";s:62:"performance/kytsik-mytsik-i-tyotushka-mari/kytsyk-mytsyk22.jpg";};'),
-('1294', '_wp_attached_file', 'performance/kytsik-mytsik-i-tyotushka-mari/kytsyk-mytsyk23.jpg'),
+('1294', '_wp_attached_file', 'performance/kytsik-mytsik-i-tyotushka-mari/kytsyk-mytsyk23.jpg');
+
+INSERT INTO `kt_postmeta` (`post_id`, `meta_key`, `meta_value`) VALUES
 ('1294', '_wp_attachment_metadata', 'a:3:{s:5:"width";i:604;s:6:"height";i:402;s:4:"file";s:62:"performance/kytsik-mytsik-i-tyotushka-mari/kytsyk-mytsyk23.jpg";};'),
 ('1295', '_wp_attached_file', 'performance/kytsik-mytsik-i-tyotushka-mari/kytsyk-mytsyk24.jpg'),
 ('1295', '_wp_attachment_metadata', 'a:3:{s:5:"width";i:319;s:6:"height";i:479;s:4:"file";s:62:"performance/kytsik-mytsik-i-tyotushka-mari/kytsyk-mytsyk24.jpg";};'),
@@ -5694,9 +5731,7 @@ INSERT INTO `kt_postmeta` (`post_id`, `meta_key`, `meta_value`) VALUES
 ('1310', '_wp_attached_file', 'performance/kytsik-mytsik-i-tyotushka-mari/kytsyk-mytsyk39.jpg'),
 ('1310', '_wp_attachment_metadata', 'a:3:{s:5:"width";i:319;s:6:"height";i:479;s:4:"file";s:62:"performance/kytsik-mytsik-i-tyotushka-mari/kytsyk-mytsyk39.jpg";};'),
 ('1311', '_wp_attached_file', 'performance/kytsik-mytsik-i-tyotushka-mari/poster.jpg'),
-('1311', '_wp_attachment_metadata', 'a:3:{s:5:"width";i:222;s:6:"height";i:314;s:4:"file";s:53:"performance/kytsik-mytsik-i-tyotushka-mari/poster.jpg";};');
-
-INSERT INTO `kt_postmeta` (`post_id`, `meta_key`, `meta_value`) VALUES
+('1311', '_wp_attachment_metadata', 'a:3:{s:5:"width";i:222;s:6:"height";i:314;s:4:"file";s:53:"performance/kytsik-mytsik-i-tyotushka-mari/poster.jpg";};'),
 ('1312', 'old_names', 'a:2:{i:0;s:11:"71-anekdoti";i:1;s:23:"provintsialnye-anekdoty";};'),
 ('1312', 'jos_id', '71'),
 ('1312', 'jos_alias', 'anekdoti'),
@@ -5736,7 +5771,9 @@ INSERT INTO `kt_postmeta` (`post_id`, `meta_key`, `meta_value`) VALUES
 ('1325', '_wp_attachment_metadata', 'a:3:{s:5:"width";i:853;s:6:"height";i:1280;s:4:"file";s:50:"performance/provintsialnye-anekdoty/anekdoty13.jpg";};'),
 ('1326', '_wp_attached_file', 'performance/provintsialnye-anekdoty/anekdoty14.jpg'),
 ('1326', '_wp_attachment_metadata', 'a:3:{s:5:"width";i:853;s:6:"height";i:1280;s:4:"file";s:50:"performance/provintsialnye-anekdoty/anekdoty14.jpg";};'),
-('1327', '_wp_attached_file', 'performance/provintsialnye-anekdoty/anekdoty15.jpg'),
+('1327', '_wp_attached_file', 'performance/provintsialnye-anekdoty/anekdoty15.jpg');
+
+INSERT INTO `kt_postmeta` (`post_id`, `meta_key`, `meta_value`) VALUES
 ('1327', '_wp_attachment_metadata', 'a:3:{s:5:"width";i:1280;s:6:"height";i:853;s:4:"file";s:50:"performance/provintsialnye-anekdoty/anekdoty15.jpg";};'),
 ('1328', '_wp_attached_file', 'performance/provintsialnye-anekdoty/anekdoty16.jpg'),
 ('1328', '_wp_attachment_metadata', 'a:3:{s:5:"width";i:1280;s:6:"height";i:853;s:4:"file";s:50:"performance/provintsialnye-anekdoty/anekdoty16.jpg";};'),
@@ -5771,9 +5808,7 @@ INSERT INTO `kt_postmeta` (`post_id`, `meta_key`, `meta_value`) VALUES
 ('1343', '_wp_attached_file', 'performance/provintsialnye-anekdoty/anekdoty31.jpg'),
 ('1343', '_wp_attachment_metadata', 'a:3:{s:5:"width";i:1280;s:6:"height";i:853;s:4:"file";s:50:"performance/provintsialnye-anekdoty/anekdoty31.jpg";};'),
 ('1344', '_wp_attached_file', 'performance/provintsialnye-anekdoty/anekdoty32.jpg'),
-('1344', '_wp_attachment_metadata', 'a:3:{s:5:"width";i:853;s:6:"height";i:1280;s:4:"file";s:50:"performance/provintsialnye-anekdoty/anekdoty32.jpg";};');
-
-INSERT INTO `kt_postmeta` (`post_id`, `meta_key`, `meta_value`) VALUES
+('1344', '_wp_attachment_metadata', 'a:3:{s:5:"width";i:853;s:6:"height";i:1280;s:4:"file";s:50:"performance/provintsialnye-anekdoty/anekdoty32.jpg";};'),
 ('1345', '_wp_attached_file', 'performance/provintsialnye-anekdoty/anekdoty33.jpg'),
 ('1345', '_wp_attachment_metadata', 'a:3:{s:5:"width";i:853;s:6:"height";i:1280;s:4:"file";s:50:"performance/provintsialnye-anekdoty/anekdoty33.jpg";};'),
 ('1346', '_wp_attached_file', 'performance/provintsialnye-anekdoty/anekdoty34.jpg'),
@@ -5813,7 +5848,9 @@ INSERT INTO `kt_postmeta` (`post_id`, `meta_key`, `meta_value`) VALUES
 ('1363', '_wp_attached_file', 'performance/provintsialnye-anekdoty/anekdoty51.jpg'),
 ('1363', '_wp_attachment_metadata', 'a:3:{s:5:"width";i:319;s:6:"height";i:479;s:4:"file";s:50:"performance/provintsialnye-anekdoty/anekdoty51.jpg";};'),
 ('1364', '_wp_attached_file', 'performance/provintsialnye-anekdoty/anekdoty52.jpg'),
-('1364', '_wp_attachment_metadata', 'a:3:{s:5:"width";i:319;s:6:"height";i:479;s:4:"file";s:50:"performance/provintsialnye-anekdoty/anekdoty52.jpg";};'),
+('1364', '_wp_attachment_metadata', 'a:3:{s:5:"width";i:319;s:6:"height";i:479;s:4:"file";s:50:"performance/provintsialnye-anekdoty/anekdoty52.jpg";};');
+
+INSERT INTO `kt_postmeta` (`post_id`, `meta_key`, `meta_value`) VALUES
 ('1365', '_wp_attached_file', 'performance/provintsialnye-anekdoty/anekdoty53.jpg'),
 ('1365', '_wp_attachment_metadata', 'a:3:{s:5:"width";i:319;s:6:"height";i:479;s:4:"file";s:50:"performance/provintsialnye-anekdoty/anekdoty53.jpg";};'),
 ('1366', '_wp_attached_file', 'performance/provintsialnye-anekdoty/anekdoty54.jpg'),
@@ -5848,10 +5885,9 @@ INSERT INTO `kt_postmeta` (`post_id`, `meta_key`, `meta_value`) VALUES
 ('1380', '_wp_attachment_metadata', 'a:3:{s:5:"width";i:341;s:6:"height";i:479;s:4:"file";s:48:"performance/provintsialnye-anekdoty/poster02.jpg";};'),
 ('1381', 'old_names', 'a:2:{i:0;s:21:"84-talashmanovevgenii";i:1;s:19:"evgeniy-talashmanov";};'),
 ('1381', 'jos_id', '84'),
-('1381', 'jos_alias', 'talashmanovevgenii');
-
-INSERT INTO `kt_postmeta` (`post_id`, `meta_key`, `meta_value`) VALUES
+('1381', 'jos_alias', 'talashmanovevgenii'),
 ('1381', 'employment', 'a:6:{i:0;a:3:{s:14:"performance_id";s:2:"60";s:17:"performance_title";s:14:"Дурочка";s:5:"roles";a:1:{s:2:"r9";s:27:"учитель Дуардо";};};i:1;a:3:{s:14:"performance_id";s:2:"61";s:17:"performance_title";s:47:"Ехала деревня мимо мужика";s:5:"roles";a:1:{s:2:"r3";s:16:"Скоморох";};};i:2;a:3:{s:14:"performance_id";s:2:"62";s:17:"performance_title";s:10:"Фарсы";s:5:"roles";a:1:{s:2:"r3";s:1:"?";};};i:3;a:3:{s:14:"performance_id";s:2:"63";s:17:"performance_title";s:14:"Карлсон";s:5:"roles";a:1:{s:2:"r1";s:10:"Малыш";};};i:4;a:3:{s:14:"performance_id";s:2:"66";s:17:"performance_title";s:44:"Крепостная любовь (Муму)";s:5:"roles";a:1:{s:3:"r13";s:14:"Харитон";};};i:5;a:3:{s:14:"performance_id";s:2:"81";s:17:"performance_title";s:14:"Земляки";s:5:"roles";a:1:{s:3:"r11";s:27:"Веня Зяблицкий";};};};'),
+('1381', 'instate', '1'),
 ('1381', 'gender', 'male'),
 ('1381', 'taxonomy', 'a:1:{s:6:"carier";a:2:{s:5:"title";s:10:"Актер";s:4:"slug";s:5:"actor";};};'),
 ('1381', '_thumbnail_id', '1383'),
@@ -5866,6 +5902,7 @@ INSERT INTO `kt_postmeta` (`post_id`, `meta_key`, `meta_value`) VALUES
 ('1385', 'jos_alias', '2013-09-08-18-38-31'),
 ('1385', 'employment', 'a:3:{i:0;a:3:{s:14:"performance_id";s:2:"60";s:17:"performance_title";s:14:"Дурочка";s:5:"roles";a:1:{s:2:"r2";s:18:"Лауренсьо";};};i:1;a:3:{s:14:"performance_id";s:2:"73";s:17:"performance_title";s:34:"Сирано де Бержерак";s:5:"roles";a:1:{s:3:"r11";s:10:"Рагно";};};i:2;a:3:{s:14:"performance_id";s:2:"72";s:17:"performance_title";s:45:"Провинциальные анекдоты";s:5:"roles";a:1:{s:2:"r5";s:12:"Камаев";};};};'),
 ('1385', 'cinema', 'a:4:{i:0;s:32:"т/с «Наркотрафик»";i:1;s:39:"т/с «Морские дьяволы»";i:2;s:42:"«"Исполнительный лист»";i:3;s:38:"«"Русские страшилки»";};'),
+('1385', 'instate', ''),
 ('1385', 'gender', 'male'),
 ('1385', 'kinoteatr', 'http://www.kino-teatr.ru/kino/acter/m/ros/5926/bio/'),
 ('1385', 'taxonomy', 'a:1:{s:6:"carier";a:2:{s:5:"title";s:10:"Актер";s:4:"slug";s:5:"actor";};};'),
@@ -5881,13 +5918,16 @@ INSERT INTO `kt_postmeta` (`post_id`, `meta_key`, `meta_value`) VALUES
 ('1389', 'jos_alias', 'ylia-burceva'),
 ('1389', 'employment', 'a:10:{i:0;a:3:{s:14:"performance_id";s:2:"73";s:17:"performance_title";s:34:"Сирано де Бержерак";s:5:"roles";a:1:{s:2:"r1";s:14:"Роксана";};};i:1;a:3:{s:14:"performance_id";s:2:"60";s:17:"performance_title";s:14:"Дурочка";s:5:"roles";a:1:{s:2:"r3";s:8:"Ниса";};};i:2;a:3:{s:14:"performance_id";s:2:"68";s:17:"performance_title";s:6:"Лес";s:5:"roles";a:1:{s:2:"r1";s:12:"Аксюша";};};i:3;a:3:{s:14:"performance_id";s:2:"66";s:17:"performance_title";s:44:"Крепостная любовь (Муму)";s:5:"roles";a:1:{s:2:"r8";s:10:"Улька";};};i:4;a:3:{s:14:"performance_id";s:2:"76";s:17:"performance_title";s:34:"Училка из будущего";s:5:"roles";a:2:{s:2:"r0";s:49:"Училка №23638/А041 Ненси Аллен";s:2:"r3";s:38:"Миссис Трайвер (мама)";};};i:5;a:3:{s:14:"performance_id";s:2:"79";s:17:"performance_title";s:35:"Волшебные сосульки";s:5:"roles";a:1:{s:2:"r3";s:18:"Грушенька";};};i:6;a:3:{s:14:"performance_id";s:2:"71";s:17:"performance_title";s:31:"Прогулка в Лю-Блё";s:5:"roles";a:1:{s:2:"r1";s:8:"Лиля";};};i:7;a:3:{s:14:"performance_id";s:2:"64";s:17:"performance_title";s:20:"Компромисс";s:5:"roles";a:1:{s:2:"r3";s:55:"Валентина, секретарша Турунка";};};i:8;a:3:{s:14:"performance_id";s:2:"72";s:17:"performance_title";s:45:"Провинциальные анекдоты";s:5:"roles";a:1:{s:3:"r10";s:40:"Фаина (второй анекдот)";};};i:9;a:3:{s:14:"performance_id";s:2:"62";s:17:"performance_title";s:10:"Фарсы";s:5:"roles";a:1:{s:2:"r0";s:1:"?";};};};'),
 ('1389', 'cinema', 'a:2:{i:0;s:37:"т/с «Прощай Макаров»";i:1;s:52:"т/с «Улицы разбитых фонарей»";};'),
+('1389', 'instate', '1'),
 ('1389', 'gender', 'female'),
 ('1389', 'taxonomy', 'a:1:{s:6:"carier";a:2:{s:5:"title";s:10:"Актер";s:4:"slug";s:5:"actor";};};'),
 ('1389', '_thumbnail_id', '1390'),
 ('1390', '_wp_attached_file', 'person/yuliya-burtseva/portrait.jpg'),
 ('1390', '_wp_attachment_metadata', 'a:3:{s:5:"width";i:319;s:6:"height";i:479;s:4:"file";s:35:"person/yuliya-burtseva/portrait.jpg";};'),
 ('1391', '_wp_attached_file', 'person/yuliya-burtseva/troupe.jpg'),
-('1391', '_wp_attachment_metadata', 'a:3:{s:5:"width";i:319;s:6:"height";i:479;s:4:"file";s:33:"person/yuliya-burtseva/troupe.jpg";};'),
+('1391', '_wp_attachment_metadata', 'a:3:{s:5:"width";i:319;s:6:"height";i:479;s:4:"file";s:33:"person/yuliya-burtseva/troupe.jpg";};');
+
+INSERT INTO `kt_postmeta` (`post_id`, `meta_key`, `meta_value`) VALUES
 ('1392', '_wp_attached_file', 'person/yuliya-burtseva/yuliya-burtseva.jpg'),
 ('1392', '_wp_attachment_metadata', 'a:3:{s:5:"width";i:910;s:6:"height";i:1024;s:4:"file";s:42:"person/yuliya-burtseva/yuliya-burtseva.jpg";};'),
 ('1393', 'old_names', 'a:2:{i:0;s:15:"299-igra-v-djin";i:1;s:12:"igra-v-dzhin";};'),
@@ -5925,9 +5965,7 @@ INSERT INTO `kt_postmeta` (`post_id`, `meta_key`, `meta_value`) VALUES
 ('1400', 'source_author', 'Лейла Галактионова'),
 ('1400', 'source_date', '9.12.2011'),
 ('1400', '_thumbnail_id', '1402'),
-('1401', '_wp_attached_file', 'press/u-kazhdogo-iz-nas-svoi-karlson/image-01.jpg');
-
-INSERT INTO `kt_postmeta` (`post_id`, `meta_key`, `meta_value`) VALUES
+('1401', '_wp_attached_file', 'press/u-kazhdogo-iz-nas-svoi-karlson/image-01.jpg'),
 ('1401', '_wp_attachment_metadata', 'a:3:{s:5:"width";i:710;s:6:"height";i:473;s:4:"file";s:49:"press/u-kazhdogo-iz-nas-svoi-karlson/image-01.jpg";};'),
 ('1402', '_wp_attached_file', 'press/u-kazhdogo-iz-nas-svoi-karlson/image-02.jpg'),
 ('1402', '_wp_attachment_metadata', 'a:3:{s:5:"width";i:319;s:6:"height";i:479;s:4:"file";s:49:"press/u-kazhdogo-iz-nas-svoi-karlson/image-02.jpg";};'),
@@ -5964,7 +6002,9 @@ INSERT INTO `kt_postmeta` (`post_id`, `meta_key`, `meta_value`) VALUES
 ('1413', '_wp_attached_file', 'performance/karlson/karlson09.jpg'),
 ('1413', '_wp_attachment_metadata', 'a:3:{s:5:"width";i:1280;s:6:"height";i:853;s:4:"file";s:33:"performance/karlson/karlson09.jpg";};'),
 ('1414', '_wp_attached_file', 'performance/karlson/karlson10.jpg'),
-('1414', '_wp_attachment_metadata', 'a:3:{s:5:"width";i:1280;s:6:"height";i:853;s:4:"file";s:33:"performance/karlson/karlson10.jpg";};'),
+('1414', '_wp_attachment_metadata', 'a:3:{s:5:"width";i:1280;s:6:"height";i:853;s:4:"file";s:33:"performance/karlson/karlson10.jpg";};');
+
+INSERT INTO `kt_postmeta` (`post_id`, `meta_key`, `meta_value`) VALUES
 ('1415', '_wp_attached_file', 'performance/karlson/karlson11.jpg'),
 ('1415', '_wp_attachment_metadata', 'a:3:{s:5:"width";i:807;s:6:"height";i:537;s:4:"file";s:33:"performance/karlson/karlson11.jpg";};'),
 ('1416', '_wp_attached_file', 'performance/karlson/karlson12.jpg'),
@@ -6002,9 +6042,7 @@ INSERT INTO `kt_postmeta` (`post_id`, `meta_key`, `meta_value`) VALUES
 ('1432', '_wp_attached_file', 'performance/karlson/karlson28.jpg'),
 ('1432', '_wp_attachment_metadata', 'a:3:{s:5:"width";i:853;s:6:"height";i:1280;s:4:"file";s:33:"performance/karlson/karlson28.jpg";};'),
 ('1433', '_wp_attached_file', 'performance/karlson/karlson29.jpg'),
-('1433', '_wp_attachment_metadata', 'a:3:{s:5:"width";i:1280;s:6:"height";i:853;s:4:"file";s:33:"performance/karlson/karlson29.jpg";};');
-
-INSERT INTO `kt_postmeta` (`post_id`, `meta_key`, `meta_value`) VALUES
+('1433', '_wp_attachment_metadata', 'a:3:{s:5:"width";i:1280;s:6:"height";i:853;s:4:"file";s:33:"performance/karlson/karlson29.jpg";};'),
 ('1434', '_wp_attached_file', 'performance/karlson/karlson30.jpg'),
 ('1434', '_wp_attachment_metadata', 'a:3:{s:5:"width";i:1280;s:6:"height";i:853;s:4:"file";s:33:"performance/karlson/karlson30.jpg";};'),
 ('1435', '_wp_attached_file', 'performance/karlson/karlson31.jpg'),
@@ -6041,7 +6079,9 @@ INSERT INTO `kt_postmeta` (`post_id`, `meta_key`, `meta_value`) VALUES
 ('1450', '_wp_attachment_metadata', 'a:3:{s:5:"width";i:807;s:6:"height";i:538;s:4:"file";s:33:"performance/karlson/karlson46.jpg";};'),
 ('1451', '_wp_attached_file', 'performance/karlson/karlson47.jpg'),
 ('1451', '_wp_attachment_metadata', 'a:3:{s:5:"width";i:1280;s:6:"height";i:853;s:4:"file";s:33:"performance/karlson/karlson47.jpg";};'),
-('1452', '_wp_attached_file', 'performance/karlson/karlson48.jpg'),
+('1452', '_wp_attached_file', 'performance/karlson/karlson48.jpg');
+
+INSERT INTO `kt_postmeta` (`post_id`, `meta_key`, `meta_value`) VALUES
 ('1452', '_wp_attachment_metadata', 'a:3:{s:5:"width";i:807;s:6:"height";i:538;s:4:"file";s:33:"performance/karlson/karlson48.jpg";};'),
 ('1453', '_wp_attached_file', 'performance/karlson/poster.jpg'),
 ('1453', '_wp_attachment_metadata', 'a:3:{s:5:"width";i:200;s:6:"height";i:283;s:4:"file";s:30:"performance/karlson/poster.jpg";};'),
@@ -6079,9 +6119,7 @@ INSERT INTO `kt_postmeta` (`post_id`, `meta_key`, `meta_value`) VALUES
 ('1465', '_wp_attached_file', 'performance/sirano-de-berzherak/sirano07.jpg'),
 ('1465', '_wp_attachment_metadata', 'a:3:{s:5:"width";i:319;s:6:"height";i:479;s:4:"file";s:44:"performance/sirano-de-berzherak/sirano07.jpg";};'),
 ('1466', '_wp_attached_file', 'performance/sirano-de-berzherak/sirano08.jpg'),
-('1466', '_wp_attachment_metadata', 'a:3:{s:5:"width";i:604;s:6:"height";i:402;s:4:"file";s:44:"performance/sirano-de-berzherak/sirano08.jpg";};');
-
-INSERT INTO `kt_postmeta` (`post_id`, `meta_key`, `meta_value`) VALUES
+('1466', '_wp_attachment_metadata', 'a:3:{s:5:"width";i:604;s:6:"height";i:402;s:4:"file";s:44:"performance/sirano-de-berzherak/sirano08.jpg";};'),
 ('1467', '_wp_attached_file', 'performance/sirano-de-berzherak/sirano09.jpg'),
 ('1467', '_wp_attachment_metadata', 'a:3:{s:5:"width";i:318;s:6:"height";i:479;s:4:"file";s:44:"performance/sirano-de-berzherak/sirano09.jpg";};'),
 ('1468', '_wp_attached_file', 'performance/sirano-de-berzherak/sirano10.jpg'),
@@ -6118,7 +6156,9 @@ INSERT INTO `kt_postmeta` (`post_id`, `meta_key`, `meta_value`) VALUES
 ('1483', '_wp_attachment_metadata', 'a:3:{s:5:"width";i:604;s:6:"height";i:402;s:4:"file";s:44:"performance/sirano-de-berzherak/sirano25.jpg";};'),
 ('1484', '_wp_attached_file', 'performance/sirano-de-berzherak/sirano26.jpg'),
 ('1484', '_wp_attachment_metadata', 'a:3:{s:5:"width";i:318;s:6:"height";i:479;s:4:"file";s:44:"performance/sirano-de-berzherak/sirano26.jpg";};'),
-('1485', '_wp_attached_file', 'performance/sirano-de-berzherak/sirano27.jpg'),
+('1485', '_wp_attached_file', 'performance/sirano-de-berzherak/sirano27.jpg');
+
+INSERT INTO `kt_postmeta` (`post_id`, `meta_key`, `meta_value`) VALUES
 ('1485', '_wp_attachment_metadata', 'a:3:{s:5:"width";i:319;s:6:"height";i:479;s:4:"file";s:44:"performance/sirano-de-berzherak/sirano27.jpg";};'),
 ('1486', '_wp_attached_file', 'performance/sirano-de-berzherak/sirano28.jpg'),
 ('1486', '_wp_attachment_metadata', 'a:3:{s:5:"width";i:604;s:6:"height";i:402;s:4:"file";s:44:"performance/sirano-de-berzherak/sirano28.jpg";};'),
@@ -6156,9 +6196,7 @@ INSERT INTO `kt_postmeta` (`post_id`, `meta_key`, `meta_value`) VALUES
 ('1502', '_wp_attachment_metadata', 'a:3:{s:5:"width";i:604;s:6:"height";i:402;s:4:"file";s:44:"performance/sirano-de-berzherak/sirano44.jpg";};'),
 ('1503', '_wp_attached_file', 'performance/sirano-de-berzherak/sirano45.jpg'),
 ('1503', '_wp_attachment_metadata', 'a:3:{s:5:"width";i:604;s:6:"height";i:402;s:4:"file";s:44:"performance/sirano-de-berzherak/sirano45.jpg";};'),
-('1504', '_wp_attached_file', 'performance/sirano-de-berzherak/sirano46.jpg');
-
-INSERT INTO `kt_postmeta` (`post_id`, `meta_key`, `meta_value`) VALUES
+('1504', '_wp_attached_file', 'performance/sirano-de-berzherak/sirano46.jpg'),
 ('1504', '_wp_attachment_metadata', 'a:3:{s:5:"width";i:604;s:6:"height";i:402;s:4:"file";s:44:"performance/sirano-de-berzherak/sirano46.jpg";};'),
 ('1505', '_wp_attached_file', 'performance/sirano-de-berzherak/sirano47.jpg'),
 ('1505', '_wp_attachment_metadata', 'a:3:{s:5:"width";i:319;s:6:"height";i:479;s:4:"file";s:44:"performance/sirano-de-berzherak/sirano47.jpg";};'),
@@ -6195,7 +6233,9 @@ INSERT INTO `kt_postmeta` (`post_id`, `meta_key`, `meta_value`) VALUES
 ('1521', '_wp_attached_file', 'performance/sirano-de-berzherak/sirano63.jpg'),
 ('1521', '_wp_attachment_metadata', 'a:3:{s:5:"width";i:319;s:6:"height";i:479;s:4:"file";s:44:"performance/sirano-de-berzherak/sirano63.jpg";};'),
 ('1522', '_wp_attached_file', 'performance/sirano-de-berzherak/sirano64.jpg'),
-('1522', '_wp_attachment_metadata', 'a:3:{s:5:"width";i:318;s:6:"height";i:479;s:4:"file";s:44:"performance/sirano-de-berzherak/sirano64.jpg";};'),
+('1522', '_wp_attachment_metadata', 'a:3:{s:5:"width";i:318;s:6:"height";i:479;s:4:"file";s:44:"performance/sirano-de-berzherak/sirano64.jpg";};');
+
+INSERT INTO `kt_postmeta` (`post_id`, `meta_key`, `meta_value`) VALUES
 ('1523', '_wp_attached_file', 'performance/sirano-de-berzherak/sirano65.jpg'),
 ('1523', '_wp_attachment_metadata', 'a:3:{s:5:"width";i:604;s:6:"height";i:402;s:4:"file";s:44:"performance/sirano-de-berzherak/sirano65.jpg";};'),
 ('1524', '_wp_attached_file', 'performance/sirano-de-berzherak/sirano66.jpg'),
@@ -6204,6 +6244,7 @@ INSERT INTO `kt_postmeta` (`post_id`, `meta_key`, `meta_value`) VALUES
 ('1525', 'jos_id', '48'),
 ('1525', 'jos_alias', 'chernovaelizaveta'),
 ('1525', 'employment', 'a:7:{i:0;a:3:{s:14:"performance_id";s:2:"70";s:17:"performance_title";s:37:"Поминальная молитва";s:5:"roles";a:1:{s:2:"r3";s:12:"Бейлке";};};i:1;a:3:{s:14:"performance_id";s:2:"60";s:17:"performance_title";s:14:"Дурочка";s:5:"roles";a:1:{s:2:"r5";s:10:"Селья";};};i:2;a:3:{s:14:"performance_id";s:2:"58";s:17:"performance_title";s:57:"Брысь! или История кота Филофея";s:5:"roles";a:2:{s:2:"r0";s:12:"Офелия";s:2:"r2";s:8:"Киса";};};i:3;a:3:{s:14:"performance_id";s:2:"73";s:17:"performance_title";s:34:"Сирано де Бержерак";s:5:"roles";a:1:{s:2:"r4";s:14:"Монашка";};};i:4;a:3:{s:14:"performance_id";s:2:"64";s:17:"performance_title";s:20:"Компромисс";s:5:"roles";a:1:{s:3:"r11";s:19:"Эви Саксон";};};i:5;a:3:{s:14:"performance_id";s:2:"62";s:17:"performance_title";s:10:"Фарсы";s:5:"roles";a:1:{s:2:"r2";s:1:"?";};};i:6;a:3:{s:14:"performance_id";s:2:"81";s:17:"performance_title";s:14:"Земляки";s:5:"roles";a:1:{s:3:"r14";s:45:"Груша, Алевтина Худякова";};};};'),
+('1525', 'instate', ''),
 ('1525', 'gender', 'female'),
 ('1525', 'taxonomy', 'a:1:{s:6:"carier";a:2:{s:5:"title";s:10:"Актер";s:4:"slug";s:5:"actor";};};'),
 ('1525', '_thumbnail_id', '1527'),
@@ -6217,6 +6258,7 @@ INSERT INTO `kt_postmeta` (`post_id`, `meta_key`, `meta_value`) VALUES
 ('1529', 'jos_id', '301'),
 ('1529', 'jos_alias', 'mariaosipova'),
 ('1529', 'employment', 'a:4:{i:0;a:3:{s:14:"performance_id";s:2:"70";s:17:"performance_title";s:37:"Поминальная молитва";s:5:"roles";a:1:{s:2:"r5";s:8:"Хава";};};i:1;a:3:{s:14:"performance_id";s:2:"58";s:17:"performance_title";s:57:"Брысь! или История кота Филофея";s:5:"roles";a:1:{s:2:"r2";s:8:"Киса";};};i:2;a:3:{s:14:"performance_id";s:2:"73";s:17:"performance_title";s:34:"Сирано де Бержерак";s:5:"roles";a:1:{s:2:"r6";s:14:"Монашка";};};i:3;a:3:{s:14:"performance_id";s:2:"63";s:17:"performance_title";s:14:"Карлсон";s:5:"roles";a:1:{s:2:"r4";s:8:"Мама";};};};'),
+('1529', 'instate', ''),
 ('1529', 'gender', 'female'),
 ('1529', 'taxonomy', 'a:1:{s:6:"carier";a:2:{s:5:"title";s:10:"Актер";s:4:"slug";s:5:"actor";};};'),
 ('1529', '_thumbnail_id', '1531'),
@@ -6233,9 +6275,7 @@ INSERT INTO `kt_postmeta` (`post_id`, `meta_key`, `meta_value`) VALUES
 ('1533', 'source_date', '21.12.2010'),
 ('1533', 'source_author', 'Борислава Шарова'),
 ('1533', 'source_link', 'http://lenoblast.bezformata.ru/listnews/mumu-v-komediantah/358378'),
-('1533', '_thumbnail_id', '1534');
-
-INSERT INTO `kt_postmeta` (`post_id`, `meta_key`, `meta_value`) VALUES
+('1533', '_thumbnail_id', '1534'),
 ('1534', '_wp_attached_file', 'press/mumu-v-komediantakh/image-01.jpg'),
 ('1534', '_wp_attachment_metadata', 'a:3:{s:5:"width";i:830;s:6:"height";i:551;s:4:"file";s:38:"press/mumu-v-komediantakh/image-01.jpg";};'),
 ('1535', 'old_names', 'a:2:{i:0;s:30:"303-v-nashe-vremy-aktors-komed";i:1;s:56:"aktyory-teatra-v-peredache-pervogo-kanala-v-nashe-vremya";};'),
@@ -6270,7 +6310,9 @@ INSERT INTO `kt_postmeta` (`post_id`, `meta_key`, `meta_value`) VALUES
 ('1543', '_wp_attached_file', 'performance/brys-ili-istoriya-kota-filofeya/brys05.jpg'),
 ('1543', '_wp_attachment_metadata', 'a:3:{s:5:"width";i:1280;s:6:"height";i:853;s:4:"file";s:54:"performance/brys-ili-istoriya-kota-filofeya/brys05.jpg";};'),
 ('1544', '_wp_attached_file', 'performance/brys-ili-istoriya-kota-filofeya/brys06.jpg'),
-('1544', '_wp_attachment_metadata', 'a:3:{s:5:"width";i:682;s:6:"height";i:1024;s:4:"file";s:54:"performance/brys-ili-istoriya-kota-filofeya/brys06.jpg";};'),
+('1544', '_wp_attachment_metadata', 'a:3:{s:5:"width";i:682;s:6:"height";i:1024;s:4:"file";s:54:"performance/brys-ili-istoriya-kota-filofeya/brys06.jpg";};');
+
+INSERT INTO `kt_postmeta` (`post_id`, `meta_key`, `meta_value`) VALUES
 ('1545', '_wp_attached_file', 'performance/brys-ili-istoriya-kota-filofeya/brys07.jpg'),
 ('1545', '_wp_attachment_metadata', 'a:3:{s:5:"width";i:1280;s:6:"height";i:853;s:4:"file";s:54:"performance/brys-ili-istoriya-kota-filofeya/brys07.jpg";};'),
 ('1546', '_wp_attached_file', 'performance/brys-ili-istoriya-kota-filofeya/brys08.jpg'),
@@ -6310,9 +6352,7 @@ INSERT INTO `kt_postmeta` (`post_id`, `meta_key`, `meta_value`) VALUES
 ('1563', '_wp_attached_file', 'performance/brys-ili-istoriya-kota-filofeya/brys25.jpg'),
 ('1563', '_wp_attachment_metadata', 'a:3:{s:5:"width";i:1280;s:6:"height";i:853;s:4:"file";s:54:"performance/brys-ili-istoriya-kota-filofeya/brys25.jpg";};'),
 ('1564', '_wp_attached_file', 'performance/brys-ili-istoriya-kota-filofeya/brys26.jpg'),
-('1564', '_wp_attachment_metadata', 'a:3:{s:5:"width";i:1280;s:6:"height";i:853;s:4:"file";s:54:"performance/brys-ili-istoriya-kota-filofeya/brys26.jpg";};');
-
-INSERT INTO `kt_postmeta` (`post_id`, `meta_key`, `meta_value`) VALUES
+('1564', '_wp_attachment_metadata', 'a:3:{s:5:"width";i:1280;s:6:"height";i:853;s:4:"file";s:54:"performance/brys-ili-istoriya-kota-filofeya/brys26.jpg";};'),
 ('1565', '_wp_attached_file', 'performance/brys-ili-istoriya-kota-filofeya/brys27.jpg'),
 ('1565', '_wp_attachment_metadata', 'a:3:{s:5:"width";i:1280;s:6:"height";i:853;s:4:"file";s:54:"performance/brys-ili-istoriya-kota-filofeya/brys27.jpg";};'),
 ('1566', '_wp_attached_file', 'performance/brys-ili-istoriya-kota-filofeya/brys28.jpg'),
@@ -6345,8 +6385,11 @@ INSERT INTO `kt_postmeta` (`post_id`, `meta_key`, `meta_value`) VALUES
 ('1579', 'jos_id', '61'),
 ('1579', 'jos_alias', 'galina-saburova'),
 ('1579', 'employment', 'a:6:{i:0;a:3:{s:14:"performance_id";s:2:"72";s:17:"performance_title";s:45:"Провинциальные анекдоты";s:5:"roles";a:1:{s:2:"r9";a:2:{i:0;s:31:"Васюта (2 анекдот)";i:1;s:12:"Васюта";};};};i:1;a:3:{s:14:"performance_id";s:2:"70";s:17:"performance_title";s:37:"Поминальная молитва";s:5:"roles";a:1:{s:3:"r14";s:25:"Мама Менахема";};};i:2;a:3:{s:14:"performance_id";s:2:"57";s:17:"performance_title";s:41:"Беда от нежного сердца";s:5:"roles";a:1:{s:2:"r5";s:26:"А. Г. Кубыркина";};};i:3;a:3:{s:14:"performance_id";s:2:"59";s:17:"performance_title";s:14:"Дачницы";s:5:"roles";a:1:{s:2:"r5";s:33:"Домработница Дуся";};};i:4;a:3:{s:14:"performance_id";s:2:"82";s:17:"performance_title";s:16:"Женитьба";s:5:"roles";a:1:{s:2:"r3";s:27:"Фекла Ивановна";};};i:5;a:3:{s:14:"performance_id";s:2:"74";s:17:"performance_title";s:27:"Старая зайчиха";s:5:"roles";a:1:{s:2:"r1";s:1:"?";};};};'),
+('1579', 'instate', '1'),
 ('1579', 'gender', 'female'),
-('1579', 'kinoteatr', 'http://www.kino-teatr.ru/teatr/acter/w/ros/3712/bio/'),
+('1579', 'kinoteatr', 'http://www.kino-teatr.ru/teatr/acter/w/ros/3712/bio/');
+
+INSERT INTO `kt_postmeta` (`post_id`, `meta_key`, `meta_value`) VALUES
 ('1579', 'ruskino', 'http://ruskino.ru/art/5110'),
 ('1579', 'taxonomy', 'a:1:{s:6:"carier";a:2:{s:5:"title";s:10:"Актер";s:4:"slug";s:5:"actor";};};'),
 ('1579', '_thumbnail_id', '1581'),
@@ -6361,6 +6404,7 @@ INSERT INTO `kt_postmeta` (`post_id`, `meta_key`, `meta_value`) VALUES
 ('1583', 'jos_alias', 'roman-pritula'),
 ('1583', 'employment', 'a:10:{i:0;a:3:{s:14:"performance_id";s:2:"57";s:17:"performance_title";s:41:"Беда от нежного сердца";s:5:"roles";a:1:{s:2:"r0";s:37:"Сашенька Золотников";};};i:1;a:3:{s:14:"performance_id";s:2:"76";s:17:"performance_title";s:34:"Училка из будущего";s:5:"roles";a:1:{s:2:"r2";s:23:"Марк Трайвер";};};i:2;a:3:{s:14:"performance_id";s:2:"64";s:17:"performance_title";s:20:"Компромисс";s:5:"roles";a:1:{s:2:"r1";s:42:"Эрнст Леопольдович Буш";};};i:3;a:3:{s:14:"performance_id";s:2:"63";s:17:"performance_title";s:14:"Карлсон";s:5:"roles";a:1:{s:2:"r0";s:14:"Карлсон";};};i:4;a:3:{s:14:"performance_id";s:2:"60";s:17:"performance_title";s:14:"Дурочка";s:5:"roles";a:1:{s:2:"r4";s:10:"Турин";};};i:5;a:3:{s:14:"performance_id";s:2:"66";s:17:"performance_title";s:44:"Крепостная любовь (Муму)";s:5:"roles";a:1:{s:2:"r5";s:14:"Антипка";};};i:6;a:3:{s:14:"performance_id";s:2:"73";s:17:"performance_title";s:34:"Сирано де Бержерак";s:5:"roles";a:1:{s:2:"r7";s:16:"Гвардеец";};};i:7;a:3:{s:14:"performance_id";s:2:"78";s:17:"performance_title";s:22:"Волки и овцы";s:5:"roles";a:1:{s:2:"r3";s:22:"Мурзавецкий";};};i:8;a:3:{s:14:"performance_id";s:2:"58";s:17:"performance_title";s:57:"Брысь! или История кота Филофея";s:5:"roles";a:1:{s:2:"r1";s:12:"Плутон";};};i:9;a:3:{s:14:"performance_id";s:2:"81";s:17:"performance_title";s:14:"Земляки";s:5:"roles";a:1:{s:2:"r2";s:25:"Костя Худяков";};};};'),
 ('1583', 'cinema', 'a:8:{i:0;s:31:"т/ф «Настоятель»,";i:1;s:34:"т/ф «Зимний круиз»,";i:2;s:38:"т/с «Время Синдбада»,";i:3;s:29:"т/ф «Одержимый»,";i:4;s:19:"т/с «Груз»,";i:5;s:64:"т/ф «Смерч Судьбы Последняя охота»,";i:6;s:48:"х/ф «Бесславные придурки»,";i:7;s:33:"т/с «Чужой район 3»";};'),
+('1583', 'instate', '1'),
 ('1583', 'gender', 'male'),
 ('1583', 'kinoteatr', 'http://www.kino-teatr.ru/teatr/acter/ros/136631/bio/'),
 ('1583', 'ruskino', 'http://ruskino.ru/art/7930'),
@@ -6387,9 +6431,7 @@ INSERT INTO `kt_postmeta` (`post_id`, `meta_key`, `meta_value`) VALUES
 ('1589', 'authors', 'a:2:{i:0;a:1:{s:16:"Режиссёр";s:93:"Заслуженный деятель искусств России Михаил Левшин";};i:1;a:1:{s:20:"Композитор";s:29:"Андрей Андерсен";};};'),
 ('1589', 'duration', '1:15'),
 ('1589', 'genre', 'Сказка'),
-('1589', 'premiere_date', '1989-12-25 15:00:00');
-
-INSERT INTO `kt_postmeta` (`post_id`, `meta_key`, `meta_value`) VALUES
+('1589', 'premiere_date', '1989-12-25 15:00:00'),
 ('1589', 'prises', 'a:1:{i:0;s:176:"Спектакль в 1995 году получил Гран-при на ежегодном фестивале **"Театры Санкт-Петербурга — детям".**";};'),
 ('1589', 'rate', '0+'),
 ('1589', '_thumbnail_id', '1644'),
@@ -6422,7 +6464,9 @@ INSERT INTO `kt_postmeta` (`post_id`, `meta_key`, `meta_value`) VALUES
 ('1603', '_wp_attached_file', 'performance/kot-v-sapogakh/kot-v-sapogah14.jpg'),
 ('1603', '_wp_attachment_metadata', 'a:3:{s:5:"width";i:604;s:6:"height";i:402;s:4:"file";s:46:"performance/kot-v-sapogakh/kot-v-sapogah14.jpg";};'),
 ('1604', '_wp_attached_file', 'performance/kot-v-sapogakh/kot-v-sapogah15.jpg'),
-('1604', '_wp_attachment_metadata', 'a:3:{s:5:"width";i:604;s:6:"height";i:402;s:4:"file";s:46:"performance/kot-v-sapogakh/kot-v-sapogah15.jpg";};'),
+('1604', '_wp_attachment_metadata', 'a:3:{s:5:"width";i:604;s:6:"height";i:402;s:4:"file";s:46:"performance/kot-v-sapogakh/kot-v-sapogah15.jpg";};');
+
+INSERT INTO `kt_postmeta` (`post_id`, `meta_key`, `meta_value`) VALUES
 ('1605', '_wp_attached_file', 'performance/kot-v-sapogakh/kot-v-sapogah16.jpg'),
 ('1605', '_wp_attachment_metadata', 'a:3:{s:5:"width";i:319;s:6:"height";i:479;s:4:"file";s:46:"performance/kot-v-sapogakh/kot-v-sapogah16.jpg";};'),
 ('1606', '_wp_attached_file', 'performance/kot-v-sapogakh/kot-v-sapogah17.jpg'),
@@ -6464,9 +6508,7 @@ INSERT INTO `kt_postmeta` (`post_id`, `meta_key`, `meta_value`) VALUES
 ('1624', '_wp_attached_file', 'performance/kot-v-sapogakh/kot-v-sapogah35.jpg'),
 ('1624', '_wp_attachment_metadata', 'a:3:{s:5:"width";i:604;s:6:"height";i:402;s:4:"file";s:46:"performance/kot-v-sapogakh/kot-v-sapogah35.jpg";};'),
 ('1625', '_wp_attached_file', 'performance/kot-v-sapogakh/kot-v-sapogah36.jpg'),
-('1625', '_wp_attachment_metadata', 'a:3:{s:5:"width";i:604;s:6:"height";i:402;s:4:"file";s:46:"performance/kot-v-sapogakh/kot-v-sapogah36.jpg";};');
-
-INSERT INTO `kt_postmeta` (`post_id`, `meta_key`, `meta_value`) VALUES
+('1625', '_wp_attachment_metadata', 'a:3:{s:5:"width";i:604;s:6:"height";i:402;s:4:"file";s:46:"performance/kot-v-sapogakh/kot-v-sapogah36.jpg";};'),
 ('1626', '_wp_attached_file', 'performance/kot-v-sapogakh/kot-v-sapogah37.jpg'),
 ('1626', '_wp_attachment_metadata', 'a:3:{s:5:"width";i:604;s:6:"height";i:402;s:4:"file";s:46:"performance/kot-v-sapogakh/kot-v-sapogah37.jpg";};'),
 ('1627', '_wp_attached_file', 'performance/kot-v-sapogakh/kot-v-sapogah38.jpg'),
@@ -6499,7 +6541,9 @@ INSERT INTO `kt_postmeta` (`post_id`, `meta_key`, `meta_value`) VALUES
 ('1640', '_wp_attachment_metadata', 'a:3:{s:5:"width";i:377;s:6:"height";i:479;s:4:"file";s:46:"performance/kot-v-sapogakh/kot-v-sapogah51.jpg";};'),
 ('1641', '_wp_attached_file', 'performance/kot-v-sapogakh/kot-v-sapogah52.jpg'),
 ('1641', '_wp_attachment_metadata', 'a:3:{s:5:"width";i:604;s:6:"height";i:402;s:4:"file";s:46:"performance/kot-v-sapogakh/kot-v-sapogah52.jpg";};'),
-('1642', '_wp_attached_file', 'performance/kot-v-sapogakh/kot-v-sapogah53.jpg'),
+('1642', '_wp_attached_file', 'performance/kot-v-sapogakh/kot-v-sapogah53.jpg');
+
+INSERT INTO `kt_postmeta` (`post_id`, `meta_key`, `meta_value`) VALUES
 ('1642', '_wp_attachment_metadata', 'a:3:{s:5:"width";i:319;s:6:"height";i:479;s:4:"file";s:46:"performance/kot-v-sapogakh/kot-v-sapogah53.jpg";};'),
 ('1643', '_wp_attached_file', 'performance/kot-v-sapogakh/kot-v-sapogah54.jpg'),
 ('1643', '_wp_attachment_metadata', 'a:3:{s:5:"width";i:761;s:6:"height";i:1024;s:4:"file";s:46:"performance/kot-v-sapogakh/kot-v-sapogah54.jpg";};'),
@@ -6541,9 +6585,7 @@ INSERT INTO `kt_postmeta` (`post_id`, `meta_key`, `meta_value`) VALUES
 ('1656', '_wp_attached_file', 'performance/krepostnaya-lyubov-mumu/mumu11.jpg'),
 ('1656', '_wp_attachment_metadata', 'a:3:{s:5:"width";i:1280;s:6:"height";i:853;s:4:"file";s:46:"performance/krepostnaya-lyubov-mumu/mumu11.jpg";};'),
 ('1657', '_wp_attached_file', 'performance/krepostnaya-lyubov-mumu/mumu12.jpg'),
-('1657', '_wp_attachment_metadata', 'a:3:{s:5:"width";i:1280;s:6:"height";i:853;s:4:"file";s:46:"performance/krepostnaya-lyubov-mumu/mumu12.jpg";};');
-
-INSERT INTO `kt_postmeta` (`post_id`, `meta_key`, `meta_value`) VALUES
+('1657', '_wp_attachment_metadata', 'a:3:{s:5:"width";i:1280;s:6:"height";i:853;s:4:"file";s:46:"performance/krepostnaya-lyubov-mumu/mumu12.jpg";};'),
 ('1658', '_wp_attached_file', 'performance/krepostnaya-lyubov-mumu/mumu13.jpg'),
 ('1658', '_wp_attachment_metadata', 'a:3:{s:5:"width";i:1280;s:6:"height";i:853;s:4:"file";s:46:"performance/krepostnaya-lyubov-mumu/mumu13.jpg";};'),
 ('1659', '_wp_attached_file', 'performance/krepostnaya-lyubov-mumu/mumu14.jpg'),
@@ -6576,7 +6618,9 @@ INSERT INTO `kt_postmeta` (`post_id`, `meta_key`, `meta_value`) VALUES
 ('1672', '_wp_attachment_metadata', 'a:3:{s:5:"width";i:682;s:6:"height";i:1024;s:4:"file";s:46:"performance/krepostnaya-lyubov-mumu/mumu27.jpg";};'),
 ('1673', '_wp_attached_file', 'performance/krepostnaya-lyubov-mumu/mumu28.jpg'),
 ('1673', '_wp_attachment_metadata', 'a:3:{s:5:"width";i:1280;s:6:"height";i:853;s:4:"file";s:46:"performance/krepostnaya-lyubov-mumu/mumu28.jpg";};'),
-('1674', '_wp_attached_file', 'performance/krepostnaya-lyubov-mumu/mumu29.jpg'),
+('1674', '_wp_attached_file', 'performance/krepostnaya-lyubov-mumu/mumu29.jpg');
+
+INSERT INTO `kt_postmeta` (`post_id`, `meta_key`, `meta_value`) VALUES
 ('1674', '_wp_attachment_metadata', 'a:3:{s:5:"width";i:682;s:6:"height";i:1024;s:4:"file";s:46:"performance/krepostnaya-lyubov-mumu/mumu29.jpg";};'),
 ('1675', '_wp_attached_file', 'performance/krepostnaya-lyubov-mumu/mumu30.jpg'),
 ('1675', '_wp_attachment_metadata', 'a:3:{s:5:"width";i:1280;s:6:"height";i:851;s:4:"file";s:46:"performance/krepostnaya-lyubov-mumu/mumu30.jpg";};'),
@@ -6618,9 +6662,7 @@ INSERT INTO `kt_postmeta` (`post_id`, `meta_key`, `meta_value`) VALUES
 ('1693', '_wp_attachment_metadata', 'a:3:{s:5:"width";i:1280;s:6:"height";i:853;s:4:"file";s:46:"performance/krepostnaya-lyubov-mumu/mumu48.jpg";};'),
 ('1694', '_wp_attached_file', 'performance/krepostnaya-lyubov-mumu/mumu49.jpg'),
 ('1694', '_wp_attachment_metadata', 'a:3:{s:5:"width";i:1280;s:6:"height";i:820;s:4:"file";s:46:"performance/krepostnaya-lyubov-mumu/mumu49.jpg";};'),
-('1695', '_wp_attached_file', 'performance/krepostnaya-lyubov-mumu/mumu50.jpg');
-
-INSERT INTO `kt_postmeta` (`post_id`, `meta_key`, `meta_value`) VALUES
+('1695', '_wp_attached_file', 'performance/krepostnaya-lyubov-mumu/mumu50.jpg'),
 ('1695', '_wp_attachment_metadata', 'a:3:{s:5:"width";i:682;s:6:"height";i:1024;s:4:"file";s:46:"performance/krepostnaya-lyubov-mumu/mumu50.jpg";};'),
 ('1696', '_wp_attached_file', 'performance/krepostnaya-lyubov-mumu/mumu51.jpg'),
 ('1696', '_wp_attachment_metadata', 'a:3:{s:5:"width";i:1279;s:6:"height";i:889;s:4:"file";s:46:"performance/krepostnaya-lyubov-mumu/mumu51.jpg";};'),
@@ -6653,7 +6695,9 @@ INSERT INTO `kt_postmeta` (`post_id`, `meta_key`, `meta_value`) VALUES
 ('1710', '_wp_attached_file', 'performance/krepostnaya-lyubov-mumu/playbill.jpg'),
 ('1710', '_wp_attachment_metadata', 'a:3:{s:5:"width";i:1440;s:6:"height";i:920;s:4:"file";s:48:"performance/krepostnaya-lyubov-mumu/playbill.jpg";};'),
 ('1711', '_wp_attached_file', 'performance/krepostnaya-lyubov-mumu/poster.jpg'),
-('1711', '_wp_attachment_metadata', 'a:3:{s:5:"width";i:234;s:6:"height";i:311;s:4:"file";s:46:"performance/krepostnaya-lyubov-mumu/poster.jpg";};'),
+('1711', '_wp_attachment_metadata', 'a:3:{s:5:"width";i:234;s:6:"height";i:311;s:4:"file";s:46:"performance/krepostnaya-lyubov-mumu/poster.jpg";};');
+
+INSERT INTO `kt_postmeta` (`post_id`, `meta_key`, `meta_value`) VALUES
 ('1712', '_wp_attached_file', 'performance/krepostnaya-lyubov-mumu/poster01.jpg'),
 ('1712', '_wp_attachment_metadata', 'a:3:{s:5:"width";i:724;s:6:"height";i:1024;s:4:"file";s:48:"performance/krepostnaya-lyubov-mumu/poster01.jpg";};'),
 ('1713', '_wp_attached_file', 'performance/krepostnaya-lyubov-mumu/poster02.jpg'),
@@ -6671,7 +6715,7 @@ INSERT INTO `kt_postmeta` (`post_id`, `meta_key`, `meta_value`) VALUES
 ('1717', 'source_date', '18.01.2014'),
 ('1717', 'source_author', 'Михаил Прошутинский aka Parachute'),
 ('1717', 'source_link', 'http://sub-cult.ru/index.php/foto/teatr/1876-18-01-2014-krepostnaya-lubov-spb-dramaticheskiy-teatr-komedianty.html'),
-('1717', '_thumbnail_id', '1722'),
+('1717', '_thumbnail_id', '1721'),
 ('1718', '_wp_attached_file', 'press/o-spektakle-krepostnaya-lyubov-mumu/image-01.jpg'),
 ('1718', '_wp_attachment_metadata', 'a:3:{s:5:"width";i:600;s:6:"height";i:400;s:4:"file";s:54:"press/o-spektakle-krepostnaya-lyubov-mumu/image-01.jpg";};'),
 ('1719', '_wp_attached_file', 'press/o-spektakle-krepostnaya-lyubov-mumu/image-02.jpg'),
@@ -6695,12 +6739,11 @@ INSERT INTO `kt_postmeta` (`post_id`, `meta_key`, `meta_value`) VALUES
 ('1726', '_wp_attachment_metadata', 'a:3:{s:5:"width";i:285;s:6:"height";i:473;s:4:"file";s:34:"post/premera-zemlyaki/image-01.jpg";};'),
 ('1727', '_wp_attached_file', 'post/premera-zemlyaki/image-02.jpg'),
 ('1727', '_wp_attachment_metadata', 'a:3:{s:5:"width";i:908;s:6:"height";i:605;s:4:"file";s:34:"post/premera-zemlyaki/image-02.jpg";};'),
-('1728', 'old_names', 'a:2:{i:0;s:18:"153-mihail-levshin";i:1;s:14:"mihail-levshin";};');
-
-INSERT INTO `kt_postmeta` (`post_id`, `meta_key`, `meta_value`) VALUES
+('1728', 'old_names', 'a:2:{i:0;s:18:"153-mihail-levshin";i:1;s:14:"mihail-levshin";};'),
 ('1728', 'jos_id', '153'),
 ('1728', 'jos_alias', 'mihail-levshin'),
 ('1728', 'employment', 'a:1:{i:0;a:3:{s:14:"performance_id";s:2:"71";s:17:"performance_title";s:31:"Прогулка в Лю-Блё";s:5:"roles";a:1:{s:2:"r6";s:16:"Режиссёр";};};};'),
+('1728', 'instate', '1'),
 ('1728', 'gender', 'male'),
 ('1728', 'grade', 'Заслуженный деятель искусств России'),
 ('1728', 'taxonomy', 'a:1:{s:6:"carier";a:2:{s:5:"title";s:16:"Режиссер";s:4:"slug";s:8:"director";};};'),
@@ -6729,7 +6772,9 @@ INSERT INTO `kt_postmeta` (`post_id`, `meta_key`, `meta_value`) VALUES
 ('1736', 'jos_id', '91'),
 ('1736', 'jos_alias', 'les'),
 ('1736', 'author', 'А. Островский'),
-('1736', 'authors', 'a:7:{i:0;a:1:{s:39:"Режиссер-постановщик";s:97:"Заслуженный деятель искусств России — Михаил Левшин";};i:1;a:1:{s:20:"Композитор";s:170:"Советский и российский композитор, лауреат Государственной премии СССР — Владимир Дашкевич";};i:2;a:1:{s:34:"Автор текста песен";s:64:"Актёр, сценарист и поэт — Вадим Жук";};i:3;a:1:{s:22:"Сценография";s:27:"Полина Левшина";};i:4;a:1:{s:38:"Художник по костюмам";s:37:"Анастасия Кривушина";};i:5;a:1:{s:17:"Арт-видео";s:31:"Антип Сокольский";};i:6;a:1:{s:37:"Ассистент режиссёра";s:27:"Елена Фёдорова";};};'),
+('1736', 'authors', 'a:7:{i:0;a:1:{s:39:"Режиссер-постановщик";s:97:"Заслуженный деятель искусств России — Михаил Левшин";};i:1;a:1:{s:20:"Композитор";s:170:"Советский и российский композитор, лауреат Государственной премии СССР — Владимир Дашкевич";};i:2;a:1:{s:34:"Автор текста песен";s:64:"Актёр, сценарист и поэт — Вадим Жук";};i:3;a:1:{s:22:"Сценография";s:27:"Полина Левшина";};i:4;a:1:{s:38:"Художник по костюмам";s:37:"Анастасия Кривушина";};i:5;a:1:{s:17:"Арт-видео";s:31:"Антип Сокольский";};i:6;a:1:{s:37:"Ассистент режиссёра";s:27:"Елена Фёдорова";};};');
+
+INSERT INTO `kt_postmeta` (`post_id`, `meta_key`, `meta_value`) VALUES
 ('1736', 'duration', '3:30'),
 ('1736', 'entracte', '1'),
 ('1736', 'genre', 'Музыкальная комедия'),
@@ -6772,9 +6817,7 @@ INSERT INTO `kt_postmeta` (`post_id`, `meta_key`, `meta_value`) VALUES
 ('1754', '_wp_attached_file', 'performance/les/les18.jpg'),
 ('1754', '_wp_attachment_metadata', 'a:3:{s:5:"width";i:682;s:6:"height";i:1024;s:4:"file";s:25:"performance/les/les18.jpg";};'),
 ('1755', '_wp_attached_file', 'performance/les/les19.jpg'),
-('1755', '_wp_attachment_metadata', 'a:3:{s:5:"width";i:1280;s:6:"height";i:853;s:4:"file";s:25:"performance/les/les19.jpg";};');
-
-INSERT INTO `kt_postmeta` (`post_id`, `meta_key`, `meta_value`) VALUES
+('1755', '_wp_attachment_metadata', 'a:3:{s:5:"width";i:1280;s:6:"height";i:853;s:4:"file";s:25:"performance/les/les19.jpg";};'),
 ('1756', '_wp_attached_file', 'performance/les/les20.jpg'),
 ('1756', '_wp_attachment_metadata', 'a:3:{s:5:"width";i:1280;s:6:"height";i:853;s:4:"file";s:25:"performance/les/les20.jpg";};'),
 ('1757', '_wp_attached_file', 'performance/les/les21.jpg'),
@@ -6806,7 +6849,9 @@ INSERT INTO `kt_postmeta` (`post_id`, `meta_key`, `meta_value`) VALUES
 ('1770', 'old_names', 'a:2:{i:0;s:22:"97-pominalnaia-molitva";i:1;s:19:"pominalnaya-molitva";};'),
 ('1770', 'jos_id', '97'),
 ('1770', 'jos_alias', 'pominalnaia-molitva'),
-('1770', 'author', 'Григорий Горин'),
+('1770', 'author', 'Григорий Горин');
+
+INSERT INTO `kt_postmeta` (`post_id`, `meta_key`, `meta_value`) VALUES
 ('1770', 'authors', 'a:6:{i:0;a:1:{s:39:"Режиссёр-постановщик";s:23:"Глеб Володин";};i:1;a:1:{s:74:"Художественный руководитель постановки";s:25:"Михаил Левшин";};i:2;a:1:{s:20:"Композитор";s:29:"Наталья Высоких";};i:3;a:1:{s:16:"Художник";s:31:"Сергей Селиванов";};i:4;a:1:{s:14:"Костюмы";s:25:"Ольга Грачёва";};i:5;a:1:{s:18:"Хореограф";s:29:"Анна Чеботарёва";};};'),
 ('1770', 'duration', '3:40'),
 ('1770', 'entracte', '1'),
@@ -6849,9 +6894,7 @@ INSERT INTO `kt_postmeta` (`post_id`, `meta_key`, `meta_value`) VALUES
 ('1787', '_wp_attachment_metadata', 'a:3:{s:5:"width";i:1280;s:6:"height";i:853;s:4:"file";s:45:"performance/pominalnaya-molitva/molitva17.jpg";};'),
 ('1788', '_wp_attached_file', 'performance/pominalnaya-molitva/molitva18.jpg'),
 ('1788', '_wp_attachment_metadata', 'a:3:{s:5:"width";i:682;s:6:"height";i:1024;s:4:"file";s:45:"performance/pominalnaya-molitva/molitva18.jpg";};'),
-('1789', '_wp_attached_file', 'performance/pominalnaya-molitva/molitva19.jpg');
-
-INSERT INTO `kt_postmeta` (`post_id`, `meta_key`, `meta_value`) VALUES
+('1789', '_wp_attached_file', 'performance/pominalnaya-molitva/molitva19.jpg'),
 ('1789', '_wp_attachment_metadata', 'a:3:{s:5:"width";i:682;s:6:"height";i:1024;s:4:"file";s:45:"performance/pominalnaya-molitva/molitva19.jpg";};'),
 ('1790', '_wp_attached_file', 'performance/pominalnaya-molitva/molitva20.jpg'),
 ('1790', '_wp_attachment_metadata', 'a:3:{s:5:"width";i:682;s:6:"height";i:1024;s:4:"file";s:45:"performance/pominalnaya-molitva/molitva20.jpg";};'),
@@ -6883,7 +6926,9 @@ INSERT INTO `kt_postmeta` (`post_id`, `meta_key`, `meta_value`) VALUES
 ('1803', '_wp_attachment_metadata', 'a:3:{s:5:"width";i:1280;s:6:"height";i:853;s:4:"file";s:45:"performance/pominalnaya-molitva/molitva33.jpg";};'),
 ('1804', '_wp_attached_file', 'performance/pominalnaya-molitva/molitva34.jpg'),
 ('1804', '_wp_attachment_metadata', 'a:3:{s:5:"width";i:1280;s:6:"height";i:853;s:4:"file";s:45:"performance/pominalnaya-molitva/molitva34.jpg";};'),
-('1805', '_wp_attached_file', 'performance/pominalnaya-molitva/molitva35.jpg'),
+('1805', '_wp_attached_file', 'performance/pominalnaya-molitva/molitva35.jpg');
+
+INSERT INTO `kt_postmeta` (`post_id`, `meta_key`, `meta_value`) VALUES
 ('1805', '_wp_attachment_metadata', 'a:3:{s:5:"width";i:682;s:6:"height";i:1024;s:4:"file";s:45:"performance/pominalnaya-molitva/molitva35.jpg";};'),
 ('1806', '_wp_attached_file', 'performance/pominalnaya-molitva/molitva36.jpg'),
 ('1806', '_wp_attachment_metadata', 'a:3:{s:5:"width";i:1280;s:6:"height";i:853;s:4:"file";s:45:"performance/pominalnaya-molitva/molitva36.jpg";};'),
@@ -6926,9 +6971,7 @@ INSERT INTO `kt_postmeta` (`post_id`, `meta_key`, `meta_value`) VALUES
 ('1825', '_wp_attached_file', 'performance/pominalnaya-molitva/molitva55.jpg'),
 ('1825', '_wp_attachment_metadata', 'a:3:{s:5:"width";i:682;s:6:"height";i:1024;s:4:"file";s:45:"performance/pominalnaya-molitva/molitva55.jpg";};'),
 ('1826', '_wp_attached_file', 'performance/pominalnaya-molitva/molitva56.jpg'),
-('1826', '_wp_attachment_metadata', 'a:3:{s:5:"width";i:682;s:6:"height";i:1024;s:4:"file";s:45:"performance/pominalnaya-molitva/molitva56.jpg";};');
-
-INSERT INTO `kt_postmeta` (`post_id`, `meta_key`, `meta_value`) VALUES
+('1826', '_wp_attachment_metadata', 'a:3:{s:5:"width";i:682;s:6:"height";i:1024;s:4:"file";s:45:"performance/pominalnaya-molitva/molitva56.jpg";};'),
 ('1827', '_wp_attached_file', 'performance/pominalnaya-molitva/molitva57.jpg'),
 ('1827', '_wp_attachment_metadata', 'a:3:{s:5:"width";i:682;s:6:"height";i:1009;s:4:"file";s:45:"performance/pominalnaya-molitva/molitva57.jpg";};'),
 ('1828', '_wp_attached_file', 'performance/pominalnaya-molitva/molitva58.jpg'),
@@ -6960,7 +7003,9 @@ INSERT INTO `kt_postmeta` (`post_id`, `meta_key`, `meta_value`) VALUES
 ('1841', '_wp_attached_file', 'performance/pominalnaya-molitva/playbill.jpg'),
 ('1841', '_wp_attachment_metadata', 'a:3:{s:5:"width";i:1440;s:6:"height";i:949;s:4:"file";s:44:"performance/pominalnaya-molitva/playbill.jpg";};'),
 ('1842', '_wp_attached_file', 'performance/pominalnaya-molitva/poster.jpg'),
-('1842', '_wp_attachment_metadata', 'a:3:{s:5:"width";i:218;s:6:"height";i:308;s:4:"file";s:42:"performance/pominalnaya-molitva/poster.jpg";};'),
+('1842', '_wp_attachment_metadata', 'a:3:{s:5:"width";i:218;s:6:"height";i:308;s:4:"file";s:42:"performance/pominalnaya-molitva/poster.jpg";};');
+
+INSERT INTO `kt_postmeta` (`post_id`, `meta_key`, `meta_value`) VALUES
 ('1843', '_wp_attached_file', 'performance/pominalnaya-molitva/poster02.jpg'),
 ('1843', '_wp_attachment_metadata', 'a:3:{s:5:"width";i:735;s:6:"height";i:1024;s:4:"file";s:44:"performance/pominalnaya-molitva/poster02.jpg";};'),
 ('1844', 'old_names', 'a:2:{i:0;s:10:"41-v-paris";i:1;s:8:"v-parizh";};'),
@@ -7003,9 +7048,7 @@ INSERT INTO `kt_postmeta` (`post_id`, `meta_key`, `meta_value`) VALUES
 ('1858', '_wp_attached_file', 'performance/v-parizh/v-parizh12.jpg'),
 ('1858', '_wp_attachment_metadata', 'a:3:{s:5:"width";i:604;s:6:"height";i:402;s:4:"file";s:35:"performance/v-parizh/v-parizh12.jpg";};'),
 ('1859', '_wp_attached_file', 'performance/v-parizh/v-parizh13.jpg'),
-('1859', '_wp_attachment_metadata', 'a:3:{s:5:"width";i:604;s:6:"height";i:410;s:4:"file";s:35:"performance/v-parizh/v-parizh13.jpg";};');
-
-INSERT INTO `kt_postmeta` (`post_id`, `meta_key`, `meta_value`) VALUES
+('1859', '_wp_attachment_metadata', 'a:3:{s:5:"width";i:604;s:6:"height";i:410;s:4:"file";s:35:"performance/v-parizh/v-parizh13.jpg";};'),
 ('1860', '_wp_attached_file', 'performance/v-parizh/v-parizh14.jpg'),
 ('1860', '_wp_attachment_metadata', 'a:3:{s:5:"width";i:604;s:6:"height";i:373;s:4:"file";s:35:"performance/v-parizh/v-parizh14.jpg";};'),
 ('1861', '_wp_attached_file', 'performance/v-parizh/v-parizh15.jpg'),
@@ -7037,7 +7080,9 @@ INSERT INTO `kt_postmeta` (`post_id`, `meta_key`, `meta_value`) VALUES
 ('1874', '_wp_attached_file', 'performance/v-parizh/v-parizh28.jpg'),
 ('1874', '_wp_attachment_metadata', 'a:3:{s:5:"width";i:604;s:6:"height";i:402;s:4:"file";s:35:"performance/v-parizh/v-parizh28.jpg";};'),
 ('1875', '_wp_attached_file', 'performance/v-parizh/v-parizh29.jpg'),
-('1875', '_wp_attachment_metadata', 'a:3:{s:5:"width";i:604;s:6:"height";i:390;s:4:"file";s:35:"performance/v-parizh/v-parizh29.jpg";};'),
+('1875', '_wp_attachment_metadata', 'a:3:{s:5:"width";i:604;s:6:"height";i:390;s:4:"file";s:35:"performance/v-parizh/v-parizh29.jpg";};');
+
+INSERT INTO `kt_postmeta` (`post_id`, `meta_key`, `meta_value`) VALUES
 ('1876', '_wp_attached_file', 'performance/v-parizh/v-parizh30.jpg'),
 ('1876', '_wp_attachment_metadata', 'a:3:{s:5:"width";i:604;s:6:"height";i:402;s:4:"file";s:35:"performance/v-parizh/v-parizh30.jpg";};'),
 ('1877', '_wp_attached_file', 'performance/v-parizh/v-parizh31.jpg'),
@@ -7080,9 +7125,7 @@ INSERT INTO `kt_postmeta` (`post_id`, `meta_key`, `meta_value`) VALUES
 ('1895', '_wp_attachment_metadata', 'a:3:{s:5:"width";i:604;s:6:"height";i:402;s:4:"file";s:35:"performance/v-parizh/v-parizh49.jpg";};'),
 ('1896', '_wp_attached_file', 'performance/v-parizh/v-parizh50.jpg'),
 ('1896', '_wp_attachment_metadata', 'a:3:{s:5:"width";i:604;s:6:"height";i:401;s:4:"file";s:35:"performance/v-parizh/v-parizh50.jpg";};'),
-('1897', '_wp_attached_file', 'performance/v-parizh/v-parizh51.jpg');
-
-INSERT INTO `kt_postmeta` (`post_id`, `meta_key`, `meta_value`) VALUES
+('1897', '_wp_attached_file', 'performance/v-parizh/v-parizh51.jpg'),
 ('1897', '_wp_attachment_metadata', 'a:3:{s:5:"width";i:604;s:6:"height";i:402;s:4:"file";s:35:"performance/v-parizh/v-parizh51.jpg";};'),
 ('1898', '_wp_attached_file', 'performance/v-parizh/v-parizh52.jpg'),
 ('1898', '_wp_attachment_metadata', 'a:3:{s:5:"width";i:320;s:6:"height";i:480;s:4:"file";s:35:"performance/v-parizh/v-parizh52.jpg";};'),
@@ -7114,7 +7157,9 @@ INSERT INTO `kt_postmeta` (`post_id`, `meta_key`, `meta_value`) VALUES
 ('1908', '_wp_attached_file', 'performance/zemlyaki/playbill.jpg'),
 ('1908', '_wp_attachment_metadata', 'a:3:{s:5:"width";i:1440;s:6:"height";i:960;s:4:"file";s:33:"performance/zemlyaki/playbill.jpg";};'),
 ('1909', '_wp_attached_file', 'performance/zemlyaki/poster-pikalevo.jpg'),
-('1909', '_wp_attachment_metadata', 'a:3:{s:5:"width";i:403;s:6:"height";i:570;s:4:"file";s:40:"performance/zemlyaki/poster-pikalevo.jpg";};'),
+('1909', '_wp_attachment_metadata', 'a:3:{s:5:"width";i:403;s:6:"height";i:570;s:4:"file";s:40:"performance/zemlyaki/poster-pikalevo.jpg";};');
+
+INSERT INTO `kt_postmeta` (`post_id`, `meta_key`, `meta_value`) VALUES
 ('1910', '_wp_attached_file', 'performance/zemlyaki/poster.jpg'),
 ('1910', '_wp_attachment_metadata', 'a:3:{s:5:"width";i:724;s:6:"height";i:1024;s:4:"file";s:31:"performance/zemlyaki/poster.jpg";};'),
 ('1911', '_wp_attached_file', 'performance/zemlyaki/poster02.jpg'),
@@ -7157,9 +7202,7 @@ INSERT INTO `kt_postmeta` (`post_id`, `meta_key`, `meta_value`) VALUES
 ('1929', '_wp_attachment_metadata', 'a:3:{s:5:"width";i:682;s:6:"height";i:1024;s:4:"file";s:44:"performance/zemlyaki/zemlyaki-pikalevo18.jpg";};'),
 ('1930', '_wp_attached_file', 'performance/zemlyaki/zemlyaki-pikalevo19.jpg'),
 ('1930', '_wp_attachment_metadata', 'a:3:{s:5:"width";i:505;s:6:"height";i:632;s:4:"file";s:44:"performance/zemlyaki/zemlyaki-pikalevo19.jpg";};'),
-('1931', '_wp_attached_file', 'performance/zemlyaki/zemlyaki-pikalevo20.jpg');
-
-INSERT INTO `kt_postmeta` (`post_id`, `meta_key`, `meta_value`) VALUES
+('1931', '_wp_attached_file', 'performance/zemlyaki/zemlyaki-pikalevo20.jpg'),
 ('1931', '_wp_attachment_metadata', 'a:3:{s:5:"width";i:904;s:6:"height";i:817;s:4:"file";s:44:"performance/zemlyaki/zemlyaki-pikalevo20.jpg";};'),
 ('1932', '_wp_attached_file', 'performance/zemlyaki/zemlyaki-pikalevo21.jpg'),
 ('1932', '_wp_attachment_metadata', 'a:3:{s:5:"width";i:598;s:6:"height";i:613;s:4:"file";s:44:"performance/zemlyaki/zemlyaki-pikalevo21.jpg";};'),
@@ -7191,7 +7234,9 @@ INSERT INTO `kt_postmeta` (`post_id`, `meta_key`, `meta_value`) VALUES
 ('1945', '_wp_attachment_metadata', 'a:3:{s:5:"width";i:512;s:6:"height";i:761;s:4:"file";s:44:"performance/zemlyaki/zemlyaki-pikalevo34.jpg";};'),
 ('1946', '_wp_attached_file', 'performance/zemlyaki/zemlyaki-pikalevo35.jpg'),
 ('1946', '_wp_attachment_metadata', 'a:3:{s:5:"width";i:1280;s:6:"height";i:853;s:4:"file";s:44:"performance/zemlyaki/zemlyaki-pikalevo35.jpg";};'),
-('1947', '_wp_attached_file', 'performance/zemlyaki/zemlyaki-pikalevo36.jpg'),
+('1947', '_wp_attached_file', 'performance/zemlyaki/zemlyaki-pikalevo36.jpg');
+
+INSERT INTO `kt_postmeta` (`post_id`, `meta_key`, `meta_value`) VALUES
 ('1947', '_wp_attachment_metadata', 'a:3:{s:5:"width";i:1114;s:6:"height";i:662;s:4:"file";s:44:"performance/zemlyaki/zemlyaki-pikalevo36.jpg";};'),
 ('1948', '_wp_attached_file', 'performance/zemlyaki/zemlyaki-pikalevo37.jpg'),
 ('1948', '_wp_attachment_metadata', 'a:3:{s:5:"width";i:682;s:6:"height";i:1024;s:4:"file";s:44:"performance/zemlyaki/zemlyaki-pikalevo37.jpg";};'),
@@ -7234,9 +7279,7 @@ INSERT INTO `kt_postmeta` (`post_id`, `meta_key`, `meta_value`) VALUES
 ('1967', '_wp_attached_file', 'performance/zemlyaki/zemlyaki-pikalevo56.jpg'),
 ('1967', '_wp_attachment_metadata', 'a:3:{s:5:"width";i:682;s:6:"height";i:1024;s:4:"file";s:44:"performance/zemlyaki/zemlyaki-pikalevo56.jpg";};'),
 ('1968', '_wp_attached_file', 'performance/zemlyaki/zemlyaki01.jpg'),
-('1968', '_wp_attachment_metadata', 'a:3:{s:5:"width";i:1280;s:6:"height";i:853;s:4:"file";s:35:"performance/zemlyaki/zemlyaki01.jpg";};');
-
-INSERT INTO `kt_postmeta` (`post_id`, `meta_key`, `meta_value`) VALUES
+('1968', '_wp_attachment_metadata', 'a:3:{s:5:"width";i:1280;s:6:"height";i:853;s:4:"file";s:35:"performance/zemlyaki/zemlyaki01.jpg";};'),
 ('1969', '_wp_attached_file', 'performance/zemlyaki/zemlyaki02.jpg'),
 ('1969', '_wp_attachment_metadata', 'a:3:{s:5:"width";i:1280;s:6:"height";i:853;s:4:"file";s:35:"performance/zemlyaki/zemlyaki02.jpg";};'),
 ('1970', '_wp_attached_file', 'performance/zemlyaki/zemlyaki03.jpg'),
@@ -7268,7 +7311,9 @@ INSERT INTO `kt_postmeta` (`post_id`, `meta_key`, `meta_value`) VALUES
 ('1983', '_wp_attached_file', 'performance/zemlyaki/zemlyaki16.jpg'),
 ('1983', '_wp_attachment_metadata', 'a:3:{s:5:"width";i:1280;s:6:"height";i:853;s:4:"file";s:35:"performance/zemlyaki/zemlyaki16.jpg";};'),
 ('1984', '_wp_attached_file', 'performance/zemlyaki/zemlyaki17.jpg'),
-('1984', '_wp_attachment_metadata', 'a:3:{s:5:"width";i:1280;s:6:"height";i:853;s:4:"file";s:35:"performance/zemlyaki/zemlyaki17.jpg";};'),
+('1984', '_wp_attachment_metadata', 'a:3:{s:5:"width";i:1280;s:6:"height";i:853;s:4:"file";s:35:"performance/zemlyaki/zemlyaki17.jpg";};');
+
+INSERT INTO `kt_postmeta` (`post_id`, `meta_key`, `meta_value`) VALUES
 ('1985', '_wp_attached_file', 'performance/zemlyaki/zemlyaki18.jpg'),
 ('1985', '_wp_attachment_metadata', 'a:3:{s:5:"width";i:1280;s:6:"height";i:853;s:4:"file";s:35:"performance/zemlyaki/zemlyaki18.jpg";};'),
 ('1986', '_wp_attached_file', 'performance/zemlyaki/zemlyaki19.jpg'),
@@ -7311,9 +7356,8 @@ INSERT INTO `kt_postmeta` (`post_id`, `meta_key`, `meta_value`) VALUES
 ('2002', 'menu_order', '20'),
 ('2003', 'old_names', 'a:1:{i:0;s:19:"aleksandr-goncharuk";};'),
 ('2003', 'employment', 'a:2:{i:0;a:3:{s:14:"performance_id";s:2:"61";s:17:"performance_title";s:47:"Ехала деревня мимо мужика";s:5:"roles";a:1:{s:2:"r4";s:21:"Федя (мужик)";};};i:1;a:3:{s:14:"performance_id";s:2:"81";s:17:"performance_title";s:14:"Земляки";s:5:"roles";a:1:{s:3:"r12";s:14:"Баянист";};};};'),
-('2003', 'gender', 'male');
-
-INSERT INTO `kt_postmeta` (`post_id`, `meta_key`, `meta_value`) VALUES
+('2003', 'instate', ''),
+('2003', 'gender', 'male'),
 ('2003', 'taxonomy', 'a:1:{s:6:"carier";a:2:{s:5:"title";s:10:"Актер";s:4:"slug";s:5:"actor";};};'),
 ('2003', '_thumbnail_id', '2004'),
 ('2004', '_wp_attached_file', 'person/aleksandr-goncharuk/portrait.jpg'),
@@ -7325,6 +7369,7 @@ INSERT INTO `kt_postmeta` (`post_id`, `meta_key`, `meta_value`) VALUES
 ('2006', 'jos_alias', 'andrey-shimko'),
 ('2006', 'employment', 'a:2:{i:0;a:3:{s:14:"performance_id";s:2:"68";s:17:"performance_title";s:6:"Лес";s:5:"roles";a:1:{s:2:"r3";s:26:"Несчастливцев";};};i:1;a:3:{s:14:"performance_id";s:2:"73";s:17:"performance_title";s:34:"Сирано де Бержерак";s:5:"roles";a:1:{s:2:"r0";s:34:"Сирано де Бержерак";};};};'),
 ('2006', 'cinema', 'a:4:{i:0;s:16:"«Лопухи»";i:1;s:29:"«Гадкие лебеди»";i:2;s:46:"«Туда, где живёт счастье»";i:3;s:20:"«Травести»";};'),
+('2006', 'instate', ''),
 ('2006', 'gender', 'male'),
 ('2006', 'kinoteatr', 'http://www.kino-teatr.ru/kino/acter/m/ros/5826/bio/'),
 ('2006', 'taxonomy', 'a:1:{s:6:"carier";a:2:{s:5:"title";s:10:"Актер";s:4:"slug";s:5:"actor";};};'),
@@ -7337,15 +7382,19 @@ INSERT INTO `kt_postmeta` (`post_id`, `meta_key`, `meta_value`) VALUES
 ('2009', '_wp_attachment_metadata', 'a:3:{s:5:"width";i:274;s:6:"height";i:375;s:4:"file";s:31:"person/andrei-shimko/troupe.jpg";};'),
 ('2010', 'old_names', 'a:1:{i:0;s:15:"andrey-vergelis";};'),
 ('2010', 'employment', 'a:2:{i:0;a:3:{s:14:"performance_id";s:2:"64";s:17:"performance_title";s:20:"Компромисс";s:5:"roles";a:1:{s:3:"r14";s:30:"Поэт Борис Штейн";};};i:1;a:3:{s:14:"performance_id";s:2:"68";s:17:"performance_title";s:6:"Лес";s:5:"roles";a:1:{s:2:"r2";s:14:"Буланов";};};};'),
+('2010', 'instate', ''),
 ('2010', 'gender', 'male'),
 ('2010', 'taxonomy', 'a:1:{s:6:"carier";a:2:{s:5:"title";s:10:"Актер";s:4:"slug";s:5:"actor";};};'),
 ('2010', '_thumbnail_id', '2011'),
 ('2011', '_wp_attached_file', 'person/andrei-vergelis/portrait.jpg'),
 ('2011', '_wp_attachment_metadata', 'a:3:{s:5:"width";i:341;s:6:"height";i:498;s:4:"file";s:35:"person/andrei-vergelis/portrait.jpg";};'),
-('2012', '_wp_attached_file', 'person/andrei-vergelis/troupe.jpg'),
+('2012', '_wp_attached_file', 'person/andrei-vergelis/troupe.jpg');
+
+INSERT INTO `kt_postmeta` (`post_id`, `meta_key`, `meta_value`) VALUES
 ('2012', '_wp_attachment_metadata', 'a:3:{s:5:"width";i:341;s:6:"height";i:498;s:4:"file";s:33:"person/andrei-vergelis/troupe.jpg";};'),
 ('2013', 'old_names', 'a:1:{i:0;s:15:"evgeniy-baranov";};'),
 ('2013', 'employment', 'a:1:{i:0;a:3:{s:14:"performance_id";s:2:"64";s:17:"performance_title";s:20:"Компромисс";s:5:"roles";a:1:{s:2:"r0";s:29:"Сергей Довлатов";};};};'),
+('2013', 'instate', ''),
 ('2013', 'gender', 'male'),
 ('2013', 'grade', 'Заслуженный артист России'),
 ('2013', 'taxonomy', 'a:1:{s:6:"carier";a:2:{s:5:"title";s:10:"Актер";s:4:"slug";s:5:"actor";};};'),
@@ -7357,6 +7406,7 @@ INSERT INTO `kt_postmeta` (`post_id`, `meta_key`, `meta_value`) VALUES
 ('2016', '_wp_attached_file', 'person/evgenii-baranov/troupe.jpg'),
 ('2016', '_wp_attachment_metadata', 'a:3:{s:5:"width";i:610;s:6:"height";i:813;s:4:"file";s:33:"person/evgenii-baranov/troupe.jpg";};'),
 ('2017', 'old_names', 'a:1:{i:0;s:13:"lina-sorokina";};'),
+('2017', 'instate', ''),
 ('2017', 'gender', 'female'),
 ('2017', 'taxonomy', 'a:1:{s:6:"carier";a:2:{s:5:"title";s:10:"Актер";s:4:"slug";s:5:"actor";};};'),
 ('2017', '_thumbnail_id', '2018'),
@@ -7366,6 +7416,7 @@ INSERT INTO `kt_postmeta` (`post_id`, `meta_key`, `meta_value`) VALUES
 ('2019', '_wp_attachment_metadata', 'a:3:{s:5:"width";i:118;s:6:"height";i:177;s:4:"file";s:31:"person/lina-sorokina/troupe.jpg";};'),
 ('2020', 'old_names', 'a:1:{i:0;s:17:"natalya-boyarenok";};'),
 ('2020', 'employment', 'a:3:{i:0;a:3:{s:14:"performance_id";s:2:"64";s:17:"performance_title";s:20:"Компромисс";s:5:"roles";a:1:{s:2:"r9";s:46:"Подруга Довлатова Марина";};};i:1;a:3:{s:14:"performance_id";s:2:"70";s:17:"performance_title";s:37:"Поминальная молитва";s:5:"roles";a:1:{s:2:"r2";s:10:"Цейтл";};};i:2;a:3:{s:14:"performance_id";s:2:"75";s:17:"performance_title";s:40:"Страсти по-итальянски";s:5:"roles";a:1:{s:2:"r0";s:40:"Рита, Женщина, Доротея";};};};'),
+('2020', 'instate', ''),
 ('2020', 'gender', 'female'),
 ('2020', 'taxonomy', 'a:1:{s:6:"carier";a:2:{s:5:"title";s:10:"Актер";s:4:"slug";s:5:"actor";};};'),
 ('2020', '_thumbnail_id', '2022'),
@@ -7377,6 +7428,7 @@ INSERT INTO `kt_postmeta` (`post_id`, `meta_key`, `meta_value`) VALUES
 ('2023', '_wp_attachment_metadata', 'a:3:{s:5:"width";i:312;s:6:"height";i:444;s:4:"file";s:36:"person/natalya-boyaryonok/troupe.jpg";};'),
 ('2024', 'old_names', 'a:1:{i:0;s:14:"sergey-surzhin";};'),
 ('2024', 'employment', 'a:4:{i:0;a:3:{s:14:"performance_id";s:2:"58";s:17:"performance_title";s:57:"Брысь! или История кота Филофея";s:5:"roles";a:1:{s:2:"r5";s:12:"Мурзик";};};i:1;a:3:{s:14:"performance_id";s:2:"64";s:17:"performance_title";s:20:"Компромисс";s:5:"roles";a:1:{s:3:"r15";s:31:"Пауль Руди, Кузин";};};i:2;a:3:{s:14:"performance_id";s:2:"70";s:17:"performance_title";s:37:"Поминальная молитва";s:5:"roles";a:1:{s:3:"r10";s:10:"Фёдор";};};i:3;a:3:{s:14:"performance_id";s:2:"73";s:17:"performance_title";s:34:"Сирано де Бержерак";s:5:"roles";a:1:{s:3:"r10";a:2:{i:0;s:14:"Вальвер";i:2;s:16:"Гвардеец";};};};};'),
+('2024', 'instate', ''),
 ('2024', 'gender', 'male'),
 ('2024', 'taxonomy', 'a:1:{s:6:"carier";a:2:{s:5:"title";s:10:"Актер";s:4:"slug";s:5:"actor";};};'),
 ('2024', '_thumbnail_id', '2025'),
@@ -7388,12 +7440,12 @@ INSERT INTO `kt_postmeta` (`post_id`, `meta_key`, `meta_value`) VALUES
 ('2027', '_wp_attachment_metadata', 'a:3:{s:5:"width";i:303;s:6:"height";i:430;s:4:"file";s:32:"person/sergei-surzhin/troupe.jpg";};'),
 ('2028', 'old_names', 'a:1:{i:0;s:17:"simona-stroganova";};'),
 ('2028', 'employment', 'a:1:{i:0;a:3:{s:14:"performance_id";s:2:"67";s:17:"performance_title";s:49:"Кыцик, Мыцик и тётушка Мари";s:5:"roles";a:1:{s:2:"r2";s:23:"тётушка Мари";};};};'),
-('2028', 'gender', 'female');
-
-INSERT INTO `kt_postmeta` (`post_id`, `meta_key`, `meta_value`) VALUES
+('2028', 'instate', ''),
+('2028', 'gender', 'female'),
 ('2028', 'taxonomy', 'a:1:{s:6:"carier";a:2:{s:5:"title";s:10:"Актер";s:4:"slug";s:5:"actor";};};'),
 ('2029', 'old_names', 'a:1:{i:0;s:18:"stanislav-oskolkov";};'),
 ('2029', 'employment', 'a:2:{i:0;a:3:{s:14:"performance_id";s:2:"58";s:17:"performance_title";s:57:"Брысь! или История кота Филофея";s:5:"roles";a:1:{s:2:"r4";s:14:"Филофей";};};i:1;a:3:{s:14:"performance_id";s:2:"66";s:17:"performance_title";s:44:"Крепостная любовь (Муму)";s:5:"roles";a:1:{s:2:"r3";a:2:{i:0;s:14:"Капитон";i:1;s:12:"Капион";};};};};'),
+('2029', 'instate', ''),
 ('2029', 'gender', 'male'),
 ('2029', 'taxonomy', 'a:1:{s:6:"carier";a:2:{s:5:"title";s:10:"Актер";s:4:"slug";s:5:"actor";};};'),
 ('2029', '_thumbnail_id', '2030'),
@@ -7405,6 +7457,7 @@ INSERT INTO `kt_postmeta` (`post_id`, `meta_key`, `meta_value`) VALUES
 ('2032', '_wp_attachment_metadata', 'a:3:{s:5:"width";i:276;s:6:"height";i:364;s:4:"file";s:36:"person/stanislav-oskolkov/troupe.jpg";};'),
 ('2033', 'old_names', 'a:1:{i:0;s:12:"vitaliy-taks";};'),
 ('2033', 'employment', 'a:1:{i:0;a:3:{s:14:"performance_id";s:2:"81";s:17:"performance_title";s:14:"Земляки";s:5:"roles";a:1:{s:2:"r7";s:39:"Офицер, Максим Яриков";};};};'),
+('2033', 'instate', ''),
 ('2033', 'gender', 'male'),
 ('2033', 'taxonomy', 'a:1:{s:6:"carier";a:2:{s:5:"title";s:10:"Актер";s:4:"slug";s:5:"actor";};};'),
 ('2033', '_thumbnail_id', '2034'),
@@ -7412,14 +7465,18 @@ INSERT INTO `kt_postmeta` (`post_id`, `meta_key`, `meta_value`) VALUES
 ('2034', '_wp_attachment_metadata', 'a:3:{s:5:"width";i:295;s:6:"height";i:418;s:4:"file";s:32:"person/vitalii-taks/portrait.jpg";};'),
 ('2035', '_wp_attached_file', 'person/vitalii-taks/troupe.jpg'),
 ('2035', '_wp_attachment_metadata', 'a:3:{s:5:"width";i:295;s:6:"height";i:418;s:4:"file";s:30:"person/vitalii-taks/troupe.jpg";};'),
-('2036', '_wp_attached_file', 'person/vitalii-taks/vitalii-taks.jpg'),
+('2036', '_wp_attached_file', 'person/vitalii-taks/vitalii-taks.jpg');
+
+INSERT INTO `kt_postmeta` (`post_id`, `meta_key`, `meta_value`) VALUES
 ('2036', '_wp_attachment_metadata', 'a:3:{s:5:"width";i:939;s:6:"height";i:1024;s:4:"file";s:36:"person/vitalii-taks/vitalii-taks.jpg";};'),
 ('2037', 'old_names', 'a:1:{i:0;s:15:"yuliya-kopylova";};'),
 ('2037', 'employment', 'a:1:{i:0;a:3:{s:14:"performance_id";s:2:"64";s:17:"performance_title";s:20:"Компромисс";s:5:"roles";a:1:{s:3:"r13";s:48:"Линда Пейпс, жена Жбанкова";};};};'),
+('2037', 'instate', ''),
 ('2037', 'gender', 'female'),
 ('2037', 'taxonomy', 'a:1:{s:6:"carier";a:2:{s:5:"title";s:10:"Актер";s:4:"slug";s:5:"actor";};};'),
 ('2038', 'old_names', 'a:1:{i:0;s:13:"yuriy-ageykin";};'),
 ('2038', 'employment', 'a:2:{i:0;a:3:{s:14:"performance_id";s:2:"68";s:17:"performance_title";s:6:"Лес";s:5:"roles";a:1:{s:2:"r7";s:8:"Карп";};};i:1;a:3:{s:14:"performance_id";s:2:"81";s:17:"performance_title";s:14:"Земляки";s:5:"roles";a:1:{s:3:"r16";s:39:"Михайло Кузнецов, Поп";};};};'),
+('2038', 'instate', ''),
 ('2038', 'gender', 'male'),
 ('2038', 'taxonomy', 'a:1:{s:6:"carier";a:2:{s:5:"title";s:10:"Актер";s:4:"slug";s:5:"actor";};};'),
 ('2038', '_thumbnail_id', '2039'),
@@ -7465,9 +7522,7 @@ INSERT INTO `kt_postmeta` (`post_id`, `meta_key`, `meta_value`) VALUES
 ('2057', 'event_date', '2014-12-11 19:00:00'),
 ('2058', 'event_date', 'a:0:{}'),
 ('2059', 'event_date', 'a:0:{}'),
-('2060', 'event_date', 'a:0:{}');
-
-INSERT INTO `kt_postmeta` (`post_id`, `meta_key`, `meta_value`) VALUES
+('2060', 'event_date', 'a:0:{}'),
 ('2061', 'event_date', 'a:0:{}'),
 ('2062', 'event_date', 'a:0:{}'),
 ('2063', 'event_date', 'a:0:{}'),
@@ -7487,7 +7542,9 @@ INSERT INTO `kt_postmeta` (`post_id`, `meta_key`, `meta_value`) VALUES
 ('2077', 'event_date', 'a:0:{}'),
 ('2078', 'event_date', 'a:0:{}'),
 ('2079', 'event_date', 'a:0:{}'),
-('2080', 'event_date', 'a:0:{}'),
+('2080', 'event_date', 'a:0:{}');
+
+INSERT INTO `kt_postmeta` (`post_id`, `meta_key`, `meta_value`) VALUES
 ('2081', 'event_date', 'a:0:{}'),
 ('2082', 'event_date', 'a:0:{}'),
 ('2083', 'event_date', 'a:0:{}'),
@@ -7502,7 +7559,7 @@ INSERT INTO `kt_postmeta` (`post_id`, `meta_key`, `meta_value`) VALUES
 ('2091', '_thumbnail_id', '2092'),
 ('2092', '_wp_attached_file', 'post/premera-esli-pozhenilis-znachit-zhit-pridetsya/featured.jpg'),
 ('2092', '_wp_attachment_metadata', 'a:3:{s:5:"width";i:604;s:6:"height";i:403;s:4:"file";s:64:"post/premera-esli-pozhenilis-znachit-zhit-pridetsya/featured.jpg";};'),
-('2093', '_thumbnail_id', '2095'),
+('2093', '_thumbnail_id', '2097'),
 ('2094', '_wp_attached_file', 'page/sponsors/eksperiment.png'),
 ('2094', '_wp_attachment_metadata', 'a:3:{s:5:"width";i:82;s:6:"height";i:35;s:4:"file";s:29:"page/sponsors/eksperiment.png";};'),
 ('2095', '_wp_attached_file', 'page/sponsors/okolo.png'),

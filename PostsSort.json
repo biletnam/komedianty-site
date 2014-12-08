@@ -1653,7 +1653,7 @@
       "source_author": "Борислава ШАРОВА",
       "source_date": "07.06.2011",
       "source_link": "http://www.vesty.spb.ru/modules.php?name=News&amp;file=article&amp;sid=21590",
-      "_thumbnail_id": 84
+      "_thumbnail_id": 83
     },
     "post_status": "publish"
   },
@@ -1719,7 +1719,7 @@
       "source_author": "Елена ДОБРЯКОВА",
       "source_date": "22.03.2011",
       "source_link": "http://www.nvspb.ru/stories/ne-o-mumu-pisal-turgenev-o-rossii-44700",
-      "_thumbnail_id": 86
+      "_thumbnail_id": 88
     },
     "post_status": "publish"
   },
@@ -2177,6 +2177,7 @@
           }
         }
       ],
+      "instate": 1,
       "gender": "male",
       "taxonomy": {
         "carier": {
@@ -2295,7 +2296,7 @@
       "source_author": "Владимир НЕСТОРОВИЧ",
       "source_date": "13.10.2011",
       "source_link": "http://www.kidsreview.ru/reviews/retsenziya-na-spektakl-uchilka-iz-budushchego-teatra-komedianty-dlya-detei-ot-10-let",
-      "_thumbnail_id": 114
+      "_thumbnail_id": 113
     },
     "post_status": "publish"
   },
@@ -2398,7 +2399,7 @@
       "source": "Ежемесячный журнал для детей «МУРЗИЛКА»",
       "source_date": "26.10.2011",
       "source_link": "murzilka.org/home/news/4265",
-      "_thumbnail_id": 116
+      "_thumbnail_id": 117
     },
     "post_status": "publish"
   },
@@ -2511,7 +2512,7 @@
       "source_author": "Ирина КОРОЛЕВА",
       "source_date": "25.02.10",
       "source_link": "http://www.vesty.spb.ru/modules.php?name=News&amp;file=article&amp;sid=17604",
-      "_thumbnail_id": 122
+      "_thumbnail_id": 121
     },
     "post_status": "publish"
   },
@@ -2678,6 +2679,7 @@
         "т/с «Тайны следствия»",
         "«Опера-3. Хроники убойного отдела»"
       ],
+      "instate": 1,
       "gender": "female",
       "kinoteatr": "http://www.kino-teatr.ru/kino/acter/w/ros/27455/bio/",
       "taxonomy": {
@@ -2797,6 +2799,7 @@
         "«Улицы разбитых фонарей»",
         "«Лиговка»"
       ],
+      "instate": 1,
       "gender": "female",
       "kinoteatr": "http://www.kino-teatr.ru/teatr/acter/w/ros/242217/bio/",
       "taxonomy": {
@@ -2944,6 +2947,7 @@
         "«Робинзон»",
         "Так же очень много работает на озвучании и дубляже русского и зарубежного кино."
       ],
+      "instate": 1,
       "gender": "female",
       "kinoteatr": "http://www.kino-teatr.ru/kino/acter/w/ros/17756/bio/",
       "taxonomy": {
@@ -3098,6 +3102,7 @@
         "т/с «Литейный»",
         "«Мама» (короткометражный)"
       ],
+      "instate": 1,
       "gender": "male",
       "kinoteatr": "http://www.kino-teatr.ru/kino/acter/m/ros/6450/bio/",
       "taxonomy": {
@@ -3220,7 +3225,7 @@
           "slug": "photoalbum"
         }
       },
-      "_thumbnail_id": 145
+      "_thumbnail_id": 160
     },
     "post_status": "publish"
   },
@@ -3667,7 +3672,7 @@
           "slug": "photoalbum"
         }
       },
-      "_thumbnail_id": 181
+      "_thumbnail_id": 182
     },
     "post_status": "publish"
   },
@@ -4638,7 +4643,7 @@
           "slug": "photoalbum"
         }
       },
-      "_thumbnail_id": 229
+      "_thumbnail_id": 218
     },
     "post_status": "publish"
   },
@@ -5067,7 +5072,7 @@
           "slug": "photoalbum"
         }
       },
-      "_thumbnail_id": 247
+      "_thumbnail_id": 236
     },
     "post_status": "publish"
   },
@@ -5400,7 +5405,7 @@
           "slug": "photoalbum"
         }
       },
-      "_thumbnail_id": 252
+      "_thumbnail_id": 254
     },
     "post_status": "publish"
   },
@@ -7098,6 +7103,7 @@
           }
         }
       ],
+      "instate": 1,
       "gender": "female",
       "kinoteatr": "http://www.kino-teatr.ru/teatr/acter/w/ros/14143/bio/",
       "taxonomy": {
@@ -7217,6 +7223,7 @@
         "«Исполнительный лист»",
         "«Первая ночь луны»"
       ],
+      "instate": 1,
       "gender": "male",
       "kinoteatr": "http://www.kino-teatr.ru/teatr/acter/m/ros/16218/bio/",
       "ruskino": "http://ruskino.ru/art/5424",
@@ -7875,7 +7882,7 @@
           "slug": "news"
         }
       },
-      "_thumbnail_id": 367
+      "_thumbnail_id": 366
     },
     "post_status": "publish"
   },
@@ -8038,6 +8045,7 @@
         "т/с «Агент национальной безопасности»",
         "«Опера-3. Хроники убойного отдела»"
       ],
+      "instate": 1,
       "gender": "female",
       "kinoteatr": "http://www.kino-teatr.ru/teatr/acter/w/ros/16931/bio/",
       "taxonomy": {
@@ -8183,6 +8191,7 @@
         "«Бездна»",
         "«Любовь без правил»"
       ],
+      "instate": 1,
       "gender": "female",
       "kinoteatr": "http://www.kino-teatr.ru/teatr/acter/w/ros/283054/bio/",
       "ruskino": "http://ruskino.ru/art/10329",
@@ -8327,6 +8336,7 @@
         "«Осечка» (фильм-спектакль)",
         "«Кабачок \"13 стульев\"»"
       ],
+      "instate": 1,
       "gender": "male",
       "grade": "Заслуженный артист России",
       "kinoteatr": "http://www.kino-teatr.ru/kino/acter/m/ros/6427/bio/",
@@ -8499,6 +8509,7 @@
           }
         }
       ],
+      "instate": 1,
       "gender": "male",
       "taxonomy": {
         "carier": {
@@ -8624,6 +8635,7 @@
         "«Ветка сирени»",
         "«Псы»"
       ],
+      "instate": 1,
       "gender": "male",
       "kinoteatr": "http://www.kino-teatr.ru/kino/acter/m/ros/1762/works/",
       "taxonomy": {
@@ -8806,6 +8818,7 @@
           }
         }
       ],
+      "instate": 1,
       "gender": "female",
       "grade": "Заслуженная артистка России",
       "kinoteatr": "http://www.kino-teatr.ru/teatr/acter/w/ros/34775/bio/",
@@ -8961,6 +8974,7 @@
         "«Предел. Кровь с молоком»",
         "«Любовь под грифом \"Совершенно секретно\"- 3»"
       ],
+      "instate": 1,
       "gender": "male",
       "kinoteatr": "http://www.kino-teatr.ru/kino/acter/m/ros/47510/bio/",
       "taxonomy": {
@@ -9087,6 +9101,7 @@
           }
         }
       ],
+      "instate": 1,
       "gender": "female",
       "grade": "Заслуженная артистка России",
       "kinoteatr": "http://www.kino-teatr.ru/kino/acter/w/ros/267779/bio/",
@@ -9245,6 +9260,7 @@
         "«Улицы разбитых фонарей»",
         "«Чёрный ворон»"
       ],
+      "instate": 1,
       "gender": "female",
       "taxonomy": {
         "carier": {
@@ -9395,6 +9411,7 @@
         "«Отставник — 2»",
         "«Ментовские войны — 5»"
       ],
+      "instate": 1,
       "gender": "male",
       "kinoteatr": "http://www.kino-teatr.ru/teatr/acter/m/ros/8040/bio/",
       "ruskino": "http://ruskino.ru/art/8341",
@@ -9489,7 +9506,7 @@
       "source": "Газета «Вести» он-лайн",
       "source_date": "12.02.2013",
       "source_link": "http://www.vesty.spb.ru/apps/novosti/2013/02/12/vodevil-xxi-veka/",
-      "_thumbnail_id": 411
+      "_thumbnail_id": 413
     },
     "post_status": "publish"
   },
@@ -9712,7 +9729,7 @@
       "source_date": "24.02.2013",
       "source_author": "Екатерина Приклонская",
       "source_link": "http://okolo.me/2013/02/vmeste-my-ne-propadyom-ili-pominalnaya-molitva-g-gorina/",
-      "_thumbnail_id": 423
+      "_thumbnail_id": 421
     },
     "post_status": "publish"
   },
@@ -10660,7 +10677,7 @@
       "source": "Газета «Невское время»",
       "source_date": "13.03.2013",
       "source_author": "Елена Добрякова",
-      "_thumbnail_id": 466
+      "_thumbnail_id": 465
     },
     "post_status": "publish"
   },
@@ -10726,7 +10743,7 @@
       "source_date": "27.03.2013",
       "source_author": "Елизавета Садкова",
       "source_link": "http://ok-inform.ru/prazdnik-zhizni/1613-o-bolshikh-lyudyakh-nebolshogo-teatra.html",
-      "_thumbnail_id": 471
+      "_thumbnail_id": 472
     },
     "post_status": "publish"
   },
@@ -10906,7 +10923,7 @@
       "source_author": "Татьяна Морозова",
       "source_date": "11.10.2010",
       "source_link": "http://www.mr7.ru/articles/33937/",
-      "_thumbnail_id": 478
+      "_thumbnail_id": 477
     },
     "post_status": "publish"
   },
@@ -10972,7 +10989,7 @@
       "source_author": "Мария Кингисепп",
       "source_date": "14.12.2005",
       "source_link": "http://www.blogslov.ru/date.php/2005/12/09/09_01-22-23.xml",
-      "_thumbnail_id": 482
+      "_thumbnail_id": 481
     },
     "post_status": "publish"
   },
@@ -11074,6 +11091,7 @@
         "«Гений»",
         "«Счастливый конец»"
       ],
+      "instate": 1,
       "gender": "male",
       "grade": "Заслуженный артист России",
       "kinoteatr": "http://www.kino-teatr.ru/teatr/acter/m/ros/2176/bio/",
@@ -11329,7 +11347,7 @@
       "source_date": "15.12.2001",
       "source_author": "Кира Николаева",
       "source_link": "http://www.theart.ru/cgi-bin/programmaterial.cgi?id=332",
-      "_thumbnail_id": 496
+      "_thumbnail_id": 495
     },
     "post_status": "publish"
   },
@@ -12694,7 +12712,7 @@
       "source": "телеканал «Россия», RUTV.ru",
       "source_author": "Майорова Дарья",
       "source_date": "2010",
-      "_thumbnail_id": 565
+      "_thumbnail_id": 564
     },
     "post_status": "publish"
   },
@@ -13983,6 +14001,7 @@
         "«Танцор»",
         "«Убойная сила-1»"
       ],
+      "instate": 1,
       "gender": "male",
       "kinoteatr": "http://www.kino-teatr.ru/kino/acter/m/ros/8974/bio/",
       "taxonomy": {
@@ -14225,6 +14244,7 @@
         "«Честь»",
         "«Третий дубль»"
       ],
+      "instate": 0,
       "gender": "male",
       "kinoteatr": "http://www.kino-teatr.ru/kino/acter/m/ros/8915/bio/",
       "taxonomy": {
@@ -14344,6 +14364,7 @@
           }
         }
       ],
+      "instate": 1,
       "gender": "male",
       "taxonomy": {
         "carier": {
@@ -14463,6 +14484,7 @@
         "«Бомбилы»",
         "«Груз 200»"
       ],
+      "instate": 1,
       "gender": "male",
       "kinoteatr": "http://www.kino-teatr.ru/teatr/acter/m/ros/5164/bio/",
       "taxonomy": {
@@ -14596,6 +14618,7 @@
         "«Тайны следствия»",
         "«Гончие»"
       ],
+      "instate": 1,
       "gender": "male",
       "kinoteatr": "http://www.kino-teatr.ru/kino/acter/m/ros/18482/bio/",
       "taxonomy": {
@@ -14768,6 +14791,7 @@
         "т/с «Улицы разбитых фонарей»",
         "«Свой — чужой»"
       ],
+      "instate": 1,
       "gender": "male",
       "kinoteatr": "http://www.kino-teatr.ru/teatr/acter/m/ros/235283/bio/",
       "taxonomy": {
@@ -17441,6 +17465,7 @@
         "«Свои»",
         "«Улицы разбитых фонарей»"
       ],
+      "instate": 1,
       "gender": "female",
       "kinoteatr": "http://www.kino-teatr.ru/kino/acter/w/ros/8276/bio/",
       "taxonomy": {
@@ -17900,6 +17925,7 @@
         "«Как пройти в библиотеку?»",
         "«Улицы разбитых фонарей»"
       ],
+      "instate": 1,
       "gender": "male",
       "kinoteatr": "http://www.kino-teatr.ru/kino/acter/m/ros/5825/bio/",
       "taxonomy": {
@@ -18053,6 +18079,7 @@
         "«Гаишники»",
         "«Катя 2. Продолжение»"
       ],
+      "instate": 1,
       "gender": "female",
       "kinoteatr": "http://www.kino-teatr.ru/teatr/acter/w/ros/290442/bio/",
       "taxonomy": {
@@ -18227,6 +18254,7 @@
         "«Катерина»",
         "«Эра стрельца»"
       ],
+      "instate": 1,
       "gender": "female",
       "kinoteatr": "http://www.kino-teatr.ru/kino/acter/w/ros/319449/bio/",
       "taxonomy": {
@@ -18407,6 +18435,7 @@
         "т/с «Счастливчик Пашка»",
         "т/ф «Почти весна»"
       ],
+      "instate": 1,
       "gender": "male",
       "taxonomy": {
         "carier": {
@@ -18551,6 +18580,7 @@
         "2009 г. — «Контрабас» Патрик Зюскинд;",
         "2010 г. — «Госпожа Метелица»"
       ],
+      "instate": 1,
       "gender": "female",
       "kinoteatr": "http://www.kino-teatr.ru/kino/acter/w/ros/281305/bio/",
       "taxonomy": {
@@ -18698,6 +18728,7 @@
         "«Анна Каренина»",
         "т/с «Военная разведка»"
       ],
+      "instate": 1,
       "gender": "male",
       "kinoteatr": "http://www.kino-teatr.ru/teatr/acter/m/ros/3876/bio/",
       "ruskino": "http://ruskino.ru/art/3953",
@@ -18851,6 +18882,7 @@
         "«Ключи от счастья — 2»",
         "«История зечки»"
       ],
+      "instate": 1,
       "gender": "female",
       "kinoteatr": "http://www.kino-teatr.ru/teatr/acter/w/ros/4275/bio/",
       "ruskino": "http://ruskino.ru/art/5120",
@@ -19003,6 +19035,7 @@
         "т/с «Морские дьяволы — 4»",
         "«Дорогой мой человек» и др."
       ],
+      "instate": 1,
       "gender": "male",
       "kinoteatr": "http://www.kino-teatr.ru/teatr/acter/m/ros/29820/bio/",
       "ruskino": "http://ruskino.ru/art/9036",
@@ -19157,6 +19190,7 @@
         "т/с «Улицы разбитых фонарей»",
         "«Формат А4»"
       ],
+      "instate": 1,
       "gender": "male",
       "kinoteatr": "http://www.kino-teatr.ru/teatr/acter/m/ros/31838/bio/",
       "taxonomy": {
@@ -19314,6 +19348,7 @@
         "«Груз»",
         "х/ф «Ключ Саламандры»"
       ],
+      "instate": 1,
       "gender": "female",
       "kinoteatr": "http://www.kino-teatr.ru/teatr/acter/w/ros/1072/bio/",
       "ruskino": "http://ruskino.ru/art/1706",
@@ -19407,7 +19442,7 @@
       "source": "Интернет-издание «MUSECUBE»",
       "source_author": "Валентина Казакова",
       "source_date": "23.10.2013",
-      "_thumbnail_id": 847
+      "_thumbnail_id": 845
     },
     "post_status": "publish"
   },
@@ -22589,7 +22624,7 @@
           "slug": "photoalbum"
         }
       },
-      "_thumbnail_id": 1018
+      "_thumbnail_id": 1007
     },
     "post_status": "publish"
   },
@@ -23516,7 +23551,7 @@
           "slug": "announcements"
         }
       },
-      "_thumbnail_id": 1048
+      "_thumbnail_id": 1049
     },
     "post_status": "publish"
   },
@@ -23643,7 +23678,7 @@
       "duration": "1:50",
       "premiere_date": "2014-12-17 19:00:00",
       "rate": "12+",
-      "_thumbnail_id": 1055
+      "_thumbnail_id": 1054
     },
     "post_status": "publish"
   },
@@ -30099,6 +30134,7 @@
           }
         }
       ],
+      "instate": 1,
       "gender": "male",
       "taxonomy": {
         "carier": {
@@ -30216,6 +30252,7 @@
         "«\"Исполнительный лист»",
         "«\"Русские страшилки»"
       ],
+      "instate": 0,
       "gender": "male",
       "kinoteatr": "http://www.kino-teatr.ru/kino/acter/m/ros/5926/bio/",
       "taxonomy": {
@@ -30382,6 +30419,7 @@
         "т/с «Прощай Макаров»",
         "т/с «Улицы разбитых фонарей»"
       ],
+      "instate": 1,
       "gender": "female",
       "taxonomy": {
         "carier": {
@@ -33150,6 +33188,7 @@
           }
         }
       ],
+      "instate": 0,
       "gender": "female",
       "taxonomy": {
         "carier": {
@@ -33268,6 +33307,7 @@
           }
         }
       ],
+      "instate": 0,
       "gender": "female",
       "taxonomy": {
         "carier": {
@@ -34337,6 +34377,7 @@
           }
         }
       ],
+      "instate": 1,
       "gender": "female",
       "kinoteatr": "http://www.kino-teatr.ru/teatr/acter/w/ros/3712/bio/",
       "ruskino": "http://ruskino.ru/art/5110",
@@ -34509,6 +34550,7 @@
         "х/ф «Бесславные придурки»,",
         "т/с «Чужой район 3»"
       ],
+      "instate": 1,
       "gender": "male",
       "kinoteatr": "http://www.kino-teatr.ru/teatr/acter/ros/136631/bio/",
       "ruskino": "http://ruskino.ru/art/7930",
@@ -37134,7 +37176,7 @@
       "source_date": "18.01.2014",
       "source_author": "Михаил Прошутинский aka Parachute",
       "source_link": "http://sub-cult.ru/index.php/foto/teatr/1876-18-01-2014-krepostnaya-lubov-spb-dramaticheskiy-teatr-komedianty.html",
-      "_thumbnail_id": 1722
+      "_thumbnail_id": 1721
     },
     "post_status": "publish"
   },
@@ -37368,6 +37410,7 @@
           }
         }
       ],
+      "instate": 1,
       "gender": "male",
       "grade": "Заслуженный деятель искусств России",
       "taxonomy": {
@@ -42770,6 +42813,7 @@
           }
         }
       ],
+      "instate": 0,
       "gender": "male",
       "taxonomy": {
         "carier": {
@@ -42861,6 +42905,7 @@
         "«Туда, где живёт счастье»",
         "«Травести»"
       ],
+      "instate": 0,
       "gender": "male",
       "kinoteatr": "http://www.kino-teatr.ru/kino/acter/m/ros/5826/bio/",
       "taxonomy": {
@@ -42963,6 +43008,7 @@
           }
         }
       ],
+      "instate": 0,
       "gender": "male",
       "taxonomy": {
         "carier": {
@@ -43038,6 +43084,7 @@
           }
         }
       ],
+      "instate": 0,
       "gender": "male",
       "grade": "Заслуженный артист России",
       "taxonomy": {
@@ -43124,6 +43171,7 @@
       "old_names": [
         "lina-sorokina"
       ],
+      "instate": 0,
       "gender": "female",
       "taxonomy": {
         "carier": {
@@ -43213,6 +43261,7 @@
           }
         }
       ],
+      "instate": 0,
       "gender": "female",
       "taxonomy": {
         "carier": {
@@ -43331,6 +43380,7 @@
           }
         }
       ],
+      "instate": 0,
       "gender": "male",
       "taxonomy": {
         "carier": {
@@ -43425,6 +43475,7 @@
           }
         }
       ],
+      "instate": 0,
       "gender": "female",
       "taxonomy": {
         "carier": {
@@ -43471,6 +43522,7 @@
           }
         }
       ],
+      "instate": 0,
       "gender": "male",
       "taxonomy": {
         "carier": {
@@ -43565,6 +43617,7 @@
           }
         }
       ],
+      "instate": 0,
       "gender": "male",
       "taxonomy": {
         "carier": {
@@ -43659,6 +43712,7 @@
           }
         }
       ],
+      "instate": 0,
       "gender": "female",
       "taxonomy": {
         "carier": {
@@ -43702,6 +43756,7 @@
           }
         }
       ],
+      "instate": 0,
       "gender": "male",
       "taxonomy": {
         "carier": {
@@ -44803,7 +44858,7 @@
     "post_modified_gmt": "2014-12-08 09:34:56",
     "sort": 1418031296,
     "postmeta": {
-      "_thumbnail_id": 2095
+      "_thumbnail_id": 2097
     },
     "post_status": "publish"
   },
