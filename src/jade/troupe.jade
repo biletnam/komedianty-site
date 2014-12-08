@@ -7,12 +7,6 @@ block title
 	title Сайт театра «Комедианты» | Главная
 
 block content
-	- var events = data.where({"post_type": "event"}).value()
-	- var monthsA = ["Нулября","Января","Февраля","Марта","Апреля","Мая","Июня","Июля","Августа","Сентября","Октября","Ноября","Декабря"]
-	- var troupe = data.where({"post_name": "troupe"}).value().pop()
-	- var troupebg = data.where({"post_type":"attachment", "post_parent":troupe.ID, "post_name":"background.jpg"}).value().pop()
-	- if (troupebg)
-		- var troupebg = 'background:url(' + troupebg.postmeta['_wp_attached_file'] + ') top center no-repeat; background-size: cover;'
 
 	#troupe-page(style="#{troupebg}")
 		.container
@@ -32,8 +26,52 @@ block content
 
 			.troupe-list
 				#actors.section.active
+					- var actors = data.where({"post_type": "person", "postmeta":{"instate":2}}).value()
+					each actor in actors
+						.person.director
+							- var img = data.where({"post_type":"attachment", "post_parent":actor.ID, "post_name":"troupe.jpg"}).value().pop()
+							.portret
+								- if (img)
+									img(src="#{img.postmeta['_wp_attached_file']}" width="100%" height="auto")
+							.caption
+								- if (actor.postmeta.grade)
+									p.grade!= actor.postmeta.grade
+								p.title!= actor.post_title
+					- var actors = data.where({"post_type": "person", "postmeta":{"instate":3}}).value()
+					each actor in actors
+						.person
+							- var img = data.where({"post_type":"attachment", "post_parent":actor.ID, "post_name":"troupe.jpg"}).value().pop()
+							.portret
+								- if (img)
+									img(src="#{img.postmeta['_wp_attached_file']}" width="100%" height="auto")
+							.caption
+								- if (actor.postmeta.grade)
+									p.grade!= actor.postmeta.grade
+								p.title!= actor.post_title
+					- var actors = data.where({"post_type": "person", "postmeta":{"instate":1}}).value()
+					each actor in actors
+						.person
+							- var img = data.where({"post_type":"attachment", "post_parent":actor.ID, "post_name":"troupe.jpg"}).value().pop()
+							.portret
+								- if (img)
+									img(src="#{img.postmeta['_wp_attached_file']}" width="100%" height="auto")
+							.caption
+								- if (actor.postmeta.grade)
+									p.grade!= actor.postmeta.grade
+								p.title!= actor.post_title
 
 				#cooperate.section
+					- var actors = data.where({"post_type": "person", "postmeta":{"instate":0}}).value()
+					each actor in actors
+						.person
+							- var img = data.where({"post_type":"attachment", "post_parent":actor.ID, "post_name":"troupe.jpg"}).value().pop()
+							.portret
+								- if (img)
+									img(src="#{img.postmeta['_wp_attached_file']}" width="100%" height="auto")
+							.caption
+								- if (actor.postmeta.grade)
+									p.grade!= actor.postmeta.grade
+								p.title!= actor.post_title
 
 				#management.section
 				#theatricals.section

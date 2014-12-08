@@ -76,9 +76,11 @@ body
 	position relative
 
 .container
-	max-width 1400px
+	max-width 1440px
 	margin 0 auto
 	padding 0
+	cf()
+	position relative
 
 
 
@@ -179,7 +181,7 @@ article-header-large()
 
 
 .site-branding
-	span(1/7, offset: 1/7)
+	span(12/84, offset: 12/84)
 
 	// width 236px
 	height 1.1*$mod
@@ -205,7 +207,7 @@ article-header-large()
 			border none
 
 .descriptor
-	span(4/7)
+	span(49/84, offset: 3/84)
 	padding-top 18px
 	padding-bottom 10px
 	color $gray_color
@@ -273,7 +275,7 @@ article-header-large()
 	position relative
 	// left $pad1
 
-	span(4/7)
+	span(49/84, offset: 3/84)
 	position relative
 	// padding-left $pad1
 
@@ -628,7 +630,7 @@ article-header-large()
 
 
 #playbill-page
-	padding 2*$mod
+	padding-top 2*$mod
 	cf()
 
 	.container
@@ -637,7 +639,10 @@ article-header-large()
 
 			text-transform uppercase
 
-			span(1/7, offset: 1/7)
+			span(12/84, offset: 12/84)
+			// position fixed
+			// left (100%/7)
+			// width (100%/7)
 
 			ul, li
 				margin 0
@@ -660,7 +665,8 @@ article-header-large()
 
 
 		.playbill-list
-			span(4/7)
+			// span(49/84, offset: 27/84)
+			span(49/84, offset: 3/84)
 
 			.section
 				display none
@@ -761,7 +767,7 @@ article-header-large()
 
 
 #troupe-page
-	padding 2*$mod
+	padding-top 2*$mod
 	cf()
 
 	.container
@@ -770,7 +776,10 @@ article-header-large()
 
 			text-transform uppercase
 
-			span(1/7, offset: 1/7)
+			span(12/84, offset: 12/84)
+			// position fixed
+			// left (100%/7)
+			// width (100%/7)
 
 			ul, li
 				margin 0
@@ -793,13 +802,45 @@ article-header-large()
 
 
 		.troupe-list
-			span(4/7)
+			// span(49/84, offset: 27/84)
+			span(49/84, offset: 3/84)
 
 			.section
 				display none
 				&.active
 					display block
 
+			.person
+				col(97/400)
+
+
+				text-align center
+				fs: (14/16)rem
+
+				margin-bottom $mod
+
+				position relative
+
+				p
+					margin 0
+					padding 0
+
+				.portret
+					height 2.5*$mod
+					overflow hidden
+				.caption
+					position absolute
+					width 100%
+				.grade
+					color $gray_color
+
+				&.director
+					// span(1/3, offset: 1/3)
+					center(30%)
+					clear right
+
+					.portret
+						height auto
 
 
 

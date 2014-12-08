@@ -45,7 +45,7 @@ cinema:
   - '«Синема, синема, или Неотвратимая весна»'
   - '«Осечка» (фильм-спектакль)'
   - '«Кабачок "13 стульев"»'
-instate: 1
+instate: 3
 gender: male
 grade: 'Заслуженный артист России'
 kinoteatr: 'http://www.kino-teatr.ru/kino/acter/m/ros/6427/bio/'
