@@ -97,13 +97,16 @@ html.no-js
 
 			footer#footer
 				.container
-					.copyrights
-						p ЛО ГУК  «Драматический театр «Комедианты»
-						p Санкт-Петербург, 191040, Лиговский проспект, д. 44
-						p © ТЕАТР «КОМЕДИАНТЫ»,  2014
-					.design
-						p Дизайн: Екатерина Май, Александр Рябцев
-						p Верстка: Александр Рябцев
+
+					.colophon
+						.copyrights
+							p ЛО ГУК  «Драматический театр «Комедианты»
+							p Санкт-Петербург, Лиговский проспект, д. 44, 191040
+							p © ТЕАТР «КОМЕДИАНТЫ», 2014
+						.design
+							p Дизайн: Екатерина Май, Александр Рябцев
+							p Верстка: Александр Рябцев
+
 					nav.sitemap
 						ul.nav-menu
 							li.page_item
@@ -128,11 +131,13 @@ html.no-js
 									li.subpage_item: a(href="#") Детские спектакли
 							li.page_item
 								a(href="repertoire.html") Репертуар
+								ul.subnav
 									li.subpage_item: a(href="#") Взрослый
 									li.subpage_item: a(href="#") Детский
 									li.subpage_item: a(href="#") Архив
 							li.page_item
 								a(href="troupe.html") Труппа
+								ul.subnav
 									li.subpage_item: a(href="#") Актеры
 									li.subpage_item: a(href="#") С нами сотрудничают
 									li.subpage_item: a(href="#") Руководство
@@ -147,7 +152,7 @@ html.no-js
 								i.fa.fa-vimeo-square
 								i.fa.fa-rss
 
-					.sponsors
+					.sponsors Спонсоры
 
 			script(src='//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js')
 			script window.jQuery || document.write('<script src="/js/vendor/jquery-1.11.0.min.js"><\/script>')

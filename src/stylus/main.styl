@@ -746,3 +746,164 @@ article-header-large()
 // .rate
 // .duration
 // .start-time
+
+
+
+
+
+
+
+
+/********************************************************************************************************************************************
+ *  TROUPE PAGE
+ ********************************************************************************************************************************************/
+
+
+
+#troupe-page
+	padding 2*$mod
+	cf()
+
+	.container
+
+		.troupe-navigation
+
+			text-transform uppercase
+
+			span(1/7, offset: 1/7)
+
+			ul, li
+				margin 0
+				padding 0
+				list-style none
+
+			a
+				link ($main_color - 40%)
+				text-decoration none
+				border none
+
+				line-height 1.8em
+
+				&:hover
+					color $main_color
+					&:hover
+						border none
+				&.active
+					color $main_color
+
+
+		.troupe-list
+			span(4/7)
+
+			.section
+				display none
+				&.active
+					display block
+
+
+
+
+
+
+
+
+
+/********************************************************************************************************************************************
+ *  FOOTER
+ ********************************************************************************************************************************************/
+
+#footer
+	color $gray_color
+
+	margin $mod 0
+
+	cf()
+
+	.container
+		border-top 1px solid
+		// border-bottom 1px solid
+		padding 0.66*$mod 0
+		cf()
+		// width 100%
+
+		// span(74/84, offset: 6/84)
+
+
+	fs: (12/16)rem
+
+	a
+		link $gray_color
+		text-decoration none
+		border none
+		&:hover
+			border none
+			text-decoration none
+			color $text_color
+
+	.colophon
+		span(14/74, offset: 1/74)
+
+		.copyrights, .design
+			color $text_color
+			fs: (12/16)rem
+			p
+				margin 0
+				padding 0
+
+		.copyrights
+			margin-bottom 2em
+
+
+	.sitemap
+		span(58/74)
+
+		ul, li
+			margin 0
+			padding 0
+			list-style none
+
+		position relative
+
+		.page_item
+			position relative
+			border-left 1px solid
+			box-sizing border-box
+			padding 0 $line
+			height 100%
+			// display inline-block
+			span(1/7)
+			fs: (14/16)rem
+
+			a
+				link $text_color
+				text-decoration none
+				border none
+				&:hover
+					border none
+					text-decoration none
+					color white
+
+
+		.subnav
+			margin-top $line
+		.subpage_item
+			fs: (12/16)rem
+			// position absolute
+			// display none
+
+			a
+				link $gray_color
+				text-decoration none
+				border none
+				&:hover
+					border none
+					text-decoration none
+					color $text_color
+
+
+	.sponsors
+		col(7/7)
+		text-align center
+		line-height 2rem
+		border-top 1px solid
+		margin-top 2rem
