@@ -14,10 +14,10 @@ block content
 	- if (playbillbg)
 		- var playbillbg = 'background:url(' + playbillbg.postmeta['_wp_attached_file'] + ') top center no-repeat; background-size: cover;'
 
-	#playbill-page(style="#{playbillbg}")
+	#playbill-page.page(style="#{playbillbg}")
 		.container
 
-			nav.playbill-navigation
+			nav.secondary-navigation
 				ul
 					li
 						a(href="#december").active Декабрь
@@ -26,7 +26,7 @@ block content
 					li
 						a(href="#child") Детские спектакли
 
-			.playbill-list
+			.content
 				#december.section.active
 					each event in events
 						- if (moment(event.postmeta.event_date).format('MM') == 12)
@@ -34,6 +34,8 @@ block content
 								- var parent = data.where({"post_title": event.post_title, "post_type": 'performance'}).value().pop()
 								- if (parent)
 									- var author = parent.postmeta.author
+									- var duration = parent.postmeta.duration
+									- var rate = parent.postmeta.rate
 								.date-block
 									span.date.day!= moment(event.postmeta.event_date).format('D')
 									span.date.weekday!= moment(event.postmeta.event_date).locale('ru').format('ddd')
@@ -43,9 +45,12 @@ block content
 									- if (author)
 										span.author!= author
 								.other
-									span.rate 18+
+									if (rate)
+										span.rate!= rate
 								.meta
-									span.duration 2 ч. 30 мин,
+									if (duration)
+										span.duration!= duration
+										| ,
 									span.start-time начало в 19:00
 				#january.section
 					each event in events
@@ -54,6 +59,8 @@ block content
 								- var parent = data.where({"post_title": event.post_title, "post_type": 'performance'}).value().pop()
 								- if (parent)
 									- var author = parent.postmeta.author
+									- var duration = parent.postmeta.duration
+									- var rate = parent.postmeta.rate
 								.date-block
 									span.date.day!= moment(event.postmeta.event_date).format('D')
 									span.date.weekday!= moment(event.postmeta.event_date).locale('ru').format('ddd')
@@ -63,9 +70,12 @@ block content
 									- if (author)
 										span.author!= author
 								.other
-									span.rate 18+
+									if (rate)
+										span.rate!= rate
 								.meta
-									span.duration 2 ч. 30 мин,
+									if (duration)
+										span.duration!= duration
+										| ,
 									span.start-time начало в 19:00
 				#child.section
 

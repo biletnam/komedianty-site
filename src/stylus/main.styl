@@ -31,6 +31,25 @@ main_font()
 second_font()
 		font-family "Georgia" serif
 
+main_link()
+	link $main_color
+	text-decoration none
+	border none
+	&:hover
+		color ($main_color + 20%)
+		&:hover
+			border none
+
+trim_elipsis($num = 3)
+	display: block
+	// /* Fallback for non-webkit */
+	display: -webkit-box
+	// /* Fallback for non-webkit */
+	-webkit-line-clamp: $num
+	-webkit-box-orient: vertical
+	overflow: hidden
+	text-overflow: ellipsis
+
 //
 //  LIBS & FRAMEWORKS
 //
@@ -624,126 +643,132 @@ article-header-large()
 
 
 /********************************************************************************************************************************************
- *  PLAYBILL PAGE
+ *  PAGES
+ ********************************************************************************************************************************************/
+
+.page
+	padding-top 2*$mod
+	cf()
+
+	.secondary-navigation
+		text-transform uppercase
+
+		span(12/84, offset: 12/84)
+		// position fixed
+		// left (100%/7)
+		// width (100%/7)
+
+		ul, li
+			margin 0
+			padding 0
+			list-style none
+
+		a
+			link ($main_color - 40%)
+			text-decoration none
+			border none
+
+			line-height 1.8em
+
+			&:hover
+				color $main_color
+				&:hover
+					border none
+			&.active
+				color $main_color
+
+	.content
+		// span(49/84, offset: 27/84)
+		span(49/84, offset: 3/84)
+
+		.section
+			display none
+			&.active
+				display block
+
+
+
+
+
+/********************************************************************************************************************************************
+ *  Playbill page
  ********************************************************************************************************************************************/
 
 
 
 #playbill-page
-	padding-top 2*$mod
-	cf()
 
-	.container
+	.event
 
-		.playbill-navigation
+		// height (2/3)*$mod
+		margin-bottom 2.5em
 
-			text-transform uppercase
+		.date
+			color $main_color
+			second_font()
+			&:after
+				content ' '
 
-			span(12/84, offset: 12/84)
-			// position fixed
-			// left (100%/7)
-			// width (100%/7)
+			&.day
+				font-weight bold
+				fs: 1rem
+			&.weekday
+				fs: (13/16)rem
 
-			ul, li
-				margin 0
-				padding 0
-				list-style none
 
-			a
-				link ($main_color - 40%)
-				text-decoration none
-				border none
+		.date-block, .title-block, .other, .meta
+			display inline-block
 
-				line-height 1.8em
-
-				&:hover
-					color $main_color
+		.date-block
+			width 50px
+		.title-block
+			position relative
+			max-width (55%)
+			.title
+				text-transform uppercase
+				letter-spacing 0.05em
+				a
+					link $text_color
+					text-decoration none
+					border none
 					&:hover
 						border none
-				&.active
-					color $main_color
+						text-decoration none
+						color $main_color
+			.author
+				position absolute
+				// width 100%
+				top 100%
+				left 0
 
+				fs: (13/16)rem
+				color $gray_color
 
-		.playbill-list
-			// span(49/84, offset: 27/84)
-			span(49/84, offset: 3/84)
+				white-space nowrap
+		.other
+			.rate
+				second_font()
+				color $main_color - 70%
+				margin-left 1em
+		.meta
+			margin-left 1em
+			// display none
+			opacity 0
+			color $gray_color
 
-			.section
-				display none
-				&.active
-					display block
+			transition all 0.3s ease-out
 
-			.event
+			position absolute
 
-				// height (2/3)*$mod
-				margin-bottom 2.5em
+			.duration, .start-time
+				&:after
+					content ' '
 
-				.date
-					color $main_color
-					second_font()
-					&:after
-						content ' '
-
-					&.day
-						font-weight bold
-						fs: 1rem
-					&.weekday
-						fs: (13/16)rem
-
-
-				.date-block, .title-block, .other, .meta
-					display inline-block
-
-				.date-block
-					width 50px
-				.title-block
-					position relative
-					max-width (55%)
-					.title
-						text-transform uppercase
-						letter-spacing 0.05em
-						a
-							link $text_color
-							text-decoration none
-							border none
-							&:hover
-								border none
-								text-decoration none
-								color $main_color
-					.author
-						position absolute
-						// width 100%
-						top 100%
-						left 0
-
-						fs: (13/16)rem
-						color $gray_color
-
-						white-space nowrap
-				.other
-					.rate
-						second_font()
-						color $main_color - 70%
-						margin-left 1em
-				.meta
-					margin-left 1em
-					// display none
-					opacity 0
-					color $gray_color
-
-					transition all 0.3s ease-out
-
-					position absolute
-
-					.duration, .start-time
-						&:after
-							content ' '
-
-				&:hover
-					.meta
-						// display inline-block
-						opacity 1
-						transition all 1s ease
+		&:hover
+			.meta
+				// display inline-block
+				opacity 1
+				transition all 1s ease
 
 // .date.day
 // .date.weekday
@@ -761,93 +786,131 @@ article-header-large()
 
 
 /********************************************************************************************************************************************
- *  TROUPE PAGE
+ *  Troupe page
  ********************************************************************************************************************************************/
 
 
 
 #troupe-page
-	padding-top 2*$mod
-	cf()
 
-	.container
+	.person
+		col(97/400)
 
-		.troupe-navigation
+		text-align center
+		fs: (14/16)rem
 
-			text-transform uppercase
+		margin-bottom $mod
 
-			span(12/84, offset: 12/84)
-			// position fixed
-			// left (100%/7)
-			// width (100%/7)
+		position relative
 
-			ul, li
-				margin 0
-				padding 0
-				list-style none
+		p
+			margin 0
+			padding 0
 
-			a
-				link ($main_color - 40%)
-				text-decoration none
-				border none
+		.portret
+			height 2.5*$mod
+			overflow hidden
+		.caption
+			position absolute
+			width 100%
+		.grade
+			color $gray_color
 
-				line-height 1.8em
+		&.director
+			// span(1/3, offset: 1/3)
+			center(30%)
+			clear right
 
-				&:hover
-					color $main_color
-					&:hover
-						border none
-				&.active
-					color $main_color
-
-
-		.troupe-list
-			// span(49/84, offset: 27/84)
-			span(49/84, offset: 3/84)
-
-			.section
-				display none
-				&.active
-					display block
-
-			.person
-				col(97/400)
+			.portret
+				height auto
 
 
-				text-align center
+
+
+
+
+
+/********************************************************************************************************************************************
+ *  Repertoire page
+ ********************************************************************************************************************************************/
+
+#repertoire-page
+	.content
+		span(41/84, offset: 3/84)
+
+	.performance
+		cf()
+		margin-bottom $mod
+
+		.title-block
+			height 1*$mod
+			.title, .author, .rate
+				display inline-block
+				&:after
+					content ' '
+					line-height 1rem
+			.title
+				fs: (24/16)rem
+				second_font()
+				color $main_color
+				font-weight bold
+				a
+					main_link()
+			.author
+				fs: (13/16)rem
+			.rate
+				color $main_color - 20%
+				fs: (24/16)rem
+				float right
+			.genre_description
+				second_font()
+				font-style italic
+				color $main_color
 				fs: (14/16)rem
 
-				margin-bottom $mod
+		.picture, .annotation
+			height 2*$mod
+			col(18/41)
+		.picture
+			// col(1/3)
+			position relative
+			a
+				display block
+				font: 0/0 a;
+				margin 0
+				padding 0
+				width 100%
+				height 100%
+		.annotation
+			// col(1/3)
 
+			fs: (14/16)rem
+			line-height (19/16)rem
+			.text
+				trim_elipsis(9)
 				position relative
+				top -6px
+				// vertical-align: 3px
+				// max-width: 300px
 
-				p
-					margin 0
-					padding 0
-
-				.portret
-					height 2.5*$mod
-					overflow hidden
-				.caption
-					position absolute
-					width 100%
-				.grade
-					color $gray_color
-
-				&.director
-					// span(1/3, offset: 1/3)
-					center(30%)
-					clear right
-
-					.portret
-						height auto
-
-
-
-
-
-
-
+	.performance-list
+		position absolute
+		left (1/7)*100%
+		top 2*$mod
+		width (1/7)*100%
+		ul, li
+			margin 0
+			padding 0
+			list-style none
+		.title
+			fs: (14/16)rem
+			a
+				main_link()
+				color $text_color
+		.author
+			fs: (11/16)rem
+			color desaturate(($main_color + 20%), 60%)
+			margin-bottom .5em
 
 /********************************************************************************************************************************************
  *  FOOTER

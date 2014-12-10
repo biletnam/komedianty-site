@@ -151,7 +151,7 @@ _(list).forEach (entry) ->
 			# Excerpt
 			if postmeta.synopsis
 				posts[ID].post_excerpt = postmeta.synopsis
-				delete postmeta.synopsis
+				# delete postmeta.synopsis
 
 			# Date
 			posts[ID].post_date         = moment(postmeta.date).format("YYYY-MM-DD HH:mm:ss")

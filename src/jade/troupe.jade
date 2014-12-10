@@ -4,14 +4,14 @@ block prepend scripts
 	script(src="./js/vendor/jquery.fittext.js")
 
 block title
-	title Сайт театра «Комедианты» | Главная
+	title Сайт театра «Комедианты» | Труппа
 
 block content
 
-	#troupe-page(style="#{troupebg}")
+	#troupe-page.page(style="#{troupebg}")
 		.container
 
-			nav.troupe-navigation
+			nav.secondary-navigation
 				ul
 					li
 						a(href="#actors").active Актеры
@@ -24,7 +24,7 @@ block content
 					li
 						a(href="#administration") Административная часть
 
-			.troupe-list
+			.content
 				#actors.section.active
 					- var actors = data.where({"post_type": "person", "postmeta":{"instate":2}}).value()
 					each actor in actors

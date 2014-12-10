@@ -1,0 +1,127 @@
+extends ./_layout.jade
+
+block prepend scripts
+	script(src="./js/vendor/jquery.fittext.js")
+
+block title
+	title Сайт театра «Комедианты» | Главная
+
+block content
+	- var performances = data.where({"post_type": "performance"}).value()
+	- var repertoire = data.where({"post_name": "repertoire"}).value().pop()
+	- var repertoirebg = data.where({"post_type":"attachment", "post_parent":repertoire.ID, "post_name":"background.jpg"}).value().pop()
+	- if (repertoirebg)
+		- var repertoirebg = 'background:url(' + repertoirebg.postmeta['_wp_attached_file'] + ') top center no-repeat; background-size: cover;'
+
+	#repertoire-page.page(style="#{repertoirebg}").page
+		.container
+
+			nav.secondary-navigation
+				ul
+					li
+						a(href="#principal").active Взрослые спектакли
+					li
+						a(href="#child") Детские спектакли
+					li
+						a(href="#archive") Архив
+
+
+
+			.content
+				#principal.section.active
+					nav.tertiary-navigation.performance-list
+						ul
+							each performance in performances
+								if (performance.postmeta.type != 'child' && performance.postmeta.state != 'archive')
+									li
+										.title
+											a(href="#") «#{performance.post_title}»
+										.author!= performance.postmeta.author
+
+					each performance in performances
+						if (performance.postmeta.type != 'child' && performance.postmeta.state != 'archive')
+							.performance
+								.title-block
+									.title
+										a(href="#") «#{performance.post_title}»
+									.author!= performance.postmeta.author
+									if (performance.postmeta.rate)
+										.rate!= performance.postmeta.rate
+									if (performance.postmeta.genre_description)
+										.genre_description!= performance.postmeta.genre_description
+								.picture
+									//- - var img = data.where({"post_type":"attachment", "post_parent":performance.ID}).reject({"post_name":"poster.jpg"}).value().pop()
+									- var img = data.where({"post_type":"attachment", "post_parent":performance.ID}).value().pop()
+									if (img)
+										- var img = 'background:url(' + img.postmeta['_wp_attached_file'] + ') center no-repeat; background-size: cover;'
+										a(href="#" style=img)!= performance.post_title
+								.annotation
+									.text!= performance.postmeta.synopsis
+
+
+				#child.section
+					nav.tertiary-navigation.performance-list
+						ul
+							each performance in performances
+								if (performance.postmeta.type == 'child')
+									li
+										.title
+											a(href="#") «#{performance.post_title}»
+										.author!= performance.postmeta.author
+
+					each performance in performances
+						if (performance.postmeta.type == 'child')
+							.performance
+								.title-block
+									.title
+										a(href="#") «#{performance.post_title}»
+									.author!= performance.postmeta.author
+									if (performance.postmeta.rate)
+										.rate!= performance.postmeta.rate
+									if (performance.postmeta.genre_description)
+										.genre_description!= performance.postmeta.genre_description
+								.picture
+									//- - var img = data.where({"post_type":"attachment", "post_parent":performance.ID}).reject({"post_name":"poster.jpg"}).value().pop()
+									- var img = data.where({"post_type":"attachment", "post_parent":performance.ID}).value().pop()
+									if (img)
+										- var img = 'background:url(' + img.postmeta['_wp_attached_file'] + ') center no-repeat; background-size: cover;'
+										a(href="#" style=img)!= performance.post_title
+								.annotation
+									.text!= performance.postmeta.synopsis
+
+
+				#archive.section
+					nav.tertiary-navigation.performance-list
+						ul
+							each performance in performances
+								if (performance.postmeta.state == 'archive')
+									li
+										.title
+											a(href="#") «#{performance.post_title}»
+										.author!= performance.postmeta.author
+
+					each performance in performances
+						if (performance.postmeta.state == 'archive')
+							.performance
+								.title-block
+									.title
+										a(href="#") «#{performance.post_title}»
+									.author!= performance.postmeta.author
+									if (performance.postmeta.rate)
+										.rate!= performance.postmeta.rate
+									if (performance.postmeta.genre_description)
+										.genre_description!= performance.postmeta.genre_description
+								.picture
+									//- - var img = data.where({"post_type":"attachment", "post_parent":performance.ID}).reject({"post_name":"poster.jpg"}).value().pop()
+									- var img = data.where({"post_type":"attachment", "post_parent":performance.ID}).value().pop()
+									if (img)
+										- var img = 'background:url(' + img.postmeta['_wp_attached_file'] + ') center no-repeat; background-size: cover;'
+										a(href="#" style=img)!= performance.post_title
+								.annotation
+									.text!= performance.postmeta.synopsis
+
+
+
+
+		// .container
+	// #repertoire

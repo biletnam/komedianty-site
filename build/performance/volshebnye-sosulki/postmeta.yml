@@ -5,6 +5,8 @@ old_names:
   - volshebnye-sosulki
 jos_id: '75'
 jos_alias: volshebnie-sosulki
+state: normal
+type: child
 author: 'Михаил Мокиенко'
 authors:
   -
