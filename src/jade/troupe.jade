@@ -29,7 +29,9 @@ block content
 					- var actors = data.where({"post_type": "person", "postmeta":{"instate":2}}).value()
 					each actor in actors
 						.person.director
-							- var img = data.where({"post_type":"attachment", "post_parent":actor.ID, "post_name":"troupe.jpg"}).value().pop()
+							- var img = data.where({"post_type":"attachment", "post_parent":actor.ID, "post_name":"troupe_w400.jpg"}).value().pop()
+							if (!img)
+								- var img = data.where({"post_type":"attachment", "post_parent":actor.ID, "post_name":"troupe_old_w400.jpg"}).value().pop()
 							.portret
 								- if (img)
 									img(src="#{img.postmeta['_wp_attached_file']}" width="100%" height="auto")
@@ -40,7 +42,9 @@ block content
 					- var actors = data.where({"post_type": "person", "postmeta":{"instate":3}}).value()
 					each actor in actors
 						.person
-							- var img = data.where({"post_type":"attachment", "post_parent":actor.ID, "post_name":"troupe.jpg"}).value().pop()
+							- var img = data.where({"post_type":"attachment", "post_parent":actor.ID, "post_name":"troupe_w400.jpg"}).value().pop()
+							if (!img)
+								- var img = data.where({"post_type":"attachment", "post_parent":actor.ID, "post_name":"troupe_old_w400.jpg"}).value().pop()
 							.portret
 								- if (img)
 									img(src="#{img.postmeta['_wp_attached_file']}" width="100%" height="auto")
@@ -51,7 +55,9 @@ block content
 					- var actors = data.where({"post_type": "person", "postmeta":{"instate":1}}).value()
 					each actor in actors
 						.person
-							- var img = data.where({"post_type":"attachment", "post_parent":actor.ID, "post_name":"troupe.jpg"}).value().pop()
+							- var img = data.where({"post_type":"attachment", "post_parent":actor.ID, "post_name":"troupe_w400.jpg"}).value().pop()
+							if (!img)
+								- var img = data.where({"post_type":"attachment", "post_parent":actor.ID, "post_name":"troupe_old_w400.jpg"}).value().pop()
 							.portret
 								- if (img)
 									img(src="#{img.postmeta['_wp_attached_file']}" width="100%" height="auto")
@@ -64,7 +70,9 @@ block content
 					- var actors = data.where({"post_type": "person", "postmeta":{"instate":0}}).value()
 					each actor in actors
 						.person
-							- var img = data.where({"post_type":"attachment", "post_parent":actor.ID, "post_name":"troupe.jpg"}).value().pop()
+							- var img = data.where({"post_type":"attachment", "post_parent":actor.ID, "post_name":"troupe_w400.jpg"}).value().pop()
+							if (!img)
+								- var img = data.where({"post_type":"attachment", "post_parent":actor.ID, "post_name":"troupe_old_w400.jpg"}).value().pop()
 							.portret
 								- if (img)
 									img(src="#{img.postmeta['_wp_attached_file']}" width="100%" height="auto")
