@@ -113,6 +113,7 @@ _(list).forEach (entry) ->
 
 
 		when '.md'
+			posts[ID].post_content_md = fs.readFileSync(entry, 'utf-8')
 			posts[ID].post_content = md.render(fs.readFileSync(entry, 'utf-8'))
 		when '.html'
 			posts[ID].post_content = fs.readFileSync(entry, 'utf-8')
@@ -336,3 +337,24 @@ write sql, 'SQL.sql', true
 		image.post_modified_gmt = post.post_modified_gmt
 
 ###
+
+
+### Write docs for DocPad ###
+_(postsSort).reject({"post_type":"attachment"}).forEach (post) ->
+	if post.post_content_md
+		content = post.post_content_md
+	else
+		content = post.post_content
+	delete post.post_content
+	delete post.post_content_md
+	meta = {}
+	meta.title = post.post_title
+	meta.date = post.post_date
+	meta = _.merge(meta, post.postmeta)
+	delete post.postmeta
+	meta = _.merge(meta, post)
+
+	file = '---\n' + YAML.stringify(meta, 4) + '\n---\n\n' + content
+
+	fs.ensureDirSync path.join('./documents', post.gID)
+	write file, path.join('./documents', post.gID, 'index.html.md'), true
